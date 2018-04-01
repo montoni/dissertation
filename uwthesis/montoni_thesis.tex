@@ -73,7 +73,6 @@
  
 \usepackage{amsmath}
 
-
 \begin{document}
  
 % ==========   Preliminary pages
@@ -277,7 +276,33 @@ Equation~\ref{polar_time} has two important pieces. The first is the sinusoidal 
 
 \section{Multiple Metal Nanoparticles}
 
-Let's talk about plasmon hybridization theory. I can make a really wonderful analogy for the chemists in the room: this is basically molecular orbital theory. What do I mean by that? Well, take any two atomic orbitals. Maybe two s-orbitals on two hydrogen atoms. Bring them close to each other. What happens? They mix - two atomic orbitals become two molecular orbitals, each with different properties. The lower energy mode with significant overlap is called the bonding ($\sigma$) orbital. The higher-energy mode with no overlap is called the anti-bonding ($\sigma^*$) orbital. Pairs of LSPRs behave similarly. When brought close to each other, they hybridize and produce new normal modes, one lower energy and one higher energy. If one LSPR is a harmonic oscillator, then two or more can be treated like a system of coupled harmonic oscillators. Let's look at the case where we have only two LSPRs with fixed orientations along the direction of displacement (maybe include a diagram here, smarty pants). Write down the Hamiltonian, write Hamilton's equations, write Newton's equations, solve the system of equations. 
+We need a whole paragraph AT LEAST on history.
+Who to cite: Lukas, von Plessen, El Sayed, Schatz, others studying plasmon hybridization
+
+Let's talk about plasmon hybridization theory. I can make a really wonderful analogy for the chemists in the room: this is basically molecular orbital theory. What do I mean by that? Well, take any two atomic orbitals. Maybe two s-orbitals on two hydrogen atoms. Bring them close to each other. What happens? They mix - two atomic orbitals become two molecular orbitals, each with different properties. The lower energy mode with significant overlap is called the bonding ($\sigma$) orbital. The higher-energy mode with no overlap is called the anti-bonding ($\sigma^*$) orbital. Pairs of LSPRs behave similarly. When brought close to each other, they hybridize and produce new normal modes, one lower energy and one higher energy. If one LSPR is a harmonic oscillator, then two or more can be treated like a system of coupled harmonic oscillators. The way that dipole LSPRs couple is by a pairwise interaction between each dipole and the field produced by each other dipole. This interaction is mediated by something called the dipole relay tensor 
+\begin{equation}
+\boldsymbol{\Lambda}_{ij} = \left\{\left(\frac{1}{r_{ij}^3} - \frac{ik}{r_{ij}^2}\right)\left(3\hat{\textbf{n}}_{ij}\hat{\textbf{n}}_{ij} - \textbf{1}\right) - \frac{k^2}{r_{ij}}\left(\hat{\textbf{n}}_{ij}\hat{\textbf{n}}_{ij} - \textbf{1}\right)\right\}\frac{e^{\textrm{i}kr_{ij}}}{\varepsilon_b}
+\label{dipole_relay_tensor_full}
+\end{equation}
+where the $i$th and $j$th dipoles are displaced by $r_{ij}\hat{\textbf{n}}_{ij}$ and $k=\sqrt{\varepsilon_b}\omega/c$. To build intuition about this object, we will consider a simple example: two dipoles, separated by $s\hat{\textbf{x}}$, with equal dipole magnitudes and directions perpendicular to the direction of displacement (see Fig. blank). To further build intuition, let us also consider that $ka \ll 1$. To actually compute the interaction energy between these dipoles, we need to dot them into the dipole relay tensor.
+\begin{equation}
+\begin{split}
+U &= -\textbf{d}_1\cdot\boldsymbol{\Lambda}_{12}\cdot\textbf{d}_2\\
+&= -e^2q^2\hat{\textbf{y}}\cdot\frac{3\hat{\textbf{x}}\hat{\textbf{x}} - \textbf{1}}{s^3}\cdot\hat{\textbf{y}}\\
+&= \frac{e^2q^2}{s^3}
+\label{quasi_int}
+\end{split}
+\end{equation}
+Here, $\textbf{d}=eq\hat{\textbf{y}}$. After taking the small $ka$ limit, often called the quasistatic approximation, we are left with one term in the dipole relay tensor, namely the near-field term. The interaction energy for a pair of parallel dipoles carries a positive sign, indicating that it is repulsive in nature, and depends on the magnitudes of the dipole moments and the separation distance between them. The same procedure reveals similar dependence for anti-parallel, collinear, and anti-collinear dipole orientations. In Fig. blank the quasistatic interaction energies are shown as a function of distance for each of the four dipole arrangements.
+
+Going back to Equation \ref{dipole_relay_tensor_full} in full, we can perform the same procedure as above to compute the fully retarded interaction energy between pairs of dipoles. For the parallel arrangement, this becomes
+\begin{equation}
+U = e^2q^2\left(\frac{1}{s^3}-\frac{\textrm{i}k}{s^2}-\frac{k^2}{s}\right)e^{\textrm{i}ks}.
+\label{int_ret}
+\end{equation}
+The interaction energy now has terms that depend on $k$, and through that, the oscillation frequency $\omega$. Also interesting to note is that each term carries a different sign and the entire energy carries a complex exponential. So, as a function of increasing separation distance, the individual terms in the interaction energy will change character from attractive to repulsive. To see how including retardation impacts the interaction energies between the dipole pairs, see Fig. blank. The significance of retardation effects in larger assemblies will be expanded upon in Chapter 5. In fact, we will discuss that the interaction energy depends on the collective frequency, which in turn depends on the interaction energy, requiring a self-consistent solution.
+
+The insight gained from this exercise is that the "bonding" or "anti-bonding" character of an arrangement of dipoles actually depends on the separation distance between the dipoles and their collective frequency.
 
 \section{List of publications}
 
@@ -291,9 +316,9 @@ Let's talk about plasmon hybridization theory. I can make a really wonderful ana
 
 % ========== Chapter 2
  
-\chapter{Plasmon Hybridization: History and Theory}
+\chapter{Stimulated Electron Energy-Loss Spectroscopy: Theory and Simulation}
 
-Lit review of plasmon hybridization. Chemical analogies. In-depth explanation of the coupled dipole approximation (CDA). In-depth explanation of how the CDA varies in the quasistatic limit vs. fully retarded.
+Just copy in the SEELS notes.
  
 The \TeX\ formatting program is the creation of
 Donald Knuth of Stanford University.
@@ -419,7 +444,7 @@ custom fonts may soon proclaim,
  
 % ========== Chapter 3
  
-\chapter{Paper 1: Magnetic Plasmons}
+\chapter{Paper 1: Prisms}
  
 This chapter describes the uwthesis class (\texttt{uwthesis.cls},
 version dated 2014/11/13)
@@ -803,7 +828,7 @@ It appears at the end of your thesis, just after the appendices.
 
 % ========== Chapter 4
  
-\chapter{Paper 2: Prisms}
+\chapter{Paper 2: Magnetic Plasmons}
  
  
 From a given source \TeX\ will produce exactly the same document

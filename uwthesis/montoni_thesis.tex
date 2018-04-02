@@ -72,7 +72,7 @@
 % --- end-of-sample-stuff ---
  
 \usepackage{amsmath}
-
+\usepackage{graphicx}
 \begin{document}
  
 % ==========   Preliminary pages
@@ -302,7 +302,7 @@ U = e^2q^2\left(\frac{1}{s^3}-\frac{\textrm{i}k}{s^2}-\frac{k^2}{s}\right)e^{\te
 \end{equation}
 The interaction energy now has terms that depend on $k$, and through that, the oscillation frequency $\omega$. Also interesting to note is that each term carries a different sign and the entire energy carries a complex exponential. So, as a function of increasing separation distance, the individual terms in the interaction energy will change character from attractive to repulsive. To see how including retardation impacts the interaction energies between the dipole pairs, see Fig. blank. The significance of retardation effects in larger assemblies will be expanded upon in Chapter 5. In fact, we will discuss that the interaction energy depends on the collective frequency, which in turn depends on the interaction energy, requiring a self-consistent solution.
 
-The insight gained from this exercise is that the "bonding" or "anti-bonding" character of an arrangement of dipoles actually depends on the separation distance between the dipoles and their collective frequency.
+The insight gained from this exercise is that the "bonding" or "anti-bonding" character of an arrangement of dipoles actually depends on the separation distance between the dipoles and their collective frequency. In Chapter 3 we will see how the distance- and location-dependence of Equation \ref{quasi_int} impacts the plasmonic spectrum of mixed-metal plasmonic aggregates. In Chapter 4, we will see that introducing retardation effects into the interaction is the only way to accurately describe larger nanoparticle clusters, especially when they have siginificant magnetic responses.
 
 \section{List of publications}
 
@@ -320,131 +320,11 @@ The insight gained from this exercise is that the "bonding" or "anti-bonding" ch
 
 Just copy in the SEELS notes.
  
-The \TeX\ formatting program is the creation of
-Donald Knuth of Stanford University.
-It has been implemented on nearly every general purpose computer and
-produces exactly the same copy on all machines.
- 
-\section{What is it; why is it spelled that way; 
-and what do
-really long section titles look like in the text and in the
-Table of Contents?}
- 
-\TeX\ is a formatter.  A document's format is controlled
-by commands embedded in the text.  
-\LaTeX\ is a special version of \TeX---preloaded
-with a voluminous set of macros that simplify most
-formatting tasks.
- 
-\TeX\ uses {\it control sequences} to control
-the formatting of a document.  These control sequences are usually
-words or groups of letters prefaced with the backslash character
-({\tt\char'134}).
-For example,
-Figure \ref{start-2} shows the text that printed the beginning
-of this chapter.  Note the control sequence \verb"\chapter" that
-instructed \TeX\ to start a new chapter, print the title, and
-make an entry in the table of contents.  It is an example
-of a macro defined by the \LaTeX\ macro package.
-The control sequence \verb"\TeX", which prints the word \TeX,
-is a standard macro from the {\it\TeX book}.
-The short control sequence \verb"\\" in the title instructed \TeX\ to
-break the title line at that point.
-This capability is an example of an extension to \LaTeX\
-provided by the uwthesis document class.
- 
-\begin{figure}
-\begin{demo}
-\uwsinglespace
-\\chapter\{A Brief\\\\Description of \\TeX\}
-
-The \\TeX\\ formatting program is the creation of
-Donald Knuth of Stanford University.
-\end{demo}
-\label{start-2}
-\caption{The beginning of the Chapter II text}
-\end{figure}
- 
-Most of the time \TeX\ is simply building paragraphs from
-text in your source files.  No control sequences are involved.
-New paragraphs are indicated by a blank line in the
-input file.
-Hyphenation is performed automatically.
- 
-\section{\TeX books}
- 
-The primary reference for \LaTeX\ is Lamport's second edition
-of the \textit{\LaTeX\ User's Guide}\cite{Lbook}.
-It is easily read and should be sufficient for thesis formatting.
-See also the \textsl{\LaTeX\ Companion}\cite{companion} for descriptions
-of many add-on macro packages.
-
-Although unnecessary for thesis writers, the \textsl{\TeX book}
-is the primary reference for \TeX sperts worldwide.
- 
-\section{Mathematics}
- 
-The thesis class does not expand on \TeX's
-or \LaTeX's
-comprehensive treatment of mathematical equation printing.%
-\label{c2note}\footnote{%
-% a long footnote indeed.
- Although many \TeX-formatted documents contain no
- mathematics except the page numbers, it seems appropriate
- that this paper, which is in some sense about \TeX,
- ought to demonstrate an equation or two.  Here then, is a statement 
- of the {\it Nonsense Theorem}.
- 
- \smallskip
- \def\RR{{\cal R\kern-.15em R}}
- {\narrower\hangindent\parindent Assume a universe $E$ and a symmetric function
-  $\$$ defined on $E$, such that for each $\$^{yy}$ there exists a
-  $\$^{\overline{yy}}$, where $\$^{yy} = \$^{\overline{yy}}$.
-  For each element $i$ of $E$ define
-  ${\cal S}(i)=\sum_i \$^{yy}+\$^{\overline{yy}}+0$.
-  Then if $\RR$ is that subset of $E$ where $1+1=3$,
-  for each $i$
-  $$\lim_{\$\to\infty}\int {\cal S}di =
-      \cases{0,&if $i\not\in\RR$;\cr
-             \infty,&if $i\in\RR$.\cr}$$
-  \par}} % end of the footnote
-%
-The {\it\TeX book}\cite{book}, {\it \LaTeX\ User's Guide}\cite{Lbook},
-and {\it The \LaTeX\ Companion}\cite{companion}
-thoroughly cover this topic.
- 
- 
-\section{Languages other than English}
- 
-Most \LaTeX\ implementations at the University are tailored
-for the English language.  However, \LaTeX\ will format many
-other languages.  Unfortunately, this author has never been successful in 
-learning more than a smattering of anything other than English.
-Consult your department or the Tex Users Group.
-\smallskip
-\begin{center}
-{\tt http://tug.org/},
-\end{center}
-\smallskip
-for assistance with non-English formatting.
-
-Unusual characters can be defined via the
-font maker \hbox{\mffont METAFONT} (documented by Knuth\cite{Metafont}).
-The definitions are not trivial.
-Students who attempt to print a thesis with
-custom fonts may soon proclaim,
- 
-% Note.  This is not the ideal way to print Greek
-\medskip
-\begin{center}
-``$\mathaccent"7027\alpha\pi o\kern1pt\theta\alpha\nu\epsilon\hat\iota\nu$
-\ $\theta\acute\epsilon\lambda\omega$.''
- 
-\end{center}
+And make figures that don't suck!
  
 % ========== Chapter 3
  
-\chapter{Paper 1: Prisms}
+\chapter{Imaging Energy Transfer in Pt-decorated Au Nanoprisms via Electron Energy-loss Spectroscopy}
  
 {\bf Abstract}
 
@@ -472,16 +352,14 @@ Figures 1 and 2 display the high-angle annular dark-field (HAADF) images and com
 \end{figure}
 
 
-
 Figures 1b and 2b show that the plasmon modes of the bare prisms evolve from dipoles localized to the corners, through those on the edges, and finally into multipolar modes as a function of increasing energy, which is in excellent agreement with previous EELS studies of plasmonic nanoprisms.(35, 36) Interestingly, a comparison of the mode maps resulting from decorated and undecorated prisms (Figure 1b,e) shows minimal changes to the mode structure upon addition of the Pt particle. The most notable difference is seen in the splitting of the dipolar mode of the bare Au nanoprism, where the presence of the Pt particle breaks the degeneracy of the dipole mode (vide infra) (Figure 1b,e). Figure 2b,e illustrates that the structure of the higher-energy modes is not strongly dependent on the Pt particle location, as the EEL maps in Figures 1b,e and 2b,e are similar. Lastly, we are able to experimentally map the LSPR of the Pt decoration at a higher energy than the modes of the nanoprism (Figures 1e and 2e).
 
 Boundary element method calculations(37) (Figures 1c,f and 2c,f) capture the complex mode structure of these mixed-metal systems and agree well with the experimental measurements (Figures 1be and 2b,e). While there are quantitative differences in specific plasmon resonance energies between simulation and experiment due to substrate effects, we can leverage the qualitative agreement in the equivalent mode identity to explore the perturbative effects of Pt on the well-understood LSPR modes(38) of Au nanoprisms with plasmon hybridization theory. Previous work(39, 40) has shown that a basis set composed of corner-localized dipoles is sufficient to interpret the low-energy plasmon mode structure of the Au+Pt system. Therefore, we create a model composed of dipoles located on the corners of a triangular prism.(41, 42) Each corner is represented by a disk with two in-plane, orthogonal, dipole plasmons. These single-disk dipoles can be rigorously mapped onto a set of mechanical oscillators and mutually hybridized by diagonalizing the Hamiltonian(43)
-
 \begin{equation}
 H = \frac{1}{2}\sum_{i}\hbar\omega_{\textrm{sp}^i}[\textbf{P}_i^2 + \textbf{Q}_i^2] - \frac{1}{2}\sum_{i \neq j}\hbar(\omega_{\textrm{sp}}^i\omega_{\textrm{sp}}^j)^{1/2}g_{ij}(r_{ij})[3(\textbf{Q}_i\cdot\hat{\textbf{n}}_{ij}\hat{\textbf{n}}_{ij}\cdot\textbf{Q}_j)-\textbf{Q}_i\cdot\textbf{Q}_j],
+\label{prism_hammy}
 \end{equation}
-
-with distance-dependent coupling constants $g_{ij}(r_{ij}) = 3/[r_{ij}^3(\varepsilon_{\infty} + 2)]$ where $i$ and $j$ ($i, j$ = 1–6) indicate the identity of each plasmon (location and orientation); $\textbf{Q}_i$ is the coordinate of the $i$th oscillator with conjugate momentum $\textbf{P}_i$; $\omega_{\textrm{sp}}^i$ is its surface plasmon resonance frequency; $r_{ij}$ are the dimensionless distances between the $i$th and $j$th disks relative to their diameters; and $\hat{\textbf{n}}_{ij}$ is the corresponding unit vector connecting them.
+with distance-dependent coupling constants $g_{ij}(r_{ij}) = 3/[r_{ij}^3(\varepsilon_{\infty} + 2)]$ where $i$ and $j$ ($i, j = 1–6$) indicate the identity of each plasmon (location and orientation); $\textbf{Q}_i$ is the coordinate of the $i$th oscillator with conjugate momentum $\textbf{P}_i$; $\omega_{\textrm{sp}}^i$ is its surface plasmon resonance frequency; $r_{ij}$ are the dimensionless distances between the $i$th and $j$th disks relative to their diameters; and $\hat{\textbf{n}}_{ij}$ is the corresponding unit vector connecting them.
 In analogy to the mixing of carbon p-orbitals in benzene, the mixing of these six single-disk modes result in six hybridized modes: the lowest-energy mode having no nodes; the second lowest being two degenerate, single-node modes (dipole modes); the third lowest being two degenerate, double-node modes; and the highest-energy mode having three nodes. To produce a quantitative fit to the experimental and simulated data, we choose the resonance frequencies of the disk plasmons so that the resulting dipole plasmon resonance of the Au prism produces the experimentally measured resonance energy (∼1.00 eV).
 With this simple model in hand, we are now able to explore the perturbing effects of a Pt particle. Simulation using experimentally derived dielectric data(24) predicts the plasmon resonance of the Pt particle to be near 5.00 eV, which is at a significantly higher energy than the LSPR modes of the Au nanoprism. We introduce the Pt particle to the system as a disk with two degenerate, in-plane, orthogonal dipoles with resonance energies of 5.00 eV, as dictated by experiment on single Pt particles. The plasmon resonances of the collective system are explored with the same hybridization method as before.
 Figure 3 displays the hybridization model describing the interaction between the Au nanoprism dipole modes and the Pt dipole modes together with corresponding experimental EEL maps that illustrate the effect of the Pt on the Au nanoprism. Depositing the Pt particle at the center of the nanoprism gives the system 3-fold symmetry and, in turn, does not significantly perturb the LSPR modes of the nanoprism. The mode mixing does cause a small, equal net lowering of the prism-localized collective dipole modes and a small, equal net raising of the Pt-localized collective dipole modes. As the Pt particle is moved toward a corner, however, the system’s dipole modes begin to split. When the prism and the Pt-localized dipole modes are oriented in the same direction, they couple more strongly than when the dipoles are oriented antiparallel; therefore, the former is lower in energy, as expected.(41) The model further shows that this splitting is maximal when the Pt particle is as close to the corner as possible, which is consistent with experimental results.
@@ -492,8 +370,6 @@ Figure 3 displays the hybridization model describing the interaction between the
 \label{mo_diagram}
 \end{figure}
 
-{\bf up to fig 4}
-
 Figure 4a compares the simulated EEL spectra of a 209 nm pure Au nanoprism (black), a 209 nm Au+Pt nanoprism (red) where the 40 nm diameter Pt decoration is at the tip of the nanoprism, and an aloof EEL spectrum of a 40 nm diameter Pt sphere (purple). The Au nanoprism is plasmonically active at energies between 0.90 and 2.40 eV, whereas the Pt sphere is active at a much higher energy (∼5.00 eV). Because of the spectral mismatch in plasmon resonance energies of Au and Pt, these metals are not expected to significantly hybridize and resonance energy transfer is unfavorable. The Pt decoration, therefore, simply acts as part of the dielectric environment, and the plasmons of the prism couple to their images in the Pt particle and vice versa. This image effect is identical for all of the Au and Pt dipole plasmons in the center-decorated system. However, in the tip-decorated system, the nanoprism dipole that is aligned with the Pt dipole couples more strongly to its image than the other orthogonal dipole and is shifted to lower energy.
 
 \begin{figure}
@@ -502,19 +378,17 @@ Figure 4a compares the simulated EEL spectra of a 209 nm pure Au nanoprism (blac
 \label{prisms_EELS_sim}
 \end{figure}
 
-
-
 The framework presented here, while showing that the Au and Pt plasmons remain mostly uncoupled, does offer insight into the construction of systems with highly coupled plasmon modes for plasmon-mediated catalysis. Consequently, we study Al prisms(44, 45) decorated with Pt because the Al plasmons lie at energies higher than those of Au.(46) Figure 4b compares simulated EEL spectra for a 209 nm Al nanoprism (blue), a 209 nm Al+Pt nanoprism (green) with a 40 nm Pt tip decoration, and a 40 nm diameter Pt sphere (purple). The spectrum of the 3.20 eV peak in the Al+Pt system is broadened by 0.31 eV, determined from the full width at half-maximum (fwhm), with respect to the higher-energy Al prism-localized LSPR modes (∼3.20 eV), suggesting stronger hybridization with the Pt dipole plasmons than in the Au+Pt system. Both Pt and Al have low-energy interband transitions (0.90 and 1.40 eV, respectively) that are not expected to hybridize because of their poor spectral overlap.(47)
 To further explore the properties of Al coupled with Pt, Figures 5 and 6 compare the magnitude of the electron-beam-induced electric near-fields of the Al+Pt and Au+Pt systems at three loss-energies: 1.20, 1.75, and 4.75 eV, as indicated in Figure 4 (dotted, vertical lines). Qualitatively similar electric near-fields would arise in response to linearly polarized plane-wave excitation because of the common polarization it shares with the field of the electron at the indicated beam position (x). The field maps reveal that at the energy of the prism-localized dipole mode (Figure 5a,b) and the energy of the Pt-localized dipole mode (Figure 5c,d), the fields around the Pt particles are similar in magnitude. This is reinforced in Figure 5e,f, which present the electric field magnitudes computed along lines (white) bisecting the Pt particle and clearly show electric fields of similar magnitudes for both systems.
 
 \begin{figure}
-\includegraphics{prism_field_calculations.png}
+\includegraphics{prisms_field_calculations.png}
 \caption{Electric field maps, resulting from electron beam excitation (e-), computed in the plane bisecting the Pt particle and above the prism at the resonance frequencies of the prism dipole plasmons for Al+Pt (A, 1.75 eV) and Au+Pt (B, 1.20 eV). Electric field maps are computed for the same systems, Al+Pt (C) and Au+Pt (D), at the Pt dipole plasmon. Note that the fields become more diffuse around the tip at the Pt resonance frequency (4.75 eV). The fields along the white dotted line are plotted for the prism dipole resonance of Al+Pt and Au+Pt (E, green and red traces, respectively), and for the Pt dipole resonance in Al+Pt and Au+Pt (F, green and red traces, respectively). The gray shapes mark the positon of the sphere. Note that the fields are much larger at the low-energy, hybridized dipoles, but for both systems the fields are comparable in magnitude at similar energies.}
 \label{field_top}
 \end{figure}
 
 \begin{figure}
-\includegraphics{prism_fields_2.png}
+\includegraphics{prisms_fields_2.png}
 \caption{Electric field maps, resulting from electron beam excitation (e-), computed in the plane bisecting both the Pt particle and the prism at the resonance frequencies of the dipole plasmons for Al+Pt (A, 1.75 eV) and Au+Pt (B, 1.20 eV) and the dipole plasmon of the Pt (4.75 eV) particle in Al+Pt (C) and Au+Pt (D). Note that the fields in the junction consistently drown out the fields around the particle, except at the dipole of the Al+Pt.
 Additionally, along the white dotted line, the fields are plotted for the dipole resonance of Al+Pt and Au+Pt (E, green and red traces, respectively), and for the dipole resonance of the Pt in Al+Pt and Au+Pt (F, green and red traces, respectively). The gray shapes mark the positions of the prism and sphere. Interestingly, the low-energy dipole mode of Au+Pt has a large field in the junction, likely due to Au being a good plasmonic antenna, but the junction field is higher in Al+Pt at the dipole resonance of the Pt. This may be a signature of energy transfer in Al+Pt at these energies.}
 \label{field_side}
@@ -530,8 +404,6 @@ In a typical synthesis, fully described in the Supporting Information, reduction
 Post-synthesis, Au nanoprisms and Pt-decorated Au nanoprisms were sonicated for 5 min and 2.5 μL of each NP solution was drop-cast onto two separate (S)TEM compatible Si3N4 substrates with 30 nm thick membrane acquired from SPI Supplies. These samples were covered to eliminate contamination and left to air-dry for 3 h prior to EELS acquisition. EEL spectra were acquired in a monochromated Carl Zeiss Libra 200MC (S)TEM operated with an accelerating voltage of 200 kV. Each spectrum acquisition was executed with a collection semiangle of 12 mrad, a convergence semiangle of 9 mrad, and a dispersion of 29 meV per channel. Energy resolution, defined as the full width at half-maximum of the zero-loss peak, for each acquisition is 150 meV with the electron beam probing only the Si3N4 membrane. For each nanoprism, EEL spectrum images responsible for producing LSPR mode maps were collected by defining a region of interest (ROI) around the particle with dimensions 34 × 29 pixels, where 1 pixel is ∼3.3 × 3.3 nm2.
 Experimentally obtained EELS mode maps are analyzed using Gatan Digital Micrograph software. Experimental EEL LSPR mode maps (Figures 1b,e and 2b,e) are generated by removing the background using the reflected-tail model and normalized to the zero-loss peak. LSPR mode maps were prepared by plotting spectral intensities from energy slices selected from peak maxima of the single-point spectra from the top corner, edge, bottom corner, face, and center of the Pt decoration to fully represent the LSPR modes of the bare Au nanoprism and the Pt-decorated Au nanoprism system.
 For simulations, we applied the Metal Nanoparticle Boundary Element Method (MNPBEM) software.(37) MNPBEM represents nanoparticles as surfaces and discretizes each particle into a chosen number of surface elements. Maxwell’s equations are solved at each of these so-called boundary elements in order to calculate the nanoparticle’s optical properties. EELS simulations were performed on Au and Al nanoprisms with edge lengths of 195 and 209 nm and Au+Pt and Al+Pt nanoprism systems with prism edge lengths of 198 and 209 nm and decorated with Pt spheres of diameter 40 nm at the center and tip, respectively. Each system was simulated with no substrate. These simulations used tabulated dielectric data from Johnson and Christy(49) and Rakic et al.(50) Spectra were acquired at beam positions located at all three corners and edges of each system. Additionally, EEL maps were generated at each of the relevant energy windows. Finally, MNPBEM was used to generate maps of the electric field magnitude around the systems using the electron beam as a source.
-
-{\bf remember SI and refs.}
 
 % ========== Chapter 4
  
@@ -581,40 +453,33 @@ print a copy of your thesis create a
 \raggedbottom\sloppy
  
 % ========== Appendix A
- 
-\chapter{}
- 
-The uwthesis class file, {\tt uwthesis.cls}, contains the parameter settings,
-macro definitions, and other \TeX nical commands which
-allow \LaTeX\ to format a thesis.  
-The source to
-the document you are reading, {\tt uwthesis.tex},
-contains many formatting examples
-which you may find useful.
-The bibliography database, {\tt uwthesis.bib}, contains instructions
-to BibTeX to create and format the bibliography.
-You can find the latest of these files on:
+\chapter{Supporting Information: Imaging Energy Transfer in Pt-Decorated Au Nanoprisms via Electron Energy-Loss Spectroscopy}
 
-\begin{itemize}
-\item My page.
-\begin{description}
-\item[] \verb%http://staff.washington.edu/fox/tex/uwthesis.html%
-\end{description}
+\section{General Materials and Methods}
 
-\item CTAN
-\begin{description}
-\item[]  \verb%http://tug.ctan.org/tex-archive/macros/latex/contrib/uwthesis/%
-\item[]  (not always as up-to-date as my site)
-\end{description}
+General materials and methods. Hexadecyltrimethylammonium bromide (CTAB, 99\%), chloroplatinic acid (H2PtCl6, 8 wt. \% in H2O) hydrogen tetrachloroaurate trihydrate (HAuCl4•3H2O, 99.999\%), L-ascorbic acid (99\%), sodium borohydride (NaBH4, 99.99\%), sodium hydroxide (99.99\%), sodium iodide (NaI, 99.999\%), and trisodium citrate (99\%) were obtained from Sigma Aldrich and used as received. 11-amino-1-undecanethiol hydrochloride (AUT, 99.2\%) was purchased from Dojindo (Rockville, MD) and used as received. NANOpure™ water Thermo Scientific, > 18.2 MΩ•cm) was used for all washing, synthesis, and purification protocols as well as in the preparation of all solutions. All stock solutions were aqueous and prepared fresh before each reaction, unless otherwise noted. All glassware was washed with aqua regia (3:1 ratio of concentrated HCl and HNO3 by volume) and rinsed thoroughly with water.
 
-\end{itemize}
+\section{Au Nanoprism Synthesis}
 
-\vita{Jim Fox is a Software Engineer with IT Infrastructure Division at the University of Washington.
-His duties do not include maintaining this package.  That is rather
-an avocation which he enjoys as time and circumstance allow.
+Au nanoprisms were synthesized according to previous protocols. (1, 2) Two hours after Au nanoparticle seeds were added to the nanoprism growth solution, the reaction mixture was heated in a H2O bath to 37 °C for 1 minute to dissolve any CTAB that may have recrystallized during the growth period (this crystallized CTAB can interfere with nanoprism purification by centrifugation). To separate the nanoprisms from pseudospherical nanoparticle reaction byproducts, 90 mL of the reaction mixture was divided into 15 mL conical tubes and
+centrifuged at 820 rcf for 15 minutes (Eppendorf centrifuge 5804 with swing bucket rotor A-4-44). The supernatant and pellet were both extracted and the nanoprism thin film was resuspended in 1.0 mL of H2O by vortexing for 5 seconds. To remove additional CTAB and excess reagents, this mixture was transferred to 1.5 mL centrifuge tubes, and the prisms were then centrifuged using a Spectrum minicentrifuge (SC1006-R) for approximately 5 minutes. After centrifugation, the supernatant was removed and the prisms were resuspended in 1.0 mL of H2O and subsequently combined in a 15 mL conical tube. The concentration of the purified nanoprisms in the nanoprism stock solution was then adjusted to an optical density (O.D.) of 1.0 a.u. at the maximum absorption wavelength (λmax, approximately 1300 nm) by ultraviolet-visible-near infrared (UV-vis-NIR) spectroscopy.
 
-He welcomes your comments to {\tt fox@uw.edu}.
-}
+\section{Pt-decorated Au Nanoprism Synthesis}
+
+To 1.0 mL of purified Au nanoprisms (absorbance at λmax = 1.0 a.u.) was added 8.0 μL of 1 mM AUT. The mixture was
+vortexed, and the nanoprisms were allowed to rest for 24 hours to allow for thiol conjugation to the nanoparticle surface. After this period, 20 μL of 20 mM ascorbic acid was added, and the nanoparticle solution was vortexed briefly. Next, 20 μL of 2 mM H2PtCl6 was added, the solution was briefly vortexed, and the nanoprisms were allowed to rest for an additional 24 hours to ensure complete reduction of H2PtCl6. 
+
+\section{UV-vis-NIR Spectroscopy}
+
+Nanoprism solutions were analyzed by UV-vis-NIR spectroscopy using a Cary 5000 spectrophotometer (Agilent, Inc.). Baselines were collected using H2O as reference solutions.
+
+\section{Transmission Electron Microscopy (TEM)}
+
+Nanoparticle products were purified by centrifugation using a Spectrum mini-centrifuge (SC1006-R). After removal of the supernatant, the pellet was resuspended in 1.0 mL of H2O and the process was repeated. After subsequent removal of the supernatant, nanoprism products were resuspended in 30 μL of H2O by vortexing and sonicating for approximately 10 seconds. For general TEM imaging, a 5 μL aliquot of each concentrated nanoprism sample was dropcast onto a TEM grid (Ted Pella, Carbon Type A on 300 mesh Cu), allowed to dry under ambient conditions, and stored under vacuum prior to analysis. TEM images were obtained using a JEOL JEM 2100F equipped with a Gatan Imaging Filter (GIF) Tridiem camera and Oxford Inca EDS detector at 200 kV (Nanoscale Fabrication and Characterization Facility, Petersen Institute of Nanoscience and Engineering, University of Pittsburgh), or a Hitachi Environmental TEM at 300 kV (Department of Mechanical Engineering and Materials Science characterization facility, University of Pittsburgh). Images were analyzed using Digital Micrograph v2.10.1282.0 (Gatan, Inc.) and/or ImageJ v 1.47d (National Institutes of Health, USA) software.
+
+\section{Scanning Electron Microscopy (SEM)}
+
+Silicon wafer substrates (University Wafer, ptype, 200 nm thermal oxide (silicon dioxide)) were first cleaned by sonicating in ethanol for 5 min. The substrate was then successively rinsed with ethanol and acetone and dried under a stream of N2(g). Samples were prepared using the same procedure described for TEM analysis. Here, 10 μL of the resulting solution was drop-cast onto the wafer and allowed to dry before imaging on a Raith Dual Beam EBL-SEM at various accelerating voltages.
 
 
 \end{document}

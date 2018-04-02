@@ -446,385 +446,58 @@ custom fonts may soon proclaim,
  
 \chapter{Paper 1: Prisms}
  
-This chapter describes the uwthesis class (\texttt{uwthesis.cls},
-version dated 2014/11/13)
-in detail 
-and shows how it was used to format the thesis.
-A working knowledge of Lamport's \LaTeX\ manual\cite{Lbook} is assumed.
- 
-\section{The Control File}
- 
-The source to this sample thesis is a single file
-only because ease of distribution was a concern.
-You should not do this.  Your task will be much easier if you
-break your thesis into several files:  a file for the preliminary pages,
-a file for each chapter,  one for the glossary, and one for each
-appendix.  Then use a control file to tie them all together.
-This way you can edit and format parts of your thesis much more
-efficiently.
- 
-Figure~\ref{control-file} shows a control file that
-might have produced this thesis.
-It sets the document style, with options and parameters,
-and formats the various parts of the thesis---%
-but contains no text of its own.
- 
- 
-%  control file caption and figure
-%
-%
-\begin{figure}[p]
- \begin{fullpage}
-  \uwsinglespace
-  \begin{verbatim}
-    % LaTeX thesis control file
- 
-    \documentclass [11pt, proquest]{uwthesis}[2014/11/13]
- 
-    \begin{document}
- 
-    % preliminary pages
-    %
-    \prelimpages
-    \include{prelim}
- 
-    % text pages
-    %
-    \textpages
-    \include{chap1}
-    \include{chap2}
-    \include{chap3}
-    \include{chap4}
- 
-    % bibliography
-    %
-    \bibliographystyle{plain}
-    \bibliography{thesis}
- 
-    % appendices
-    %
-    \appendix
-    \include{appxa}
-    \include{appxb}
- 
-    \include{vita} 
-    \end{document}
-  \end{verbatim}
-  \caption[A thesis control file]%
-   {\narrower A thesis control file ({\tt thesis.tex}).
-   This file is the input to \LaTeX\ that will produce a
-   thesis.  It contains no text, only commands which
-   direct the formatting of the thesis.
-   }
-  \label{control-file}
- \end{fullpage}
-\end{figure}
- 
-The first section, from the \verb"\documentclass" to
-the \verb"\begin{document}", defines the document class and options.
-This sample thesis specifies the \texttt{proquest} style, which is now
-required by the Graduate School and is the default.  
-Two other, now dated, other styles are available:  \verb"twoside", which is similar but 
-produces a wider binding margin and is more suitable for paper printing; and
-\verb"oneside", which is really old fashoned.
-This sample also specified a font size
-of 11 points. 
-Possible font size options are: \verb"10pt", \verb"11pt", and \verb"12pt".
-Default is 12 points, which is the preference
-of the Graduate School. If you choose a smaller size be sure to
-check with the Graduate School for acceptability.  The smaller fonts
-can produce very small sub and superscripts.
+{\bf Abstract}
 
-Include most additional formatting packages with \verb"\usepackage",
-as describe by Lamport\cite{Lbook}.  The one exception to this
-rule is the \verb"natbib" package.  Include it with the \verb"natbib"
-document option.
- 
-Use the \verb"\includeonly" command to format only a part of your
-thesis.  See Lamport\cite[sec. 4.4]{Lbook} for usage and limitations.
+Driven by the desire to understand energy transfer between plasmonic and catalytic metals for applications such as plasmon-mediated catalysis, we examine the spatially resolved electron energy-loss spectra (EELS) of both pure Au nanoprisms and Pt-decorated Au nanoprisms. The EEL spectra and the resulting surface-plasmon mode maps reveal detailed near-field information on the coupling and energy transfer in these systems, thereby elucidating the underlying mechanism of plasmon-driven chemical catalysis in mixed-metal nanostructures. Through a combination of experiment and theory we demonstrate that although the location of the Pt decoration greatly influences the plasmons of the nanoprism, simple spatial proximity is not enough to induce significant energy transfer from the Au to the Pt. What matters more is the spectral overlap between the intrinsic plasmon resonances of the Au nanoprism and Pt decoration, which can be tuned by changing the composition or morphology of either component.
 
- 
-\section{The Text Pages}
- 
-A chapter is a major division of the thesis.  Each chapter begins
-on a new page and has a Table of Contents entry.
- 
-\subsection{Chapters, Sections, Subsections, and Appendices}
- 
- 
-Within the chapter title use a \verb"\\" control sequence to separate lines
-in the printed title (recall Figure \ref{start-2}.).
-The \verb"\\" does not affect the Table of Contents entry.
- 
-Format appendices just like chapters.
-The control sequence \verb"\appendix" instructs \LaTeX\ to
-begin using the term `Appendix' rather than `Chapter'.
- 
- 
-Specify sections and subsections of a chapter 
-with  \verb"\section" and \verb"\subsection", respectively.
-In this thesis chapter and section
-titles are written to the table of contents.
-Consult Lamport\cite[pg. 176]{Lbook} to see which
-subdivisions of the thesis can be written to the table of contents.
-The \verb"\\" control sequence is not permitted in section and
-subsection titles.
- 
- 
-\subsection{Footnotes}
- 
-\label{footnotes}
- Footnotes format as described in the \LaTeX\ book.  You can also
- ask for end-of-chapter or end-of-thesis notes.
- The thesis class will automatically set these up if
- you ask for the document class option \texttt{chapternotes}
- or \texttt{endnotes}.  
- 
-If selected, chapternotes will print automatically.  If you choose
-endnotes however you must explicitly indicate when to print the notes 
-with the command \verb"\printendnotes".  See the style guide for
-suitable endnote placement.  
+{\bf up to first two figures}
 
-\subsection{Figures and Tables}
-Standard \LaTeX\ figures and tables, see Lamport\cite[sec.~C.9]{Lbook},
-normally provide the most convenient means to position the figure.
-Full page floats and facing captions are exceptions to this rule.
+Localized surface plasmon resonances (LSPRs), the quantized oscillation of the free electron gas in metal nanoparticles, underlie a variety of applications ranging from surface-enhanced spectroscopy(1-5) and sensing(6, 7) to solar energy harvesting.(8-11) Plasmons in noble metals commonly occur in the visible part of the spectrum and can focus light to subdiffraction limited spots, thereby converting light energy from the far-field into the near-field. The exceptionally large polarizability of nanoparticles at the resonance frequency of the LSPR results in absorption cross sections that can be more than an order of magnitude larger than the particle’s physical size. There is great interest, therefore, in utilizing this light-harvesting property to drive chemical reactions(12-15) or improve solar device efficiency.(8, 10, 16) There is also a growing body of evidence indicating that LSPR excitation can drive otherwise unfavorable reactions such as the conversion of 4-aminothiophenol (4ATP) to 4,4′-dimercaptoazobenzene (DMAB),(12, 17, 18) H2 dissociation on Au,(15) liquid water splitting,(19-21) hydrocarbon conversion,(22) and gas-phase oxidation.(23)
 
-If you want a figure or table to occupy a full page enclose the
-contents in a \texttt{fullpage} environment.  
-See figure~\ref{facing-caption}.
+Bimetallic systems, composed of catalytic and plasmonic metals, are especially interesting because they provide a potential route to further increase the efficiency of plasmon-driven chemical reactions. However, the plasmon resonances of common catalytic metals, e.g., Pd, Pt, and Rh, occur at energies much higher than those of noble metals and are lossy.(24) Nevertheless, recent studies demonstrate plasmon-enhanced energy transfer is applicable in catalytic chemistry.(25-27) Wang et al.,(28) for example, showed that Pd-decorated Au nanorods can catalyze a Suzuki coupling of bromobenzene and m-tolylboronic acid upon plasmon excitation. Zheng et al.(13) observed a similar phenomenon where Au nanorods and nanospheres with pendant Pt nanoparticles could catalyze H2 evolution, and they speculated that hot-electron generation via decay of the Au LSPR drives the reaction.
+Electron energy-loss spectroscopy (EELS), performed in a monochromated scanning transmission electron microscopy (STEM) instrument, is especially promising for studying energy transfer between plasmonic and catalytic metals because it combines subnanometer spatial resolution with spectral resolution of approximately 100 meV.(29) Recently, for example, Li et al.(30) illustrated how EELS can spatially map energy transfer from individual plasmonic nanocubes to their semiconductor substrates; Wu et al.(31) explored the plasmonic properties of size-tunable alloy systems; and Ringe et al.(32) studied Pd-coated Au nano-octopods revealing strong EEL signals at the Pd-coated tips.
 
-\subsubsection{Facing pages}
-Facing page captions are an artifact of traditional, dead-tree printing,
-where a left-side (even) page faces a right-side (odd) page.
+While previous work has established the viability of plasmon-assisted chemistry in mono- and bimetallic nanostructures, fundamental studies of plasmon hybridization in well-defined, mixed-metal systems are needed to elucidate the mechanisms underlying these observations. Because of their well-characterized plasmonic properties, in this Letter we investigate bare Au nanoprisms and Au nanoprisms decorated with spherelike, dendritic Pt nanoparticles (Au+Pt) in order to gain an understanding of the coupling between optical and catalytic properties in bimetallic nanostructures.(33, 34) STEM/EELS measurements and full-wave numerical EELS simulations are performed on pure Au nanoprisms and Pt-decorated Au nanoprisms, respectively, to understand how unperturbed Au plasmon modes are deformed by the location of the Pt particle. This work provides a nanoscopic view of how the plasmon mode structure of Au nanoprisms changes both spatially and spectrally in the presence of Pt and provides insight into energy transfer between Au and Pt constituents within the mixed-metal system. Using EELS simulations only, we further find that the LSPRs of an Al nanoprism will spectrally overlap with the LSPR of Pt, resulting in coupling stronger than that of the Au+Pt system.
 
-In the \texttt{twoside} style, a facing caption
-is full page caption for a full page figure or table
-and should face the illustration to which it refers.
-You must explicitly format both pages. 
-The caption part appears on an even page
-(left side) and the figure or table
-comes on the following odd page (right side).
-Enclose the float contents for the caption 
-in a \texttt{leftfullpage} environment,
-and enclose the float contents for the figure or table 
-in a \texttt{fullpage} environment.
-The first page (left side) contains the caption. The second page
-(right side) could be left blank.  A picture or graph might be pasted onto
-this space. See figure~\ref{facing-caption}.
+Figures 1 and 2 display the high-angle annular dark-field (HAADF) images and compare the experimentally acquired EEL maps with EELS simulations for two different Au+Pt geometries: a 209 nm edge length Au nanoprism with a 40 nm diameter Pt particle deposited at the tip (Figure 1d) and a 198 nm edge length Au nanoprism with a 40 nm diameter Pt particle deposited at the center of the prism (Figure 2d). In each case, we compare the data obtained from the decorated particles with data from bare Au nanoprisms of the same size (Figures 1a and 2a) to study the influence of the Pt particle on the plasmon mode structure. The loss energies for the mode maps are selected using the peak maxima of the point EEL spectra when the electron beam is positioned at the tip, edge, corner, and face and on the Pt decoration. These beam positions are selected as representative points of the LSPR modes of the nanoprism and Pt decoration. All experimental nanostructures are supported on a 30 nm thick Si3N4 membrane, and all simulations are performed in vacuum.
 
+{\bf up to fig 3}
 
-\begin{figure}[t]
-\uwsinglespace
-\begin{verbatim}
-     \begin{figure}[p]% the left side caption
-       \begin{leftfullpage}
-         \caption{ . . . }
-       \end{leftfullpage}
-     \end{figure}
-     \begin{figure}[p]% the right side space
-       \begin{fullpage}
-          . . .
-          ( note.. no caption here )
-       \end{fullpage}
-     \end{figure}
-\end{verbatim}
-\caption[Generating a facing caption page]{This text would create a
-  double page figure in the two-side styles. }
-\label{facing-caption}
-\end{figure}
- 
-You can use these commands with the \texttt{proquest} style, but they have little
-effect on online viewing.
- 
- 
-\subsection{Horizontal Figures and Tables}
-Figures and tables may be formatted horizontally
-(a.k.a.\ landscape) as long as their captions appear
-horizontal also.  \LaTeX\ will format landscape material for you.
+Figures 1b and 2b show that the plasmon modes of the bare prisms evolve from dipoles localized to the corners, through those on the edges, and finally into multipolar modes as a function of increasing energy, which is in excellent agreement with previous EELS studies of plasmonic nanoprisms.(35, 36) Interestingly, a comparison of the mode maps resulting from decorated and undecorated prisms (Figure 1b,e) shows minimal changes to the mode structure upon addition of the Pt particle. The most notable difference is seen in the splitting of the dipolar mode of the bare Au nanoprism, where the presence of the Pt particle breaks the degeneracy of the dipole mode (vide infra) (Figure 1b,e). Figure 2b,e illustrates that the structure of the higher-energy modes is not strongly dependent on the Pt particle location, as the EEL maps in Figures 1b,e and 2b,e are similar. Lastly, we are able to experimentally map the LSPR of the Pt decoration at a higher energy than the modes of the nanoprism (Figures 1e and 2e).
 
-Include the \texttt{rotating} package 
-\begin{demo}
-\\usepackage[figuresright]\{rotating\}
-\end{demo}
-and read the documentation that comes with the package. 
+Boundary element method calculations(37) (Figures 1c,f and 2c,f) capture the complex mode structure of these mixed-metal systems and agree well with the experimental measurements (Figures 1be and 2b,e). While there are quantitative differences in specific plasmon resonance energies between simulation and experiment due to substrate effects, we can leverage the qualitative agreement in the equivalent mode identity to explore the perturbative effects of Pt on the well-understood LSPR modes(38) of Au nanoprisms with plasmon hybridization theory. Previous work(39, 40) has shown that a basis set composed of corner-localized dipoles is sufficient to interpret the low-energy plasmon mode structure of the Au+Pt system. Therefore, we create a model composed of dipoles located on the corners of a triangular prism.(41, 42) Each corner is represented by a disk with two in-plane, orthogonal, dipole plasmons. These single-disk dipoles can be rigorously mapped onto a set of mechanical oscillators and mutually hybridized by diagonalizing the Hamiltonian(43)
 
-Figure~\ref{sideways} is an example of how a landscape
-table might be formatted. 
+\begin{equation}
+H = \frac{1}{2}\sum_{i}\hbar\omega_{\textrm{sp}^i}[\textbf{P}_i^2 + \textbf{Q}_i^2] - \frac{1}{2}\sum_{i \neq j}\hbar(\omega_{\textrm{sp}}^i\omega_{\textrm{sp}}^j)^{1/2}g_{ij}(r_{ij})[3(\textbf{Q}_i\cdot\hat{\textbf{n}}_{ij}\hat{\textbf{n}}_{ij}\cdot\textbf{Q}_j)-\textbf{Q}_i\cdot\textbf{Q}_j],
+\end{equation}
 
-\begin{figure}[t]
-\uwsinglespace
-\begin{verbatim}
-     \begin{sidewaystable}
-         ...
-         \caption{ . . . }
-     \end{sidewaystable}
-\end{verbatim}
-\caption[Generating a landscape table]{This text would create a
-  landscape table with caption.}
-\label{sideways}
-\end{figure}
- 
+with distance-dependent coupling constants $g_{ij}(r_{ij}) = 3/[r_{ij}^3(\varepsilon_{\infty} + 2)]$ where $i$ and $j$ ($i, j$ = 1–6) indicate the identity of each plasmon (location and orientation); $\textbf{Q}_i$ is the coordinate of the $i$th oscillator with conjugate momentum $\textbf{P}_i$; $\omega_{\textrm{sp}}^i$ is its surface plasmon resonance frequency; $r_{ij}$ are the dimensionless distances between the $i$th and $j$th disks relative to their diameters; and $\hat{\textbf{n}}_{ij}$ is the corresponding unit vector connecting them.
+In analogy to the mixing of carbon p-orbitals in benzene, the mixing of these six single-disk modes result in six hybridized modes: the lowest-energy mode having no nodes; the second lowest being two degenerate, single-node modes (dipole modes); the third lowest being two degenerate, double-node modes; and the highest-energy mode having three nodes. To produce a quantitative fit to the experimental and simulated data, we choose the resonance frequencies of the disk plasmons so that the resulting dipole plasmon resonance of the Au prism produces the experimentally measured resonance energy (∼1.00 eV).
+With this simple model in hand, we are now able to explore the perturbing effects of a Pt particle. Simulation using experimentally derived dielectric data(24) predicts the plasmon resonance of the Pt particle to be near 5.00 eV, which is at a significantly higher energy than the LSPR modes of the Au nanoprism. We introduce the Pt particle to the system as a disk with two degenerate, in-plane, orthogonal dipoles with resonance energies of 5.00 eV, as dictated by experiment on single Pt particles. The plasmon resonances of the collective system are explored with the same hybridization method as before.
+Figure 3 displays the hybridization model describing the interaction between the Au nanoprism dipole modes and the Pt dipole modes together with corresponding experimental EEL maps that illustrate the effect of the Pt on the Au nanoprism. Depositing the Pt particle at the center of the nanoprism gives the system 3-fold symmetry and, in turn, does not significantly perturb the LSPR modes of the nanoprism. The mode mixing does cause a small, equal net lowering of the prism-localized collective dipole modes and a small, equal net raising of the Pt-localized collective dipole modes. As the Pt particle is moved toward a corner, however, the system’s dipole modes begin to split. When the prism and the Pt-localized dipole modes are oriented in the same direction, they couple more strongly than when the dipoles are oriented antiparallel; therefore, the former is lower in energy, as expected.(41) The model further shows that this splitting is maximal when the Pt particle is as close to the corner as possible, which is consistent with experimental results.
 
+{\bf up to fig 4}
 
-\subsection{Figure and Table Captions}
-Most captions are formatted with the \verb"\caption" macro as described 
-by Lamport\cite[sec. C.9]{Lbook}. 
-The uwthesis class extends this macro to allow
-continued figures and tables, and to provide multiple figures and
-tables with the same number, e.g., 3.1a, 3.1b, etc.
- 
-To format the caption for the first part of
-a figure or table that cannot fit
-onto a single page use the standard form:
-\begin{demo}
-\\caption[\textit{toc}]\{\textit{text}\}
-\end{demo}
-To format the caption for the subsequent parts of 
-the figure or table 
-use this caption:
-\begin{demo}
-\\caption(-)\{(continued)\}
-\end{demo}
-It will keep the same number and the text of the caption will be 
-{\em(continued)}.
+Figure 4a compares the simulated EEL spectra of a 209 nm pure Au nanoprism (black), a 209 nm Au+Pt nanoprism (red) where the 40 nm diameter Pt decoration is at the tip of the nanoprism, and an aloof EEL spectrum of a 40 nm diameter Pt sphere (purple). The Au nanoprism is plasmonically active at energies between 0.90 and 2.40 eV, whereas the Pt sphere is active at a much higher energy (∼5.00 eV). Because of the spectral mismatch in plasmon resonance energies of Au and Pt, these metals are not expected to significantly hybridize and resonance energy transfer is unfavorable. The Pt decoration, therefore, simply acts as part of the dielectric environment, and the plasmons of the prism couple to their images in the Pt particle and vice versa. This image effect is identical for all of the Au and Pt dipole plasmons in the center-decorated system. However, in the tip-decorated system, the nanoprism dipole that is aligned with the Pt dipole couples more strongly to its image than the other orthogonal dipole and is shifted to lower energy.
 
-To format the caption for the first part of
-a multi-part figure or table
-use the format:
-\begin{demo}
-\\caption(a)[\textit{toc}]\{\textit{text}\}
-\end{demo}
-The figure or table will be lettered (with `a') as well as numbered.
-To format the caption for the subsequent parts of 
-the multi-part figure or table
-use the format:
-\begin{demo}
-\\caption(\textit{x})\{\textit{text}\}
-\end{demo}
-where {\em x} is {\tt b}, {\tt c}, \ldots.
-The parts will be lettered (with `b', `c', \ldots).
+{\bf up to fig. 5 and 6}
 
-\subsection{Line spacing}
+The framework presented here, while showing that the Au and Pt plasmons remain mostly uncoupled, does offer insight into the construction of systems with highly coupled plasmon modes for plasmon-mediated catalysis. Consequently, we study Al prisms(44, 45) decorated with Pt because the Al plasmons lie at energies higher than those of Au.(46) Figure 4b compares simulated EEL spectra for a 209 nm Al nanoprism (blue), a 209 nm Al+Pt nanoprism (green) with a 40 nm Pt tip decoration, and a 40 nm diameter Pt sphere (purple). The spectrum of the 3.20 eV peak in the Al+Pt system is broadened by 0.31 eV, determined from the full width at half-maximum (fwhm), with respect to the higher-energy Al prism-localized LSPR modes (∼3.20 eV), suggesting stronger hybridization with the Pt dipole plasmons than in the Au+Pt system. Both Pt and Al have low-energy interband transitions (0.90 and 1.40 eV, respectively) that are not expected to hybridize because of their poor spectral overlap.(47)
+To further explore the properties of Al coupled with Pt, Figures 5 and 6 compare the magnitude of the electron-beam-induced electric near-fields of the Al+Pt and Au+Pt systems at three loss-energies: 1.20, 1.75, and 4.75 eV, as indicated in Figure 4 (dotted, vertical lines). Qualitatively similar electric near-fields would arise in response to linearly polarized plane-wave excitation because of the common polarization it shares with the field of the electron at the indicated beam position (x). The field maps reveal that at the energy of the prism-localized dipole mode (Figure 5a,b) and the energy of the Pt-localized dipole mode (Figure 5c,d), the fields around the Pt particles are similar in magnitude. This is reinforced in Figure 5e,f, which present the electric field magnitudes computed along lines (white) bisecting the Pt particle and clearly show electric fields of similar magnitudes for both systems.
 
-Normally line spacing will come out like it should. However, the 
-ProQuest style allows single spacing in certain situations:
-figure content, some lists, and etc.
-Use \verb"\uwsinglespace" to switch to single spacing within
-a \verb"\begin{}" and \verb"\end{}" block.
-The code examples in this document does this. 
+{\bf up to methods}
 
-\section{The Preliminary Pages}
- 
-These are easy to format only because they are relatively invariant
-among theses.  Therefore the difficulties have already been encountered
-and overcome by \LaTeX\ and the thesis document classes.
+Turning to the field magnitude in the junction at the energy of the prism-localized dipoles (Figure 6a,b), we see that the field is much larger in the Au+Pt junction than in the Al+Pt junction. This means that the junction field in the Au+Pt systems is dominated by the response of the Au nanoprism. Conversely, at the energy of the Pt-localized dipole (Figure 6c,d), the junction field in the Al+Pt system is much larger than that of Au+Pt. These observations are again reinforced by the electric field magnitudes presented in Figure 6e,f, which are computed along lines (white) running through the junction. Taken together, Figures 4–6 indicate a relationship between EEL probability and the strength of the near electric fields surrounding the mixed-metal systems observed in this Letter. These junction fields show that the high-energy modes of the nanoprism are more effectively coupled to the Pt dipole plasmon in Al+Pt than in Au+Pt; therefore, a greater capacity for plasmon-mediated chemical catalysis is predicted in the Al+Pt system. Utilizing the electric near-field simulations and data obtained through experiment and calculations, we show that these plasmonic-catalytic metal systems should drive plasmon-assisted reactions.
+This work shows through electrodynamics simulations and experimental EELS the extent to which Au nanoprisms decorated with Pt deposits can transfer energy. EELS demonstrates that Pt changes the mode structure of the Au nanoprism, especially depending on the location of the Pt. Even though we show weak coupling between Au and Pt, we determine stronger coupling can be observed in systems where the LSPRs spectrally overlap. In a system such as Al+Pt, the LSPRs of Al and Pt exhibit more spectral overlap because both metals support LSPRs in the ultraviolet regime.
 
-Start with the definitions that describe your thesis.
-This sample thesis was printed with the parameters:
+{\bf methods}
 
-\begin{demo}
-\\Title\{The Suitability of the \\LaTeX\\ Text Formatter\\\\
-   for Thesis Preparation by Technical and\\\\
-   Non-technical Degree Candidates\}
-\\Author\{Jim Fox\}
-\\Program\{IT Infrastructure\}
-\\Year\{2012\}
+In a typical synthesis, fully described in the Supporting Information, reduction of H2PtCl6 on the surface of AUT (11-amino-1-undecanethiol hydrochloride)-conjugated nanoprisms resulted in the growth of approximately 1–3 Pt nanoparticles (average diameter of 30 ± 5 nm) per Au nanoprism substrate. Using high-resolution transmission electron microscopy (HRTEM), it was found that the Pt nanoparticles had a dendritic morphology (SI Figure 3). Interestingly, nucleation of the Pt nanoparticles occurred predominantly on the edges and vertices of the Au nanoprisms, likely due to the higher concentration of defects in the self-assembled monolayer at these sites.(48)
+Post-synthesis, Au nanoprisms and Pt-decorated Au nanoprisms were sonicated for 5 min and 2.5 μL of each NP solution was drop-cast onto two separate (S)TEM compatible Si3N4 substrates with 30 nm thick membrane acquired from SPI Supplies. These samples were covered to eliminate contamination and left to air-dry for 3 h prior to EELS acquisition. EEL spectra were acquired in a monochromated Carl Zeiss Libra 200MC (S)TEM operated with an accelerating voltage of 200 kV. Each spectrum acquisition was executed with a collection semiangle of 12 mrad, a convergence semiangle of 9 mrad, and a dispersion of 29 meV per channel. Energy resolution, defined as the full width at half-maximum of the zero-loss peak, for each acquisition is 150 meV with the electron beam probing only the Si3N4 membrane. For each nanoprism, EEL spectrum images responsible for producing LSPR mode maps were collected by defining a region of interest (ROI) around the particle with dimensions 34 × 29 pixels, where 1 pixel is ∼3.3 × 3.3 nm2.
+Experimentally obtained EELS mode maps are analyzed using Gatan Digital Micrograph software. Experimental EEL LSPR mode maps (Figures 1b,e and 2b,e) are generated by removing the background using the reflected-tail model and normalized to the zero-loss peak. LSPR mode maps were prepared by plotting spectral intensities from energy slices selected from peak maxima of the single-point spectra from the top corner, edge, bottom corner, face, and center of the Pt decoration to fully represent the LSPR modes of the bare Au nanoprism and the Pt-decorated Au nanoprism system.
+For simulations, we applied the Metal Nanoparticle Boundary Element Method (MNPBEM) software.(37) MNPBEM represents nanoparticles as surfaces and discretizes each particle into a chosen number of surface elements. Maxwell’s equations are solved at each of these so-called boundary elements in order to calculate the nanoparticle’s optical properties. EELS simulations were performed on Au and Al nanoprisms with edge lengths of 195 and 209 nm and Au+Pt and Al+Pt nanoprism systems with prism edge lengths of 198 and 209 nm and decorated with Pt spheres of diameter 40 nm at the center and tip, respectively. Each system was simulated with no substrate. These simulations used tabulated dielectric data from Johnson and Christy(49) and Rakic et al.(50) Spectra were acquired at beam positions located at all three corners and edges of each system. Additionally, EEL maps were generated at each of the relevant energy windows. Finally, MNPBEM was used to generate maps of the electric field magnitude around the systems using the electron beam as a source.
 
-\\Chair\{Name of Chairperson\}\{title\}\{Chair's department\}
-\\Signature\{First committee member\}
-\\Signature\{Next committee member\}
-\\Signature\{etc\}
-
-\end{demo}
- 
-Use two or more \verb"\Chair" lines if you have co-chairs.
- 
-\subsection{Copyright page}
-Print the copyright page with \verb"\copyrightpage".
-
-\subsection{Title page}
-Print the title page with \verb"\titlepage".
-The title page of this thesis was printed with%
- 
-\begin{demo}
-\\titlepage
-\end{demo}
- 
-You may change default text on the title page with these
-macros.  You will have to redefine \verb"\Degreetext", for instance,
-if you're writing a Master's thesis instead of a dissertation.\footnote{If you use these they can
-be included with the other information before \\copyrightpage".}
-
-\begin{list}{}{\itemindent\parindent\itemsep0pt
-   \def\makelabel#1{\texttt{\char`\\#1}\hfill}\uwsinglespace}
-\item[Degree\char`\{{\it degree name}\char`\}]
-   defaults to ``Doctor of Philosophy''
-\item[School\char`\{{\it school name}\char`\}] defaults to
-``University of Washington''
-\item[Degreetext\char`\{{\it degree text}\char`\}] defaults to
-``A dissertation submitted \ldots''
-\item[textofCommittee\char`\{{\it committee label}\char`\}] defaults to
-``Reading Committee:''
-\item[textofChair\char`\{{\it chair label}\char`\}] defaults to
-``Chair of the Supervisory Committee:''
-\end{list}
-
-These definitions must appear \underline{before} the \verb"\titlepage" command.
-
- 
-\subsection{Abstract}
-Print the
-abstract with \verb"\abstract".
-It has one argument, which is the text of the abstract.
-All the names have already been defined.
-The abstract of this thesis was printed with
- 
-\begin{demo}
-\\abstract\{This sample . . . `real' dissertation.\}
-\end{demo}
- 
- 
-\subsection{Tables of contents}
-Use the standard \LaTeX\ commands to format these items.
- 
- 
-\subsection{Acknowledgments}
-Use the \verb"\acknowledgments" macro to format the acknowledgments page.
-It has one argument, which is the text of the acknowledgment.
-The acknowledgments of this thesis was printed with
- 
-\begin{demo}
-\\acknowledgments\{The author wishes . . . \{\\it il miglior fabbro\}.\\par\}\}
-\end{demo}
- 
- 
-\subsection{Dedication}
-Use the \verb"\dedication" macro to format the dedication page.
-It has one argument, which is the text of the dedication.
- 
-\subsection{Vita}
-Use the \verb"\vita" macro to format the curriculum vitae.
-It has one argument, which chronicles your life's accomplishments.
-
-Note that the Vita is not really a preliminary page.
-It appears at the end of your thesis, just after the appendices.
- 
- 
-%%  
-%% \section{Customization of the Macros}
-%%  
-%% Simple customization, including 
-%% alteration of default parameters,  changes to dimensions,
-%% paragraph indentation, and margins, are not too difficult.
-%% You have the choice of modifying the class file ({\tt uwthesis.cls})
-%% or loading
-%% one or more personal style files to customize your thesis.
-%% The latter is usually most convenient, since you do not need
-%% to edit the large and complicated class file.
-%% 
- 
-
+{\bf remember SI and refs.}
 
 % ========== Chapter 4
  

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.24)  26 MAR 2018 19:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.24)  31 MAR 2018 18:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -105,24 +105,24 @@ LaTeX Info: Redefining \] on input line 2736.
 (./montoni_thesis.aux)
 \openout1 = `montoni_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 99.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 98.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 99.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 98.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [-1
@@ -160,19 +160,18 @@ Underfull \vbox (badness 1953) has occurred while \output is active []
 
 
 ]
-[2] [3] [4]
+[2] [3] [4] [5]
 <<2>>
-[5
+
+LaTeX Warning: Citation `Lbook' on page 6 undefined on input line 377.
+
+
+LaTeX Warning: Citation `companion' on page 6 undefined on input line 379.
+
+[6
 
 ]
-
-LaTeX Warning: Citation `Lbook' on page 6 undefined on input line 352.
-
-
-LaTeX Warning: Citation `companion' on page 6 undefined on input line 354.
-
-
-Overfull \hbox (10.33536pt too wide) in paragraph at lines 357--359
+Overfull \hbox (10.33536pt too wide) in paragraph at lines 382--384
 []\OT1/cmr/m/n/12 Although un-nec-es-sary for the-sis writ-ers, the \OT1/cmr/m/
 sl/12 T[]Xbook \OT1/cmr/m/n/12 is the pri-mary ref-er-ence for T[]Xsperts
  []
@@ -184,181 +183,188 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.385   \par}}
+l.410   \par}}
                % end of the footnote
 ? 
 ! Misplaced alignment tab character &.
 <argument> ...infty }\int {\cal S}di = \cases {0,&
                                                   if $i\not \in \RR $;\cr \i...
-l.385   \par}}
+l.410   \par}}
                % end of the footnote
 ? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.385   \par}}
+l.410   \par}}
                % end of the footnote
 ? 
 ! Display math should end with $$.
 <to be read again> 
                    i
-l.385   \par}}
+l.410   \par}}
                % end of the footnote
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.385   \par}}
+l.410   \par}}
                % end of the footnote
 ? 
 ! Misplaced \cr.
 <argument> ... \cases {0,&if $i\not \in \RR $;\cr 
                                                   \infty ,&if $i\in \RR $.\c...
-l.385   \par}}
+l.410   \par}}
                % end of the footnote
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.385   \par}}
+l.410   \par}}
                % end of the footnote
 ? 
 ! Misplaced alignment tab character &.
 <argument> ...0,&if $i\not \in \RR $;\cr \infty ,&
                                                   if $i\in \RR $.\cr }$$ \pa...
-l.385   \par}}
+l.410   \par}}
                % end of the footnote
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.385   \par}}
+l.410   \par}}
                % end of the footnote
 ? 
 ! Misplaced \cr.
 <argument> ...R $;\cr \infty ,&if $i\in \RR $.\cr 
                                                   }$$ \par }\@finalstrut \st...
-l.385   \par}}
+l.410   \par}}
                % end of the footnote
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.385   \par}}
+l.410   \par}}
                % end of the footnote
 ? 
 ! Display math should end with $$.
 <to be read again> 
                    \par 
-l.385   \par}}
+l.410   \par}}
                % end of the footnote
 ? 
 ! Too many }'s.
 \@footnotetext ...rut \strutbox }\color@endgroup }
                                                   
-l.385   \par}}
+l.410   \par}}
                % end of the footnote
 ? 
 
-LaTeX Warning: Citation `book' on page 6 undefined on input line 387.
+LaTeX Warning: Citation `book' on page 7 undefined on input line 412.
 
 
-LaTeX Warning: Citation `Lbook' on page 6 undefined on input line 387.
+LaTeX Warning: Citation `Lbook' on page 7 undefined on input line 412.
 
 
-LaTeX Warning: Citation `companion' on page 6 undefined on input line 388.
+LaTeX Warning: Citation `companion' on page 7 undefined on input line 413.
 
-[6]
 
-LaTeX Warning: Citation `Metafont' on page 7 undefined on input line 407.
+Underfull \vbox (badness 1033) has occurred while \output is active []
 
-[7]
+ [7]
+
+LaTeX Warning: Citation `Metafont' on page 8 undefined on input line 432.
+
+[8]
 <<3>>
 
-LaTeX Warning: Citation `Lbook' on page 8 undefined on input line 428.
+LaTeX Warning: Citation `Lbook' on page 9 undefined on input line 453.
 
 
-LaTeX Warning: Citation `Lbook' on page 8 undefined on input line 514.
+LaTeX Warning: Citation `Lbook' on page 9 undefined on input line 539.
 
 
-Overfull \hbox (6.13837pt too wide) in paragraph at lines 513--517
+Overfull \hbox (6.13837pt too wide) in paragraph at lines 538--542
 []\OT1/cmr/m/n/12 Include most ad-di-tional for-mat-ting pack-ages with []\OT1/
 cmtt/m/n/12 \usepackage\OT1/cmr/m/n/12 , as de-scribe by Lamport[[]].
  []
 
-[8
+[9
 
-] [9]
+] [10]
 
-LaTeX Warning: Citation `Lbook' on page 10 undefined on input line 519.
-
-
-LaTeX Warning: Citation `Lbook' on page 10 undefined on input line 543.
+LaTeX Warning: Citation `Lbook' on page 11 undefined on input line 544.
 
 
-LaTeX Warning: Citation `Lbook' on page 10 undefined on input line 564.
+LaTeX Warning: Citation `Lbook' on page 11 undefined on input line 568.
 
-[10]
 
-LaTeX Warning: Citation `Lbook' on page 11 undefined on input line 647.
+LaTeX Warning: Citation `Lbook' on page 11 undefined on input line 589.
 
-[11] [12] [13] [14]
-Overfull \hbox (5.18024pt too wide) in paragraph at lines 773--773
+[11]
+
+LaTeX Warning: Citation `Lbook' on page 12 undefined on input line 672.
+
+[12] [13] [14] [15]
+Overfull \hbox (5.18024pt too wide) in paragraph at lines 798--798
  []\OT1/cmtt/m/n/12 \acknowledgments{The author wishes . . . {\it il miglior fa
 bbro}.\par}}[] 
  []
 
-[15]
+[16]
 <<4>>
 No file montoni_thesis.bbl.
-[16
+[17
 
 ]
 <<A>>
-[17
+[18
 
-] [18
+] [19
 
 ] (./montoni_thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 1078 strings out of 494953
- 12084 string characters out of 6180977
+ 1097 strings out of 494953
+ 12292 string characters out of 6180977
  66885 words of memory out of 5000000
- 4395 multiletter control sequences out of 15000+600000
- 11467 words of font info for 41 fonts, out of 8000000 for 9000
+ 4406 multiletter control sequences out of 15000+600000
+ 13929 words of font info for 49 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 27i,8n,21p,1358b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,20n,21p,1358b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on montoni_thesis.pdf (27 pages, 298228 bytes).
+fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsl8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on montoni_thesis.pdf (28 pages, 313360 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
+ 199 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

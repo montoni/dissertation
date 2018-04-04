@@ -1,18 +1,17 @@
 \contentsline {chapter}{\@textofLoF }{ii}
 \contentsline {chapter}{Glossary}{v}
 \contentsline {chapter}{\numberline {\@textofChapter \ 1:}Introduction}{1}
-\contentsline {section}{\numberline {1.1}LSPRs as Harmonic Oscillators}{2}
-\contentsline {section}{\numberline {1.2}Multiple Metal Nanoparticles}{3}
-\contentsline {section}{\numberline {1.3}List of publications}{5}
-\contentsline {chapter}{\numberline {\@textofChapter \ 2:}Stimulated Electron Energy-Loss Spectroscopy: Theory and Simulation}{6}
+\contentsline {section}{\numberline {1.1}List of publications}{2}
+\contentsline {chapter}{\numberline {\@textofChapter \ 2:}Plasmons in Clusters of Metal Nanoparticles}{3}
+\contentsline {section}{\numberline {2.1}LSPRs as Harmonic Oscillators}{3}
+\contentsline {section}{\numberline {2.2}Multiple Metal Nanoparticles}{4}
 \contentsline {chapter}{\numberline {\@textofChapter \ 3:}Imaging Energy Transfer in Pt-decorated Au Nanoprisms via Electron Energy-loss Spectroscopy}{7}
 \contentsline {chapter}{\numberline {\@textofChapter \ 4:}Paper 2: Magnetic Plasmons}{21}
-\contentsline {section}{\numberline {4.1}Running}{21}
-\contentsline {section}{\numberline {4.2}Printing}{21}
-\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Supporting Information: Imaging Energy Transfer in Pt-Decorated Au Nanoprisms via Electron Energy-Loss Spectroscopy}{22}
-\contentsline {section}{\numberline {A.1}General Materials and Methods}{22}
-\contentsline {section}{\numberline {A.2}Au Nanoprism Synthesis}{22}
-\contentsline {section}{\numberline {A.3}Pt-decorated Au Nanoprism Synthesis}{23}
-\contentsline {section}{\numberline {A.4}UV-vis-NIR Spectroscopy}{23}
-\contentsline {section}{\numberline {A.5}Transmission Electron Microscopy (TEM)}{23}
-\contentsline {section}{\numberline {A.6}Scanning Electron Microscopy (SEM)}{24}
+\contentsline {chapter}{\numberline {\@textofChapter \ 5:}Stimulated Electron Energy-Loss Spectroscopy: Theory and Simulation}{22}
+\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Supporting Information: Imaging Energy Transfer in Pt-Decorated Au Nanoprisms via Electron Energy-Loss Spectroscopy}{23}
+\contentsline {section}{\numberline {A.1}General Materials and Methods}{23}
+\contentsline {section}{\numberline {A.2}Au Nanoprism Synthesis}{23}
+\contentsline {section}{\numberline {A.3}Pt-decorated Au Nanoprism Synthesis}{24}
+\contentsline {section}{\numberline {A.4}UV-vis-NIR Spectroscopy}{24}
+\contentsline {section}{\numberline {A.5}Transmission Electron Microscopy (TEM)}{24}
+\contentsline {section}{\numberline {A.6}Scanning Electron Microscopy (SEM)}{25}

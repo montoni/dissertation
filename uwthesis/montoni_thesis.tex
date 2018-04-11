@@ -64,7 +64,17 @@
      \def\{{\ttfamily\char`\{}%
      \def\}{\ttfamily\char`\}}}
   {\end{alltt}}
- 
+\newenvironment{ch_abstract}
+{%
+\begin{center}
+\begin{minipage}{\dimexpr\paperwidth-3in}
+}
+{%
+\end{minipage}
+\end{center}
+}
+
+
 % metafont font.  If logo not available, use the second form
 %
 % \font\mffont=logosl10 scaled\magstep1
@@ -85,7 +95,7 @@
 %
 % ----- copyright and title pages
 %
-\Title{Simple Models and Electron Microscopies Describing Aggregates of Metal Nanoparticles}
+\Title{Metal Nanoparticle Clusters and their Electromagnetic Interactions}
 \Author{Nicholas P. Montoni}
 \Year{2018}
 \Program{Department of Chemistry}
@@ -110,7 +120,7 @@
 
 
 \setcounter{page}{-1}
-\abstract{%
+\abstract{
 This sample dissertation is an aid to students who are attempting
 to format their theses with \LaTeX, a sophisticated
 text formatter widely used by mathematicians and scientists everywhere.
@@ -221,70 +231,48 @@ really is not one.
 % ========== Chapter 1
  
 \chapter {Introduction}
- 
-A brief history of plasmonics. Contextualization of my goals, like catalysis and negative-index materials. Cool applications.
 
-When one thinks of a metal, a few images come to mind: electrical wires that power modern technology or a reflection in a mirror. These images arise from the understanding that metals are particularly good conductors; the conduction electrons in metals are generally free to move about uninhibited. This conductivity is what makes mirrors possible. The conduction electrons in a metal will rearrange themselves to screen incoming electric fields, such as those from light. Of course, in reality, no metals are perfect conductors. This means that light actually can penetrate metal up to a distance known as the metal's skin-depth, on the order of 10-100 nanometers. Now, imagine a piece of metal about that size (a nanoparticle is to the reader as the reader is to Earth); an incoming light wave can penetrate the nanoparticle entirely, perfectly polarizing its conduction electrons. For the most part, the electrons are unable to leave the nanoparticle, so they collect on the surface. When the field is removed, the electrons drift back to their equilibrium positions, overshoot, and swing to the opposite surface. This collective and coherent oscillation of the electron plasma is known as a localized surface plasmon resonance (LSPR). For most metal nanoparticles, the LSPR frequency is somewhere between the near IR and the near UV.
+Nanotechnology and photonics are both young, burgeoning fields, at least relative to many other scientific disciplines. Recently, many have attributed interest in nanotechnology to Feynman's ``there's room at the bottom'' speech at the 1954 meeting of the American Physical Society, but the first scientist to actually use the word was Norio Taniguchi of Tokyo University of Science in 1974 [citation needed]. Taniguchi's vision of nanotechnology involved techniques that process, separate, consolidate, and deform materials at the scale of single atoms and molecules [citation needed]. K. Eric Drexler, in 1981, suggested instead that nanotechnology might consist of molecular machines capable of building both copies of themselves and new machines, an approach often called ``molecular manufacturing'' [citation needed]. Similarly, interest in photonics began to arise after the invention of the laser in 1960 [citation needed]. Photonics is often defined as the use of light to transmit information or manipulate materials [citation needed]. In analogy to, and perhaps as a replacement for, electronics, photonics involves control of light on the single photon scale. The union of nanotechnology and photonics, called nanophotonics or nanooptics, is the study of how to manipulate light on the nanometer scale. The work presented here specifically discusses the use of metal nanoparticles (MNPs) and their optical properties.
 
-Though first predicted in 1952 by Bohm and Pines, LSPRs have had great impact on arts and culture since the Gothic movements of Western Europe. The vibrant colors of stained glass are the result of colloidal gold nanoparticles suspended in the glass. The color depends on the particle size and density. But why? Well, that's part of what we're going to learn in this introduction: why the size and aggregation scheme of nanoparticles affect their optical properties. To do this, we'll need to understand the optical properties of individual nanoparticles and investigate how nanoparticles interact in aggregates. Not only will this explain the phenomenon responsible for the colors of stained glass, but it will also inform the description and characterization of metal nanoparticle aggregates that make up the main text of this thesis.
+Let us first think of what nano- really means, both in general and in terms of metals. When one thinks of a metal, a few images come to mind: electrical wires that bring power to our devices, a mirror, or a shiny set of silverware. These images remind us that metals are particularly good conductors; the conduction electrons in metals are generally free to move about uninhibited. This conductivity is what charges a mobile phone and makes mirrors and silverware so shiny. Ideally, the conduction electrons in a metal will rearrange themselves to perfectly screen incoming electric fields, such as those carried by light. Of course, in reality, no metals are perfect conductors. This means that light actually can penetrate metal up to a distance known as the metal's skin-depth, on the order of 10-100 nanometers. Now, imagine a piece of metal about that size (a nanoparticle is to the reader as the a penny is to Earth); an incoming light wave can penetrate the MNP entirely, perfectly polarizing its conduction electrons. For the most part, the electrons are unable to leave the MNP, so they collect on the surface. When the field is removed, the electrons drift back to their equilibrium positions, overshoot, and swing to the opposite surface. This collective and coherent oscillation of the electron plasma is known as a localized surface plasmon resonance (LSPR). For most metal nanoparticles, the LSPR frequency is somewhere between the near IR and the near UV.
 
-\section{List of publications}
-
-1. Alpha-terpinene
-2. Imaging hybridization
-3. AuPt
-4. Magnetic Hybridization 
-5. Landau damping
-6. Tunable magnetic plasmons
-7? SEELS?
-
-\chapter{Plasmons in Clusters of Metal Nanoparticles}
+They may sound like a creature from {\it Star Trek}, but LSPRs are in no way science fiction. Though first predicted in 1952 by Bohm and Pines, LSPRs have had great impact on arts and culture since the Gothic movements of Western Europe. The vibrant colors of stained glass are the result of colloidal gold nanoparticles suspended in the glass. The color depends on the particle size and density. But why? Well, that's part of what we're going to learn in this introduction: why the size and aggregation scheme of nanoparticles affect their optical properties. To do this, we'll need to understand the optical properties of individual nanoparticles and investigate how nanoparticles interact in aggregates. Not only will this explain the phenomenon responsible for the colors of stained glass, but it will also inform the description and characterization of metal nanoparticle aggregates that make up the main text of this thesis.
 
 \section{LSPRs as Harmonic Oscillators}
 
 In order to understand the harmonic oscillator dynamics of a metal nanosphere, we must consider its polarizability,
-
 \begin{equation}
 \alpha(\omega) = a^3\frac{\ell(\varepsilon(\omega)-\varepsilon_b)}{\ell(\varepsilon(\omega)+\varepsilon_b)+\varepsilon_b}.
 \label{polarizability_1}
 \end{equation}
-
-This is the frequency-dependent polarizability from the Clausius-Mossotti relation, defined by frequency-dependent dielectric function 
-
+This is the frequency-dependent polarizability from the Clausius-Mossotti relation for the $\ell$th multipole moment of a spherical inclusion of radius $a$ in a background with dielectric constant $\varepsilon_b$.  The spherical inclusion has frequency-dependent dielectric function 
 \begin{equation}
 \varepsilon(\omega) = \varepsilon_{\infty} - \frac{\omega_p^2}{\omega^2+\textrm{i}\gamma\omega}
 \label{dielectric}
 \end{equation}
-
-where $\omega_p^2 = 4\pi ne^2/m$ is the plasma frequency and $\gamma$ is the bulk damping rate. Plugging Equation~\ref{dielectric} into Equation~\ref{polarizability_1} and doing some algebra, we can coax the polarizability into a slightly more useful form. We will also, for now, set $\ell = 1$ because we are only considering the dipole response of the sphere, and we will also set $\varepsilon_b = 1$ because we are concerned only with spheres in vacuum.
-
+where $\omega_p^2 = 4\pi ne^2/m_e$ is the plasma frequency for a gas of electrons of number density $n$ and mass $m_e$, $\gamma$ is the bulk damping rate, and $\varepsilon_{\infty}$ is the high-frequency dielectric constant of the MNP. We are most interested in the dynamics of the dipole moments of spheres in vacuum, so we set $\ell = 1$ and $\varepsilon_b = 1$. Plugging Eq. \ref{dielectric} into Eq. \ref{polarizability_1} the polarizability takes on a slightly more useful form
 \begin{equation}
-\alpha(\omega) = a^3\left[\frac{\left(\omega^2+\textrm{i}\gamma\omega\right)\left(\frac{\varepsilon_{\infty}-1}{\varepsilon_{\infty}+2}\right)-\omega_{\textrm{sp}}^2}{\omega^2+\textrm{i}\gamma\omega-\omega_{\textrm{sp}}^2}\right]
+\alpha(\omega) = a^3\left[\frac{\left(\omega^2+\textrm{i}\gamma\omega\right)\left(\frac{\varepsilon_{\infty}-1}{\varepsilon_{\infty}+2}\right)-\omega_{\textrm{sp}}^2}{\omega^2+\textrm{i}\gamma\omega-\omega_{\textrm{sp}}^2}\right].
 \label{polarizability_2}
 \end{equation}
-
-Here, $\omega_{\textrm{sp}}^2 = \omega_p^2/\varepsilon_{\infty}+2$ is the surface plasmon frequency for a dipole. Now that we have this rather complicated-looking function of frequency, we want to know a bit about the behavior of the polarizability in the time domain. In order to do that, we're going to Fourier transform the polarizability. However, the denominator of the polarizability contains two poles, so we're going to have to do a contour integral using the residue theorem to actually compute the Fourier transform. Equation~\ref{polarizability_2} has poles at $\omega = -\textrm{i}\gamma/2 \pm \sqrt{\omega_\textrm{sp}^2-\gamma^2/4}$. We are trying to find
-
+Here, $\omega_{\textrm{sp}}^2 = \omega_p^2/\varepsilon_{\infty}+2$ is the surface plasmon frequency for the dipole LSPR of a sphere. In order to learn something about the time-dependent response of the dipole LSPR, we will perform a Fourier transform. Note that Eq. \ref{polarizability_2} has two poles in the complex plane, specifically at $\omega = -\textrm{i}\gamma/2 \pm \sqrt{\omega_\textrm{sp}^2-\gamma^2/4}$, meaning that in order to perform this Fourier transform we will need to do a contour integral using the residue theorem. The time-dependent response of the dipole LSPR is related to the response of the polarizability
 \begin{equation}
-\alpha(t) = \int_{-\infty}^{\infty}\frac{d\omega}{2\pi}\alpha(\omega)e^{\textrm{i}\omega t} = 2\pi\textrm{i}\sum\textrm{Res}
+\alpha(t-t') = \int_{-\infty}^{\infty}\frac{d\omega}{2\pi}\alpha(\omega)e^{\textrm{i}\omega (t-t')} = 2\pi\textrm{i}\sum\textrm{Res}
 \label{res_theorem}
 \end{equation}
-
-Because it has two poles, the integrand in Equation~\ref{res_theorem} has two residues
-
+Because it has two poles, the integrand in Eq. \ref{res_theorem} has two residues
 \begin{equation}
-R_{\pm} = \pm\frac{1}{2\pi}\frac{\omega_{\textrm{sp}}^2\left(\frac{\varepsilon_{\infty}-1}{\varepsilon_{\infty}+2}-1\right)}{2\sqrt{\omega_\textrm{sp}^2-\gamma^2/4}}e^-{\gamma t/2}e^{\pm\textrm{i}\sqrt{\omega_\textrm{sp}^2-\gamma^2/4}t}
+R_{\pm} = \pm\frac{1}{2\pi}\frac{\omega_{\textrm{sp}}^2\left(\frac{\varepsilon_{\infty}-1}{\varepsilon_{\infty}+2}-1\right)}{2\sqrt{\omega_\textrm{sp}^2-\gamma^2/4}}e^-{\gamma (t-t')/2}e^{\pm\textrm{i}\sqrt{\omega_\textrm{sp}^2-\gamma^2/4}(t-t')}
 \label{residues}
 \end{equation}
-
-Plugging each of the residues into the residue theorem, doing some algebra, and remembering that $ 2\textrm{i}\textrm{sin}(\phi) = e^{\textrm{i}\phi} - e^{\textrm{i}\phi} $, results in the following expression for the polarizability.
-
+Plugging each residue from Eq. \ref{residues} into the Eq. \ref{res_theorem} and using the identity $2\textrm{i}\textrm{sin}(\xi) = e^{\textrm{i}\xi} - e^{-\textrm{i}\xi}$, results in the following expression for the polarizability.
 \begin{equation}
-\alpha(t) = a^3\left(\frac{3}{\varepsilon_{\infty}+2}\right)\frac{\omega_{\textrm{sp}}^2}{\sqrt{\omega_\textrm{sp}^2-\gamma^2/4}}e^{-\gamma t/2}sin(\sqrt{\omega_\textrm{sp}^2-\gamma^2/4}t)
+\alpha(t-t') = a^3\left(\frac{3}{\varepsilon_{\infty}+2}\right)\frac{\omega_{\textrm{sp}}^2}{\sqrt{\omega_\textrm{sp}^2-\gamma^2/4}}e^{-\gamma (t-t')/2}\textrm{sin}\left[\sqrt{\omega_{\textrm{sp}}^2-\gamma^2/4}(t-t')\right]
 \label{polar_time}
 \end{equation}
+Equation~\ref{polar_time} has two important pieces. The first is the sinusoidal term, oscillating at frequency $\sqrt{\omega_\textrm{sp}^2-\gamma^2/4}$. The second is the exponential term, decaying with width $\gamma/2$. These two terms show that a plasmon has time dynamics consistent with a damped harmonic oscillator. Putting in Drude model parameters allows us to compute the time-dependent response of a dipole plasmon for different metals.
 
-Equation~\ref{polar_time} has two important pieces. The first is the sinusoidal term, oscillating at frequency $\sqrt{\omega_\textrm{sp}^2-\gamma^2/4}$. The second is the exponential term, decaying with width $\gamma/2$. These two terms show that a plasmon has time dynamics consistent with a harmonic oscillator. Now that we understand how one dipole plasmon behaves, let us move on to considering multiple.
+Figures! 
 
 \section{Multiple Metal Nanoparticles}
 
@@ -314,16 +302,23 @@ U = e^2q^2\left(\frac{1}{s^3}-\frac{\textrm{i}k}{s^2}-\frac{k^2}{s}\right)e^{\te
 \end{equation}
 The interaction energy now has terms that depend on $k$, and through that, the oscillation frequency $\omega$. Also interesting to note is that each term carries a different sign and the entire energy carries a complex exponential. So, as a function of increasing separation distance, the individual terms in the interaction energy will change character from attractive to repulsive. To see how including retardation impacts the interaction energies between the dipole pairs, see Fig. blank. The significance of retardation effects in larger assemblies will be expanded upon in Chapter 5. In fact, we will discuss that the interaction energy depends on the collective frequency, which in turn depends on the interaction energy, requiring a self-consistent solution.
 
-The insight gained from this exercise is that the "bonding" or "anti-bonding" character of an arrangement of dipoles actually depends on the separation distance between the dipoles and their collective frequency. In Chapter 3 we will see how the distance- and location-dependence of Equation \ref{quasi_int} impacts the plasmonic spectrum of mixed-metal plasmonic aggregates. In Chapter 4, we will see that introducing retardation effects into the interaction is the only way to accurately describe larger nanoparticle clusters, especially when they have siginificant magnetic responses.
+The insight gained from this exercise is that the "bonding" or "anti-bonding" character of an arrangement of dipoles actually depends on the separation distance between the dipoles and their collective frequency. In Chapter 2 we will see how the distance- and location-dependence of Equation \ref{quasi_int} impacts the plasmonic spectrum of mixed-metal plasmonic aggregates. In Chapter 3, we will see that introducing retardation effects into the interaction is the only way to accurately describe larger nanoparticle clusters, especially when they have siginificant magnetic responses.
 
- 
+\section{List of publications}
+
+1. Imaging hybridization
+2. AuPt
+3. Magnetic Hybridization 
+4. Landau damping
+5. Tunable magnetic plasmons
+6. SEELS.
 % ========== Chapter 2
  
 \chapter{Imaging Energy Transfer in Pt-decorated Au Nanoprisms via Electron Energy-loss Spectroscopy}
- 
-{\bf Abstract}
 
+\begin{ch_abstract}
 Driven by the desire to understand energy transfer between plasmonic and catalytic metals for applications such as plasmon-mediated catalysis, we examine the spatially resolved electron energy-loss spectra (EELS) of both pure Au nanoprisms and Pt-decorated Au nanoprisms. The EEL spectra and the resulting surface-plasmon mode maps reveal detailed near-field information on the coupling and energy transfer in these systems, thereby elucidating the underlying mechanism of plasmon-driven chemical catalysis in mixed-metal nanostructures. Through a combination of experiment and theory we demonstrate that although the location of the Pt decoration greatly influences the plasmons of the nanoprism, simple spatial proximity is not enough to induce significant energy transfer from the Au to the Pt. What matters more is the spectral overlap between the intrinsic plasmon resonances of the Au nanoprism and Pt decoration, which can be tuned by changing the composition or morphology of either component.
+\end{ch_abstract}
 
 Localized surface plasmon resonances (LSPRs), the quantized oscillation of the free electron gas in metal nanoparticles, underlie a variety of applications ranging from surface-enhanced spectroscopy(1-5) and sensing(6, 7) to solar energy harvesting.(8-11) Plasmons in noble metals commonly occur in the visible part of the spectrum and can focus light to subdiffraction limited spots, thereby converting light energy from the far-field into the near-field. The exceptionally large polarizability of nanoparticles at the resonance frequency of the LSPR results in absorption cross sections that can be more than an order of magnitude larger than the particle’s physical size. There is great interest, therefore, in utilizing this light-harvesting property to drive chemical reactions(12-15) or improve solar device efficiency.(8, 10, 16) There is also a growing body of evidence indicating that LSPR excitation can drive otherwise unfavorable reactions such as the conversion of 4-aminothiophenol (4ATP) to 4,4′-dimercaptoazobenzene (DMAB),(12, 17, 18) H2 dissociation on Au,(15) liquid water splitting,(19-21) hydrocarbon conversion,(22) and gas-phase oxidation.(23)
 
@@ -345,7 +340,6 @@ Figures 1 and 2 display the high-angle annular dark-field (HAADF) images and com
 \caption{(A-C) Experiments and simulations for a bare Au nanoprism, 195 nm edge length and 10 nm in thickness, supported on a Si3N4 membrane. (A) HAADF; (B) Experimentally measure EEL maps for loss-energies representing corner, edge, and facial plasmon modes; (C) Simulated EEL maps. (D-F) Experiments and simulations for a Au nanoprism, 198 nm edge length and 10 nm in thickness, decorated with a 40 nm diameter Pt nanoparticle supported on a Si3N4 membrane. (D) HAADF; (E) Experimentally measure EEL maps for loss-energies representing corner, edge, facial, and Pt plasmon modes; (F) Simulated EEL maps. Note that the low-energy mode structure is conserved between the decorated and undecorated particles due to the three-fold symmetry when Pt is at the center of the prism. Experimental and calculated loss energies for each mode differ as simulations are calculated in vacuum.}
 \label{modes_center}
 \end{figure}
-
 
 Figures 1b and 2b show that the plasmon modes of the bare prisms evolve from dipoles localized to the corners, through those on the edges, and finally into multipolar modes as a function of increasing energy, which is in excellent agreement with previous EELS studies of plasmonic nanoprisms.(35, 36) Interestingly, a comparison of the mode maps resulting from decorated and undecorated prisms (Figure 1b,e) shows minimal changes to the mode structure upon addition of the Pt particle. The most notable difference is seen in the splitting of the dipolar mode of the bare Au nanoprism, where the presence of the Pt particle breaks the degeneracy of the dipole mode (vide infra) (Figure 1b,e). Figure 2b,e illustrates that the structure of the higher-energy modes is not strongly dependent on the Pt particle location, as the EEL maps in Figures 1b,e and 2b,e are similar. Lastly, we are able to experimentally map the LSPR of the Pt decoration at a higher energy than the modes of the nanoprism (Figures 1e and 2e).
 
@@ -389,11 +383,10 @@ Additionally, along the white dotted line, the fields are plotted for the dipole
 \label{field_side}
 \end{figure}
 
-
 Turning to the field magnitude in the junction at the energy of the prism-localized dipoles (Figure 6a,b), we see that the field is much larger in the Au+Pt junction than in the Al+Pt junction. This means that the junction field in the Au+Pt systems is dominated by the response of the Au nanoprism. Conversely, at the energy of the Pt-localized dipole (Figure 6c,d), the junction field in the Al+Pt system is much larger than that of Au+Pt. These observations are again reinforced by the electric field magnitudes presented in Figure 6e,f, which are computed along lines (white) running through the junction. Taken together, Figures 4–6 indicate a relationship between EEL probability and the strength of the near electric fields surrounding the mixed-metal systems observed in this Letter. These junction fields show that the high-energy modes of the nanoprism are more effectively coupled to the Pt dipole plasmon in Al+Pt than in Au+Pt; therefore, a greater capacity for plasmon-mediated chemical catalysis is predicted in the Al+Pt system. Utilizing the electric near-field simulations and data obtained through experiment and calculations, we show that these plasmonic-catalytic metal systems should drive plasmon-assisted reactions.
 This work shows through electrodynamics simulations and experimental EELS the extent to which Au nanoprisms decorated with Pt deposits can transfer energy. EELS demonstrates that Pt changes the mode structure of the Au nanoprism, especially depending on the location of the Pt. Even though we show weak coupling between Au and Pt, we determine stronger coupling can be observed in systems where the LSPRs spectrally overlap. In a system such as Al+Pt, the LSPRs of Al and Pt exhibit more spectral overlap because both metals support LSPRs in the ultraviolet regime.
 
-{\bf methods}
+\section{Methods}
 
 In a typical synthesis, fully described in the Supporting Information, reduction of H2PtCl6 on the surface of AUT (11-amino-1-undecanethiol hydrochloride)-conjugated nanoprisms resulted in the growth of approximately 1–3 Pt nanoparticles (average diameter of 30 ± 5 nm) per Au nanoprism substrate. Using high-resolution transmission electron microscopy (HRTEM), it was found that the Pt nanoparticles had a dendritic morphology (SI Figure 3). Interestingly, nucleation of the Pt nanoparticles occurred predominantly on the edges and vertices of the Au nanoprisms, likely due to the higher concentration of defects in the self-assembled monolayer at these sites.(48)
 Post-synthesis, Au nanoprisms and Pt-decorated Au nanoprisms were sonicated for 5 min and 2.5 μL of each NP solution was drop-cast onto two separate (S)TEM compatible Si3N4 substrates with 30 nm thick membrane acquired from SPI Supplies. These samples were covered to eliminate contamination and left to air-dry for 3 h prior to EELS acquisition. EEL spectra were acquired in a monochromated Carl Zeiss Libra 200MC (S)TEM operated with an accelerating voltage of 200 kV. Each spectrum acquisition was executed with a collection semiangle of 12 mrad, a convergence semiangle of 9 mrad, and a dispersion of 29 meV per channel. Energy resolution, defined as the full width at half-maximum of the zero-loss peak, for each acquisition is 150 meV with the electron beam probing only the Si3N4 membrane. For each nanoprism, EEL spectrum images responsible for producing LSPR mode maps were collected by defining a region of interest (ROI) around the particle with dimensions 34 × 29 pixels, where 1 pixel is ∼3.3 × 3.3 nm2.
@@ -407,11 +400,50 @@ For simulations, we applied the Metal Nanoparticle Boundary Element Method (MNPB
  
 % ========== CHapter 4
 
-\chapter{Stimulated Electron Energy-Loss Spectroscopy: Theory and Simulation}
+\chapter{Conclusion and Future Work}
 
-Just copy in the SEELS notes.
- 
-And make figures that don't suck!
+Conclusion conclusion conclusion
+
+\section{Future Work: Photon-Assisted Electron Spectroscopies}
+
+\subsection{First- and Second-order Fermi's Golden Rule}
+
+Fermi's Golden Rule in first order takes the form
+\begin{equation}
+\Gamma_{fi} = \frac{2\pi}{\hbar^2}|\langle f |H_{\textrm{int}}| i \rangle |^2 \delta(\omega_f - \omega_i).
+\label{FGR_1}
+\end{equation}
+Here, $\Gamma_{fi}$ is rate at which the system moves from state $i$ to state $f$, $H_{\textrm{int}}$ is the interaction Hamiltonian, and the delta function enforces conservation of energy. In a system with only one perturbation or interaction, computation of the transition rate mediated by that perturbation is straightforward. However, we are interested in a system under the influence of multiple perturbations, specifically a MNP being probed both by light and by a passing electron. THe choice of Fock states matters, but for now we leave them unspecified. Allowing $H_{\textrm{int}} = H_1 + H_2$, Eq. \ref{FGR_1} becomes
+\begin{equation}
+\begin{aligned}
+\Gamma_{fi} &= \frac{2\pi}{\hbar^2}|\langle f |H_1 + H_2| i \rangle |^2 \delta(\omega_f - \omega_i)\\
+&= \frac{2\pi}{\hbar}\left[|\langle f |H_1| i \rangle + \langle f |H_2| i \rangle |^2\right] \delta(\omega_f - \omega_i)\\
+& = \frac{2\pi}{\hbar}\left[|\langle f|H_1|i \rangle|^2 + |\langle f|H_2|i \rangle|^2 + \langle f|H_1|i \rangle \langle i|H_2|f \rangle + \langle f|H_2|i \rangle \langle i|H_1|f \rangle\right]\delta(\omega_f - \omega_i)
+\label{FGR_1_expanded}
+\end{aligned}
+\end{equation}
+Of course, $H_1$ and $H_2$ correspond to two different transitions to two different final Fock states, i.e., the third and fourth terms of Eq. \ref{FGR_1_exapnded} are necessarily zero. The two non-zero rates are mediated by $H_1$ and $H_2$ separately. If $H_1 = H_\textrm{el-pl}$ and $H_2 = H_{\textrm{ph-pl}}$, then the first rate is the EELS rate and the second rate is the absorption rate.
+
+Fermi's Golden Rule for second order transitions looks similar to that for first order transitions:
+\begin{equation}
+\Gamma_{fi} = \frac{2\pi}{\hbar^4}\left|\sum_{m}\frac{\langle f |H_{\textrm{int}}| m \rangle \langle m |H_{\textrm{int}}| i \rangle }{\omega_f-\omega_i}\right|^2 \delta(\omega_f - \omega_i).
+\label{FGR_2}
+\end{equation}
+Again the Hamiltonian has two terms, $H_{\textrm{int}} = H_1 + H_2$. Wrapping the prefactor, denominator, and delta function together into $A$ to focus on the matrix elements, the rate becomes
+\begin{equation}
+\begin{aligned}
+\Gamma_{fi} &= A|\langle f |H_1 + H_2| m \rangle \langle m |H_1 + H_2| i \rangle|^2\\
+&= A|(\langle f |H_1| m \rangle + \langle f |H_2| m \rangle) (\langle m |H_1| i \rangle + \langle m |H_2| i \rangle)|^2\\
+&= A(|\langle f |H_1| m \rangle \langle m |H_1| i \rangle|^2 + |\langle f |H_2| m \rangle \langle m |H_2| i \rangle|^2\\
+&+ |\langle f |H_1| m \rangle \langle m |H_2| i \rangle|^2 + |\langle f |H_2| m \rangle \langle m |H_1| i \rangle|)^2
+\label{FGR_2_2}
+\end{aligned}
+\end{equation}
+For the same reasons as in the discussion of the first order rates, the cross-terms not shown are equal to zero, because $H_1$ and $H_2$ correspond to different transitions with different intermediate and final states. If we now let $H_1 = H_\textrm{el-pl}$ and $H_2 = H_{\textrm{ph-pl}}$, the first term is $\Gamma_{\textrm{EELS}}^{(2)}$, the second term is $\Gamma_{\textrm{abs}}^{(2)}$, the third term is $\Gamma_{\textrm{EEGS}}$ or is related to $\Gamma_{\textrm{SEELS}}$, and the final term is $\Gamma_{\textrm{CL}}$.
+
+\subsection{Quantum-Mechanical Description of EELS, EEGS, SEELS, and CL}
+
+\subsection{Classical Description of EELS}
 
 %
 % ==========   Bibliography

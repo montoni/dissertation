@@ -445,6 +445,106 @@ For the same reasons as in the discussion of the first order rates, the cross-te
 
 \subsection{Classical Description of EELS}
 
+A common way to compute the EELS rate is by calculating the induced field of the plasmon and having it act on the passing electron via [citation needed]
+\begin{equation}
+\Gamma_{\textrm{EELS}}(\textbf{r},\omega) = \frac{e}{\pi\hbar\omega}\int dt \textrm{Re}\left\{ e^{-\textrm{i}\omega t} \textbf{v} \cdot \textbf{E}_{\textrm{ind}}(\textbf{r},\omega)\right\}.
+\label{eels_rate_bem_1}
+\end{equation}
+Here, $\textbf{v}$ is the velocity of the electron. It will be more convenient to write the EELS rate in terms of the electron electric field and the induced dipole moment of the plasmon. First, the induced field is written in terms of induced potentials
+\begin{equation}
+\begin{aligned}
+\textbf{E}_{\textrm{ind}} &= -\nabla\phi_{\textbf{ind}} - \frac{\dot{\textbf{A}}_{\textrm{ind}}}{c}\\
+&= -\nabla\phi_{\textrm{ind}} + \textrm{i}k\textbf{A}_{\textrm{ind}}.
+\label{field_induced}
+\end{aligned}
+\end{equation}
+The induced scalar potential $\phi_{\textrm{ind}}$ and vector potential $\textbf{A}_{\textrm{ind}}$ are related to the induced charge and current densities, respectively
+\begin{equation}
+\begin{aligned}
+&\phi(\textbf{x},\omega) = \int d^3x' \frac{e^{\textrm{i}k|\textbf{x}-\textbf{x}'|}}{|\textbf{x}-\textbf{x}'|}\rho(\textbf{x}',\omega)\\
+&\textbf{A}(\textbf{x},\omega) = \int d^3x' \frac{e^{\textrm{i}k|\textbf{x}-\textbf{x}'|}}{|\textbf{x}-\textbf{x}'|}\frac{\textbf{J}(\textbf{x}',\omega)}{c}.
+\label{potentials}
+\end{aligned}
+\end{equation}
+Defining $t = z/v$, $dt = dz/v$, and $q = \omega/v$, and plugging Eq. \ref{potentials} and \ref{field_induced} into Eq. \ref{eels_rate_bem_1}, the EELS rate becomes
+\begin{equation}
+\Gamma_{\textrm{EELS}} = \frac{e}{v\pi\hbar\omega}\int dz \textrm{Re}\left\{ e^{-\textrm{i}qz} \textbf{v} \cdot \left[\int d^3x' \left(-\nabla\frac{e^{\textrm{i}k|\textbf{x}-\textbf{x}'|}}{|\textbf{x}-\textbf{x}'|}\rho(\textbf{x}',\omega)\right) + \textrm{i}k\left(\frac{e^{\textrm{i}k|\textbf{x}-\textbf{x}'|}}{|\textbf{x}-\textbf{x}'|}\frac{\textbf{J}(\textbf{x}',\omega)}{c}\right)\right]\right\}.
+\label{eels_with_potentials}
+\end{equation}
+Defining the Green's function $e^{\textrm{i}k|\textbf{x}-\textbf{x}'}/|\textbf{x}-\textbf{x}'| = 4\pi G(\textbf{x},\textbf{x}')$ allows us to write down a pseudo-potential $\psi = \int dz e^{-\textrm{i}qz} G(\textbf{x},\textbf{x}')$. Integrating by parts, we can move the gradient in Eq. \ref{}
+
+\begin{equation}
+\int dz e^{-\textrm{i}qz} \nabla G(\textbf{x},\textbf) = e^{-\textrm{i}qz} G(\textbf{x},\textbf{x}') \Big|_{-\infty}^{\infty} + \textrm{i}q \psi
+\label{psi_integral}
+\end{equation}
+
+We can actually rewrite $\psi$ in terms of the Fourier transform of $G$, which will help us take the integral in $z$.
+
+\begin{equation}
+\begin{aligned}
+\psi &= \int dz e^{-\textrm{i}qz} G(\textbf{x},\textbf{x}')\\ 
+&= \int dz e^{-\textrm{i}qz} \int \frac{d^3k'}{(2\pi)^3} \frac{4\pi}{k'^2 - k^2} e^{\textrm{i}\textbf{k}'\cdot(\textbf{x}-\textbf{x}')}\\
+&= \int \frac{d^3k'}{(2\pi)^3} \frac{4\pi}{k'^2 - k^2} e^{\textrm{i}[k'_x(x-x')+k'_y(y-y')-k'_zz']} \int dz e^{-\textrm{i}(q-k'_z)z}\\
+&= \int \frac{d^3k'}{(2\pi)^3} \frac{4\pi}{k'^2 - k^2} e^{\textrm{i}[k'_x(x-x')+k'_y(y-y')-k'_zz']} 2\pi\delta(q-k'_z)\\
+&= \int \frac{d^3k'}{(2\pi)^3} \frac{4\pi}{k'^2 - k^2} e^{\textrm{i}\textbf{k}'\cdot(\textbf{x}_{\perp}-\textbf{x}')} 2\pi v \delta(\omega-\textbf{v}\cdot\textbf{k}')
+\end{aligned}
+\end{equation}
+
+So, let's rewrite the EELS rate just so we know where we are.
+
+\begin{equation}
+\Gamma_{\textrm{EELS}} = \frac{4e}{v\hbar\omega}\textbf{v}\cdot\textrm{Re}\int d^3x' \psi(\textbf{x}_{\perp},\textbf{x}',\omega) \left[-\textrm{i}q\rho(\textbf{x}',\omega)\hat{\textbf{z}} + \textrm{i}k\frac{\textbf{J}(\textbf{x}',\omega)}{c}\right]
+\end{equation}
+
+Again, the ultimate goal here is to get the EELS rate in terms of the electron electric field and the induced dipole moments. Well, we can rewrite the induced charge density and current density in terms of induced dipole moments like so
+
+\begin{equation}
+\begin{aligned}
+\rho(\textbf{x}',\omega) = \textbf{d}\cdot\nabla_{r}\delta(\textbf{x}'-\textbf{r})&\\
+\textbf{J} = \textrm{i}\omega\textbf{d}\delta(\textbf{x}'-\textbf{r})&
+\end{aligned}
+\end{equation} 
+
+Let's put these definitions into the EELS rate.
+
+\begin{equation}
+\Gamma_{\textrm{EELS}} = \frac{4e}{v\hbar\omega}\textbf{v}\cdot\textrm{Re}\int d^3x' \psi(\textbf{x}_{\perp},\textbf{x}',\omega) \left[-\textrm{i}q \textbf{d}\cdot\nabla_{r}\delta(\textbf{x}'-\textbf{r})\hat{\textbf{z}} + \textrm{i}k\frac{\textrm{i}\omega\textbf{d}\delta(\textbf{x}'-\textbf{r})}{c}\right]
+\end{equation}
+
+Recognizing that $\psi\textbf{d}\cdot\nabla_r\delta(\textbf{x}'-\textbf{r}) = \textbf{d}\cdot(\nabla_r\psi)\delta(\textbf{x}'-\textbf{r})$, we can evaluate the volume integral resulting in $\textbf{x}' \rightarrow \textbf{r}$. Also, we can evaluate $\nabla_r\psi(\textbf{x}_{\perp},\textbf{r},\omega) = -\textrm{i}\textbf{k}'\psi(\textbf{x}_{\perp},\textbf{r},\omega)$. The EELS rate becomes
+
+\begin{equation}
+\Gamma_{\textrm{EELS}} = \frac{4e}{v\hbar\omega}\textbf{v}\cdot \textrm{Re}\psi(\textbf{x}_{\perp},\textbf{r},\omega) \left[(\textrm{i}q)(\textrm{i}\textbf{k}') \cdot \textbf{d}\hat{\textbf{z}} - (\textrm{i}k)(\textrm{i}k')\textbf{d}\right]
+\end{equation}
+
+Let's notice a few more things. Since the electron has momentum only in the z-direction, $q\hat{\textbf{z}} = \textbf{q}$. Let's also write out $\psi$ in full:
+
+\begin{equation}
+\begin{aligned}
+\Gamma_{\textrm{EELS}} &= \frac{4e}{v\hbar\omega}\textbf{v}\cdot \textrm{Re}\int \frac{d^3k'}{(2\pi)^3} \frac{4\pi}{k'^2 - k^2} e^{\textrm{i}\textbf{k}'\cdot(\textbf{x}_{\perp}-\textbf{r})} 2\pi v \delta(\omega-\textbf{v}\cdot\textbf{k}') \left[(\textrm{i}\textbf{q})(\textrm{i}\textbf{k}') \cdot \textbf{d} - (\textrm{i}k)(\textrm{i}k)\textbf{d}\right]\\
+&= \frac{4\textrm{i}e}{\pi\hbar} \textrm{Im}\int d^3q \frac{\textbf{q} - k\textbf{v}/c}{q^2 - k^2} \cdot \textbf{d} \delta(\omega - \textbf{v} \cdot \textbf{q})\\
+&= \frac{4}{\hbar}\textrm{Im}\left\{ \textbf{E}_{\textrm{el}} \cdot \textbf{d}_{\textrm{ind}}\right\}
+\end{aligned}
+\end{equation}
+
+\section{What I have coded}
+
+I have coded the EELS rate, except I add the surface charges (equivalently, the fields) from both a planewave source and an e-beam source. The EELS rate
+
+\begin{equation}
+\Gamma_{\textrm{EELS}} = \frac{1}{\pi\hbar\omega} \int dt \textrm{Re}\{e^{-\textrm{i}\omega t} \dot{\textbf{d}}_{\textrm{ind}} \cdot \textbf{E}_{\textrm{el}} \} .
+\label{eels_1}
+\end{equation}
+
+Assuming that $\textbf{d}_{\textrm{ind}}$ is induced by both light and the electron and that it oscillates at frequency $\omega$ I rewrite the EELS rate as
+
+\begin{equation}
+\Gamma_{\textrm{EELS}} = \frac{1}{\pi\hbar\omega} \int dt \textrm{Re}\{e^{-\textrm{i}\omega t} \frac{d}{dt}[\alpha(\textbf{E}_\textrm{el} + \textbf{E}_{\textrm{ph}})] \cdot \textbf{E}_{\textrm{el}} \}.
+\label{eels_2}
+\end{equation}
+
+That time derivative is likely not trivial (but perhaps in the case of white light it kicks down a factor of $\textrm{i}\omega$ if the dipole oscillates at frequency $\omega$). However, the above equation shows that adding a light source to an EELS experiment leads to an observable that is proportional to $(\textbf{E}_{\textrm{el}}\cdot\textbf{E}_{\textrm{el}})+(\textbf{E}_{\textrm{el}}\cdot\textbf{E}_{\textrm{ph}})$. The literature claims this is SEELS (or PAEELS, or PINEM).
+
 %
 % ==========   Bibliography
 %

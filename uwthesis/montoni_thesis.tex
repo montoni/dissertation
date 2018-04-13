@@ -471,62 +471,56 @@ Defining $t = z/v$, $dt = dz/v$, and $q = \omega/v$, and plugging Eq. \ref{poten
 \Gamma_{\textrm{EELS}} = \frac{e}{v\pi\hbar\omega}\int dz \textrm{Re}\left\{ e^{-\textrm{i}qz} \textbf{v} \cdot \left[\int d^3x' \left(-\nabla\frac{e^{\textrm{i}k|\textbf{x}-\textbf{x}'|}}{|\textbf{x}-\textbf{x}'|}\rho(\textbf{x}',\omega)\right) + \textrm{i}k\left(\frac{e^{\textrm{i}k|\textbf{x}-\textbf{x}'|}}{|\textbf{x}-\textbf{x}'|}\frac{\textbf{J}(\textbf{x}',\omega)}{c}\right)\right]\right\}.
 \label{eels_with_potentials}
 \end{equation}
-Defining the Green's function $e^{\textrm{i}k|\textbf{x}-\textbf{x}'}/|\textbf{x}-\textbf{x}'| = 4\pi G(\textbf{x},\textbf{x}')$ allows us to write down a pseudo-potential $\psi = \int dz e^{-\textrm{i}qz} G(\textbf{x},\textbf{x}')$. Integrating by parts, we can move the gradient in Eq. \ref{}
-
+Defining the Green's function $e^{\textrm{i}k|\textbf{x}-\textbf{x}'}/|\textbf{x}-\textbf{x}'| = 4\pi G(\textbf{x},\textbf{x}')$ allows us to write down a pseudo-potential $\psi = \int dz e^{-\textrm{i}qz} G(\textbf{x},\textbf{x}')$. Integrating by parts deals with the gradient in Eq. \ref{eels_with_potentials} by moving it to $\psi$ as follows: 
 \begin{equation}
-\int dz e^{-\textrm{i}qz} \nabla G(\textbf{x},\textbf) = e^{-\textrm{i}qz} G(\textbf{x},\textbf{x}') \Big|_{-\infty}^{\infty} + \textrm{i}q \psi
+\int dz e^{-\textrm{i}qz} \nabla G(\textbf{x},\textbf{x}') = e^{-\textrm{i}qz} G(\textbf{x},\textbf{x}') \hat{\textbf{z}} \Big|_{-\infty}^{\infty} + \textrm{i}q \psi \hat{\textbf{z}}.
 \label{psi_integral}
 \end{equation}
+The first term on the right hand side, the surface term, is zero, so the integral of the gradient of the Green's function is simply $\textrm{i}q\psi$.
 
-We can actually rewrite $\psi$ in terms of the Fourier transform of $G$, which will help us take the integral in $z$.
-
+Rewriting $G$ in terms of its Fourier transform reveals a route to computing the integral in $z$. Doing so results in a new form for the pseudo-potential
 \begin{equation}
 \begin{aligned}
 \psi &= \int dz e^{-\textrm{i}qz} G(\textbf{x},\textbf{x}')\\ 
 &= \int dz e^{-\textrm{i}qz} \int \frac{d^3k'}{(2\pi)^3} \frac{4\pi}{k'^2 - k^2} e^{\textrm{i}\textbf{k}'\cdot(\textbf{x}-\textbf{x}')}\\
 &= \int \frac{d^3k'}{(2\pi)^3} \frac{4\pi}{k'^2 - k^2} e^{\textrm{i}[k'_x(x-x')+k'_y(y-y')-k'_zz']} \int dz e^{-\textrm{i}(q-k'_z)z}\\
 &= \int \frac{d^3k'}{(2\pi)^3} \frac{4\pi}{k'^2 - k^2} e^{\textrm{i}[k'_x(x-x')+k'_y(y-y')-k'_zz']} 2\pi\delta(q-k'_z)\\
-&= \int \frac{d^3k'}{(2\pi)^3} \frac{4\pi}{k'^2 - k^2} e^{\textrm{i}\textbf{k}'\cdot(\textbf{x}_{\perp}-\textbf{x}')} 2\pi v \delta(\omega-\textbf{v}\cdot\textbf{k}')
+&= \int \frac{d^3k'}{(2\pi)^3} \frac{4\pi}{k'^2 - k^2} e^{\textrm{i}\textbf{k}'\cdot(\textbf{x}_{\perp}-\textbf{x}')} 2\pi v \delta(\omega-\textbf{v}\cdot\textbf{k}').
+\label{psi_k_space}
 \end{aligned}
 \end{equation}
-
-So, let's rewrite the EELS rate just so we know where we are.
-
+We will see that through this definition of $\psi$ we can construct the electron's electric field. However, we rewrite Eq. \ref{eels_with_potential} in terms of $\psi$
 \begin{equation}
-\Gamma_{\textrm{EELS}} = \frac{4e}{v\hbar\omega}\textbf{v}\cdot\textrm{Re}\int d^3x' \psi(\textbf{x}_{\perp},\textbf{x}',\omega) \left[-\textrm{i}q\rho(\textbf{x}',\omega)\hat{\textbf{z}} + \textrm{i}k\frac{\textbf{J}(\textbf{x}',\omega)}{c}\right]
+\Gamma_{\textrm{EELS}} = \frac{4e}{v\hbar\omega}\textbf{v}\cdot\textrm{Re}\int d^3x' \psi(\textbf{x}_{\perp},\textbf{x}',\omega) \left[-\textrm{i}q\rho(\textbf{x}',\omega)\hat{\textbf{z}} + \textrm{i}k\frac{\textbf{J}(\textbf{x}',\omega)}{c}\right],
+\label{eels_with_psi}
 \end{equation}
-
-Again, the ultimate goal here is to get the EELS rate in terms of the electron electric field and the induced dipole moments. Well, we can rewrite the induced charge density and current density in terms of induced dipole moments like so
-
+and turn our attention to the induced charge and current densities. The densities are defined by an induced dipole moment, $\textbf{d}_{\textrm{ind}}$ as follows:
 \begin{equation}
 \begin{aligned}
 \rho(\textbf{x}',\omega) = \textbf{d}\cdot\nabla_{r}\delta(\textbf{x}'-\textbf{r})&\\
-\textbf{J} = \textrm{i}\omega\textbf{d}\delta(\textbf{x}'-\textbf{r})&
+\textbf{J} = \textrm{i}\omega\textbf{d}\delta(\textbf{x}'-\textbf{r})&.
+\label{densities}
 \end{aligned}
 \end{equation} 
-
-Let's put these definitions into the EELS rate.
-
+Plugging Eq. \ref{densities} into Eq. \ref{eels_with_psi} gives the EELS rate
 \begin{equation}
 \Gamma_{\textrm{EELS}} = \frac{4e}{v\hbar\omega}\textbf{v}\cdot\textrm{Re}\int d^3x' \psi(\textbf{x}_{\perp},\textbf{x}',\omega) \left[-\textrm{i}q \textbf{d}\cdot\nabla_{r}\delta(\textbf{x}'-\textbf{r})\hat{\textbf{z}} + \textrm{i}k\frac{\textrm{i}\omega\textbf{d}\delta(\textbf{x}'-\textbf{r})}{c}\right]
+\label{eels_with_densities}
 \end{equation}
 
-Recognizing that $\psi\textbf{d}\cdot\nabla_r\delta(\textbf{x}'-\textbf{r}) = \textbf{d}\cdot(\nabla_r\psi)\delta(\textbf{x}'-\textbf{r})$, we can evaluate the volume integral resulting in $\textbf{x}' \rightarrow \textbf{r}$. Also, we can evaluate $\nabla_r\psi(\textbf{x}_{\perp},\textbf{r},\omega) = -\textrm{i}\textbf{k}'\psi(\textbf{x}_{\perp},\textbf{r},\omega)$. The EELS rate becomes
-
+A useful mathematical identity allows $\psi\textbf{d}\cdot\nabla_r\delta(\textbf{x}'-\textbf{r}) = \textbf{d}\cdot(\nabla_r\psi)\delta(\textbf{x}'-\textbf{r})$, and the integral over both delta functions makes the replacement $\textbf{x}' \rightarrow \textbf{r}$. In addition, taking the gradient of $\psi$ results in $\nabla_r\psi(\textbf{x}_{\perp},\textbf{r},\omega) = -\textrm{i}\textbf{k}'\psi(\textbf{x}_{\perp},\textbf{r},\omega)$. The EELS rate becomes
 \begin{equation}
 \Gamma_{\textrm{EELS}} = \frac{4e}{v\hbar\omega}\textbf{v}\cdot \textrm{Re}\psi(\textbf{x}_{\perp},\textbf{r},\omega) \left[(\textrm{i}q)(\textrm{i}\textbf{k}') \cdot \textbf{d}\hat{\textbf{z}} - (\textrm{i}k)(\textrm{i}k')\textbf{d}\right]
 \end{equation}
-
-Let's notice a few more things. Since the electron has momentum only in the z-direction, $q\hat{\textbf{z}} = \textbf{q}$. Let's also write out $\psi$ in full:
-
+The electron has momentum only in the z-direction, so $q\hat{\textbf{z}} = \textbf{q}$. Using this definition and writing out $\psi$ in full results in the following form for the EELS rate.
 \begin{equation}
 \begin{aligned}
 \Gamma_{\textrm{EELS}} &= \frac{4e}{v\hbar\omega}\textbf{v}\cdot \textrm{Re}\int \frac{d^3k'}{(2\pi)^3} \frac{4\pi}{k'^2 - k^2} e^{\textrm{i}\textbf{k}'\cdot(\textbf{x}_{\perp}-\textbf{r})} 2\pi v \delta(\omega-\textbf{v}\cdot\textbf{k}') \left[(\textrm{i}\textbf{q})(\textrm{i}\textbf{k}') \cdot \textbf{d} - (\textrm{i}k)(\textrm{i}k)\textbf{d}\right]\\
 &= \frac{4\textrm{i}e}{\pi\hbar} \textrm{Im}\int d^3q \frac{\textbf{q} - k\textbf{v}/c}{q^2 - k^2} \cdot \textbf{d} \delta(\omega - \textbf{v} \cdot \textbf{q})\\
-&= \frac{4}{\hbar}\textrm{Im}\left\{ \textbf{E}_{\textrm{el}} \cdot \textbf{d}_{\textrm{ind}}\right\}
+&= \frac{4}{\hbar}\textrm{Im}\left\{ \textbf{E}_{\textrm{el}} \cdot \textbf{d}_{\textrm{ind}}\right\}.
 \end{aligned}
 \end{equation}
-
+Here, since $k$' is an integration variable, it has been rewritten as $q$ and the definition of the electron's electric field from Ref. [whatever] has been used to replace $\psi$. So, the common implementation of the EELS rate using the induced electric fields and electron velocity is entirely consistent with the method of using the induced dipole moment and electron electric field.
 \section{What I have coded}
 
 I have coded the EELS rate, except I add the surface charges (equivalently, the fields) from both a planewave source and an e-beam source. The EELS rate

@@ -441,9 +441,11 @@ Again the Hamiltonian has two terms, $H_{\textrm{int}} = H_1 + H_2$. Wrapping th
 \end{equation}
 For the same reasons as in the discussion of the first order rates, the cross-terms not shown are equal to zero, because $H_1$ and $H_2$ correspond to different transitions with different intermediate and final states. If we now let $H_1 = H_\textrm{el-pl}$ and $H_2 = H_{\textrm{ph-pl}}$, the first term is $\Gamma_{\textrm{EELS}}^{(2)}$, the second term is $\Gamma_{\textrm{abs}}^{(2)}$, the third term is $\Gamma_{\textrm{EEGS}}$ or is related to $\Gamma_{\textrm{SEELS}}$, and the final term is $\Gamma_{\textrm{CL}}$.
 
-\subsection{Quantum-Mechanical Description of EELS, EEGS, SEELS, and CL}
+\subsection{PAEELS/SEELS from Fermi's Golden Rule}
 
-\subsection{Classical Description of EELS}
+
+
+\subsection{A Classical Description of EELS (and PAEELS)}
 
 A common way to compute the EELS rate is by calculating the induced field of the plasmon and having it act on the passing electron via [citation needed]
 \begin{equation}
@@ -521,7 +523,29 @@ The electron has momentum only in the z-direction, so $q\hat{\textbf{z}} = \text
 \end{aligned}
 \end{equation}
 Here, since $k$' is an integration variable, it has been rewritten as $q$ and the definition of the electron's electric field from Ref. [whatever] has been used to replace $\psi$. So, the common implementation of the EELS rate using the induced electric fields and electron velocity is entirely consistent with the method of using the induced dipole moment and electron electric field.
-\section{What I have coded}
+
+\subsection{PAEELS/SEELS from the Perspective of the Force on the Plasmon}
+
+Ref. [cite quillin] computes the EELS rate through the power absorbed by the plasmon from the passing electron, using the electron's electric field to quantify the force on the plasmon. Interestingly, in the event that the plasmon is forced by both light and an electron beam simultaneously, the EELS rate becomes a more complicated loss rate. According to the definition in Ref. [cite quillin]
+\begin{equation}
+\Gamma_{\textrm{loss}}(\textbf{R},\omega) = \frac{|\textbf{F}(\textbf{R},\omega)|^2}{e^2\hbar\omega}\textrm{Im}\{\alpha_{\textrm{sp}}(\omega)\}.
+\label{gamma_loss}
+\end{equation}
+Here, $\Gamma_{\textrm{loss}}(\textbf{R},\omega)$ is the rate of any possible energy-loss event and $\textbf{F}(\textbf{R},\omega)$ is the force on the plasmon. Assuming our plasmon oscillator is simply a dipole $\textbf{d}=e\textbf{q}$, the force on the dipole becomes $\textbf{F}(\textbf{R},\omega) = e\textbf{E}_{\textbf{tot}}(\textbf{R},\omega)$, the electron charge times the total of the electric fields acting on the plasmon. Those electric fields, in the frequency domain, are
+\begin{equation}
+\begin{aligned}
+\textbf{E}_{\textrm{tot}}(\textbf{R},\omega) &= \textbf{E}_{\textrm{ph}}(\textbf{R},\omega) + \textbf{E}_{\textrm{el}}(\textbf{R},\omega)\\
+& = 2\pi A\delta(\omega-\omega_0)\hat{\boldsymbol{\epsilon}} + \frac{2e\omega}{v^2\gamma_L^2}\big[ \textrm{i}K_0\big( \frac{\omega R}{v\gamma_L} \big)\hat{\textbf{z}} -  \gamma_L K_1\big( \frac{\omega R}{v\gamma_L} \big)\hat{\textbf{R}}\big].
+\label{fields_sum}
+\end{aligned}
+\end{equation}
+
+
+
+
+
+
+\subsection{What I have coded}
 
 I have coded the EELS rate, except I add the surface charges (equivalently, the fields) from both a planewave source and an e-beam source. The EELS rate
 

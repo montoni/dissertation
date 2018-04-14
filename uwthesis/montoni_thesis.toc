@@ -1,5 +1,5 @@
 \contentsline {chapter}{\@textofLoF }{ii}
-\contentsline {chapter}{Glossary}{v}
+\contentsline {chapter}{Glossary}{iii}
 \contentsline {chapter}{\numberline {\@textofChapter \ 1:}Introduction}{1}
 \contentsline {section}{\numberline {1.1}LSPRs as Harmonic Oscillators}{2}
 \contentsline {section}{\numberline {1.2}Multiple Metal Nanoparticles}{4}
@@ -10,13 +10,14 @@
 \contentsline {chapter}{\numberline {\@textofChapter \ 4:}Conclusion and Future Work}{22}
 \contentsline {section}{\numberline {4.1}Future Work: Photon-Assisted Electron Spectroscopies}{22}
 \contentsline {subsection}{\numberline {4.1.1}First- and Second-order Fermi's Golden Rule}{22}
-\contentsline {subsection}{\numberline {4.1.2}Quantum-Mechanical Description of EELS, EEGS, SEELS, and CL}{23}
-\contentsline {subsection}{\numberline {4.1.3}Classical Description of EELS}{23}
-\contentsline {section}{\numberline {4.2}What I have coded}{26}
-\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Supporting Information: Imaging Energy Transfer in Pt-Decorated Au Nanoprisms via Electron Energy-Loss Spectroscopy}{27}
-\contentsline {section}{\numberline {A.1}General Materials and Methods}{27}
-\contentsline {section}{\numberline {A.2}Au Nanoprism Synthesis}{27}
-\contentsline {section}{\numberline {A.3}Pt-decorated Au Nanoprism Synthesis}{28}
-\contentsline {section}{\numberline {A.4}UV-vis-NIR Spectroscopy}{28}
-\contentsline {section}{\numberline {A.5}Transmission Electron Microscopy (TEM)}{28}
-\contentsline {section}{\numberline {A.6}Scanning Electron Microscopy (SEM)}{29}
+\contentsline {subsection}{\numberline {4.1.2}PAEELS/SEELS from Fermi's Golden Rule}{23}
+\contentsline {subsection}{\numberline {4.1.3}A Classical Description of EELS (and PAEELS)}{23}
+\contentsline {subsection}{\numberline {4.1.4}PAEELS/SEELS from the Perspective of the Force on the Plasmon}{26}
+\contentsline {subsection}{\numberline {4.1.5}What I have coded}{26}
+\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Supporting Information: Imaging Energy Transfer in Pt-Decorated Au Nanoprisms via Electron Energy-Loss Spectroscopy}{28}
+\contentsline {section}{\numberline {A.1}General Materials and Methods}{28}
+\contentsline {section}{\numberline {A.2}Au Nanoprism Synthesis}{28}
+\contentsline {section}{\numberline {A.3}Pt-decorated Au Nanoprism Synthesis}{29}
+\contentsline {section}{\numberline {A.4}UV-vis-NIR Spectroscopy}{29}
+\contentsline {section}{\numberline {A.5}Transmission Electron Microscopy (TEM)}{29}
+\contentsline {section}{\numberline {A.6}Scanning Electron Microscopy (SEM)}{30}

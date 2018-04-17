@@ -270,21 +270,33 @@ Plugging each residue from Eq. \ref{residues} into the Eq. \ref{res_theorem} and
 \alpha(t-t') = a^3\left(\frac{3}{\varepsilon_{\infty}+2}\right)\frac{\omega_{\textrm{sp}}^2}{\sqrt{\omega_\textrm{sp}^2-\gamma^2/4}}e^{-\gamma (t-t')/2}\textrm{sin}\left[\sqrt{\omega_{\textrm{sp}}^2-\gamma^2/4}(t-t')\right]
 \label{polar_time}
 \end{equation}
-Equation~\ref{polar_time} has two important pieces. The first is the sinusoidal term, oscillating at frequency $\sqrt{\omega_\textrm{sp}^2-\gamma^2/4}$. The second is the exponential term, decaying with width $\gamma/2$. These two terms show that a plasmon has time dynamics consistent with a damped harmonic oscillator. Putting in Drude model parameters allows us to compute the time-dependent response of a dipole plasmon for different metals.
+Equation~\ref{polar_time} has two important pieces. The first is the sinusoidal term, oscillating at frequency $\sqrt{\omega_\textrm{sp}^2-\gamma^2/4}$. The second is the exponential term, decaying with width $\gamma/2$. These two terms show that a plasmon has time dynamics consistent with a damped harmonic oscillator. Plugging in experimentally determined Drude model parameters allows us to compute the time-dependent response of a dipole plasmon for different metals, as shown in Fig. \ref{alpha_metals} for silver, gold, platinum, and aluminum.
 
-Figures! 
+\begin{figure}
+\begin{centering}
+\includegraphics{all_alpha.pdf}
+\caption{caption me!}
+\label{alpha_metals}
+\end{centering}
+\end{figure}
+
+
 
 \section{Multiple Metal Nanoparticles}
 
 We need a whole paragraph AT LEAST on history.
 Who to cite: Lukas, von Plessen, El Sayed, Schatz, others studying plasmon hybridization
 
-Let's talk about plasmon hybridization theory. I can make a really wonderful analogy for the chemists in the room: this is basically molecular orbital theory. What do I mean by that? Well, take any two atomic orbitals. Maybe two s-orbitals on two hydrogen atoms. Bring them close to each other. What happens? They mix - two atomic orbitals become two molecular orbitals, each with different properties. The lower energy mode with significant overlap is called the bonding ($\sigma$) orbital. The higher-energy mode with no overlap is called the anti-bonding ($\sigma^*$) orbital. Pairs of LSPRs behave similarly. When brought close to each other, they hybridize and produce new normal modes, one lower energy and one higher energy. If one LSPR is a harmonic oscillator, then two or more can be treated like a system of coupled harmonic oscillators. The way that dipole LSPRs couple is by a pairwise interaction between each dipole and the field produced by each other dipole. This interaction is mediated by something called the dipole relay tensor 
+Bringing two atoms close together causes their atomic orbitals to mix, forming new, hybridized molecular orbitals [citation needed]. These molecular orbitals are the basis of bonds. For instance, the molecular orbitals of $\textrm{H}_2$ formed from two H $s$-orbitals split into a lower energy, bonding orbital and a higher-energy, anti-bonding orbital. Pairs of LSPRs behave similarly. When brought close to each other, they hybridize and produce new normal modes, one lower energy and one higher energy. We have just learned that we can model the response of a LSPR as a harmonic oscillator. By extension, we can treat pairs (or larger collections) of LSPRs as systems of coupled oscillators whose dynamics depend on each other. Dipole LSPRs couple through a pairwise interaction between each dipole and the field produced by each other dipole ($U = -\sum_{j\neq i}\textbf{d}_i\cdot\textbf{E}_j/2$). This interaction is mediated by something called the dipole relay tensor
 \begin{equation}
 \boldsymbol{\Lambda}_{ij} = \left\{\left(\frac{1}{r_{ij}^3} - \frac{ik}{r_{ij}^2}\right)\left(3\hat{\textbf{n}}_{ij}\hat{\textbf{n}}_{ij} - \textbf{1}\right) - \frac{k^2}{r_{ij}}\left(\hat{\textbf{n}}_{ij}\hat{\textbf{n}}_{ij} - \textbf{1}\right)\right\}\frac{e^{\textrm{i}kr_{ij}}}{\varepsilon_b}
 \label{dipole_relay_tensor_full}
 \end{equation}
-where the $i$th and $j$th dipoles are displaced by $r_{ij}\hat{\textbf{n}}_{ij}$ and $k=\sqrt{\varepsilon_b}\omega/c$. To build intuition about this object, we will consider a simple example: two dipoles, separated by $s\hat{\textbf{x}}$, with equal dipole magnitudes and directions perpendicular to the direction of displacement (see Fig. blank). To further build intuition, let us also consider that $ka \ll 1$. To actually compute the interaction energy between these dipoles, we need to dot them into the dipole relay tensor.
+where the $i$th and $j$th dipoles are displaced by $r_{ij}\hat{\textbf{n}}_{ij}$ and $k=\sqrt{\varepsilon_b}\omega/c$. To build intuition about this object, we will consider a simple example: two dipoles, separated by $s\hat{\textbf{x}}$, with equal dipole magnitudes and dipole directions perpendicular to the direction of displacement ($\hat{\textbf{y}}$, see Fig. [make a figure]). Eq. \ref{dipole_relay_tensor_full} represents the fully retarded dipole relay tensor, i.e., it takes into account that information propagates at the speed of light and takes time to travel from one MNP to the other. However, if the MNPs are much smaller than a wavelength of light such that $ka \ll 1$, we can approximate the speed of light as infinite. This means that information propagates across the MNP aggregate almost instantaneously, or at least faster than the lifetime of any relevant excitations. For example, the lifetime of a typical LSPR, as shown in Fig. \ref{alpha_metals}, is on the order of 10 fs. Meanwhile, light travels across a 10 nm MNP in less than 1 fs, much faster than a plasmon's lifetime. This is called the quasistatic approximation, and taking all of this into account the dipole relay tensor reduces to
+\begin{equation}
+\lim_{ka \to 0}\boldsymbol{\Lambda}_ij =  \frac{3\hat{\textbf{n}}_{ij}\hat{\textbf{n}}_{ij} - \textbf{1}}{r_{ij}^3}
+\end{equation}
+[\textbf{FILL THIS OUT, FRIENDO}]
 \begin{equation}
 \begin{split}
 U &= -\textbf{d}_1\cdot\boldsymbol{\Lambda}_{12}\cdot\textbf{d}_2\\
@@ -295,14 +307,30 @@ U &= -\textbf{d}_1\cdot\boldsymbol{\Lambda}_{12}\cdot\textbf{d}_2\\
 \end{equation}
 Here, $\textbf{d}=eq\hat{\textbf{y}}$. After taking the small $ka$ limit, often called the quasistatic approximation, we are left with one term in the dipole relay tensor, namely the near-field term. The interaction energy for a pair of parallel dipoles carries a positive sign, indicating that it is repulsive in nature, and depends on the magnitudes of the dipole moments and the separation distance between them. The same procedure reveals similar dependence for anti-parallel, collinear, and anti-collinear dipole orientations. In Fig. blank the quasistatic interaction energies are shown as a function of distance for each of the four dipole arrangements.
 
+\begin{figure}
+\begin{centering}
+\includegraphics{dimer_stat.pdf}
+\caption{Caption me}
+\label{dimer_stat}
+\end{centering}
+\end{figure}
+
 Going back to Equation \ref{dipole_relay_tensor_full} in full, we can perform the same procedure as above to compute the fully retarded interaction energy between pairs of dipoles. For the parallel arrangement, this becomes
 \begin{equation}
 U = e^2q^2\left(\frac{1}{s^3}-\frac{\textrm{i}k}{s^2}-\frac{k^2}{s}\right)e^{\textrm{i}ks}.
 \label{int_ret}
 \end{equation}
-The interaction energy now has terms that depend on $k$, and through that, the oscillation frequency $\omega$. Also interesting to note is that each term carries a different sign and the entire energy carries a complex exponential. So, as a function of increasing separation distance, the individual terms in the interaction energy will change character from attractive to repulsive. To see how including retardation impacts the interaction energies between the dipole pairs, see Fig. blank. The significance of retardation effects in larger assemblies will be expanded upon in Chapter 5. In fact, we will discuss that the interaction energy depends on the collective frequency, which in turn depends on the interaction energy, requiring a self-consistent solution.
+The interaction energy now has terms that depend on $k$, and through that, the oscillation frequency $\omega$. Also interesting to note is that each term carries a different sign and the entire energy carries a complex exponential. So, as a function of increasing separation distance, the individual terms in the interaction energy will change character from attractive to repulsive. To see how including retardation impacts the interaction energies between the dipole pairs, see Fig. blank. The significance of retardation effects in larger assemblies will be expanded upon in Chapter 3. In fact, we will discuss that the interaction energy depends on the collective frequency, which in turn depends on the interaction energy, requiring a self-consistent solution.
 
-The insight gained from this exercise is that the "bonding" or "anti-bonding" character of an arrangement of dipoles actually depends on the separation distance between the dipoles and their collective frequency. In Chapter 2 we will see how the distance- and location-dependence of Equation \ref{quasi_int} impacts the plasmonic spectrum of mixed-metal plasmonic aggregates. In Chapter 3, we will see that introducing retardation effects into the interaction is the only way to accurately describe larger nanoparticle clusters, especially when they have siginificant magnetic responses.
+\begin{figure}
+\begin{centering}
+\includegraphics{dimer_ret.pdf}
+\caption{caption me}
+\label{dimer_ret}
+\end{centering}
+\end{figure}
+
+The insight gained from this exercise is that the ``bonding'' or ``anti-bonding'' character of an arrangement of dipoles actually depends on the separation distance between the dipoles and their collective frequency. In Chapter 2 we will see how the distance- and location-dependence of Equation \ref{quasi_int} impacts the plasmonic spectrum of mixed-metal plasmonic aggregates. In Chapter 3, we will see that introducing retardation effects into the interaction is the only way to accurately describe larger nanoparticle clusters, especially when they have siginificant magnetic responses.
 
 \section{List of publications}
 
@@ -491,7 +519,7 @@ Rewriting $G$ in terms of its Fourier transform reveals a route to computing the
 \label{psi_k_space}
 \end{aligned}
 \end{equation}
-We will see that through this definition of $\psi$ we can construct the electron's electric field. However, we rewrite Eq. \ref{eels_with_potential} in terms of $\psi$
+We will see that through this definition of $\psi$ we can construct the electron's electric field. However, we rewrite Eq. \ref{eels_with_potentials} in terms of $\psi$
 \begin{equation}
 \Gamma_{\textrm{EELS}} = \frac{4e}{v\hbar\omega}\textbf{v}\cdot\textrm{Re}\int d^3x' \psi(\textbf{x}_{\perp},\textbf{x}',\omega) \left[-\textrm{i}q\rho(\textbf{x}',\omega)\hat{\textbf{z}} + \textrm{i}k\frac{\textbf{J}(\textbf{x}',\omega)}{c}\right],
 \label{eels_with_psi}
@@ -522,7 +550,7 @@ The electron has momentum only in the z-direction, so $q\hat{\textbf{z}} = \text
 &= \frac{4}{\hbar}\textrm{Im}\left\{ \textbf{E}_{\textrm{el}} \cdot \textbf{d}_{\textrm{ind}}\right\}.
 \end{aligned}
 \end{equation}
-Here, since $k$' is an integration variable, it has been rewritten as $q$ and the definition of the electron's electric field from Ref. [whatever] has been used to replace $\psi$. So, the common implementation of the EELS rate using the induced electric fields and electron velocity is entirely consistent with the method of using the induced dipole moment and electron electric field.
+Here, since $k'$ is an integration variable, it has been rewritten as $q$ and the definition of the electron's electric field from Ref. [whatever] has been used to replace $\psi$. So, the common implementation of the EELS rate using the induced electric fields and electron velocity is entirely consistent with the method of using the induced dipole moment and electron electric field.
 
 \subsection{PAEELS/SEELS from the Perspective of the Force on the Plasmon}
 
@@ -535,8 +563,18 @@ Here, $\Gamma_{\textrm{loss}}(\textbf{R},\omega)$ is the rate of any possible en
 \begin{equation}
 \begin{aligned}
 \textbf{E}_{\textrm{tot}}(\textbf{R},\omega) &= \textbf{E}_{\textrm{ph}}(\textbf{R},\omega) + \textbf{E}_{\textrm{el}}(\textbf{R},\omega)\\
-& = 2\pi A\delta(\omega-\omega_0)\hat{\boldsymbol{\epsilon}} + \frac{2e\omega}{v^2\gamma_L^2}\big[ \textrm{i}K_0\big( \frac{\omega R}{v\gamma_L} \big)\hat{\textbf{z}} -  \gamma_L K_1\big( \frac{\omega R}{v\gamma_L} \big)\hat{\textbf{R}}\big].
+& = 2\pi A\delta(\omega-\omega_0)\hat{\boldsymbol{\epsilon}} + \frac{2e\omega}{v^2\gamma_L^2}\left[ \textrm{i}K_0\big( \frac{\omega R}{v\gamma_L} \big)\hat{\textbf{z}} -  \gamma_L K_1\big( \frac{\omega R}{v\gamma_L} \big)\hat{\textbf{R}}\right]e^{\textrm{i}\omega z/v}.
 \label{fields_sum}
+\end{aligned}
+\end{equation}
+The photon field with polarization direction $\hat{\boldsymbol{\epsilon}}$ is scaled by the intensity of the laser, here called $A$, and in the case where the incoming light is actually a packet of frequencies around $\omega_0$ the delta function becomes a lorentzian or gaussian distribution whose width is related to the bandwidth of the optical pump. The electron electric field has been previously defined. Plugging this field into Eq. \ref{gamma_loss}, the loss rate becomes
+\begin{equation}
+\begin{aligned}
+\Gamma_{\textrm{loss}} &= \frac{\textrm{Im}\{\alpha(\omega)\}}{\hbar\pi}\Big\{4\pi^2A^2\delta(\omega-\omega_0)\\
+&+ \frac{4e^2\omega^2}{v^4\gamma_L^4}\left[K_0^2\left(\frac{\omega R}{v\gamma_L}\right) + \gamma_L^2 K_1^2\left(\frac{\omega R}{v\gamma_L}\right)\right]\\
+&+ 2\pi A\delta(\omega-\omega_0)\hat{\boldsymbol{\epsilon}}\cdot\left[ \textrm{i}K_0\left( \frac{\omega R}{v\gamma_L} \right)\hat{\textbf{z}} - \gamma_L K_1\left( \frac{\omega R}{v\gamma_L} \right)\hat{\textbf{R}}\right]e^{\textrm{i}\omega z/v}\\
+&+ 2\pi A\delta(\omega-\omega_0)\hat{\boldsymbol{\epsilon}}\cdot\left[ -\textrm{i}K_0\left( \frac{\omega R}{v\gamma_L} \right)\hat{\textbf{z}} - \gamma_L K_1\left( \frac{\omega R}{v\gamma_L} \right)\hat{\textbf{R}}\right]e^{-\textrm{i}\omega z/v} \Big\}
+\label{loss_rate_fields}
 \end{aligned}
 \end{equation}
 

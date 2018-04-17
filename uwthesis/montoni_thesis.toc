@@ -3,21 +3,21 @@
 \contentsline {chapter}{\numberline {\@textofChapter \ 1:}Introduction}{1}
 \contentsline {section}{\numberline {1.1}LSPRs as Harmonic Oscillators}{2}
 \contentsline {section}{\numberline {1.2}Multiple Metal Nanoparticles}{4}
-\contentsline {section}{\numberline {1.3}List of publications}{6}
-\contentsline {chapter}{\numberline {\@textofChapter \ 2:}Imaging Energy Transfer in Pt-decorated Au Nanoprisms via Electron Energy-loss Spectroscopy}{7}
-\contentsline {section}{\numberline {2.1}Methods}{19}
-\contentsline {chapter}{\numberline {\@textofChapter \ 3:}Paper 2: Magnetic Plasmons}{21}
-\contentsline {chapter}{\numberline {\@textofChapter \ 4:}Conclusion and Future Work}{22}
-\contentsline {section}{\numberline {4.1}Future Work: Photon-Assisted Electron Spectroscopies}{22}
-\contentsline {subsection}{\numberline {4.1.1}First- and Second-order Fermi's Golden Rule}{22}
-\contentsline {subsection}{\numberline {4.1.2}PAEELS/SEELS from Fermi's Golden Rule}{23}
-\contentsline {subsection}{\numberline {4.1.3}A Classical Description of EELS (and PAEELS)}{23}
-\contentsline {subsection}{\numberline {4.1.4}PAEELS/SEELS from the Perspective of the Force on the Plasmon}{26}
-\contentsline {subsection}{\numberline {4.1.5}What I have coded}{26}
-\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Supporting Information: Imaging Energy Transfer in Pt-Decorated Au Nanoprisms via Electron Energy-Loss Spectroscopy}{28}
-\contentsline {section}{\numberline {A.1}General Materials and Methods}{28}
-\contentsline {section}{\numberline {A.2}Au Nanoprism Synthesis}{28}
-\contentsline {section}{\numberline {A.3}Pt-decorated Au Nanoprism Synthesis}{29}
-\contentsline {section}{\numberline {A.4}UV-vis-NIR Spectroscopy}{29}
-\contentsline {section}{\numberline {A.5}Transmission Electron Microscopy (TEM)}{29}
-\contentsline {section}{\numberline {A.6}Scanning Electron Microscopy (SEM)}{30}
+\contentsline {section}{\numberline {1.3}List of publications}{7}
+\contentsline {chapter}{\numberline {\@textofChapter \ 2:}Imaging Energy Transfer in Pt-decorated Au Nanoprisms via Electron Energy-loss Spectroscopy}{9}
+\contentsline {section}{\numberline {2.1}Methods}{21}
+\contentsline {chapter}{\numberline {\@textofChapter \ 3:}Paper 2: Magnetic Plasmons}{23}
+\contentsline {chapter}{\numberline {\@textofChapter \ 4:}Conclusion and Future Work}{24}
+\contentsline {section}{\numberline {4.1}Future Work: Photon-Assisted Electron Spectroscopies}{24}
+\contentsline {subsection}{\numberline {4.1.1}First- and Second-order Fermi's Golden Rule}{24}
+\contentsline {subsection}{\numberline {4.1.2}PAEELS/SEELS from Fermi's Golden Rule}{25}
+\contentsline {subsection}{\numberline {4.1.3}A Classical Description of EELS (and PAEELS)}{25}
+\contentsline {subsection}{\numberline {4.1.4}PAEELS/SEELS from the Perspective of the Force on the Plasmon}{28}
+\contentsline {subsection}{\numberline {4.1.5}What I have coded}{29}
+\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Supporting Information: Imaging Energy Transfer in Pt-Decorated Au Nanoprisms via Electron Energy-Loss Spectroscopy}{30}
+\contentsline {section}{\numberline {A.1}General Materials and Methods}{30}
+\contentsline {section}{\numberline {A.2}Au Nanoprism Synthesis}{30}
+\contentsline {section}{\numberline {A.3}Pt-decorated Au Nanoprism Synthesis}{31}
+\contentsline {section}{\numberline {A.4}UV-vis-NIR Spectroscopy}{31}
+\contentsline {section}{\numberline {A.5}Transmission Electron Microscopy (TEM)}{31}
+\contentsline {section}{\numberline {A.6}Scanning Electron Microscopy (SEM)}{32}

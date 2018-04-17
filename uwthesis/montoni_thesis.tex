@@ -286,13 +286,13 @@ Equation~\ref{polar_time} has two important pieces. The first is the sinusoidal 
 
 We need a whole paragraph AT LEAST on history.
 Who to cite: Lukas, von Plessen, El Sayed, Schatz, others studying plasmon hybridization
-
+\subsection{The Quasistatic Limit}
 Bringing two atoms close together causes their atomic orbitals to mix, forming new, hybridized molecular orbitals [citation needed]. These molecular orbitals are the basis of bonds. For instance, the molecular orbitals of $\textrm{H}_2$ formed from two H $s$-orbitals split into a lower energy, bonding orbital and a higher-energy, anti-bonding orbital. Pairs of LSPRs behave similarly. When brought close to each other, they hybridize and produce new normal modes, one lower energy and one higher energy. We have just learned that we can model the response of a LSPR as a harmonic oscillator. By extension, we can treat pairs (or larger collections) of LSPRs as systems of coupled oscillators whose dynamics depend on each other. Dipole LSPRs couple through a pairwise interaction between each dipole and the field produced by each other dipole ($U = -\sum_{j\neq i}\textbf{d}_i\cdot\textbf{E}_j/2$). This interaction is mediated by something called the dipole relay tensor
 \begin{equation}
 \boldsymbol{\Lambda}_{ij} = \left\{\left(\frac{1}{r_{ij}^3} - \frac{ik}{r_{ij}^2}\right)\left(3\hat{\textbf{n}}_{ij}\hat{\textbf{n}}_{ij} - \textbf{1}\right) - \frac{k^2}{r_{ij}}\left(\hat{\textbf{n}}_{ij}\hat{\textbf{n}}_{ij} - \textbf{1}\right)\right\}\frac{e^{\textrm{i}kr_{ij}}}{\varepsilon_b}
 \label{dipole_relay_tensor_full}
 \end{equation}
-where the $i$th and $j$th dipoles are displaced by $r_{ij}\hat{\textbf{n}}_{ij}$ and $k=\sqrt{\varepsilon_b}\omega/c$. To build intuition about this object, we will consider a simple example: two dipoles, separated by $s\hat{\textbf{x}}$, with equal dipole magnitudes and dipole directions perpendicular to the direction of displacement ($\hat{\textbf{y}}$, see Fig. [make a figure]). Eq. \ref{dipole_relay_tensor_full} represents the fully retarded dipole relay tensor, i.e., it takes into account that information propagates at the speed of light and takes time to travel from one MNP to the other. However, if the MNPs are much smaller than a wavelength of light such that $ka \ll 1$, we can approximate the speed of light as infinite. This means that information propagates across the MNP aggregate almost instantaneously, or at least faster than the lifetime of any relevant excitations. For example, the lifetime of a typical LSPR, as shown in Fig. \ref{alpha_metals}, is on the order of 10 fs. Meanwhile, light travels across a 10 nm MNP in less than 1 fs, much faster than a plasmon's lifetime. This is called the quasistatic approximation, and taking all of this into account the dipole relay tensor reduces to
+where the $i$th and $j$th dipoles are displaced by $r_{ij}\hat{\textbf{n}}_{ij}$ and $k=\sqrt{\varepsilon_b}\omega/c$. To build intuition about this tensor, we will consider a simple example: two dipoles, separated by $s\hat{\textbf{x}}$, with equal dipole magnitudes and dipole directions perpendicular to the direction of displacement ($\hat{\textbf{y}}$, see Fig. [make a figure]). Eq. \ref{dipole_relay_tensor_full} represents the fully retarded dipole relay tensor, i.e., it takes into account that information propagates at the speed of light and takes time to travel from one MNP to the other. However, if the MNPs are much smaller than a wavelength of light such that $ka \ll 1$, we can approximate the speed of light as infinite. This means that information propagates across the MNP aggregate almost instantaneously, or at least faster than the lifetime of any relevant excitations. For example, the lifetime of a typical LSPR, as shown in Fig. \ref{alpha_metals}, is on the order of ten femtoseconds. Meanwhile, light travels across a 10 nm MNP in less than one femtosecond, much faster than a plasmon's lifetime. This is called the quasistatic approximation, and taking all of this into account the dipole relay tensor reduces to
 \begin{equation}
 \lim_{ka \to 0}\boldsymbol{\Lambda}_ij =  \frac{3\hat{\textbf{n}}_{ij}\hat{\textbf{n}}_{ij} - \textbf{1}}{r_{ij}^3}
 \end{equation}
@@ -305,7 +305,7 @@ U &= -\textbf{d}_1\cdot\boldsymbol{\Lambda}_{12}\cdot\textbf{d}_2\\
 \label{quasi_int}
 \end{split}
 \end{equation}
-Here, $\textbf{d}=eq\hat{\textbf{y}}$. After taking the small $ka$ limit, often called the quasistatic approximation, we are left with one term in the dipole relay tensor, namely the near-field term. The interaction energy for a pair of parallel dipoles carries a positive sign, indicating that it is repulsive in nature, and depends on the magnitudes of the dipole moments and the separation distance between them. The same procedure reveals similar dependence for anti-parallel, collinear, and anti-collinear dipole orientations. In Fig. blank the quasistatic interaction energies are shown as a function of distance for each of the four dipole arrangements.
+The interaction energy for a pair of parallel dipoles carries a positive sign, indicating that it is repulsive in nature, and depends on the magnitudes of the dipole moments and the cube of separation distance between them. The same procedure reveals similar dependence for anti-parallel, collinear, and anti-collinear dipole orientations.
 
 \begin{figure}
 \begin{centering}
@@ -315,12 +315,16 @@ Here, $\textbf{d}=eq\hat{\textbf{y}}$. After taking the small $ka$ limit, often 
 \end{centering}
 \end{figure}
 
+In Fig. \ref{dimer_stat} the quasistatic interaction energies are shown as a function of distance for each of the four dipole arrangements. All of the interaction energies fall to zero with increasing $s$, and the energy-ordering of the dipole arrangements is constant. We will soon find that rejecting the quasistatic approximation and demanding that the speed of light be finite breaks this intuition.
+
+\subsection{Retardation Effects}
+
 Going back to Equation \ref{dipole_relay_tensor_full} in full, we can perform the same procedure as above to compute the fully retarded interaction energy between pairs of dipoles. For the parallel arrangement, this becomes
 \begin{equation}
 U = e^2q^2\left(\frac{1}{s^3}-\frac{\textrm{i}k}{s^2}-\frac{k^2}{s}\right)e^{\textrm{i}ks}.
 \label{int_ret}
 \end{equation}
-The interaction energy now has terms that depend on $k$, and through that, the oscillation frequency $\omega$. Also interesting to note is that each term carries a different sign and the entire energy carries a complex exponential. So, as a function of increasing separation distance, the individual terms in the interaction energy will change character from attractive to repulsive. To see how including retardation impacts the interaction energies between the dipole pairs, see Fig. blank. The significance of retardation effects in larger assemblies will be expanded upon in Chapter 3. In fact, we will discuss that the interaction energy depends on the collective frequency, which in turn depends on the interaction energy, requiring a self-consistent solution.
+The interaction energy now has terms that depend on $k$, and through that, the oscillation frequency $\omega$. We will soon see that this collective frequency, $\omega$, in turn depends on the interaction energy, meaning that this entire problem must be solved iteratively. Also interesting to note is that each term carries a different sign and the entire energy carries a complex exponential, a term that oscillates with changing $s$. So, as a function of increasing separation distance, the individual terms in the interaction energy will change character from attractive to repulsive. Fig. \ref{dimer_ret} shows, for each dipole arrangement, the contributions of each term in the interaction energy and the total interaction energy as a function of separation distance. Unlike the interaction energy in the quasistatic limit, which is made of only one non-oscillating term, the fully retarded interaction energy changes both magnitude and sign as a function of distance.
 
 \begin{figure}
 \begin{centering}
@@ -330,16 +334,27 @@ The interaction energy now has terms that depend on $k$, and through that, the o
 \end{centering}
 \end{figure}
 
-The insight gained from this exercise is that the ``bonding'' or ``anti-bonding'' character of an arrangement of dipoles actually depends on the separation distance between the dipoles and their collective frequency. In Chapter 2 we will see how the distance- and location-dependence of Equation \ref{quasi_int} impacts the plasmonic spectrum of mixed-metal plasmonic aggregates. In Chapter 3, we will see that introducing retardation effects into the interaction is the only way to accurately describe larger nanoparticle clusters, especially when they have siginificant magnetic responses.
+The insight gained from this exercise is that the ``bonding'' or ``anti-bonding'' character of an arrangement of dipoles actually depends on the separation distance between the dipoles and their collective frequency. Fig. \ref{dimer_ret_tot} compares the total interaction energy for all four arrangments of dipoles, showing that as a function of separation, the spectral ordering of the collective modes changes with separation.
+
+\begin{figure}
+\begin{centering}
+\includegraphics{dimer_ret_total.pdf}
+\caption{caption me!}
+\label{dimer_ret_tot}
+\end{centering}
+\end{figure}
+
+The dipole relay tensor, $\boldsymbol{\Lambda}_{ij}$, informs the basis of the work presented in this thesis, namely the study of the interactions between multiple MNPs. In Chapter 2, we will discuss how we can study the plasmonic spectrum of non-spherical MNPs by modeling them as small clusters of spherical MNPs well within the quasistatic limit. We will further extend this quasistatic model to incorporate mixed-metal systems and to interpret the results of full-wave simulations.
 
 \section{List of publications}
-
-1. Imaging hybridization
-2. AuPt
-3. Magnetic Hybridization 
-4. Landau damping
-5. Tunable magnetic plasmons
-6. SEELS.
+\begin{enumerate}
+\item Imaging hybridization
+\item AuPt
+\item Magnetic Hybridization 
+\item Landau damping
+\item Tunable magnetic plasmons
+\item SEELS.
+\end{enumerate}
 % ========== Chapter 2
  
 \chapter{Imaging Energy Transfer in Pt-decorated Au Nanoprisms via Electron Energy-loss Spectroscopy}
@@ -450,7 +465,7 @@ Here, $\Gamma_{fi}$ is rate at which the system moves from state $i$ to state $f
 \label{FGR_1_expanded}
 \end{aligned}
 \end{equation}
-Of course, $H_1$ and $H_2$ correspond to two different transitions to two different final Fock states, i.e., the third and fourth terms of Eq. \ref{FGR_1_exapnded} are necessarily zero. The two non-zero rates are mediated by $H_1$ and $H_2$ separately. If $H_1 = H_\textrm{el-pl}$ and $H_2 = H_{\textrm{ph-pl}}$, then the first rate is the EELS rate and the second rate is the absorption rate.
+Of course, $H_1$ and $H_2$ correspond to two different transitions to two different final Fock states, i.e., the third and fourth terms of Eq. \ref{FGR_1_expanded} are necessarily zero. The two non-zero rates are mediated by $H_1$ and $H_2$ separately. If $H_1 = H_\textrm{el-pl}$ and $H_2 = H_{\textrm{ph-pl}}$, then the first rate is the EELS rate and the second rate is the absorption rate.
 
 Fermi's Golden Rule for second order transitions looks similar to that for first order transitions:
 \begin{equation}

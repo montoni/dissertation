@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.24)  16 APR 2018 22:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.24)  17 APR 2018 13:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -234,17 +234,24 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 
 ]
-(./montoni_thesis.lof)
-\tf@lof=\write5
-\openout5 = `montoni_thesis.lof'.
+(./montoni_thesis.lof
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2
 
-] [3
+])
+\tf@lof=\write5
+\openout5 = `montoni_thesis.lof'.
 
-] [4] [5
 
-] [6
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+[4] [5
+
+] [6] [7
+
+] [8
 
 ]
 <<1>>
@@ -256,48 +263,36 @@ Underfull \vbox (badness 3815) has occurred while \output is active []
 
 
 ]
-[2]
-
-LaTeX Warning: Reference `alpha_metals' on page 3 undefined on input line 273.
-
-[3] <all_alpha.pdf, id=57, 433.62pt x 324.30011pt>
+[2] [3] <all_alpha.pdf, id=64, 433.62pt x 324.30011pt>
 File: all_alpha.pdf Graphic file (type pdf)
  <use all_alpha.pdf>
 Package pdftex.def Info: all_alpha.pdf used on input line 277.
 (pdftex.def)             Requested size: 433.61894pt x 324.29932pt.
- [4 <./all_alpha.pdf>]
-
-LaTeX Warning: Reference `dipole_relay_tensor_full' on page 5 undefined on inpu
-t line 295.
-
-
-LaTeX Warning: Reference `alpha_metals' on page 5 undefined on input line 295.
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [4 <./all_alpha.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [5]
-<dimer_stat.pdf, id=89, 289.08pt x 225.50523pt>
+<dimer_stat.pdf, id=95, 289.08pt x 225.50523pt>
 File: dimer_stat.pdf Graphic file (type pdf)
  <use dimer_stat.pdf>
 Package pdftex.def Info: dimer_stat.pdf used on input line 312.
 (pdftex.def)             Requested size: 289.07928pt x 225.50467pt.
-
-
-LaTeX Warning: Reference `dipole_relay_tensor_full' on page 6 undefined on inpu
-t line 318.
-
-[6 <./dimer_stat.pdf>] <dimer_ret.pdf, id=111, 427.1959pt x 302.00224pt>
+ [6 <./dimer_stat.pdf>] <dimer_ret.pdf, id=117, 427.1959pt x 302.00224pt>
 File: dimer_ret.pdf Graphic file (type pdf)
 
 <use dimer_ret.pdf>
-Package pdftex.def Info: dimer_ret.pdf used on input line 327.
+Package pdftex.def Info: dimer_ret.pdf used on input line 331.
 (pdftex.def)             Requested size: 427.19487pt x 302.0015pt.
+ <dimer_ret_total.pdf, id=118, 288.90411pt x 223.618pt>
+File: dimer_ret_total.pdf Graphic file (type pdf)
 
-
-LaTeX Warning: Reference `quasi_int' on page 7 undefined on input line 333.
-
-[7] [8 <./dimer_ret.pdf>]
+<use dimer_ret_total.pdf>
+Package pdftex.def Info: dimer_ret_total.pdf used on input line 341.
+(pdftex.def)             Requested size: 288.9034pt x 223.61743pt.
+ [7] [8 <./dimer_ret.pdf>] [9 <./dimer_ret_total.pdf>]
 <<2>>
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -305,23 +300,23 @@ Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ² in font cmr12!
-[9
+[10
 
-] [10] <prisms_mode_maps_tip.png, id=167, 320.8788pt x 315.579pt>
+] [11] <prisms_mode_maps_tip.png, id=196, 320.8788pt x 315.579pt>
 File: prisms_mode_maps_tip.png Graphic file (type png)
 
 <use prisms_mode_maps_tip.png>
-Package pdftex.def Info: prisms_mode_maps_tip.png used on input line 361.
+Package pdftex.def Info: prisms_mode_maps_tip.png used on input line 376.
 (pdftex.def)             Requested size: 320.878pt x 315.57822pt.
 
-<prisms_mode_maps_center.png, id=169, 354.123pt x 296.7888pt>
+<prisms_mode_maps_center.png, id=198, 354.123pt x 296.7888pt>
 File: prisms_mode_maps_center.png Graphic file (type png)
 
 <use prisms_mode_maps_center.png>
-Package pdftex.def Info: prisms_mode_maps_center.png used on input line 367.
+Package pdftex.def Info: prisms_mode_maps_center.png used on input line 382.
 (pdftex.def)             Requested size: 354.12212pt x 296.78807pt.
- [11] [12 <./prisms_mode_maps_tip.png>]
-[13 <./prisms_mode_maps_center.png>]
+ [12] [13 <./prisms_mode_maps_tip.png>]
+[14 <./prisms_mode_maps_center.png>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
@@ -331,11 +326,11 @@ Missing character: There is no ¼ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [14]
-<prisms_theory.png, id=185, 426.393pt x 181.6386pt>
+ [15]
+<prisms_theory.png, id=214, 426.393pt x 181.6386pt>
 File: prisms_theory.png Graphic file (type png)
  <use prisms_theory.png>
-Package pdftex.def Info: prisms_theory.png used on input line 385.
+Package pdftex.def Info: prisms_theory.png used on input line 400.
 (pdftex.def)             Requested size: 426.39195pt x 181.63814pt.
 Missing character: There is no â in font cmr12!
 Missing character: There is no ˆ in font cmr12!
@@ -343,34 +338,34 @@ Missing character: There is no ¼ in font cmr12!
 
 Underfull \vbox (badness 5133) has occurred while \output is active []
 
- [15]
-[16 <./prisms_theory.png>]
-<prisms_EELS_simulation.png, id=194, 200.4288pt x 291.0072pt>
+ [16]
+[17 <./prisms_theory.png>]
+<prisms_EELS_simulation.png, id=222, 200.4288pt x 291.0072pt>
 File: prisms_EELS_simulation.png Graphic file (type png)
 
 <use prisms_EELS_simulation.png>
-Package pdftex.def Info: prisms_EELS_simulation.png used on input line 393.
+Package pdftex.def Info: prisms_EELS_simulation.png used on input line 408.
 (pdftex.def)             Requested size: 200.4283pt x 291.00648pt.
 Missing character: There is no â in font cmr12!
 Missing character: There is no ˆ in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 
-<prisms_field_calculations.png, id=195, 429.2838pt x 249.5724pt>
+<prisms_field_calculations.png, id=223, 429.2838pt x 249.5724pt>
 File: prisms_field_calculations.png Graphic file (type png)
 
 <use prisms_field_calculations.png>
-Package pdftex.def Info: prisms_field_calculations.png used on input line 402.
+Package pdftex.def Info: prisms_field_calculations.png used on input line 417.
 (pdftex.def)             Requested size: 429.28275pt x 249.57178pt.
 
 Underfull \vbox (badness 5133) has occurred while \output is active []
 
- [17]
-[18 <./prisms_EELS_simulation.png>]
-<prisms_fields_2.png, id=203, 237.5274pt x 281.3712pt>
+ [18]
+[19 <./prisms_EELS_simulation.png>]
+<prisms_fields_2.png, id=231, 237.5274pt x 281.3712pt>
 File: prisms_fields_2.png Graphic file (type png)
 
 <use prisms_fields_2.png>
-Package pdftex.def Info: prisms_fields_2.png used on input line 408.
+Package pdftex.def Info: prisms_fields_2.png used on input line 423.
 (pdftex.def)             Requested size: 237.52681pt x 281.37051pt.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -378,7 +373,7 @@ Missing character: There is no “ in font cmr12!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19 <./prisms_field_calculations.png>] [20 <./prisms_fields_2.png>]
+ [20 <./prisms_field_calculations.png>] [21 <./prisms_fields_2.png>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
@@ -399,61 +394,22 @@ Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [21] [22]
+ [22] [23]
 <<3>>
-[23
+[24
 
 ]
 <<4>>
+[25
 
-LaTeX Warning: Reference `FGR_1' on page 24 undefined on input line 444.
-
-
-LaTeX Warning: Reference `FGR_1_exapnded' on page 24 undefined on input line 45
-3.
-
-[24
-
-] [25]
-
-LaTeX Warning: Reference `potentials' on page 26 undefined on input line 499.
-
-
-LaTeX Warning: Reference `field_induced' on page 26 undefined on input line 499
-.
-
-
-LaTeX Warning: Reference `eels_rate_bem_1' on page 26 undefined on input line 4
-99.
-
-
-Overfull \hbox (2.34412pt too wide) detected at line 503
+] [26]
+Overfull \hbox (2.34412pt too wide) detected at line 518
 \OT1/cmr/m/n/12 ^^@[] = [] [] \OML/cmm/m/it/12 dz[] [] :
  []
 
-
-LaTeX Warning: Reference `eels_with_potentials' on page 26 undefined on input l
-ine 504.
-
-
-LaTeX Warning: Reference `eels_with_potentials' on page 26 undefined on input l
-ine 522.
-
-[26]
-
-LaTeX Warning: Reference `densities' on page 27 undefined on input line 535.
-
-
-LaTeX Warning: Reference `eels_with_psi' on page 27 undefined on input line 535
-.
-
-[27]
-
-LaTeX Warning: Reference `gamma_loss' on page 28 undefined on input line 570.
-
-[28]
+[27] [28] [29]
 No file montoni_thesis.bbl.
-[29]
+[30]
 <<A>>
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -470,7 +426,7 @@ Missing character: There is no Â in font cmr12!
 Missing character: There is no ° in font cmr12!
 Missing character: There is no Î in font cmr12!
 Missing character: There is no » in font cmr12!
-[30
+[31
 
 ]
 Missing character: There is no Î in font cmr12!
@@ -485,49 +441,42 @@ Missing character: There is no Î in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ¼ in font cmr12!
- [31]
+ [32]
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ¼ in font cmr12!
- [32] (./montoni_thesis.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ [33] (./montoni_thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 2413 strings out of 494953
- 32303 string characters out of 6180977
- 95287 words of memory out of 5000000
- 5654 multiletter control sequences out of 15000+600000
+ 2420 strings out of 494953
+ 32432 string characters out of 6180977
+ 95642 words of memory out of 5000000
+ 5660 multiletter control sequences out of 15000+600000
  12404 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  37i,20n,23p,1491b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb>
-
-Output written on montoni_thesis.pdf (41 pages, 2046968 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbxsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/font
+s/type1/public/lm/lmr10.pfb>
+Output written on montoni_thesis.pdf (44 pages, 2063427 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
+ 348 PDF objects out of 1000 (max. 8388607)
+ 233 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

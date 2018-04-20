@@ -262,7 +262,7 @@ Here, $\omega_{\textrm{sp}}^2 = \omega_p^2/\varepsilon_{\infty}+2$ is the surfac
 \end{equation}
 Because it has two poles, the integrand in Eq. \ref{res_theorem} has two residues
 \begin{equation}
-R_{\pm} = \pm\frac{1}{2\pi}\frac{\omega_{\textrm{sp}}^2\left(\frac{\varepsilon_{\infty}-1}{\varepsilon_{\infty}+2}-1\right)}{2\sqrt{\omega_\textrm{sp}^2-\gamma^2/4}}e^-{\gamma (t-t')/2}e^{\pm\textrm{i}\sqrt{\omega_\textrm{sp}^2-\gamma^2/4}(t-t')}
+R_{\pm} = \pm\frac{1}{2\pi}\frac{\omega_{\textrm{sp}}^2\left(\frac{\varepsilon_{\infty}-1}{\varepsilon_{\infty}+2}-1\right)}{2\sqrt{\omega_\textrm{sp}^2-\gamma^2/4}}e^{-\gamma (t-t')/2}e^{\pm\textrm{i}\sqrt{\omega_\textrm{sp}^2-\gamma^2/4}(t-t')}
 \label{residues}
 \end{equation}
 Plugging each residue from Eq. \ref{residues} into the Eq. \ref{res_theorem} and using the identity $2\textrm{i}\textrm{sin}(\xi) = e^{\textrm{i}\xi} - e^{-\textrm{i}\xi}$, results in the following expression for the polarizability.
@@ -345,15 +345,16 @@ The insight gained from this exercise is that the ``bonding'' or ``anti-bonding'
 \end{figure}
 
 The dipole relay tensor, $\boldsymbol{\Lambda}_{ij}$, informs the basis of the work presented in this thesis, namely the study of the interactions between multiple MNPs. In Chapter 2, we will discuss how we can study the plasmonic spectrum of non-spherical MNPs by modeling them as small clusters of spherical MNPs well within the quasistatic limit. We will further extend this quasistatic model to incorporate mixed-metal systems and to interpret the results of full-wave simulations.
-
+\newpage
 \section{List of publications}
 \begin{enumerate}
-\item Imaging hybridization
-\item AuPt
-\item Magnetic Hybridization 
-\item Landau damping
-\item Tunable magnetic plasmons
-\item SEELS.
+\item West, B. A., Molesky, B. P., Montoni, N. P., and Moran, A. M. ``Nonlinear optical signatures of ultraviolet light-induced ring opening in $\alpha$-terpinene.'' {\it New J. Phys.}, {\bf 2013}, {\it 15}, 025007.
+\item Quillin, S. C., Cherqui, C., Montoni, N. P., Li, G., Camden, J. P., and Masiello, D. J. ``Imaging plasmon hybridization in metal nanoparticle aggregates with electron energy-loss spectroscopy.'' {\it J. Phys. Chem. C}, {\bf 2016}, {\it 120}, 20852-20859.
+\item Griffin, S., Montoni, N. P., Li, G., Straney, P. J., Millstone, J. E., Masiello, D. J., and Camden, J. P. ``Imaging energy transfer in Pt-decorated Au nanoprisms via electron energy-loss spectroscopy.'' {\it J. Phys. Chem. Lett.}, {\bf 2016}, {\it 7}, 3825-3832.
+\item Cherqui, C., Wu, Y., Li, G., Quillin, S. C., Busche, J. A., Thakkar, N., West, C. A., Montoni, N. P., Rack, P. D., Camden, J. P., and Masiello, D. J. ``STEM/EELS imaging of magnetic hybridization in symmetric and symmetry-broken plasmon oligomers dimers and all-magnetic Fano interference.'' {\it Nano Lett.}, {\bf 2016}, {\it 16}, 6668-6676. 
+\item Thakkar, N., Montoni, N. P., Cherqui, C., Masiello, D. J. ``Plasmonic Landau damping in active environments." {\it Phys. Rev. B}, {\bf 2018}, {\it 97}, 121403.
+\item Montoni, N. P., Quillin, S. C., Cherqui, C., Masiello, D. J. ``Tunable spectral ordering of magnetic plasmon resonances in metal nanoclusters.'' {\it In preparation}, 2018.
+\item Montoni, N. P., Busche, J. A., Rack, P. D., Duscher, G., and Masiello, D. J. ``Stimulated electron energy-loss spectroscopy.'' {\it In preparation}, 2018.
 \end{enumerate}
 % ========== Chapter 2
  
@@ -373,15 +374,19 @@ While previous work has established the viability of plasmon-assisted chemistry 
 Figures 1 and 2 display the high-angle annular dark-field (HAADF) images and compare the experimentally acquired EEL maps with EELS simulations for two different Au+Pt geometries: a 209 nm edge length Au nanoprism with a 40 nm diameter Pt particle deposited at the tip (Figure 1d) and a 198 nm edge length Au nanoprism with a 40 nm diameter Pt particle deposited at the center of the prism (Figure 2d). In each case, we compare the data obtained from the decorated particles with data from bare Au nanoprisms of the same size (Figures 1a and 2a) to study the influence of the Pt particle on the plasmon mode structure. The loss energies for the mode maps are selected using the peak maxima of the point EEL spectra when the electron beam is positioned at the tip, edge, corner, and face and on the Pt decoration. These beam positions are selected as representative points of the LSPR modes of the nanoprism and Pt decoration. All experimental nanostructures are supported on a 30 nm thick Si3N4 membrane, and all simulations are performed in vacuum.
 
 \begin{figure}
+\begin{centering}
 \includegraphics{prisms_mode_maps_tip.png}
 \caption{(A-C) Experiments and simulations for a bare Au nanoprism, 209 nm edge length and 10 nm in thickness, supported on a Si3N4 membrane. (A) HAADF; (B) Experimentally measured EEL maps for loss-energies representing corner, edge, and facial plasmon modes; (C) Simulated EEL maps. (D-F) Experiments and simulations for a Au nanoprism, 209 nm edge length and 10 nm in thickness, decorated with a 40 nm diameter Pt nanoparticle supported on a Si3N4 membrane. (D) HAADF; (E) Experimentally measured EEL maps for loss-energies representing corner, edge, facial, and Pt plasmon modes; (F) Simulated EEL maps. Note the splitting of the plasmon modes in the vicinity of the Pt particle (0.85 eV) and the mode mixing induced by the Pt particle at higher loss-energies. Experimental and calculated loss- energies for each mode differ as simulations are calculated in vacuum.}
 \label{modes_tip}
+\end{centering}
 \end{figure}
 
 \begin{figure}
+\begin{centering}
 \includegraphics{prisms_mode_maps_center.png}
 \caption{(A-C) Experiments and simulations for a bare Au nanoprism, 195 nm edge length and 10 nm in thickness, supported on a Si3N4 membrane. (A) HAADF; (B) Experimentally measure EEL maps for loss-energies representing corner, edge, and facial plasmon modes; (C) Simulated EEL maps. (D-F) Experiments and simulations for a Au nanoprism, 198 nm edge length and 10 nm in thickness, decorated with a 40 nm diameter Pt nanoparticle supported on a Si3N4 membrane. (D) HAADF; (E) Experimentally measure EEL maps for loss-energies representing corner, edge, facial, and Pt plasmon modes; (F) Simulated EEL maps. Note that the low-energy mode structure is conserved between the decorated and undecorated particles due to the three-fold symmetry when Pt is at the center of the prism. Experimental and calculated loss energies for each mode differ as simulations are calculated in vacuum.}
 \label{modes_center}
+\end{centering}
 \end{figure}
 
 Figures 1b and 2b show that the plasmon modes of the bare prisms evolve from dipoles localized to the corners, through those on the edges, and finally into multipolar modes as a function of increasing energy, which is in excellent agreement with previous EELS studies of plasmonic nanoprisms.(35, 36) Interestingly, a comparison of the mode maps resulting from decorated and undecorated prisms (Figure 1b,e) shows minimal changes to the mode structure upon addition of the Pt particle. The most notable difference is seen in the splitting of the dipolar mode of the bare Au nanoprism, where the presence of the Pt particle breaks the degeneracy of the dipole mode (vide infra) (Figure 1b,e). Figure 2b,e illustrates that the structure of the higher-energy modes is not strongly dependent on the Pt particle location, as the EEL maps in Figures 1b,e and 2b,e are similar. Lastly, we are able to experimentally map the LSPR of the Pt decoration at a higher energy than the modes of the nanoprism (Figures 1e and 2e).
@@ -397,33 +402,41 @@ With this simple model in hand, we are now able to explore the perturbing effect
 Figure 3 displays the hybridization model describing the interaction between the Au nanoprism dipole modes and the Pt dipole modes together with corresponding experimental EEL maps that illustrate the effect of the Pt on the Au nanoprism. Depositing the Pt particle at the center of the nanoprism gives the system 3-fold symmetry and, in turn, does not significantly perturb the LSPR modes of the nanoprism. The mode mixing does cause a small, equal net lowering of the prism-localized collective dipole modes and a small, equal net raising of the Pt-localized collective dipole modes. As the Pt particle is moved toward a corner, however, the system’s dipole modes begin to split. When the prism and the Pt-localized dipole modes are oriented in the same direction, they couple more strongly than when the dipoles are oriented antiparallel; therefore, the former is lower in energy, as expected.(41) The model further shows that this splitting is maximal when the Pt particle is as close to the corner as possible, which is consistent with experimental results.
 
 \begin{figure}
+\begin{centering}
 \includegraphics{prisms_theory.png}
 \caption{Dipole oscillator model of the mode mixing between the Au prism dipoles (DAu) and the Pt sphere dipoles (DPt). The anti-bonding Pt-centered modes are blue-shifted far from the prism modes upon mixing; whereas, the bonding modes remain centered on the nanoprism and depend much more noticeably upon the placement of the Pt particle. Placing the Pt particle in the center of the Au prism (left) causes a net lowering of the dipole modes but no splitting. The lack of splitting is observed experimentally in the 0.99 eV mode map. Placement of the Pt particle at the tip (right) induces splitting between the formerly degenerate dipolar prism modes, as observed in the experimentally derived mode maps at 0.99 eV and 0.82 eV loss-energies.}
 \label{mo_diagram}
+\end{centering}
 \end{figure}
 
 Figure 4a compares the simulated EEL spectra of a 209 nm pure Au nanoprism (black), a 209 nm Au+Pt nanoprism (red) where the 40 nm diameter Pt decoration is at the tip of the nanoprism, and an aloof EEL spectrum of a 40 nm diameter Pt sphere (purple). The Au nanoprism is plasmonically active at energies between 0.90 and 2.40 eV, whereas the Pt sphere is active at a much higher energy (∼5.00 eV). Because of the spectral mismatch in plasmon resonance energies of Au and Pt, these metals are not expected to significantly hybridize and resonance energy transfer is unfavorable. The Pt decoration, therefore, simply acts as part of the dielectric environment, and the plasmons of the prism couple to their images in the Pt particle and vice versa. This image effect is identical for all of the Au and Pt dipole plasmons in the center-decorated system. However, in the tip-decorated system, the nanoprism dipole that is aligned with the Pt dipole couples more strongly to its image than the other orthogonal dipole and is shifted to lower energy.
 
 \begin{figure}
+\begin{centering}
 \includegraphics{prisms_EELS_simulation.png}
 \caption{Comparison of the calculated EEL spectra at the tip of (A) a 209 nm pure Au nanoprism (black trace), a 209 nm Au+Pt nanoprism (red trace), and a 40 nm diameter Pt sphere (purple trace); (B) a 209 nm bare Al nanoprism (blue trace), a 209 nm Al+Pt nanoprism (green trace), and a 40 nm diameter Pt sphere (purple trace). The interband transition of the Al is centered at 1.40 eV (green box). For each decorated system, the Pt particle is 40 nm in diameter and located at the tip of the nanoprism. Note the slight shifting (~0.15 eV) and broader line- width (FWHM increases by 0.30 eV) in the Al+Pt at ~3.20 eV. This broadening indicates LSPR hybridization between the two metals; whereas, in the Au+Pt system there is a shift of 0.03 eV and a small change in the line-width (FWHM increases by 0.005 eV) at ~1.80 eV. The black dotted lines at 1.20, 1.75, and 4.75 eV correspond to the LSPR of Au+Pt, Al+Pt, and Pt, respectively.}
 \label{prisms_EELS_sim}
+\end{centering}
 \end{figure}
 
 The framework presented here, while showing that the Au and Pt plasmons remain mostly uncoupled, does offer insight into the construction of systems with highly coupled plasmon modes for plasmon-mediated catalysis. Consequently, we study Al prisms(44, 45) decorated with Pt because the Al plasmons lie at energies higher than those of Au.(46) Figure 4b compares simulated EEL spectra for a 209 nm Al nanoprism (blue), a 209 nm Al+Pt nanoprism (green) with a 40 nm Pt tip decoration, and a 40 nm diameter Pt sphere (purple). The spectrum of the 3.20 eV peak in the Al+Pt system is broadened by 0.31 eV, determined from the full width at half-maximum (fwhm), with respect to the higher-energy Al prism-localized LSPR modes (∼3.20 eV), suggesting stronger hybridization with the Pt dipole plasmons than in the Au+Pt system. Both Pt and Al have low-energy interband transitions (0.90 and 1.40 eV, respectively) that are not expected to hybridize because of their poor spectral overlap.(47)
 To further explore the properties of Al coupled with Pt, Figures 5 and 6 compare the magnitude of the electron-beam-induced electric near-fields of the Al+Pt and Au+Pt systems at three loss-energies: 1.20, 1.75, and 4.75 eV, as indicated in Figure 4 (dotted, vertical lines). Qualitatively similar electric near-fields would arise in response to linearly polarized plane-wave excitation because of the common polarization it shares with the field of the electron at the indicated beam position (x). The field maps reveal that at the energy of the prism-localized dipole mode (Figure 5a,b) and the energy of the Pt-localized dipole mode (Figure 5c,d), the fields around the Pt particles are similar in magnitude. This is reinforced in Figure 5e,f, which present the electric field magnitudes computed along lines (white) bisecting the Pt particle and clearly show electric fields of similar magnitudes for both systems.
 
 \begin{figure}
+\begin{centering}
 \includegraphics{prisms_field_calculations.png}
 \caption{Electric field maps, resulting from electron beam excitation (e-), computed in the plane bisecting the Pt particle and above the prism at the resonance frequencies of the prism dipole plasmons for Al+Pt (A, 1.75 eV) and Au+Pt (B, 1.20 eV). Electric field maps are computed for the same systems, Al+Pt (C) and Au+Pt (D), at the Pt dipole plasmon. Note that the fields become more diffuse around the tip at the Pt resonance frequency (4.75 eV). The fields along the white dotted line are plotted for the prism dipole resonance of Al+Pt and Au+Pt (E, green and red traces, respectively), and for the Pt dipole resonance in Al+Pt and Au+Pt (F, green and red traces, respectively). The gray shapes mark the positon of the sphere. Note that the fields are much larger at the low-energy, hybridized dipoles, but for both systems the fields are comparable in magnitude at similar energies.}
 \label{field_top}
+\end{centering}
 \end{figure}
 
 \begin{figure}
+\begin{centering}
 \includegraphics{prisms_fields_2.png}
 \caption{Electric field maps, resulting from electron beam excitation (e-), computed in the plane bisecting both the Pt particle and the prism at the resonance frequencies of the dipole plasmons for Al+Pt (A, 1.75 eV) and Au+Pt (B, 1.20 eV) and the dipole plasmon of the Pt (4.75 eV) particle in Al+Pt (C) and Au+Pt (D). Note that the fields in the junction consistently drown out the fields around the particle, except at the dipole of the Al+Pt.
 Additionally, along the white dotted line, the fields are plotted for the dipole resonance of Al+Pt and Au+Pt (E, green and red traces, respectively), and for the dipole resonance of the Pt in Al+Pt and Au+Pt (F, green and red traces, respectively). The gray shapes mark the positions of the prism and sphere. Interestingly, the low-energy dipole mode of Au+Pt has a large field in the junction, likely due to Au being a good plasmonic antenna, but the junction field is higher in Al+Pt at the dipole resonance of the Pt. This may be a signature of energy transfer in Al+Pt at these energies.}
 \label{field_side}
+\end{centering}
 \end{figure}
 
 Turning to the field magnitude in the junction at the energy of the prism-localized dipoles (Figure 6a,b), we see that the field is much larger in the Au+Pt junction than in the Al+Pt junction. This means that the junction field in the Au+Pt systems is dominated by the response of the Au nanoprism. Conversely, at the energy of the Pt-localized dipole (Figure 6c,d), the junction field in the Al+Pt system is much larger than that of Au+Pt. These observations are again reinforced by the electric field magnitudes presented in Figure 6e,f, which are computed along lines (white) running through the junction. Taken together, Figures 4–6 indicate a relationship between EEL probability and the strength of the near electric fields surrounding the mixed-metal systems observed in this Letter. These junction fields show that the high-energy modes of the nanoprism are more effectively coupled to the Pt dipole plasmon in Al+Pt than in Au+Pt; therefore, a greater capacity for plasmon-mediated chemical catalysis is predicted in the Al+Pt system. Utilizing the electric near-field simulations and data obtained through experiment and calculations, we show that these plasmonic-catalytic metal systems should drive plasmon-assisted reactions.
@@ -438,14 +451,22 @@ For simulations, we applied the Metal Nanoparticle Boundary Element Method (MNPB
 
 % ========== Chapter 3
  
-\chapter{Paper 2: Magnetic Plasmons}
+\chapter{Tunable Spectral Ordering of Magnetic Plasmon Resonances in Metal Nanoclusters}
  
- 
+
 % ========== CHapter 4
 
 \chapter{Conclusion and Future Work}
 
-Conclusion conclusion conclusion
+In this thesis we have learned some things. The purpose of this thesis has been to theoretically characterize the optical properties of clusters of metal nanoparticles.
+
+In Chapter 1, we learned about the history of nanotechnology and photonics and learned that at their intersection lies nanophotonics and plasmonics. We discussed how the time dynamics of a spherical metal nanoparticle with frequency-dependent dielectric properties is identical to those of a damped harmonic oscillator. Finally, we began to investigate how multiple MNPs interact with one another by consider the simplest possible example: two identical metal nanospheres. Through this exercise, we discovered that how we choose to model the interaction can have both qualitative and quantitative impacts on the results of calculations. Building this intuition set us up to understand the more complicated geometries of later chapters.
+
+In Chapter 2, we examined mixed-metal, mixed geometry metal nanoclusters, specifically a gold nanoprism with a platinum sphere somewhere on its face. Modeling the nanoprism as a collection of spheres proved to be an intuitive and qualitatively useful device to better analyze the optical properties of the nanoprism. We discussed the distance- and orientation-dependence of the dipole-dipole coupling and showed that the extent to which the platinum sphere and the gold nanoprism hybridize depends very much upon their relative locations and orientations. Furthermore, we showed that hybridization can be enhanced by bringing the plasmon resonance energies closer together spectrally, as evidenced by computed electric field maps. These lessons point to facilitating energy transfer between metal nanoparticles via spatial and spectral co-location of plasmon resonances.
+
+In Chapter 3, we looked at larger nanoparticle clusters, specifically those composed of cyclic structures. These rings of particles, sometimes called oligomers, have both the usual strong electric response of plasmonic particles and an anomalously large magnetic response, resulting from the circular hybridization of the individual electric plasmons. In the case of oligomers composed of multiple rings, properly describing retardation effects is very important, and modeling these oligomers with retardation effects shows that the magnetic resonances have dynamic spectral ordering with increasing size. We also examined hexagonally packed nanoclusters of recent experimental interest, and showed that their lowest-order magnetic plasmon resonances also exhibit dynamic spectral ordering. Because magnetic fields are, in fact, relativistic effects, it is impossible to accurately model magnetic oligomers without incorporating retardation effects.
+
+Shortly, we will learn about an ongoing project.
 
 \section{Future Work: Photon-Assisted Electron Spectroscopies}
 
@@ -484,8 +505,100 @@ Again the Hamiltonian has two terms, $H_{\textrm{int}} = H_1 + H_2$. Wrapping th
 \end{equation}
 For the same reasons as in the discussion of the first order rates, the cross-terms not shown are equal to zero, because $H_1$ and $H_2$ correspond to different transitions with different intermediate and final states. If we now let $H_1 = H_\textrm{el-pl}$ and $H_2 = H_{\textrm{ph-pl}}$, the first term is $\Gamma_{\textrm{EELS}}^{(2)}$, the second term is $\Gamma_{\textrm{abs}}^{(2)}$, the third term is $\Gamma_{\textrm{EEGS}}$ or is related to $\Gamma_{\textrm{SEELS}}$, and the final term is $\Gamma_{\textrm{CL}}$.
 
-\subsection{PAEELS/SEELS from Fermi's Golden Rule}
+\section{SEELS from Fermi's Golden Rule}
+SEELS, or Stimulated Electron Energy-Loss Spectroscopy, is a process by which a swift electron in an electron microscope loses energy to a sample that has been previously excited or polarized by light. In EELS without a light source, the electron interacts only with its own self-induced polarization in the sample. Incorporation of a light source allows the electron to interact with the superposition of fields in the sample, or equivalently, with the superposition of surface charge densities. We would like to show that this is consistent with a Fermi's Golden Rule approach used in Ref. 2.
 
+We define the overall SEELS rate as a sum of a second order rate (photon absorption followed by electron interaction) with a first order rate (the photon-less EELS rate). To evaluate the rates, we begin with an initial Fock state defined by $|k_0N_i0_l\rangle$, corresponding to an electron with wavenumber $k_0$ and frequency $\varepsilon_{k_0}$, $N$ photons of energy $\hbar\omega_i$, and zero plasmons in mode $l$ with complex frequency $\tilde{\omega}_{\textrm{pl}}=\omega_{\textrm{pl}}+\textrm{i}\gamma_{\textrm{pl}}$. 
+
+\begin{align}
+\begin{split}
+  P_{\textrm{SEELS}} &= \frac{2\pi L}{\hbar^4v}\left|\frac{\langle k(N-1)_i2_l|H_{\textrm{e-pl}}|k_0(N-1)_i1_l\rangle\langle k_0(N-1)_i1_l|H_{\textrm{ph-pl}}|k_0N_i0_l\rangle}{\omega_i - \tilde{\omega}_{\textrm{pl}}}\right|^2\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i)\\
+  &+ \frac{2\pi L}{\hbar^2v}|\langle kN_i1_l|H_{\textrm{e-pl}}|k_0N_i0_l\rangle|^2\delta(\varepsilon_k - \varepsilon_{k_0} - \tilde{\omega}_{\textrm{pl}})
+  \label{overall_rate}
+  \end{split}
+\end{align}
+
+Additionally, here are some important definitions to help us out.
+
+\begin{equation}
+\begin{aligned}
+H_{\textrm{e-pl}} = -\textbf{d} \cdot \textbf{E}_{\textrm{el}}&\\
+H_{\textrm{ph-pl}} = -\textbf{d} \cdot \textbf{E}_{\textrm{ph}}&
+\end{aligned}
+\end{equation}
+
+Plugging in these definitions and remembering how boson operators work, the SEELS probability becomes:
+
+\begin{align}
+\begin{split}
+  P_{\textrm{SEELS}} &= \frac{2\pi L}{\hbar^4v}\left|\frac{\sqrt{2}\textbf{E}_{\textrm{el}}\cdot\textbf{d}_0 \sqrt{N}\textbf{d}_0\cdot\textbf{E}_{0}}{\omega_i - \tilde{\omega}_{\textrm{pl}}}\right|^2\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i)\\
+  &+ \frac{2L}{\hbar v}|\textbf{E}_{\textrm{el}}\cdot\textbf{d}_0|^2
+  \label{change_eels}
+  \end{split}
+\end{align}
+
+Recognizing that $\delta(x_1 - x_2) = 1/\pi\textrm{Im}\{1/(x_1-x_2)\}$ and $\alpha = d_0^2/(\hbar(\varepsilon_k-\varepsilon_{k_0}-\omega_{\textrm{pl}}))$, we can rewrite the SEELS probability in terms of the polarizability of the plasmonic nanoparticle polarizability.
+
+\begin{align}
+\begin{split}
+  P_{\textrm{SEELS}} &= \frac{4\pi NL}{\hbar^2v}(\textbf{E}_{\textrm{el}}\cdot\alpha^*\cdot\textbf{E}_{\textrm{el}}^*)(\textbf{E}_0\cdot\alpha\cdot\textbf{E}_0^*)\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i)\\
+  &+ \frac{2L}{\hbar v}(\textbf{E}_{\textrm{el}}\cdot\textrm{Im}\{\alpha\}\cdot\textbf{E}_{\textrm{el}}^*)
+  \end{split}
+\end{align}
+
+In order to relate this expression to EELS and absorption probabilities, we need to show that the matrix elements are proportional to their imaginary parts. Let's first write down $\alpha$. If $\tilde{\omega}_{\textrm{pl}} = \omega_{\textrm{pl}} - \textrm{i}\gamma/2$, we can rewrite alpha as
+
+\begin{equation}
+\begin{aligned}
+\alpha &= \frac{\textbf{d}_0^2}{\hbar(\omega_i - \omega_{\textrm{pl}} - \textrm{i}\gamma/2)}\\
+& = \frac{\textbf{d}_0^2\hbar (\omega_i - \omega_{\textrm{pl}})}{\hbar^2[(\omega_i - \omega_{\textrm{pl}})^2 + (\gamma/2)^2]} + \textrm{i}\frac{\textbf{d}_0^2\hbar\gamma/2}{\hbar^2[(\omega_i - \omega_{\textrm{pl}})^2 + (\gamma/2)^2]}\\
+& = X + \textrm{i}Y
+\end{aligned}
+\end{equation}
+
+Of course, if $\omega_i = \omega_{\textrm{pl}}$, or more realistically, if $\omega_i$ is a packet of frequencies distributed symmetrically about $\omega_{\textrm{pl}}$, then $X=0$ and $\alpha = \textrm{i}Y = \textrm{i}\textrm{Im}\{\alpha\}$. However, let's do some quick algebra with one of the interaction energies in the first term of the SEELS probability, keeping both parts of $\alpha$.
+
+\begin{equation}
+\begin{aligned}
+\textbf{E}_{\textrm{el}}\cdot\alpha\cdot\textbf{E}_{\textrm{el}}^* &= (\textbf{E}_r+\textrm{i}\textbf{E}_i)\cdot(X+\textrm{i}Y)\cdot(\textbf{E}_r-\textrm{i}\textbf{E}_i)\\
+& = (X\textbf{E}_r - Y\textbf{E}_i + \textrm{i}X\textbf{E}_i + \textrm{i}Y\textbf{E}_r)\cdot(\textbf{E}_r-\textrm{i}\textbf{E}_i)\\
+& = X(E_r^2 + E_i^2) + \textrm{i}Y(E_r^2 + E_i^2)
+\end{aligned}
+\end{equation}
+
+If $X = 0$, then 
+
+\begin{equation}
+\textbf{E}_{\textrm{el}}\cdot\alpha\cdot\textbf{E}_{\textrm{el}}^* = \textbf{E}_{\textrm{el}}\cdot\textrm{i}\textrm{Im}\{\alpha\}\cdot\textbf{E}_{\textrm{el}}^* = \textrm{i}\textrm{Im}\{\textbf{E}_{\textrm{el}}\cdot\alpha\cdot\textbf{E}_{\textrm{el}}^*\}
+\end{equation}
+
+and similarly for the photon parts of the SEELS probability. This allows us to finally write the SEELS rate as
+
+\begin{align}
+\begin{split}
+  P_{\textrm{SEELS}} &= \frac{4\pi NL}{\hbar^2v}\textrm{Im}\{\textbf{E}_{\textrm{el}}\cdot\alpha^*\cdot\textbf{E}_{\textrm{el}}^*\}\textrm{Im}\{\textbf{E}_0\cdot\alpha\cdot\textbf{E}_0^*\}\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i)\\
+  &+ \frac{2L}{\hbar v}\textrm{Im}\{\textbf{E}_{\textrm{el}}\cdot\alpha\cdot\textbf{E}_{\textrm{el}}^*\}
+  \end{split}
+\end{align}
+
+The second term is the EELS probability. The first term is proportional to both the EELS probability and the absorption probability $P_{\textrm{abs}} = (4\pi^2N/\hbar\omega_i)\textrm{Im}\{\textbf{E}_0^*\cdot\textbf{d}\}$. Substituting in the first-order probabilities yields
+
+\begin{equation}
+P_{\textrm{SEELS}} = \frac{\omega_i}{2\pi}P_{\textrm{abs}}P_{\textrm{EELS}}\delta(\varepsilon_k-\varepsilon_{k_0}-\omega_i) + P_{\textrm{EELS}}
+\end{equation}
+
+We can also rewrite $P_{\textrm{SEELS}}$ so as to factor out the electron electric field. We know we can do this because of the complex algebra we just did. We also know that because we're doing scalar multiplication, we can rearrange the terms of the SEELS probability. Doing both of those things results in
+
+\begin{align}
+\begin{split}
+  P_{\textrm{SEELS}} &= \frac{4\pi NL}{\hbar^2v}(\textbf{E}_{\textrm{el}}\cdot\textrm{Im}\{\alpha\}\cdot\textbf{E}_0)(\textbf{E}_{\textrm{el}}^*\cdot\textrm{Im}\{\alpha^*\}\cdot\textbf{E}_0^*)\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i)\\
+  &+ \frac{2L}{\hbar v}(\textbf{E}_{\textrm{el}}\cdot\textrm{Im}\{\alpha\}\cdot\textbf{E}_{\textrm{el}}^*)\\
+  &= \textbf{E}_{\textrm{el}}\cdot\left[ \frac{4\pi NL}{\hbar^2v}\textbf{d}_{\textrm{ph}}(\textbf{E}_{\textrm{el}}^*\cdot\textrm{Im}\{\alpha^*\}\cdot\textbf{E}_0^*)\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i) + \frac{2L}{\hbar v}\textbf{d}_{\textrm{el}} \right]\\
+  &= \textbf{E}_{\textrm{el}}\cdot\left[ C_1\textbf{d}_{\textrm{ph}} + C_2\textbf{d}_{\textrm{el}} \right] 
+  \end{split}
+\end{align}
+
+Here, $\textbf{d}_{\textrm{ph}}$ and $\textbf{d}_{\textrm{el}}$ are the photon- and electron-induced plasmon dipole moments, respectively. So, we can see that we can write the SEELS probability in terms of the interaction between the electron electric field and the dipole moments induced independently by the photon and the electron beam.
 
 
 \subsection{A Classical Description of EELS (and PAEELS)}
@@ -588,12 +701,19 @@ The photon field with polarization direction $\hat{\boldsymbol{\epsilon}}$ is sc
 \Gamma_{\textrm{loss}} &= \frac{\textrm{Im}\{\alpha(\omega)\}}{\hbar\pi}\Big\{4\pi^2A^2\delta(\omega-\omega_0)\\
 &+ \frac{4e^2\omega^2}{v^4\gamma_L^4}\left[K_0^2\left(\frac{\omega R}{v\gamma_L}\right) + \gamma_L^2 K_1^2\left(\frac{\omega R}{v\gamma_L}\right)\right]\\
 &+ 2\pi A\delta(\omega-\omega_0)\hat{\boldsymbol{\epsilon}}\cdot\left[ \textrm{i}K_0\left( \frac{\omega R}{v\gamma_L} \right)\hat{\textbf{z}} - \gamma_L K_1\left( \frac{\omega R}{v\gamma_L} \right)\hat{\textbf{R}}\right]e^{\textrm{i}\omega z/v}\\
-&+ 2\pi A\delta(\omega-\omega_0)\hat{\boldsymbol{\epsilon}}\cdot\left[ -\textrm{i}K_0\left( \frac{\omega R}{v\gamma_L} \right)\hat{\textbf{z}} - \gamma_L K_1\left( \frac{\omega R}{v\gamma_L} \right)\hat{\textbf{R}}\right]e^{-\textrm{i}\omega z/v} \Big\}
+&+ 2\pi A\delta(\omega-\omega_0)\hat{\boldsymbol{\epsilon}}\cdot\left[ -\textrm{i}K_0\left( \frac{\omega R}{v\gamma_L} \right)\hat{\textbf{z}} - \gamma_L K_1\left( \frac{\omega R}{v\gamma_L} \right)\hat{\textbf{R}}\right]e^{-\textrm{i}\omega z/v} \Big\}.
 \label{loss_rate_fields}
 \end{aligned}
 \end{equation}
-
-
+This equation is very similar to the loss probability presented in Ref. [citation needed]. We are interested in modeling particular experimental situations, specifically experiments in which the photon and electron interact with the MNP at the same time and the light is polarized such that $\hat{\boldsymbol{\epsilon}}_0 \cdot \hat{\textbf{z}} = 0$. This reduces Eq. \ref{loss_rate_fields} to
+\begin{equation}
+\begin{aligned}
+\Gamma_{\textrm{loss}} &= \frac{\textrm{Im}\{\alpha(\omega)\}}{\hbar\pi}\Big\{4\pi^2A^2\delta(\omega-\omega_0)\\
+&+ \frac{4e^2\omega^2}{v^4\gamma_L^4}\left[K_0^2\left(\frac{\omega R}{v\gamma_L}\right) + \gamma_L^2 K_1^2\left(\frac{\omega R}{v\gamma_L}\right)\right]\\
+&+ 2\textrm{Re}\left\{2\pi A\delta(\omega-\omega_0)\hat{\boldsymbol{\epsilon}}\cdot\left[ -\gamma_L K_1\left( \frac{\omega R}{v\gamma_L} \right)\hat{\textbf{R}}\right]e^{\textrm{i}\omega z/v}\right\}\Big\}
+\label{loss_fields_realpart}
+\end{aligned}
+\end{equation}
 
 
 

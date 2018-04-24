@@ -83,6 +83,7 @@
  
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{amssymb}
 \begin{document}
  
 % ==========   Preliminary pages
@@ -103,7 +104,7 @@
 \Chair{David Masiello}{Associate Professor}{Department of Chemistry}
 \Signature{David Ginger}
 \Signature{Sarah Keller}
-\Signature{Elizabeth Nance}
+%\Signature{Elizabeth Nance}
 
 \copyrightpage
 
@@ -121,25 +122,8 @@
 
 \setcounter{page}{-1}
 \abstract{
-This sample dissertation is an aid to students who are attempting
-to format their theses with \LaTeX, a sophisticated
-text formatter widely used by mathematicians and scientists everywhere.
- 
-\begin{itemize}
-\item It describes the use of a specialized
-macro package developed specifically for thesis production
-at the University.
-The macros customize \LaTeX\ for the correct thesis style,
-allowing the student to concentrate on the substance of
-his or her text.%
-\footnote{See Appendix A to obtain the source to this
- thesis and the class file.}
-\item It demonstrates the solutions to a variety of
-formatting challenges found in thesis production.
-\item It serves as a template for a real dissertation.
-\end{itemize}
+As the field of plasmonics develops, new knobs to turn and levers to pull become available to researchers. From the morphology and material composition of individual nanoparticles to background environments tunable in real time to aggregation scheme and spatial arrangement, many avenues for controllably altering the optical properties of metal nanoclusters are being explored. In this thesis, we will focus on the latter; more specifically, the impact of metal nanocluster geometry on the collective plasmon behavior. It will be shown that complicated nanoparticle geometries can be modeled qualitatively as small nanoclusters of simpler shapes and that the introduction of asymmetry into a nanocluster can noticeably alter the nanocluster's plasmonic behavior. We will also study the impact of nanocluster size and shape by investigating the dynamic spectral ordering of the collective plasmon modes of cyclic or hexagonally-packed nanoclusters. The purpose of this thesis is to emphasize the importance of plasmon hybridization in metal nanoclusters, and show that the hybridization theory of dipole plasmons is often enough to qualitatively and quantitatively predict collective behavior.
 }
- 
 %
 % ----- contents & etc.
 %
@@ -153,53 +137,10 @@ formatting challenges found in thesis production.
 \chapter*{Glossary}      % starred form omits the `chapter x'
 \addcontentsline{toc}{chapter}{Glossary}
 \thispagestyle{plain}
-%
+
 \begin{glossary}
-\item[argument] replacement text which customizes a \LaTeX\ macro for
-each particular usage.
-\item[back-up] a copy of a file to be used when catastrophe strikes
-the original.  People who make no back-ups deserve
-no sympathy.
-\item[control sequence] the normal form of a command to \LaTeX.
-\item[delimiter] something, often a character, that indicates
-the beginning and ending of an argument.
-More generally, a delimiter is a field separator.
-\item[document class] a file of macros that tailors \LaTeX\ for
-a particular document.  The macros described by this thesis
-constitute a document class.
-\item[document option] a macro or file of macros
-that further modifies \LaTeX\ for
-a particular document.  The option {\tt[chapternotes]}
-constitutes a document option.
-\item[figure] illustrated material, including graphs,
-diagrams, drawings and photographs.
-\item[font] a character set (the alphabet plus digits
-and special symbols) of a particular size and style.  A couple of fonts
-used in this thesis are twelve point roman and {\sl twelve point roman
-slanted}.
-\item[footnote] a note placed at the bottom of a page, end of a chapter,
-or end of a thesis that comments on or cites a reference
-for a designated part of the text.
-\item[formatter] (as opposed to a word-processor) arranges printed
-material according to instructions embedded in the text.
-A word-processor, on the other hand, is normally controlled
-by keyboard strokes that move text about on a display.
-\item[\LaTeX] simply the ultimate in computerized typesetting.
-\item[macro]  a complex control sequence composed of 
-other control sequences.
-\item[pica] an archaic unit of length.  One pica is twelve points and
-six picas is about an inch.
-\item[point] a unit of length.  72.27 points equals one inch.
-\item[roman]  a conventional printing typestyle using serifs.
-the decorations on the ends of letter strokes.
-This thesis is set in roman type.
-\item[rule] a straight printed line; e.g., \hrulefill.
-\item[serif] the decoration at the ends of letter strokes.
-\item[table] information placed in a columnar arrangement.
-\item[thesis] either a master's thesis or a doctoral dissertation.
-This document also refers to itself as a thesis, although it
-really is not one.
- 
+\item[word] definition.
+\item[] 
 \end{glossary}
  
 %
@@ -275,7 +216,7 @@ Equation~\ref{polar_time} has two important pieces. The first is the sinusoidal 
 \begin{figure}
 \begin{centering}
 \includegraphics{all_alpha.pdf}
-\caption{caption me!}
+\caption{Normalized, time-dependent response of the (a) silver, (b) gold, (c) platinum, and (d) aluminum dipole plasmon over a span of 100 fs. The maximum amplitude is related to the high-frequency dielectric constant, $\varepsilon_{\infty}$, the oscillation frequency is determined by $\sqrt{\omega_{\textrm{sp}}^2 - \gamma^2/4}$, and the decay rate is $\gamma$, which contains contributions from electron-ion scattering and radiation damping.} 
 \label{alpha_metals}
 \end{centering}
 \end{figure}
@@ -284,7 +225,10 @@ Equation~\ref{polar_time} has two important pieces. The first is the sinusoidal 
 
 \section{Multiple Metal Nanoparticles}
 
-We need a whole paragraph AT LEAST on history.
+The hybridization of dielectric grains was the first major study on plasmon hybridization theory [citation needed]. {\bf Flesh this out more!} This work showed that when multiple dielectric particles are brought close together, they exhibit collective optical properties rather than their individual optical properties. Since then, this concept has been central to the study of plasmonics. There have been numerous hybridization models, from coupled dipole approaches (Schatz) to molecular orbital-like approaches (Prodan and Nordlander). Many of these studies have inspired the work in this thesis. Previous work has investigated the distance-dependence of collective resonance wavelength and radiation damping (von Plessen) and the impact of environment on MNP coupling strength (el Sayed).
+
+Plasmon hybridization theory matters because it informs real-world applications. MNP dimers have been shown to make effective rulers [citation needed]. {\bf Flesh this out more!} Small clusters have also been shown to be effective substrates for surface enhanced raman spectroscopy (SERS) [citation needed]. In Chapter 2, we will discuss how hybridization is a possible measure of energy transfer; similarly, there has been much effort to investigate how a MNP hybridizes with and transfers energy to other MNPs and to its environment [cubes on substrates, landau, a few others]. The study of plasmon hybridization theory is simply an extension of the study of electromagnetic energy transfer. Understanding how multiple MNPs interact with one another is central to the work presented in this thesis and to much of the field of plasmonics and its applications.
+
 Who to cite: Lukas, von Plessen, El Sayed, Schatz, others studying plasmon hybridization
 \subsection{The Quasistatic Limit}
 Bringing two atoms close together causes their atomic orbitals to mix, forming new, hybridized molecular orbitals [citation needed]. These molecular orbitals are the basis of bonds. For instance, the molecular orbitals of $\textrm{H}_2$ formed from two H $s$-orbitals split into a lower energy, bonding orbital and a higher-energy, anti-bonding orbital. Pairs of LSPRs behave similarly. When brought close to each other, they hybridize and produce new normal modes, one lower energy and one higher energy. We have just learned that we can model the response of a LSPR as a harmonic oscillator. By extension, we can treat pairs (or larger collections) of LSPRs as systems of coupled oscillators whose dynamics depend on each other. Dipole LSPRs couple through a pairwise interaction between each dipole and the field produced by each other dipole ($U = -\sum_{j\neq i}\textbf{d}_i\cdot\textbf{E}_j/2$). This interaction is mediated by something called the dipole relay tensor
@@ -310,7 +254,7 @@ The interaction energy for a pair of parallel dipoles carries a positive sign, i
 \begin{figure}
 \begin{centering}
 \includegraphics{dimer_stat.pdf}
-\caption{Caption me}
+\caption{Quasistatic interaction energies for (color) collinear, (color) anti-parallel, (color) parallel, and (color) anti-collinear arrangements of dipoles in a dimer of $a=20$ nm silver spheres plotted against increasing seapration distance, from touching to 100 nm apart. Note that with increasing distance, all of the interactions tend towards zero and remain in the same energy-order.}
 \label{dimer_stat}
 \end{centering}
 \end{figure}
@@ -329,7 +273,7 @@ The interaction energy now has terms that depend on $k$, and through that, the o
 \begin{figure}
 \begin{centering}
 \includegraphics{dimer_ret.pdf}
-\caption{caption me}
+\caption{Fully retarded interaction energies for (a) collinear, (b) anti-parallel, (c) parallel, and (d) anti-collinear arrangements of dipoles in a dimer of $a=20$ nm silver spheres plotted against increasing separation distance, from touching to 100 nm apart. The fully retarded calculations include the (color) near-, (color) intermediate-, and (color) far-field contributions to the (black) total interaction energy. There are distinct regions of space where each of the terms of the field has the greatest magnitude. Note that with increasing distance, all of the interactions tend towards zero.}
 \label{dimer_ret}
 \end{centering}
 \end{figure}
@@ -339,12 +283,12 @@ The insight gained from this exercise is that the ``bonding'' or ``anti-bonding'
 \begin{figure}
 \begin{centering}
 \includegraphics{dimer_ret_total.pdf}
-\caption{caption me!}
+\caption{Fully retarded total interaction energies for (color) collinear, (color) anti-parallel, (color) parallel, and (color) anti-collinear arrangements of dipoles in a dimer of $a=20$ nm silver spheres plotted against increasing seapration distance, from touching to 100 nm apart. Note that with increasing distance, all of the interactions tend towards zero and change energy-order to the oscillatory nature of the electric field.}
 \label{dimer_ret_tot}
 \end{centering}
 \end{figure}
 
-The dipole relay tensor, $\boldsymbol{\Lambda}_{ij}$, informs the basis of the work presented in this thesis, namely the study of the interactions between multiple MNPs. In Chapter 2, we will discuss how we can study the plasmonic spectrum of non-spherical MNPs by modeling them as small clusters of spherical MNPs well within the quasistatic limit. We will further extend this quasistatic model to incorporate mixed-metal systems and to interpret the results of full-wave simulations.
+The dipole relay tensor, $\boldsymbol{\Lambda}_{ij}$, informs the basis of the work presented in this thesis, namely the study of the interactions between multiple MNPs. In Chapter 2, we will discuss how we can study the plasmonic spectrum of non-spherical MNPs by modeling them as small clusters of spherical MNPs well within the quasistatic limit. We will further extend this quasistatic model to incorporate mixed-metal systems and to interpret the results of full-wave simulations. In Chapter 3 we learn more about the impact of aggregation scheme and nanocluster size, and how retardation effects and plasmon hybridization play a role in the spectral ordering of collective plasmon modes. Throughout this thesis we will refer back to the dipole relay tensor. It is a concept central to the understanding of the behavior of more than one MNP. Finally, at the very end of this thesis, we will breifly introduce work on predicting the results of photon-assisted electron spectroscopies, a recent experimental collaboration that shows much potential.
 \newpage
 \section{List of publications}
 \begin{enumerate}
@@ -371,7 +315,7 @@ Electron energy-loss spectroscopy (EELS), performed in a monochromated scanning 
 
 While previous work has established the viability of plasmon-assisted chemistry in mono- and bimetallic nanostructures, fundamental studies of plasmon hybridization in well-defined, mixed-metal systems are needed to elucidate the mechanisms underlying these observations. Because of their well-characterized plasmonic properties, in this Letter we investigate bare Au nanoprisms and Au nanoprisms decorated with spherelike, dendritic Pt nanoparticles (Au+Pt) in order to gain an understanding of the coupling between optical and catalytic properties in bimetallic nanostructures.(33, 34) STEM/EELS measurements and full-wave numerical EELS simulations are performed on pure Au nanoprisms and Pt-decorated Au nanoprisms, respectively, to understand how unperturbed Au plasmon modes are deformed by the location of the Pt particle. This work provides a nanoscopic view of how the plasmon mode structure of Au nanoprisms changes both spatially and spectrally in the presence of Pt and provides insight into energy transfer between Au and Pt constituents within the mixed-metal system. Using EELS simulations only, we further find that the LSPRs of an Al nanoprism will spectrally overlap with the LSPR of Pt, resulting in coupling stronger than that of the Au+Pt system.
 
-Figures 1 and 2 display the high-angle annular dark-field (HAADF) images and compare the experimentally acquired EEL maps with EELS simulations for two different Au+Pt geometries: a 209 nm edge length Au nanoprism with a 40 nm diameter Pt particle deposited at the tip (Figure 1d) and a 198 nm edge length Au nanoprism with a 40 nm diameter Pt particle deposited at the center of the prism (Figure 2d). In each case, we compare the data obtained from the decorated particles with data from bare Au nanoprisms of the same size (Figures 1a and 2a) to study the influence of the Pt particle on the plasmon mode structure. The loss energies for the mode maps are selected using the peak maxima of the point EEL spectra when the electron beam is positioned at the tip, edge, corner, and face and on the Pt decoration. These beam positions are selected as representative points of the LSPR modes of the nanoprism and Pt decoration. All experimental nanostructures are supported on a 30 nm thick Si3N4 membrane, and all simulations are performed in vacuum.
+Figures \ref{modes_tip} and \ref{modes_center} display the high-angle annular dark-field (HAADF) images and compare the experimentally acquired EEL maps with EELS simulations for two different Au+Pt geometries: a 209 nm edge length Au nanoprism with a 40 nm diameter Pt particle deposited at the tip (Figure \ref{modes_tip}d) and a 198 nm edge length Au nanoprism with a 40 nm diameter Pt particle deposited at the center of the prism (Figure \ref{modes_center}d). In each case, we compare the data obtained from the decorated particles with data from bare Au nanoprisms of the same size (Figures \ref{modes_tip}a and \ref{modes_center}a) to study the influence of the Pt particle on the plasmon mode structure. The loss energies for the mode maps are selected using the peak maxima of the point EEL spectra when the electron beam is positioned at the tip, edge, corner, and face and on the Pt decoration. These beam positions are selected as representative points of the LSPR modes of the nanoprism and Pt decoration. All experimental nanostructures are supported on a 30 nm thick Si3N4 membrane, and all simulations are performed in vacuum.
 
 \begin{figure}
 \begin{centering}
@@ -389,9 +333,9 @@ Figures 1 and 2 display the high-angle annular dark-field (HAADF) images and com
 \end{centering}
 \end{figure}
 
-Figures 1b and 2b show that the plasmon modes of the bare prisms evolve from dipoles localized to the corners, through those on the edges, and finally into multipolar modes as a function of increasing energy, which is in excellent agreement with previous EELS studies of plasmonic nanoprisms.(35, 36) Interestingly, a comparison of the mode maps resulting from decorated and undecorated prisms (Figure 1b,e) shows minimal changes to the mode structure upon addition of the Pt particle. The most notable difference is seen in the splitting of the dipolar mode of the bare Au nanoprism, where the presence of the Pt particle breaks the degeneracy of the dipole mode (vide infra) (Figure 1b,e). Figure 2b,e illustrates that the structure of the higher-energy modes is not strongly dependent on the Pt particle location, as the EEL maps in Figures 1b,e and 2b,e are similar. Lastly, we are able to experimentally map the LSPR of the Pt decoration at a higher energy than the modes of the nanoprism (Figures 1e and 2e).
+Figures \ref{modes_tip}b and \ref{modes_center}b show that the plasmon modes of the bare prisms evolve from dipoles localized to the corners, through those on the edges, and finally into multipolar modes as a function of increasing energy, which is in excellent agreement with previous EELS studies of plasmonic nanoprisms.(35, 36) Interestingly, a comparison of the mode maps resulting from decorated and undecorated prisms (Figure \ref{modes_tip}b,e) shows minimal changes to the mode structure upon addition of the Pt particle. The most notable difference is seen in the splitting of the dipolar mode of the bare Au nanoprism, where the presence of the Pt particle breaks the degeneracy of the dipole mode (vide infra) (Figure \ref{modes_tip}b,e). Figure \ref{modes_center}b,e illustrates that the structure of the higher-energy modes is not strongly dependent on the Pt particle location, as the EEL maps in Figures \ref{modes_tip}b,e and \ref{modes_center}b,e are similar. Lastly, we are able to experimentally map the LSPR of the Pt decoration at a higher energy than the modes of the nanoprism (Figures \ref{modes_tip}e and \ref{modes_center}e).
 
-Boundary element method calculations(37) (Figures 1c,f and 2c,f) capture the complex mode structure of these mixed-metal systems and agree well with the experimental measurements (Figures 1be and 2b,e). While there are quantitative differences in specific plasmon resonance energies between simulation and experiment due to substrate effects, we can leverage the qualitative agreement in the equivalent mode identity to explore the perturbative effects of Pt on the well-understood LSPR modes(38) of Au nanoprisms with plasmon hybridization theory. Previous work(39, 40) has shown that a basis set composed of corner-localized dipoles is sufficient to interpret the low-energy plasmon mode structure of the Au+Pt system. Therefore, we create a model composed of dipoles located on the corners of a triangular prism.(41, 42) Each corner is represented by a disk with two in-plane, orthogonal, dipole plasmons. These single-disk dipoles can be rigorously mapped onto a set of mechanical oscillators and mutually hybridized by diagonalizing the Hamiltonian(43)
+Boundary element method calculations(37) (Figures \ref{modes_tip}c,f and \ref{modes_center}c,f) capture the complex mode structure of these mixed-metal systems and agree well with the experimental measurements (Figures \ref{modes_tip}b,e and \ref{modes_center}b,e). While there are quantitative differences in specific plasmon resonance energies between simulation and experiment due to substrate effects, we can leverage the qualitative agreement in the equivalent mode identity to explore the perturbative effects of Pt on the well-understood LSPR modes(38) of Au nanoprisms with plasmon hybridization theory. Previous work(39, 40) has shown that a basis set composed of corner-localized dipoles is sufficient to interpret the low-energy plasmon mode structure of the Au+Pt system. Therefore, we create a model composed of dipoles located on the corners of a triangular prism.(41, 42) Each corner is represented by a disk with two in-plane, orthogonal, dipole plasmons. These single-disk dipoles can be rigorously mapped onto a set of mechanical oscillators and mutually hybridized by diagonalizing the Hamiltonian(43)
 \begin{equation}
 H = \frac{1}{2}\sum_{i}\hbar\omega_{\textrm{sp}^i}[\textbf{P}_i^2 + \textbf{Q}_i^2] - \frac{1}{2}\sum_{i \neq j}\hbar(\omega_{\textrm{sp}}^i\omega_{\textrm{sp}}^j)^{1/2}g_{ij}(r_{ij})[3(\textbf{Q}_i\cdot\hat{\textbf{n}}_{ij}\hat{\textbf{n}}_{ij}\cdot\textbf{Q}_j)-\textbf{Q}_i\cdot\textbf{Q}_j],
 \label{prism_hammy}
@@ -453,12 +397,271 @@ For simulations, we applied the Metal Nanoparticle Boundary Element Method (MNPB
  
 \chapter{Tunable Spectral Ordering of Magnetic Plasmon Resonances in Metal Nanoclusters}
  
+\begin{ch_abstract}
+Experimental characterization of the optical and magnetic properties of noble metal nanoclusters has exposed a size regime in between single-ring and extended two-dimensional nanocluster networks where the behavior of magnetic plasmon resonances is not well understood. In this intermediate size regime, individual electric dipole plasmons on each nanoparticle within the cluster can hybridize into delocalized magnetic modes that couple to either the electric or magnetic field of light with seemingly arbitrary energy ordering. Here, using a coupled-dipole model that includes fully-retarded interactions between electric dipole plasmons, we show that magnetic plasmon resonance energies can be controllably tuned and even made to cross as a function of nanocluster size. Experimental confirmation of this prediction is challenging because optical selection rules dictate the simultaneous excitation of many spectrally-overlapping magnetic plasmon modes. However, based on analytic modeling and numerical simulation, we show that angle-resolved cathodoluminescence offers an approach to cleanly isolate these magnetic modes and observe the size-dependence of their spectrum. Not only does our work clarify the rich optical and magnetic behavior of noble metal nanoclusters in the intermediate-size regime, but it also suggests strategies to design negative-index plasmonic metamaterials with multiple tunable resonances in the visible spectrum.
+\end{ch_abstract}
+
+Plasmon oligomers, or metamolecules, are clusters of noble metal nanoparticles (MNPs) that exhibit anomalously strong magnetic character even though their individual nanoparticle building blocks do not. Known as magnetic plasmons, the collective cyclic oscillation of conduction-band electrons within each cluster has been shown to couple to and enhance the magnetic field of light and to hybridize with other clusters analogously to electric plasmons in individual MNPs \cite{Zhang2006,Zhang2007,NordHal2011,NordHal2012,Cherqui2014,Cherqui2016,Engheta2017}. Since their discovery in 2004 \cite{Shalaev2004}, such magnetic plasmon resonances have been the focus of a body of applied and fundamental research from negative index metamaterials\cite{Alu2006,Alu2008} to quantum tunneling \cite{Dionne2016} and Fano interferences \cite{Dionne2011,Liu2011,Cherqui2016}. The magnetic properties of single oligomers, i.e., those clusters composed of only one ring of MNPs, are now well understood based upon quasistatic modeling, numerical simulation, and optical and electron-beam characterization \cite{Prodan2003,Nord2006,Dionne2011,Dionne2016,Capolino2017}. Infinitely extended two-dimensional networks of oligomers are also well understood theoretically \cite{Schatz2003,Weick2013}. However, recently, a disconnect between these extremes and methods has been discovered \cite{Cherqui2014,Engheta2017}, revealing a lack of understanding of how oligomer assemblies behave in the so-called intermediate size regime \cite{NordHal2011,NordHal2012,Cherqui2014,Qian2015,Cherqui2016,Engheta2017,Fakhraai2018,Scherer2018}.
+
+
+
+
+Central to this disconnect is the question of when and how retardation effects matter. For example, in the case of the two oligomer cluster, the quasistatic approximation deviates from full-wave numerical electrodynamics simulations in that it predicts a different energy-ordering of the two magnetic plasmon resonances \cite{Cherqui2014}. It is well known that retardation effects can affect the electric plasmon energetics in single MNPs \cite{Gu2010}, dimers \cite{Oubre2004,vonPlessen2007}, and infinite chains and arrays \cite{Lucas1976,ARAVIND1981,Kottman2001,Schatz2003,NordHal2003,NordProdan2004,Rechbacher2003,Schatz2003,Royer2005,Abajo2008,Gomez2009,Chumanov2010,Pinchuk2016}. However, to date, no theoretical analysis has been reported on the role of retardation in the description of magnetic plasmon resonances, which are an intrinsically relativistic phenomenon. It is the purpose of this paper to show that the incorporation of retardation corrects the aforementioned disagreement between model and simulation which is pronounced in the intermediate-size regime, and further highlights the ability to tune the magnetic plasmon spectrum by changing the oligomer size. The latter observation is particularly important because it enables manipulation of the system's effective permittivity and permeability, thereby facilitating the design of future tunable optical metamaterials.
+
+
+
+In the following, we present a coupled-dipole model to demonstrate the size-dependent evolution of the magnetic plasmons in intermediate-size $N$-ring oligomers, called $N$-mers, by including the effects of retardation in the mutual interaction of their underlying electric dipole plasmon resonances. Interestingly, as a function of size, we find that magnetic plasmon resonances switch their ordering in analogy to the way that electric plasmons in hybridized nanoparticles \cite{vonPlessen2007} and the giant electric and magnetic dipole plasmons of raspberry-like metamolecules \cite{Fakhraai2018} switch order. We further investigate the distinct radiative properties of these magnetic plasmons by computing the angle-resolved cathodoluminescence (CL) spectrum \cite{Hohenester2012,Hohenester2014,Coenen2011,CoPol2011,Polman2014}. CL is ideal over light scattering because the selection rules of the electron probe allow for the preferential excitation of specific magnetic responses, in distinction from light scattering where many broad higher-order electric responses are also excited. Building from the intuition gained, we finally analyze the size-dependent evolution of intermediate-size plasmonic nanoclusters similar to those characterized recently in Ref. \cite{Engheta2017}. We find that the spectral ordering depends not only on aggregate size but also upon morphology, offering a second handle to modify the spectrum. Such understanding may someday lead to advances in superlensing and electromagnetic cloaking at optical frequencies, as these applications benefit directly from the tunability of the system's electric and magnetic response \cite{Pendry03,Fang2005,Cai2007,Pinchuk07,Shalaev2008,Valentine2008,Ferrari09,Tian2018}.
+
+
+
+
+
+
+
+\section{Model Theory}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\begin{centering}
+\includegraphics{fig1.pdf}
+\caption{Signed magnetic field magnitude of the 2-mer's (a,b) and 3-mer's (c,d,e) magnetic plasmon resonances. Each system supports a number of closed-loop magnetic plasmons equal to the number of rings ($N$) in the oligomer. Magnetic plasmons that have a net electric dipole moment (a,c,d) show a node in their magnetic field and have no net magnetic dipole moment. Oppositely, the nodeless magnetic modes (b,e) possess a net magnetic dipole moment that interacts with the magnetic field of light.}
+\label{field_plots}
+\end{centering}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Fig. \ref{field_plots} displays two model oligomer systems, the 2-mer and 3-mer, comprising $n=10$ and $n=13$ silver nanospheres in analogy to the molecules naphthalene and phenalene. The electric plasmons of each MNP can be mapped onto a set of proxy harmonic oscillators as described in Ref. \cite{Cherqui2014,ARPC}. This approach forms the basis for modeling the collective magnetic plasmon responses described herein. In the limit where each nanoparticle, here restricted to a spherical geometry of radius $a$, possesses only an electric dipole plasmon resonance, the hybridized plasmon modes of the oligomer are the solutions of the equations of motion
+\begin{equation}
+\ddot{\textbf{q}}_i +\omega_{\textrm{sp}}^2\textbf{q}_i = \frac{e}{m_{\textrm{sp}}}\sum_{j\neq i}\textbf{E}_j(\textbf{r}_i),
+\label{equation_of_motion}
+\end{equation}
+where $\omega_{\textrm{sp}}=\sqrt{\omega_{p}^2/(\varepsilon_\infty+2\varepsilon_b)-(\gamma/2)^2}$ is the complex Mie resonance frequency and $m_{\textrm{sp}} = e^2/\alpha_{\textrm{sp}}\omega_{\textrm{sp}}^2$ is the plasmon's effective mass defined in terms of the polarizability $\alpha_{\textrm{sp}} = 3a^3/(\varepsilon_{\infty} + 2\varepsilon_b)$ \cite{Cherqui2014}. Here, $\omega_p$ is the metal's bulk plasma frequency, $\varepsilon_{\infty}$ and $\varepsilon_b$ are the high-frequency and background dielectric functions, and $\gamma$ is well approximated by the sum of the Drude electron-ion scattering and radiation damping rates. While these frictional forces are not explicitly included as velocity-dependent terms in the equations of motion, friction does contribute to the red-shift and linewidth broadening of the Mie resonance with increasing MNP size. The electric dipole moment $\textbf{d}_i = e\textbf{q}_i$ of each plasmon oscillator is restricted to lie in the plane of the oligomer (taken to be the $x-y$ plane) at position $\textbf{r}_i$, and $\textbf{E}_j(\textbf{r}_i)$ is the fully retarded electric field of the $j$th dipole evaluated at the position of the $i$th dipole. The electric field is defined by $\textbf{E}_j(\textbf{r}_i) = \boldsymbol{\Lambda}_{ij}\cdot\textbf{d}_j= \left\{\left(3\hat{\textbf{n}}_{ij}\hat{\textbf{n}}_{ij} - \textbf{1}_{ij}\right)\left({1}/{r_{ij}^3} - {ik}/{r_{ij}^2}\right) - \left(\hat{\textbf{n}}_{ij}\hat{\textbf{n}}_{ij} - \textbf{1}_{ij}\right)k^2/r_{ij}\right\}e^{ikr_{ij}}\cdot\textbf{d}_j/\varepsilon_b,$ where $\hat{\textbf{n}}_{ij}$ is the unit vector connecting two dipoles separated by distance $r_{ij}=|{\bf r}_i-{\bf r}_j|$ and $k=\sqrt{\varepsilon_b}\omega/c.$ The field is decomposed into three parts---the near- ($r_{ij}^{-3}$), intermediate- ($r_{ij}^{-2}$), and far-field ($r_{ij}^{-1}$)---which together include all dipolar retardation effects \cite{Purcell1973}. Interestingly, the latter term carries the opposite sign of the former two. As will be shown in the following, it is because of both the relative magnitude and sign of these terms as well as the oscillatory behavior of $e^{ikr_{ij}}$ that the interactions can change character and switch from energy-lowering to energy-raising. Since magnetic plasmons only involve the hybridization of $(x,y)$-oriented electric dipole plasmons that are orthogonal to the $z$-direction, only those $2n$ (of the $3n$) electric dipole plasmons in the $x-y$ plane are explicitly accounted for in Eq. (\ref{equation_of_motion}).
+
+
+
+As described in the Methods Section, there are as many hybridized modes of each $N$-mer as there are electric dipole plasmons. Of these hybrid modes, some are electric and some are magnetic in character, with $N$ magnetic plasmon resonances for each $N$-mer studied here. Fig. \ref{field_plots} shows the magnetic plasmon modes of the 2-mer and 3-mer overlaid with their associated signed magnetic field magnitude. Each mode is named for its particular magnetic field distribution after the poles of a magnet, either all-North (aN) or North-South (NS). The top right-hand corner of each panel indicates the net electric or magnetic dipole moment magnitude. The black arrows denote the electric dipole plasmons on each MNP within each magnetic mode, while the magenta arrow indicates the mode's net electric dipole moment. In planar geometries, the magnetic dipole moments are always perpendicular to the in-plane electric dipole moments. As a result, they scatter light with different directionality as will be discussed.
+
+
+
+
+\section{Spectral Ordering of Magnetic Plasmon Modes in Intermediate-Size $N$-mers}
+To determine the impact of incorporating retardation effects, it is first useful to consider the quasistatic limit. Here individual nanoparticle plasmon resonance frequencies ($\omega_{sp}$) are size-independent and the coupling strength depends only upon the scale $s_{ij} = r_{ij}/a$ and not upon the overall oligomer size. That is, if this ratio $s_{ij}$ of interparticle distance $r_{ij}$ to nanoparticle radius $a$ remains constant, the collective resonance frequencies do not change as the nanoparticles increase in size. This is evident by considering the $ka\ll 1$ limit of the interaction on the right-hand side of Eq. (\ref{equation_of_motion}),
+\begin{equation}
+\begin{aligned}
+\lim_{ka \to 0}\frac{e}{m_{\textrm{sp}}}\textbf{E}_j(\textbf{r}_i) &= \frac{e^2}{m_{\textrm{sp}}}\boldsymbol{\Lambda}_{ij}\cdot{\bf q}_j\\ 
+&= \frac{\omega_{\textrm{sp}}^2}{\varepsilon_b}\alpha_{\textrm{sp}}\frac{3\hat{\textbf{n}}_{ij}\hat{\textbf{n}}_{ij} - \textbf{1}_{ij}}{r_{ij}^3} \cdot \textbf{q}_j \\
+&= \frac{\omega_{\textrm{sp}}^2}{\varepsilon_b} \left(\frac{3}{\varepsilon_{\infty}+2\varepsilon_b}\right)\frac{3\hat{\textbf{n}}_{ij}\hat{\textbf{n}}_{ij} - \textbf{1}_{ij}}{s_{ij}^3} \cdot \textbf{q}_j.
+\end{aligned}
+\label{quasistatic_coupling}
+\end{equation}
+Retardation effects, however, remove this invariance and introduce radius-dependence into both the Mie frequency and the electric field. Consequently, in the following, we choose the individual MNP radius $a$ as the independent variable. To define the oligomer geometry, we fix the nearest-neighbor distance to $3a,$ such that the distance between each MNP remains a fixed multiple of $a$ for any value of $a.$
+
+%^ 3$a$ to investigate the effects of retardation upon the magnetic plasmon spectrum in intermediate-size $N$-mers.
+
+
+
+%where $m_{\textrm{sp}}$ and $\alpha_{\textrm{sp}}$ are rewritten in terms of fundamental parameters for silver, i.e., $\varepsilon_{\infty} = 3.77$, $\hbar\gamma = 0.05$ eV, and $\hbar\omega_{p} = 9.1$ eV. 
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\begin{centering}
+\includegraphics{fig2.pdf}
+\caption{(a) Magnetic plasmon resonance energies and (b,c) electric dipole plasmon interaction energies of the 2-mer and 3-mer. For MNP radii $a\lesssim7$ nm, the magnetic modes are ordered as predicted by quasistatic theory, with the NS mode (orange) lower in energy than the aN mode (blue). This implies that for small oligomers, the quasistatic approximation is accurate. However, at sizes $7\lesssim a\lesssim20$ nm, the magnetic plasmon resonances switch spectral order. This is due to the relative strength of the far-field interaction (squares) in comparison to the near- and intermediate-field contributions (circles). Finally, for $a\gtrsim20$ nm, the magnetic plasmon resonances switch order again. Also shown in panel a are the corresponding simulated resonance energies of each magnetic plasmon mode (dashed lines), indicating excellent agreement with the presented coupled-dipole model.}
+\label{scaling}
+\end{centering}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Fig. \ref{scaling} shows the predicted magnetic plasmon resonance energies from both Eq. (\ref{equation_of_motion}) and full-wave numerical electrodynamics simulation of the 2-mer and 3-mer with increasing $a$ \cite{Hohenester2012}. At small $a$, the magnetic modes preserve the quasistatic ordering predicted in previous work \cite{Cherqui2014}, which is to be expected when the oligomer system fits within an optical wavelength and the near-field dominates the electric field. As the system size increases, the resonance energies decrease and cross at $a \approx 7$ nm, and once more at $a \approx 20$ nm. The second crossing recovers the same spectral ordering as at small sizes, which might lead to the erroneous conclusion that the quasistatic approximation is correct again. Rather, both crossings are due entirely to retardation effects as can be seen from the total interaction energy $U = -({1}/{2}) \sum_{ij} \textbf{d}_i \cdot \textbf{E}_j(\textbf{r}_i)$ between each pair of electric dipole plasmons within each magnetic plasmon mode. It is the inclusion of the far-field that causes the mode switching, as it carries the opposite sign of the near- and intermediate-field terms. Fig. \ref{scaling} shows the competition between these field components as well as their relative contributions to the total interaction energy. Inspection of Fig. \ref{scaling}c reveals that the crossing points occur where the splitting in the near- and intermediate-fields is equal and opposite to that of the far-field. Perhaps more interestingly, in any dielectric medium with $\varepsilon_b > 1$ the crossing points are shifted towards smaller scale due to wavelength contraction. This can be explained through the impact of dielectric medium upon the interaction energy $U,$ which increases with increasing $\varepsilon_b$ due mostly to the far-field term's dependence upon $k^2$ \cite{Elsayed2008}. While previous work has explored the oscillatory nature of hybridized electric dipole plasmon resonances and radiation damping as a function of separation in noble metal dimers \cite{vonPlessen2007}, our work shows that magnetic plasmon resonances also oscillate with interparticle separation and can be understood by analysis of the different contributions to the electric dipole-electric dipole interaction.
+
+
+\section{Radiative Properties of Intermediate-Size $N$-mers}
+Only those magnetic resonances that have net electric or magnetic dipole moments will couple strongly to the radiation field. The magnetic dipole moment of the aN magnetic mode is perpendicular to the electric dipole moment(s) of the NS mode in both the 2-mer and 3-mer (see Fig. \ref{scattering}). This means that these modes radiate with different directionality. It has been predicted and shown experimentally that 1-mers scatter light anisotropically when both their magnetic and electric dipole moments are mutually excited, \cite{Dionne2011,Cherqui2016} as is evident in differential scattering spectra and radiation profiles. Both observations stem from the time-averaged differential power, \cite{jackson_classical_1999,schwinger1998classical}
+\begin{equation}
+\frac{dP({\bf x})}{d\Omega} = \frac{c}{8\pi}r^2\hat{\textbf{n}}\cdot\textrm{Re}\left[\sum_I\textbf{E}_I({\bf x}) \times \sum_{J}\textbf{B}_{J}^*({\bf x})\right]
+\label{dp_field_1}
+\end{equation}
+observed at the point ${\bf x}=r\hat{\bf n},$ where $I,J=1,\ldots,N$ label the 1-mer unit cells within each $N$-mer. $\textbf{E}_I$ and $\textbf{B}_I$ are produced from the sum of effective electric ($\textbf{d}_I$) and magnetic ($\boldsymbol{\mu}_I$) dipole moments, assumed to be co-located at the center of the $I$th ring and oscillating in time as $e^{-i\omega t}$. In this approximation, the differential power becomes \cite{Alu2006}
+\begin{equation}
+\begin{split}
+\frac{dP({\bf x})}{d\Omega} &= \frac{ck^4}{8\pi} \hat{\textbf{n}} \cdot \textrm{Re}\left[\left(\sum_{I} (\hat{\textbf{n}} \times \textbf{d}_I) \times \hat{\textbf{n}} - \hat{\textbf{n}} \times \boldsymbol{\mu}_I\right) \times \left(\sum_{J} \hat{\textbf{n}} \times \textbf{d}_J^* + (\hat{\textbf{n}} \times \boldsymbol{\mu}_J^*) \times \hat{\textbf{n}}\right)\right]\\
+&= \frac{ck^4}{8\pi} \textrm{Re} \Bigg[ \sum_{IJ} \textbf{d}_I \cdot \textbf{d}_J^* - (\hat{\textbf{n}} \cdot \textbf{d}_I)(\hat{\textbf{n}} \cdot \textbf{d}_J^*) + \boldsymbol{\mu}_I \cdot \boldsymbol{\mu}_J^* - (\hat{\textbf{n}} \cdot \boldsymbol{\mu}_I)(\hat{\textbf{n}} \cdot \boldsymbol{\mu}_J^*) \\ 
+&\hspace{2cm}+ \hat{\textbf{n}} \cdot (\textbf{d}_I \times \boldsymbol{\mu}_J^* + \textbf{d}_J^* \times \boldsymbol{\mu}_I) \Bigg].
+\label{dp_dipoles_1}
+\end{split}
+\end{equation}
+Notice that the first four terms involving $\bf d$ and $\boldsymbol\mu$ are due to the radiation produced by electric and magnetic dipoles, while the last term involving both is due to their interference. To build intuition, we fix the magnetic dipole moment $\boldsymbol{\mu}$ to point in the $z$-direction and the electric dipole $\textbf{d}$ to point in the $y$-direction for all $I,J.$ The effective electric and magnetic dipoles can be written in terms of their constituent dipoles as $\textbf{d}_I = \sum_i d_{I,i} \hat{\textbf{y}}$ and $\boldsymbol{\mu}_I = ({k}/{2})\sum_i\textbf{r}_i \times d_{I,i} \hat{\boldsymbol{\phi}}_i = ({knRd_{I,i}}/{2})\hat{\textbf{z}}$, where $R$ is the radius of the 1-mer ring consisting of $n$ nanoparticles, and $d_{I,i}$ is the electric dipole moment of the $i$th nanoparticle within the $I$th unit cell. For each $I$, all $d_{I,i}$ are equal.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\begin{centering}
+\includegraphics{fig3.pdf}
+\caption{Differential radiative power profiles of the (a) NS and (b) aN magnetic plasmon resonances of the $N$-mer as well as (c) their interference as dictated by Eq. (\ref{dp_dipoles_1}). In all cases, the $N$-mer is oriented to lie in the $x-y$ plane so that the net electric dipole moment of the NS mode points along the $y$ axis and the net magnetic dipole moment of the aN mode points along the $z$ axis.}%For this geometry, the forward/backward directions refer to positive/negative $x$ direction.}
+\label{scattering}
+\end{centering}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Fig. \ref{scattering} displays the differential scattering power profiles associated with the aN (a) and NS (b) magnetic plasmon resonances as well as their interference (c) for any $N$-mer with electric and magnetic dipoles oriented as described above. Since the aN mode has only a $z$-oriented magnetic dipole, its radiation pattern is orthogonal to that of the $y$-directed electric dipole of the NS mode. This means that asymmetry in the radiation pattern is due to the excitation of both modes. Thus, examination of the radiation directionality allows one to determine the net electric or magnetic dipole character. Such forward/backward scattering asymmetries have been predicted and demonstrated in metal-semiconductor core-shell nanoparticle assemblies, that similarly exploit the interference between electric and magnetic plasmons to direct light \cite{Kivshar2012}.
+
+
+Recent studies have demonstrated the utility of angle-resolved CL spectroscopy to characterize plasmon resonances in noble metal nanoparticles\cite{Coenen2011,CoPol2011,Polman2014}. Using an electron microscope fitted with a parabolic mirror, emitted CL radiation can be collected across a large portion of the backward scattering hemisphere\cite{Coenen2011,CoPol2011,Polman2014}. Here we show that with the selection rules imposed by the location of the electron beam and the specific directionality of light emission, the size-dependent spectral order of the $N$-mers' magnetic plasmon modes can be observed in angle-resolved CL spectra. 
+
+
+%More specifically, based upon the selection rules imposed by the electron beam and the directionality of CL radiation, it is possible to distinguish the magnetic modes and their spectral ordering as a function of size.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\begin{centering}
+\includegraphics{fig4.pdf}
+\caption{Angle-resolved cathodoluminescence spectra of the 2-mer (a) and 3-mer (b). Choosing the electron beam positions ($\times$) together with the light collection angles indicated allows the individual magnetic plasmon resonances and their size-dependent spectral switching to be observed. Simulated CL spectra with $a=15$ nm show the aN modes lower in energy than the NS modes, as predicted. With $a= 30$ nm, the modes switch in accordance with the presented coupled-dipole model. Spectral peaks located at higher energies correspond to higher-order non-magnetic plasmon modes that are not explicitly studied here.}
+\label{CL_2mer_3mer}
+\end{centering}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The previous section built up intuition on the directionality of light scattered by the magnetic modes of the 2-mer and 3-mer. This intuition informs the particular angles at which to collect CL spectra. Fig. \ref{CL_2mer_3mer} shows simulated point angle-resolved CL spectra of the 2-mer and 3-mer, with the electron beam position chosen so as to excite the aN (blue) and NS (orange) modes. Note however, due to the symmetry of the oligomers, the blue electron beam position excites not only the aN mode, but also weakly the NS mode. Since the radiation profile of the aN mode is orthogonal to that of the NS mode, it is possible to distinguish them by analyzing the angular distribution of emitted CL radiation, even though their splitting is $<0.05$ eV. The angle-resolved CL spectra at two such angles are reported in Fig. \ref{CL_2mer_3mer}. These simulated spectra confirm the predictions of the model displayed in Fig. \ref{scaling}; specifically, between $a = 15 - 30$ nm, the aN and NS modes switch spectral order. The simulation also shows mode switching at $a\approx7$ nm, however, the splitting energies are too small to be experimentally detectable with conventional CL. Nevertheless, experimental confirmation of the secondary mode splitting is possible, and would verify both our analytical and numerical predictions.
+
+
+
+
+
+
+
+
+
+
+\section{Magnetic Plasmon Resonances in Hexagonally-Packed Nanoclusters}
+Ref. \cite{Engheta2017} synthesizes, fabricates, and optically characterizes hexagonally-packed nanoclusters composed of gold nanoparticles in the intermediate size regime, between few particle nanoclusters and infinite arrays. Here, we apply our analytical modeling and numerical simulation to investigate the behavior of magnetic plasmon resonances in silver nanoclusters of the same geometry as a function of size, with an eye toward engineering magnetic resonances at particular resonance energies. Such tunability may be important in the design of future negative index materials with spectral tunability. Specifically, we consider hexagonally packed clusters composed of 13, 19, and 31 MNPs displayed in Fig. \ref{kagan_fields} as well as the insets of Fig. \ref{kagan_eigen}.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\begin{centering}
+\includegraphics{fig5.pdf}
+\caption{Signed magnetic field magnitudes and EEL mode maps of the aN (a) and NS (b) magnetic plasmon modes of 13-, 19-, and 31-particle nanoclusters. The clusters are based on those characterized in Ref. \cite{Engheta2017}, but are composed of silver. The magnetic fields are computed from the coupled-dipole model, while EEL mode maps result from simulation. As with the $N$-mers, only the NS modes have a net electric dipole moment indicated by the magenta arrow. The EEL mode maps indicate those regions in space where it is most probable to excite each magnetic plasmon.}
+\label{kagan_fields}
+\end{centering}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Fig. \ref{kagan_fields} displays the signed magnetic field magnitude of the aN (panel a) and NS (panel b) magnetic plasmon resonances of the 13-, 19-, and 31-particle nanoclusters. The black arrows denote the electric dipole moments of the individual MNPs within each magnetic plasmon mode, the magenta arrows denote the net electric dipole moment of the nanocluster, and the background color denotes the strength of the associated magnetic field. The net electric or magnetic dipole magnitude is denoted below each panel. The lower rows of panels a and b display the energy-filtered electron energy-loss (EEL) profiles of these modes. It is important to note that each aN mode is weakly excitable from the middle MNP (as indicated by the low EEL probability surrounding it), while the NS mode is strongly excitable from the same location (as indicated by the high EEL probability surrounding it). In all cases, the NS mode is doubly degenerate as would be true of any structure with sixfold symmetry. In analogy to the oligomers, these magnetic modes are chosen because they are the simplest (i.e., lowest order) and their radiation patterns are spatially orthogonal. 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\begin{centering}
+\includegraphics{fig6.pdf}
+\caption{Magnetic plasmon resonance energies (a) and electric-dipole interaction energies (b,c) of 13-, 19-, and 31-particle nanoclusters similar to those characterized in Ref. \cite{Engheta2017}, but composed of silver. Due to the geometrical differences between these nanoclusters and the $N$-mers, the aN modes remain lowest in energy at small MNP radii $a$. However, as $a$ increases, one or even multiple magnetic plasmon resonance crossings become possible for the same reasons described earlier for the $N$-mers.}
+\label{kagan_eigen}
+\end{centering}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Fig. \ref{kagan_eigen} displays the evolution of the aN and NS magnetic resonances with size $a$ as dictated by the coupled-dipole model. Here the size-dependent behavior of the nanocluster resonances is different due to the hexagonal packing as opposed to the open-ring structure of the $N$-mer. Nevertheless, the model is capable of predicting the magnetic spectrum. Most surprising is the oscillatory behavior of the nanoclusters' magnetic resonances with size as opposed to the expected monotonic red-shifting of those of the $N$-mer (see Fig. \ref{scaling}). Panels b and c display the total interaction energy $U$, and its near-, intermediate-, and far-field contributions, showing that this oscillatory behavior is due to retardation effects through the $e^{ikr_{ij}}$ factor in the electric field of each electric dipole.
+
+
+
+%This is contrary to intuition where increasing size causes monotonic redshifting. However this oscillatory behavior is not so unexpected; separating a MNP dimer causes its hybridized electric plasmon resonance frequencies to oscillate from bonding to anti-bonding and back\cite{vonPlessen2007}. In these nanoclusters, ARCL and patterns spectra provide a means to demonstrate this oscillation.
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\begin{centering}
+\includegraphics{fig7.pdf}
+\caption{Simulated angle-resolved cathodoluminescence spectra of the (a) 13-, (b) 19-, and (c) 31-particle nanoclusters from Ref. \cite{Engheta2017}, but composed of silver. Blue (orange) spectra are acquired at the beam positions marked with a blue (orange) $\times$ to preferentially excite the aN ($x$-polarized NS) mode. The dashed lines in each spectrum indicate the resonance locations of the aN (blue) and NS (orange) modes. Each panel also displays the light collection angles associated with each spectrum. Again, all unlabeled resonance peaks correspond to higher-order plasmon modes of either electric or magnetic character, which are not studied herein.}
+\label{kagan_CL}
+\end{centering}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Fig. \ref{kagan_CL} shows simulated angle-resolved CL spectra for the 13-, 19-, and 31-particle nanoclusters acquired at the two indicated beam positions and collection angles. Inspection of the EEL maps of the NS and aN magnetic resonances in Fig. \ref{kagan_fields} indicates the optimal electron beam positions to excite each magnetic plasmon mode, i.e., those positions with highest EEL probability. In particular, the NS mode (Fig. \ref{kagan_fields}b) is most easily excited near the central MNP, while the aN mode (Fig. \ref{kagan_fields}a) is more easily excited from the outer MNPs surrounding the central MNP. Upon selecting the appropriate excitation location, the radiative profile of each mode further helps identify the two magnetic resonances of interest. Because the aN mode radiates strongly in the $x-y$ plane, and weakly in the $z$-direction, it is detectable at angles between $0 < \theta \leq \pi/2$ for all $\phi$. Alternatively, by alignment with the $x$-axis, the NS mode is detectable at angles between $0 \leq \theta < \pi/2$ and $0<\phi<\pi,$ and $\pi<\phi<2\pi.$ The aN beam position also weakly excites the degenerate NS modes, meaning the corresponding CL spectrum will provide a secondary signature of the spectral location of that mode. This fact is evident in multiple simulated CL spectra displayed in Figs. \ref{CL_2mer_3mer} and \ref{kagan_CL}, demonstrating again the ability of angle-resolved CL to distinguish between resonances split by $\lesssim0.05$ eV.
+
+
+
+
+\section{Conclusion}
+In conclusion, we have presented a coupled-dipole model of MNP oligomers and hexagonally-packed nanoclusters that includes the effects of retardation and use it to show that the spectral ordering of their magnetic plasmon resonances can be controllably tuned as a function of cluster size and morphology. Full-wave numerical simulation is used to confirm the prediction that magnetic plasmon resonances can even be made to switch energy order, offering a relatively facile way to modify the system's magnetic responses in an experiment. The presented analysis is especially important in elucidating the intermediate-size regime in between individual single-ring and extended two-dimensional nanocluster networks, where retardation effects can significantly modify the spectrum. We further study the angular-dependence of the power emitted from the nanoclusters and demonstrate that the aN and NS magnetic plasmon modes, as well as their size- and morphology-dependent spectral order, can be detected in angle-resolved CL. Taken together, our work not only clarifies the rich optical and magnetic behavior of noble metal nanoclusters in the intermediate-size regime, but also suggests a strategy to design negative-index plasmonic metamaterials with multiple tunable resonances in the visible spectrum.
+
+
+
+
+
+\section{Methods}
+\noindent{\it{Coupled-dipole model.}} Refs. \cite{Cherqui2014,ARPC} describe how to map the solutions of Maxwell's equations for electric plasmon resonances onto mechanical oscillators with effective masses. Based on this approach, the resulting Hamiltonian for a system of $n$ frictionless coupled oscillators is
+\begin{equation}
+H = \sum_{i}\frac{\textbf{p}_i^2}{2m_{\textrm{sp}}}+\frac{1}{2}m_{\textrm{sp}}\omega_{\textrm{sp}}^2\textbf{q}_i^2 - \frac{e}{2}\sum_{ij (i\neq j)}\textbf{q}_i\cdot\textbf{E}_j(\textbf{r}_i),
+\label{hammy}
+\end{equation}
+where ${\bf q}_i$ and $\textbf{p}_i$ are the coordinate and momentum of the $i$th plasmon oscillator located at ${\bf r}_i$ with effective mass $m_{\textrm{sp}}$ and resonance frequency $\omega_{\textrm{sp}}$, defined previously. $\textbf{E}_j(\textbf{r}_i)$ is the full electric dipole field. The resulting equations of motion are,
+\begin{equation}
+\ddot{\textbf{q}}_i = -\omega_{\textrm{sp}}^2\textbf{q}_i + \frac{e}{m_{\textrm{sp}}}\sum_{j\neq i}\textbf{E}_j(\textbf{r}_i,\omega)
+\label{equation_of_motion_again}
+\end{equation}
+which is Eq. (\ref{equation_of_motion}). Assuming sinusoidal oscillation in time and rewriting the electric field in terms of the plasmon coordinate results in the equations of motion
+\begin{equation}
+(\omega_{\textrm{sp}}^2-\omega^2)\textbf{q}_i -\frac{e^2}{m_\textrm{sp}}\sum_{j\neq i}\boldsymbol{\Lambda}_{ij}(\omega)\cdot\textbf{q}_j = 0.
+\label{fourier_eom}
+\end{equation}
+It is this system of equations for the plasmon oscillator coordinates that we solve to determine the magnetic plasmon resonances. Considering $n=2$ identical, coupled, collinear oscillators as an example and projecting out the directional-dependence, Eq. (\ref{fourier_eom}) becomes
+\begin{equation}
+\begin{split}
+(\omega_{\textrm{sp}}^2-\omega^2)q_1 -g_{12}(\omega)q_2 &= 0\\
+(\omega_{\textrm{sp}}^2-\omega^2)q_2 -g_{12}(\omega)q_1 &= 0,
+\label{fourier_eom_12}
+\end{split}
+\end{equation}
+or, equivalently,
+\begin{equation}
+\begin{bmatrix}
+\omega_{\textrm{sp}}^2-\omega^2 & -g_{12}(\omega)\\
+-g_{12}(\omega) & \omega_{\textrm{sp}}^2-\omega^2
+\end{bmatrix}
+\begin{bmatrix}
+q_1\\
+q_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+0\\
+0
+\end{bmatrix}.
+\label{eom_matrix}
+\end{equation}
+where $g_{12}=-2e^2[r_{12}^{-3} - ikr_{12}^{-2}]e^{ikr_{12}}/\varepsilon_bm_{\textrm{sp}}.$ Note that the far-field contribution to $g_{12}$ vanishes here due to the assumed collinear arrangement of the dipoles. Solution of this system produces the hybridized plasmon resonance frequencies and modes of the dimer. Specifically, they are
+\begin{equation}
+\omega_{\pm} = \sqrt{\omega_{\textrm{sp}}^2 \pm g_{12}(\omega)}
+\label{eigenvalues}
+\end{equation}
+and
+\begin{equation}
+q_{\pm} = \frac{1}{\sqrt{2}}\left(q_1 \pm q_2\right).
+\label{eigenvectors}
+\end{equation}
+Note that the coupling term $g_{12}(\omega)$ is frequency dependent, meaning that the eigenvalue problem must be solved iteratively until convergence. The magnetic plasmon resonances described herein are obtained as a straightforward extension of this dimer example.
+
+
+
+
+\noindent{\it{Simulation details.}} Optical and electron beam simulations were performed using the MNPBEM package \cite{Hohenester2012,Hohenester2014}. Each spherical nanoparticle was discretized into 144 surface elements, each assigned the following Drude model parameters for silver: $\varepsilon_{\infty} = 3.77$, $\hbar\gamma = 0.05$ eV, and $\hbar\omega_{p} = 9.15$ eV. The electron kinetic energy was chosen to be 200 keV and all calculations were performed in vacuum, i.e., $\varepsilon_{b}=1.$ The angle-resolved CL spectra were computed using standard functions within MNPBEM together with numerical angular integration through $\pm25^\circ$ about the angles $(\theta,\phi)$ indicated in the figures.
+
+
+%\begin{acknowledgement}
+%This work was supported by the U.S. Department of Energy Basic Energy Sciences under award number DE-SC0018040 (D.J.M.) and by the State of Washington through the University of Washington Clean Energy Institute and via funding from the Washington Research Foundation (N.P.M.). This work was facilitated through the use of advanced computational, storage, and networking infrastructure provided by the Hyak supercomputer system and funded by the STF at the University of Washington. N.P.M. would like to thank Dr. Niket Thakkar and Harrison Goldwyn for helpful discussions and advice.
+%\end{acknowledgement}
 
 % ========== CHapter 4
 
 \chapter{Conclusion and Future Work}
 
-In this thesis we have learned some things. The purpose of this thesis has been to theoretically characterize the optical properties of clusters of metal nanoparticles.
+The purpose of this thesis has been to theoretically characterize the optical properties of clusters of metal nanoparticles, beginning from the single MNP and building our way up from small, single clusters, to mixed-metal dimers, to fused rings, and finally to hexagonally packed arrays. Throughout all of this, we kept an eye towards real-world applications, including nanoscale fuel production and optically transparent coatings. Each of these studies was centered on simple models and intuition-building, and using that intuition to interpret experimental results and simulated experiments.
 
 In Chapter 1, we learned about the history of nanotechnology and photonics and learned that at their intersection lies nanophotonics and plasmonics. We discussed how the time dynamics of a spherical metal nanoparticle with frequency-dependent dielectric properties is identical to those of a damped harmonic oscillator. Finally, we began to investigate how multiple MNPs interact with one another by consider the simplest possible example: two identical metal nanospheres. Through this exercise, we discovered that how we choose to model the interaction can have both qualitative and quantitative impacts on the results of calculations. Building this intuition set us up to understand the more complicated geometries of later chapters.
 
@@ -466,9 +669,13 @@ In Chapter 2, we examined mixed-metal, mixed geometry metal nanoclusters, specif
 
 In Chapter 3, we looked at larger nanoparticle clusters, specifically those composed of cyclic structures. These rings of particles, sometimes called oligomers, have both the usual strong electric response of plasmonic particles and an anomalously large magnetic response, resulting from the circular hybridization of the individual electric plasmons. In the case of oligomers composed of multiple rings, properly describing retardation effects is very important, and modeling these oligomers with retardation effects shows that the magnetic resonances have dynamic spectral ordering with increasing size. We also examined hexagonally packed nanoclusters of recent experimental interest, and showed that their lowest-order magnetic plasmon resonances also exhibit dynamic spectral ordering. Because magnetic fields are, in fact, relativistic effects, it is impossible to accurately model magnetic oligomers without incorporating retardation effects.
 
-Shortly, we will learn about an ongoing project.
+The field of plasmonics has growing to do. It is time to move away from abstract problems and begin to apply what we have learned about how plasmonic systems behave and under what circumstances they exhibit new and monumental properties. For instance, the field of thermoplasmonics is an area of intense and possibly life-changing research. Additionally, the plasmoelectric effect has gone too long without a successful implementation. Furthermore, it is time to look into more advanced characterization methods, specfically, direct mapping of plasmon electric and magnetic fields through scanning probe or electron microscopies. In the future work section, we will discuss theoretical predictions of photon-assisted electron spectroscopies, which provide a method for characterizing a plasmon's electric fields.
 
 \section{Future Work: Photon-Assisted Electron Spectroscopies}
+
+The field of photon-assisted electron spectroscopies has had a recent spring. Examples of this kind of technique include Electron Energy-Gain Spectroscopy (EEGS), Photon-Induced Near-Electric Field Microscopy (PINEM), and Stimulated or Photon-Assisted Electron Energy-Loss Spectroscopy (SEELS/PAEELS). These processes involve the successive interaction of a plasmon with a photon and a relativistic electron. In the former case, the photon induces a plasmon or polarization state in the sample and the electron picks up energy from that excitation. In the latter case, the electron loses extra energy equal to the photon energy. PINEM is the bridge between these methods and describes both events. In the next section, we will investigate SEELS both quantum mechanically and classically, and attempt to bridge those approaches.
+
+Need a figure describing EEGS and SEELS.
 
 \subsection{First- and Second-order Fermi's Golden Rule}
 
@@ -477,7 +684,7 @@ Fermi's Golden Rule in first order takes the form
 \Gamma_{fi} = \frac{2\pi}{\hbar^2}|\langle f |H_{\textrm{int}}| i \rangle |^2 \delta(\omega_f - \omega_i).
 \label{FGR_1}
 \end{equation}
-Here, $\Gamma_{fi}$ is rate at which the system moves from state $i$ to state $f$, $H_{\textrm{int}}$ is the interaction Hamiltonian, and the delta function enforces conservation of energy. In a system with only one perturbation or interaction, computation of the transition rate mediated by that perturbation is straightforward. However, we are interested in a system under the influence of multiple perturbations, specifically a MNP being probed both by light and by a passing electron. THe choice of Fock states matters, but for now we leave them unspecified. Allowing $H_{\textrm{int}} = H_1 + H_2$, Eq. \ref{FGR_1} becomes
+Here, $\Gamma_{fi}$ is rate at which the system transitions from state $i$ to state $f$, $H_{\textrm{int}}$ is the interaction Hamiltonian, and the delta function enforces conservation of energy. In a system with only one perturbation or interaction, computation of the transition rate mediated by that perturbation is straightforward. However, we are interested in a system under the influence of multiple perturbations, specifically a MNP being probed both by light and by a passing electron. THe choice of Fock states matters, but for now we leave them unspecified. Allowing $H_{\textrm{int}} = H_1 + H_2$, Eq. \ref{FGR_1} becomes
 \begin{equation}
 \begin{aligned}
 \Gamma_{fi} &= \frac{2\pi}{\hbar^2}|\langle f |H_1 + H_2| i \rangle |^2 \delta(\omega_f - \omega_i)\\
@@ -601,7 +808,7 @@ We can also rewrite $P_{\textrm{SEELS}}$ so as to factor out the electron electr
 Here, $\textbf{d}_{\textrm{ph}}$ and $\textbf{d}_{\textrm{el}}$ are the photon- and electron-induced plasmon dipole moments, respectively. So, we can see that we can write the SEELS probability in terms of the interaction between the electron electric field and the dipole moments induced independently by the photon and the electron beam.
 
 
-\subsection{A Classical Description of EELS (and PAEELS)}
+\subsection{A Classical Description of EELS (and SEELS)}
 
 A common way to compute the EELS rate is by calculating the induced field of the plasmon and having it act on the passing electron via [citation needed]
 \begin{equation}
@@ -718,31 +925,6 @@ This equation is very similar to the loss probability presented in Ref. [citatio
 
 
 
-\subsection{What I have coded}
-
-I have coded the EELS rate, except I add the surface charges (equivalently, the fields) from both a planewave source and an e-beam source. The EELS rate
-
-\begin{equation}
-\Gamma_{\textrm{EELS}} = \frac{1}{\pi\hbar\omega} \int dt \textrm{Re}\{e^{-\textrm{i}\omega t} \dot{\textbf{d}}_{\textrm{ind}} \cdot \textbf{E}_{\textrm{el}} \} .
-\label{eels_1}
-\end{equation}
-
-Assuming that $\textbf{d}_{\textrm{ind}}$ is induced by both light and the electron and that it oscillates at frequency $\omega$ I rewrite the EELS rate as
-
-\begin{equation}
-\Gamma_{\textrm{EELS}} = \frac{1}{\pi\hbar\omega} \int dt \textrm{Re}\{e^{-\textrm{i}\omega t} \frac{d}{dt}[\alpha(\textbf{E}_\textrm{el} + \textbf{E}_{\textrm{ph}})] \cdot \textbf{E}_{\textrm{el}} \}.
-\label{eels_2}
-\end{equation}
-
-That time derivative is likely not trivial (but perhaps in the case of white light it kicks down a factor of $\textrm{i}\omega$ if the dipole oscillates at frequency $\omega$). However, the above equation shows that adding a light source to an EELS experiment leads to an observable that is proportional to $(\textbf{E}_{\textrm{el}}\cdot\textbf{E}_{\textrm{el}})+(\textbf{E}_{\textrm{el}}\cdot\textbf{E}_{\textrm{ph}})$. The literature claims this is SEELS (or PAEELS, or PINEM).
-
-%
-% ==========   Bibliography
-%
-\nocite{*}   % include everything in the uwthesis.bib file
-\bibliographystyle{plain}
-\bibliography{uwthesis}
-%
 % ==========   Appendices
 %
 \appendix
@@ -777,5 +959,38 @@ Nanoparticle products were purified by centrifugation using a Spectrum mini-cent
 
 Silicon wafer substrates (University Wafer, ptype, 200 nm thermal oxide (silicon dioxide)) were first cleaned by sonicating in ethanol for 5 min. The substrate was then successively rinsed with ethanol and acetone and dried under a stream of N2(g). Samples were prepared using the same procedure described for TEM analysis. Here, 10 μL of the resulting solution was drop-cast onto the wafer and allowed to dry before imaging on a Raith Dual Beam EBL-SEM at various accelerating voltages.
 
+
+% ========== Appendix B
+\chapter{Appendix B: Extra Magnetic Plasmon Explorations}
+
+\section{A closer analysis of the oligomers}
+
+\subsection{Parameter: size}
+
+Look, they split! I promise.
+
+\subsection{Parameter: interparticle spacing}
+
+Some people do this DNA origami stuff with MNPs. Let's see what happens to the magnetic plasmons when we do this! We're going to fix the particle size and increase the separation, from touching (2 radii) to nearly non-interacting (about 10 radii). Notice that even in the non-interacting regime, the interaction energies still oscillate about zero. It would be difficult experimentally to measure this oscialltion, which means while it may not be physically relevant it is still theoretically interesting, and and extension of what we learned about dimers in Chapter 1.
+
+\subsection{Parameter: dielectric background}
+
+What happens to the magnetic modes when we vary the background dielectric constant? Teri Odom and some other cool researchers are using liquid crystal to tune, in real time, the background dielectric constant around MNP clusters. What happens to the magnetic plasmons as the background dielectric constant is increased from vacuum to optically opaque?
+
+\section{An alternative detection method: angle-resolved scattering}
+
+If we can measure the scattering patterns and the angle-resolved scattering spectra, we can very likely track at least the aN modes of each oligomer. Isolating the NS modes from the giant electric dipoles is much more difficult and likely can't be done experimentally using these methods. However, they're still interesting theoretically.
+
+\section{Towards negative index metamaterials}
+
+Because of their unique magnetic properties, MNP oligomers exhibit not only a negative permittivity but a negative permeability. When both of these properties are negative, the index of refraction can be negative as well. According to Snell's law, if a material posses a negative index of refraction, it bends light the wrong way.
+
+%
+% ==========   Bibliography
+%
+%\nocite{*}   % include everything in the uwthesis.bib file
+\bibliographystyle{plain}
+\bibliography{references}
+%
 
 \end{document}

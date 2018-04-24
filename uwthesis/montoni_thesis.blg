@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: montoni_thesis.aux
+The style file: plain.bst
+Database file #1: references.bib
+Warning--there's a number but no volume in Kottman2001
+You've used 54 entries,
+            2118 wiz_defined-function locations,
+            862 strings with 14314 characters,
+and the built_in function-call counts, 21201 in all, are:
+= -- 1965
+> -- 1333
+< -- 0
++ -- 528
+- -- 470
+* -- 1851
+:= -- 3676
+add.period$ -- 163
+call.type$ -- 54
+change.case$ -- 396
+chr.to.int$ -- 0
+cite$ -- 55
+duplicate$ -- 592
+empty$ -- 1427
+format.name$ -- 470
+if$ -- 4229
+int.to.chr$ -- 0
+int.to.str$ -- 54
+missing$ -- 56
+newline$ -- 273
+num.names$ -- 108
+pop$ -- 300
+preamble$ -- 1
+purify$ -- 343
+quote$ -- 0
+skip$ -- 387
+stack$ -- 0
+substring$ -- 1391
+swap$ -- 54
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 212
+warning$ -- 1
+while$ -- 160
+width$ -- 56
+write$ -- 596
+(There was 1 warning)

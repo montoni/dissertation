@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.24)  24 APR 2018 16:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.24)  25 APR 2018 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -520,13 +520,7 @@ Overfull \hbox (2.18861pt too wide) detected at line 838
 \OT1/cmr/m/n/12 ^^@[] = [] [] \OML/cmm/m/it/12 dz[] [] :
  []
 
-[53] [54] [55] (./montoni_thesis.bbl [56] [57
-
-]
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
- [58] [59] [60]) [61]
+[53] [54] [55] [56]
 <<A>>
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -543,7 +537,7 @@ Missing character: There is no Â in font cmr12!
 Missing character: There is no ° in font cmr12!
 Missing character: There is no Î in font cmr12!
 Missing character: There is no » in font cmr12!
-[62
+[57
 
 ]
 Missing character: There is no Î in font cmr12!
@@ -558,26 +552,96 @@ Missing character: There is no Î in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ¼ in font cmr12!
- [63]
+ [58]
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ¼ in font cmr12!
- [64]
+ [59]
 <<B>>
-[65
+<qs_limit.pdf, id=3575, 433.62pt x 182.865pt>
+File: qs_limit.pdf Graphic file (type pdf)
+ <use qs_limit.pdf>
+Package pdftex.def Info: qs_limit.pdf used on input line 974.
+(pdftex.def)             Requested size: 433.61894pt x 182.86455pt.
 
-] [66] (./montoni_thesis.aux)
+<eig_diff_scale.pdf, id=3576, 252.945pt x 187.169pt>
+File: eig_diff_scale.pdf Graphic file (type pdf)
+ <use eig_diff_scale.pdf>
+Package pdftex.def Info: eig_diff_scale.pdf used on input line 984.
+(pdftex.def)             Requested size: 252.94438pt x 187.16853pt.
+
+<length_comparison_scale.pdf, id=3577, 252.945pt x 193.77089pt>
+File: length_comparison_scale.pdf Graphic file (type pdf)
+
+<use length_comparison_scale.pdf>
+Package pdftex.def Info: length_comparison_scale.pdf used on input line 994.
+(pdftex.def)             Requested size: 252.94438pt x 193.77042pt.
+
+<bigger_particles.pdf, id=3578, 252.945pt x 211.34221pt>
+File: bigger_particles.pdf Graphic file (type pdf)
+
+<use bigger_particles.pdf>
+Package pdftex.def Info: bigger_particles.pdf used on input line 1004.
+(pdftex.def)             Requested size: 252.94438pt x 211.34169pt.
+
+<spacing_2mer.pdf, id=3579, 433.61993pt x 163.59021pt>
+File: spacing_2mer.pdf Graphic file (type pdf)
+ <use spacing_2mer.pdf>
+Package pdftex.def Info: spacing_2mer.pdf used on input line 1016.
+(pdftex.def)             Requested size: 433.61888pt x 163.5898pt.
+
+<diff_avg_space.pdf, id=3580, 433.62pt x 172.88347pt>
+File: diff_avg_space.pdf Graphic file (type pdf)
+ <use diff_avg_space.pdf>
+Package pdftex.def Info: diff_avg_space.pdf used on input line 1026.
+(pdftex.def)             Requested size: 433.61894pt x 172.88304pt.
+
+<length_comp_sapcing.pdf, id=3581, 433.62pt x 179.7875pt>
+File: length_comp_sapcing.pdf Graphic file (type pdf)
+
+<use length_comp_sapcing.pdf>
+Package pdftex.def Info: length_comp_sapcing.pdf used on input line 1036.
+(pdftex.def)             Requested size: 433.61894pt x 179.78706pt.
+ [60
+
+] [61 <./qs_limit.pdf> <./eig_diff_scale.pdf
+
+pdfTeX warning: pdflatex (file ./eig_diff_scale.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+>] [62 <./length_comparison_scale.pdf> <./bigger_particles.pdf
+
+pdfTeX warning: pdflatex (file ./bigger_particles.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>] [63 <./spacing_2mer.pdf> <./diff_avg_space.pdf
+
+pdfTeX warning: pdflatex (file ./diff_avg_space.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+>] [64 <./length_comp_sapcing.pdf>]
+<contour_n_plot.pdf, id=3670, 433.62003pt x 184.5317pt>
+File: contour_n_plot.pdf Graphic file (type pdf)
+
+<use contour_n_plot.pdf>
+Package pdftex.def Info: contour_n_plot.pdf used on input line 1062.
+(pdftex.def)             Requested size: 433.61897pt x 184.53122pt.
+ (./montoni_thesis.bbl [65 <./contour_n_plot.pdf>]
+[66
+
+]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [67] [68] [69]) [70] (./montoni_thesis.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 2852 strings out of 494953
- 37388 string characters out of 6180977
- 99648 words of memory out of 5000000
- 6067 multiletter control sequences out of 15000+600000
+ 2892 strings out of 494953
+ 38224 string characters out of 6180977
+ 99629 words of memory out of 5000000
+ 6099 multiletter control sequences out of 15000+600000
  13016 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 37i,21n,26p,2589b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,21n,26p,2589b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/share/tex
@@ -598,10 +662,10 @@ public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on montoni_thesis.pdf (79 pages, 4180155 bytes).
+Output written on montoni_thesis.pdf (83 pages, 4329503 bytes).
 PDF statistics:
- 3665 PDF objects out of 4296 (max. 8388607)
- 2435 compressed objects within 25 object streams
+ 3763 PDF objects out of 4296 (max. 8388607)
+ 2502 compressed objects within 26 object streams
  0 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

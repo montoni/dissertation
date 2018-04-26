@@ -967,23 +967,103 @@ Silicon wafer substrates (University Wafer, ptype, 200 nm thermal oxide (silicon
 
 \subsection{Parameter: size}
 
-Look, they split! I promise.
+How do we know it's retardation effects? Well, the quasistatic resonance energies are wrong.
+
+\begin{figure}
+\begin{centering}
+\includegraphics{qs_limit.pdf}
+\caption{quasistatic resonance energies}
+\label{qs_limit}
+\end{centering}
+\end{figure}
+
+Just to be sure, let's look closer and make sure they're actually splitting and this isn't an artifact of our eyes.
+
+\begin{figure}
+\begin{centering}
+\includegraphics{eig_diff_scale.pdf}
+\caption{difference from average with scaling}
+\label{diff_scale}
+\end{centering}
+\end{figure}
+
+But wait, I thought the quasistatic approxiamtion was good for MNPs that were half the wavelength of light! Nah.
+
+\begin{figure}
+\begin{centering}
+\includegraphics{length_comparison_scale.pdf}
+\caption{comparing to optical wavelength}
+\label{scale_wavelength_comp}
+\end{centering}
+\end{figure}
+
+Is this effect even real? Shouldn't the eigenvalues cross forever? They do!
+
+\begin{figure}
+\begin{centering}
+\includegraphics{bigger_particles.pdf}
+\caption{bigger particles}
+\label{bigp}
+\end{centering}
+\end{figure}
 
 \subsection{Parameter: interparticle spacing}
 
 Some people do this DNA origami stuff with MNPs. Let's see what happens to the magnetic plasmons when we do this! We're going to fix the particle size and increase the separation, from touching (2 radii) to nearly non-interacting (about 10 radii). Notice that even in the non-interacting regime, the interaction energies still oscillate about zero. It would be difficult experimentally to measure this oscialltion, which means while it may not be physically relevant it is still theoretically interesting, and and extension of what we learned about dimers in Chapter 1.
 
+\begin{figure}
+\begin{centering}
+\includegraphics{spacing_2mer.pdf}
+\caption{Spacing!}
+\label{spacing_eig}
+\end{centering}
+\end{figure}
+
+I can barely see those wiggles! Are they even real?
+
+\begin{figure}
+\begin{centering}
+\includegraphics{diff_avg_space.pdf}
+\caption{spacing exponential relevance}
+\label{diff_avg_space}
+\end{centering}
+\end{figure}
+
+Okay, okay, but are these things big enough to be considered fully retarded?
+
+\begin{figure}
+\begin{centering}
+\includegraphics{length_comp_sapcing.pdf}
+\caption{wavelength comparison for spacing}
+\label{length_space}
+\end{centering}
+\end{figure}
+
 \subsection{Parameter: dielectric background}
+
+Plots in water, as well as plots of changing frequencies with dielectric constant.
 
 What happens to the magnetic modes when we vary the background dielectric constant? Teri Odom and some other cool researchers are using liquid crystal to tune, in real time, the background dielectric constant around MNP clusters. What happens to the magnetic plasmons as the background dielectric constant is increased from vacuum to optically opaque?
 
 \section{An alternative detection method: angle-resolved scattering}
 
+Ehhhhh
+
 If we can measure the scattering patterns and the angle-resolved scattering spectra, we can very likely track at least the aN modes of each oligomer. Isolating the NS modes from the giant electric dipoles is much more difficult and likely can't be done experimentally using these methods. However, they're still interesting theoretically.
 
 \section{Towards negative index metamaterials}
 
+This section needs math! And some cool pictures.
+
 Because of their unique magnetic properties, MNP oligomers exhibit not only a negative permittivity but a negative permeability. When both of these properties are negative, the index of refraction can be negative as well. According to Snell's law, if a material posses a negative index of refraction, it bends light the wrong way.
+
+\begin{figure}
+\begin{centering}
+\includegraphics{contour_n_plot.pdf}
+\caption{index of refraction as a function of energy and size}
+\label{n_plot}
+\end{centering}
+\end{figure}
 
 %
 % ==========   Bibliography

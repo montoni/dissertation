@@ -96,7 +96,7 @@
 %
 % ----- copyright and title pages
 %
-\Title{Metal Nanoparticle Clusters and their Electromagnetic Interactions}
+\Title{Plasmon Hybridization in Clusters of Metal Nanoparticles and Magnetic Nanoparticle Oligomers}
 \Author{Nicholas P. Montoni}
 \Year{2018}
 \Program{Department of Chemistry}
@@ -173,30 +173,32 @@ As the field of plasmonics develops, new knobs to turn and levers to pull become
  
 \chapter {Introduction}
 
-Nanotechnology and photonics are both young, burgeoning fields, at least relative to many other scientific disciplines. Recently, many have attributed interest in nanotechnology to Feynman's ``there's room at the bottom'' speech at the 1954 meeting of the American Physical Society, but the first scientist to actually use the word was Norio Taniguchi of Tokyo University of Science in 1974 [citation needed]. Taniguchi's vision of nanotechnology involved techniques that process, separate, consolidate, and deform materials at the scale of single atoms and molecules [citation needed]. K. Eric Drexler, in 1981, suggested instead that nanotechnology might consist of molecular machines capable of building both copies of themselves and new machines, an approach often called ``molecular manufacturing'' [citation needed]. Similarly, interest in photonics began to arise after the invention of the laser in 1960 [citation needed]. Photonics is often defined as the use of light to transmit information or manipulate materials [citation needed]. In analogy to, and perhaps as a replacement for, electronics, photonics involves control of light on the single photon scale. The union of nanotechnology and photonics, called nanophotonics or nanooptics, is the study of how to manipulate light on the nanometer scale. The work presented here specifically discusses the use of metal nanoparticles (MNPs) and their optical properties.
+Nanotechnology and photonics are both young, burgeoning fields, at least relative to many other scientific disciplines. Recently, many have attributed interest in nanotechnology to Feynman's ``there's plenty of room at the bottom''\cite{FeynmanBottom} speech at the 1959 meeting of the American Physical Society, but the first scientist to actually use the word was Norio Taniguchi of Tokyo University of Science in 1974\cite{Taniguchi_nano}. Taniguchi's vision of nanotechnology involved techniques that process, separate, consolidate, and deform materials at the scale of single atoms and molecules\cite{Taniguchi_nano}. K. Eric Drexler, in 1981, suggested instead that nanotechnology might consist of molecular machines capable of building both copies of themselves and new machines, an approach often called ``molecular manufacturing''\cite{Drexler}. Interest in photonics had a similar start. In 1880 Alexander Graham Bell, inventor of the telephone, also invented a device that used guided, modulated sunlight to produce sound waves inside a gas cell. He called this device, aptly, the photophone\cite{photonics}. Much like with nanotechnology, the community lost interest in light-driven information transfer until the invention of the laser in 1960\cite{photonics}. Photonics is often defined as the use of light to transmit information or manipulate materials, e.g., fiber optic communications, or data storage on a CD\cite{photonics}. In analogy to, and perhaps as a replacement for, electronics, photonics involves control of light on the single photon scale.
 
-Let us first think of what nano- really means, both in general and in terms of metals. When one thinks of a metal, a few images come to mind: electrical wires that bring power to our devices, a mirror, or a shiny set of silverware. These images remind us that metals are particularly good conductors; the conduction electrons in metals are generally free to move about uninhibited. This conductivity is what charges a mobile phone and makes mirrors and silverware so shiny. Ideally, the conduction electrons in a metal will rearrange themselves to perfectly screen incoming electric fields, such as those carried by light. Of course, in reality, no metals are perfect conductors. This means that light actually can penetrate metal up to a distance known as the metal's skin-depth, on the order of 10-100 nanometers. Now, imagine a piece of metal about that size (a nanoparticle is to the reader as the a penny is to Earth); an incoming light wave can penetrate the MNP entirely, perfectly polarizing its conduction electrons. For the most part, the electrons are unable to leave the MNP, so they collect on the surface. When the field is removed, the electrons drift back to their equilibrium positions, overshoot, and swing to the opposite surface. This collective and coherent oscillation of the electron plasma is known as a localized surface plasmon resonance (LSPR). For most metal nanoparticles, the LSPR frequency is somewhere between the near IR and the near UV.
+The union of nanotechnology and photonics, called nanophotonics or nanooptics, is the study of how to manipulate light on the nanometer scale. Control of light at such small scales has resulted in advances in cancer treatment\cite{ElSayedCancer,LiuCancer}, chemical catalysis\cite{Halas2013,Camden2017}, solar energy\cite{Atwater2014,WuSolar}, biological detection and imaging\cite{vanDuyneSensing,Bezryadina2017}, electromagnetic cloaking\cite{AluCloaking,YeCloaking}, and data storage and processing\cite{MoloneyData,NaughtonData}. There are many ways to manipulate light at the nanometer scale. The references here focus on using metal nanoparticles (MNPs) as a medium, and this thesis shall focus entirely on the optical properties of clusters of MNPs.
 
-They may sound like a creature from {\it Star Trek}, but LSPRs are in no way science fiction. Though first predicted in 1952 by Bohm and Pines, LSPRs have had great impact on arts and culture since the Gothic movements of Western Europe. The vibrant colors of stained glass are the result of colloidal gold nanoparticles suspended in the glass. The color depends on the particle size and density. But why? Well, that's part of what we're going to learn in this introduction: why the size and aggregation scheme of nanoparticles affect their optical properties. To do this, we'll need to understand the optical properties of individual nanoparticles and investigate how nanoparticles interact in aggregates. Not only will this explain the phenomenon responsible for the colors of stained glass, but it will also inform the description and characterization of metal nanoparticle aggregates that make up the main text of this thesis.
+Let us discuss what nano- really means, both in general and in terms of metals. As a metric of comparison, a nanoparticle is to the human body as a penny is to the whole Earth. This is a helpful picture to keep in one's head when thinking about the nanometer scale. Now, when one thinks of a metal, a few images come to mind: electrical wires that bring power to our devices, a mirror, or a shiny set of silverware. These images remind us that metals are particularly good conductors; the conduction electrons in metals are generally free to move about uninhibited. This conductivity is what charges a mobile phone and makes mirrors and silverware so shiny. Ideally, the conduction electrons in a metal will rearrange themselves to perfectly screen incoming electric fields, such as those carried by light. Of course, in reality, no metals are perfect conductors. This means that light can penetrate metal up to a distance known as the metal's skin-depth, on the order of 10-100 nanometers. If a piece of metal is about that size, an incoming light wave can penetrate the MNP entirely and polarize its conduction electrons. With the positive ions of the background metal providing a confining potential, the electrons collect on the surface of the metal. When the field is removed, the electrons drift back to their equilibrium positions, overshoot, and swing to the opposite surface. This collective and coherent oscillation of the electron plasma is known as a localized surface plasmon resonance, or a plasmon. What makes plasmons so useful is that their resonant frequencies often lie in the visible range\cite{KREIBIG1985}.
+
+Plasmons in bulk metals were first proposed by Bohm and Pines\cite{BohmPines1,BohmPines2,BohmPines3}, while surface plasmons were proposed by Ritchie and later Stern and Ferrel\cite{SternFerrel}. Surface plasmons were later observed in magnesium by Powell and Swan\cite{PowellSwan} and in thin films using electron spectroscopy by Fujimoto\cite{Fujimoto} and Ritchie\cite{Ritchie}. However, prior to these advances, plasmons had great impact on arts and culture; the vibrant colors of stained glass are the result of colloidal gold nanoparticles suspended in the glass\cite{stainedglass}. The color depends on the particle size and material as well as the density of the particle ensemble. We will see in the next few sections how material properties affect optical properties of MNPs, and the core chapters of this thesis shall discuss the role of aggregation scheme on the spectrum of MNP clusters.
 
 \section{LSPRs as Harmonic Oscillators}
 
-In order to understand the harmonic oscillator dynamics of a metal nanosphere, we must consider its polarizability,
+In order to understand the harmonic oscillator dynamics of a metal nanosphere\cite{KREIBIG1985,ARPC}, we must consider its polarizability,
 \begin{equation}
 \alpha(\omega) = a^3\frac{\ell(\varepsilon(\omega)-\varepsilon_b)}{\ell(\varepsilon(\omega)+\varepsilon_b)+\varepsilon_b}.
 \label{polarizability_1}
 \end{equation}
-This is the frequency-dependent polarizability from the Clausius-Mossotti relation for the $\ell$th multipole moment of a spherical inclusion of radius $a$ in a background with dielectric constant $\varepsilon_b$.  The spherical inclusion has frequency-dependent dielectric function 
+This is the frequency-dependent polarizability from the Clausius-Mossotti relation\cite{Clausius} for the $\ell$th multipole moment of a spherical inclusion of radius $a$ in a background with dielectric constant $\varepsilon_b$.  The spherical inclusion has frequency-dependent dielectric function 
 \begin{equation}
 \varepsilon(\omega) = \varepsilon_{\infty} - \frac{\omega_p^2}{\omega^2+\textrm{i}\gamma\omega}
 \label{dielectric}
 \end{equation}
-where $\omega_p^2 = 4\pi ne^2/m_e$ is the plasma frequency for a gas of electrons of number density $n$ and mass $m_e$, $\gamma$ is the bulk damping rate, and $\varepsilon_{\infty}$ is the high-frequency dielectric constant of the MNP. We are most interested in the dynamics of the dipole moments of spheres in vacuum, so we set $\ell = 1$ and $\varepsilon_b = 1$. Plugging Eq. \ref{dielectric} into Eq. \ref{polarizability_1} the polarizability takes on a slightly more useful form
+where $\omega_p^2 = 4\pi ne^2/m_e$ is the plasma frequency for a gas of electrons of number density $n$ and mass $m_e$, $\gamma$ is the bulk damping rate, and $\varepsilon_{\infty}$ is the high-frequency dielectric constant of the MNP. We are most interested in the dynamics of the dipole moments of spheres in vacuum, so we set $\ell = 1$ and $\varepsilon_b = 1$. Plugging Eq. \ref{dielectric} into Eq. \ref{polarizability_1} the polarizability takes the form
 \begin{equation}
 \alpha(\omega) = a^3\left[\frac{\left(\omega^2+\textrm{i}\gamma\omega\right)\left(\frac{\varepsilon_{\infty}-1}{\varepsilon_{\infty}+2}\right)-\omega_{\textrm{sp}}^2}{\omega^2+\textrm{i}\gamma\omega-\omega_{\textrm{sp}}^2}\right].
 \label{polarizability_2}
 \end{equation}
-Here, $\omega_{\textrm{sp}}^2 = \omega_p^2/\varepsilon_{\infty}+2$ is the surface plasmon frequency for the dipole LSPR of a sphere. In order to learn something about the time-dependent response of the dipole LSPR, we will perform a Fourier transform. Note that Eq. \ref{polarizability_2} has two poles in the complex plane, specifically at $\omega = -\textrm{i}\gamma/2 \pm \sqrt{\omega_\textrm{sp}^2-\gamma^2/4}$, meaning that in order to perform this Fourier transform we will need to do a contour integral using the residue theorem. The time-dependent response of the dipole LSPR is related to the response of the polarizability
+Here, $\omega_{\textrm{sp}}^2 = \omega_p^2/\varepsilon_{\infty}+2$ is the surface plasmon frequency for the dipole LSPR of a sphere. Importantly, it is a resonant frequency becasue when $\omega=\omega_{\textrm{sp}}$, the polarizability becomes infinitely large. To show that the plasmon has harmonic oscillator dynamics, we need to compute the Fourier transform of the polarizability. Eq. \ref{polarizability_2} has two poles in the complex plane, specifically at $\omega = -\textrm{i}\gamma/2 \pm \sqrt{\omega_\textrm{sp}^2-\gamma^2/4}$, meaning that in order to perform this Fourier transform we will need to do a contour integral using the residue theorem. The time-dependent response of the dipole LSPR is related to the response of the polarizability
 \begin{equation}
 \alpha(t-t') = \int_{-\infty}^{\infty}\frac{d\omega}{2\pi}\alpha(\omega)e^{\textrm{i}\omega (t-t')} = 2\pi\textrm{i}\sum\textrm{Res}
 \label{res_theorem}
@@ -216,7 +218,7 @@ Equation~\ref{polar_time} has two important pieces. The first is the sinusoidal 
 \begin{figure}
 \begin{centering}
 \includegraphics{all_alpha.pdf}
-\caption{Normalized, time-dependent response of the (a) silver, (b) gold, (c) platinum, and (d) aluminum dipole plasmon over a span of 100 fs. The maximum amplitude is related to the high-frequency dielectric constant, $\varepsilon_{\infty}$, the oscillation frequency is determined by $\sqrt{\omega_{\textrm{sp}}^2 - \gamma^2/4}$, and the decay rate is $\gamma$, which contains contributions from electron-ion scattering and radiation damping.} 
+\caption{Normalized, time-dependent response of the (a) silver, (b) gold, (c) platinum, and (d) aluminum dipole plasmon over a span of 100 fs. The maximum amplitude is related to the high-frequency dielectric constant, $\varepsilon_{\infty}$, the oscillation frequency is determined by $\sqrt{\omega_{\textrm{sp}}^2 - \gamma^2/4}$, and the decay rate is $\gamma$, which contains contributions from electron-ion scattering and radiation damping.}
 \label{alpha_metals}
 \end{centering}
 \end{figure}
@@ -1039,23 +1041,50 @@ Okay, okay, but are these things big enough to be considered fully retarded?
 \end{centering}
 \end{figure}
 
-\subsection{Parameter: dielectric background}
-
-Plots in water, as well as plots of changing frequencies with dielectric constant.
-
-What happens to the magnetic modes when we vary the background dielectric constant? Teri Odom and some other cool researchers are using liquid crystal to tune, in real time, the background dielectric constant around MNP clusters. What happens to the magnetic plasmons as the background dielectric constant is increased from vacuum to optically opaque?
-
-\section{An alternative detection method: angle-resolved scattering}
-
-Ehhhhh
-
-If we can measure the scattering patterns and the angle-resolved scattering spectra, we can very likely track at least the aN modes of each oligomer. Isolating the NS modes from the giant electric dipoles is much more difficult and likely can't be done experimentally using these methods. However, they're still interesting theoretically.
-
 \section{Towards negative index metamaterials}
 
-This section needs math! And some cool pictures.
+Consider a 1-mer of six MNPs arranged at the vertices of a regular hexagon. Such a cluster has both a collective magnetic mode and a collective electric mode. We know from the introduction that electric resonances occur when the permittivity ($\varepsilon(\omega)$) is negative. Here we will show that magnetic modes occur when the collective permeability ($\mu_{\textrm{eff}}(\omega)$) is negative. Materials that are double-negative, that is, having negative permittivity and permeability, exhibit a negative index of refraction. The approach here was first presented by Al\'{u} and Engheta in 2006[citation needed], and we adapt it for our purposes.
 
-Because of their unique magnetic properties, MNP oligomers exhibit not only a negative permittivity but a negative permeability. When both of these properties are negative, the index of refraction can be negative as well. According to Snell's law, if a material posses a negative index of refraction, it bends light the wrong way.
+Consider the magnetic mode of the 1-mer of radius $R$ driven by an incident magnetic field $\textbf{H} = H_0\hat{\textbf{z}}$ and electric field $\textbf{E}_0 = \textrm{i}\omega\mu_0RH_0/2\hat{\phi}$. This is sets up a dipole moment on each MNP
+\begin{equation}
+\textbf{d}_i = d\hat{\phi}_i = \alpha_{\textrm{sp}}E_{\textrm{loc}}\hat{\phi}_i
+\label{dipole_moment_1}
+\end{equation}
+where $E_{\textrm{loc}}\hat{\phi} = \textbf{E}_0 + \sum_{i\neq j}\textbf{E}_{ij}$ and $\textbf{E}_{ij} = \boldsymbol{\Lambda}_{ij}\cdot\textbf{p}_j$. We want to find the induced dipole moment on each MNP from the influence of the incident field and each other MNP. Plugging in the definitions of the field, this dipole moment is
+\begin{equation}
+d\hat{\phi}_i = \alpha_{\textrm{sp}}\left(\frac{\textrm{i}\omega\mu_0RH_0}{2}\hat{\phi}_i + d\sum_{i\neq j}\boldsymbol{\Lambda}\cdot\hat{\phi}_j\right).
+\label{dipole_moment_2}
+\end{equation}
+Projecting out the $\hat{\phi}$-dependence and manipulating the terms, the induced dipole moment on each MNP takes the form
+\begin{equation}
+d = \alpha_{\textrm{sp}}\left(\frac{\textrm{i}\omega\mu_0RH_0}{2\left[1 - \alpha_{\textrm{sp}}\sum_{i\neq j}\hat{\phi}_i\cdot\boldsymbol{\Lambda}_{ij}\cdot\hat{\phi}\right]}\right).
+\label{dipole_moment_3}
+\end{equation}
+
+Now that we have the individual dipole moments, we still need to construct the permeability. We will go through a collective polarizability, starting by writing down the collective magnetic dipole moment. The magnetic dipole moment of any current distribution is $\boldsymbol{mu}_H = (\textrm{i}\omega/2)\int d^3r\textbf{r}\times\textbf{J}$. For a ring of $n$ particles, that magnetic dipole moment is
+\begin{equation}
+\boldsymbol{\mu}_H = -\frac{\textrm{i}\omega pnR}{2}\hat{\textbf{z}} = \alpha_{M}\textbf{H}_0.
+\label{mag_dip_1}
+\end{equation}
+where we have also related it to the magnetic polarizability. Making the assumption that $\alpha_M = \boldsymbol{\mu}_H/\textbf{H}_0$ and plugging in all of the previous definitions, we arrive at the magnetic poalrizability
+\begin{equation}
+\alpha_M = \frac{N(kR)^2}{4\varepsilon_0}\left[\alpha_{\textrm{sp}}^-1 - \sum_{i\neq j} \hat{\phi}_i\cdot\boldsymbol{\Lambda}_{ij}\cdot\hat{\phi}_j\right].
+\label{alpha_mag}
+\end{equation}
+This quantity represents how easy or hard it is to push on the magnetic dipole of the 1-mer. From here, we get to the permeabilty through effective medium theory, noting that $N_d\alpha_M = 3\mu_0[(\mu_eff-\mu_b)/(\mu_eff-2\mu_b)]$ where $N_d$ is the number density of oligomers and $\mu_b$ is the background permeability (nearly 1 for most materials). Solving for the effective permeabilty results in
+\begin{equation}
+\mu_{\textrm{eff}} = \mu_0\left(1+\frac{1}{N_d^{-1}\alpha_M^{-1}-1/3}\right).
+\label{mu_eff}
+\end{equation}
+
+We now need to find not the single MNP permittivity, but rather the collective permittivity of the collective electric dipole moment of the 1-mer. We will follow the same approach as previosuly, except now the incident electric field is $\textbf{E}_0 = E_0\hat{\textbf{y}}$. Doing everything we did before, we arrive at the effective electric permittivity
+\begin{equation}
+\varepsilon_{\textrm{eff}} = \varepsilon_0\left(1+\frac{1}{\varepsilon_0N_d^{-1}\alpha_E^{-1}-1/3}\right).
+\label{eps_eff}
+\end{equation}
+
+We can now compute the index of refraction. Consider, as an example, the case where both $\mu_{\textrm{eff}}$ and $\varepsilon_{\textrm{eff}}$ are negative, then the index of refraction is $n = \sqrt{\mu_{\textrm{eff}}\varepsilon_{\textrm{eff}}} = i\sqrt{\mu_{\textrm{eff}}}i\sqrt{\varepsilon_{\textrm{eff}}} < 0$. In Fig. \ref{n_plot}, we have computed the frequency- and size-dependent index of refraction of both the 1-mer (a) and 2-mer (b). The blue regions of the graph are those frequencies and sizes where the clusters have a negative index of refraction. Future applications of this property will require ways to widen the frequency window of the negative-index region, perhaps by tailoring systems to have multiple electric and magnetic resonances.
+
 
 \begin{figure}
 \begin{centering}
@@ -1069,7 +1098,7 @@ Because of their unique magnetic properties, MNP oligomers exhibit not only a ne
 % ==========   Bibliography
 %
 %\nocite{*}   % include everything in the uwthesis.bib file
-\bibliographystyle{plain}
+\bibliographystyle{unsrt}
 \bibliography{references}
 %
 

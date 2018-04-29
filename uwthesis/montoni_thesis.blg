@@ -1,48 +1,51 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: montoni_thesis.aux
-The style file: unsrt.bst
+The style file: ieeetr.bst
 Database file #1: references.bib
-Warning--there's a number but no volume in Kottman2001
-You've used 80 entries,
-            1791 wiz_defined-function locations,
-            976 strings with 18550 characters,
-and the built_in function-call counts, 20433 in all, are:
-= -- 1664
-> -- 1156
-< -- 2
-+ -- 415
-- -- 335
-* -- 1737
-:= -- 3383
-add.period$ -- 242
-call.type$ -- 80
-change.case$ -- 77
+Too many commas in name 1 of "Pillai, S.; Catchpole, K.; Trupke, T.; Green, M." for entry SiSolar
+while executing---line 969 of file ieeetr.bst
+Too many commas in name 1 of "Pillai, S.; Catchpole, K.; Trupke, T.; Green, M." for entry SiSolar
+while executing---line 969 of file ieeetr.bst
+You've used 126 entries,
+            1876 wiz_defined-function locations,
+            1266 strings with 27575 characters,
+and the built_in function-call counts, 39813 in all, are:
+= -- 3811
+> -- 1953
+< -- 0
++ -- 697
+- -- 571
+* -- 2909
+:= -- 5647
+add.period$ -- 130
+call.type$ -- 126
+change.case$ -- 123
 chr.to.int$ -- 0
-cite$ -- 81
-duplicate$ -- 743
-empty$ -- 1877
-format.name$ -- 335
-if$ -- 4441
+cite$ -- 126
+duplicate$ -- 2117
+empty$ -- 3263
+format.name$ -- 571
+if$ -- 9843
 int.to.chr$ -- 0
-int.to.str$ -- 80
-missing$ -- 84
-newline$ -- 403
-num.names$ -- 80
-pop$ -- 109
+int.to.str$ -- 126
+missing$ -- 130
+newline$ -- 385
+num.names$ -- 126
+pop$ -- 276
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 288
+skip$ -- 1711
 stack$ -- 0
-substring$ -- 1595
-swap$ -- 103
-text.length$ -- 2
+substring$ -- 2324
+swap$ -- 1118
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 155
-width$ -- 82
-write$ -- 882
-(There was 1 warning)
+warning$ -- 0
+while$ -- 303
+width$ -- 129
+write$ -- 1297
+(There were 2 error messages)

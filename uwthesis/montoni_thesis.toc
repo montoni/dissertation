@@ -8,29 +8,29 @@
 \contentsline {section}{\numberline {1.3}List of publications}{12}
 \contentsline {chapter}{\numberline {\@textofChapter \ 2:}Imaging Energy Transfer in Pt-decorated Au Nanoprisms via Electron Energy-loss Spectroscopy}{13}
 \contentsline {section}{\numberline {2.1}Methods}{25}
-\contentsline {chapter}{\numberline {\@textofChapter \ 3:}Tunable Spectral Ordering of Magnetic Plasmon Resonances in Metal Nanoclusters}{27}
-\contentsline {section}{\numberline {3.1}Model Theory}{29}
-\contentsline {section}{\numberline {3.2}Spectral Ordering of Magnetic Plasmon Modes in Intermediate-Size $N$-mers}{32}
-\contentsline {section}{\numberline {3.3}Radiative Properties of Intermediate-Size $N$-mers}{34}
-\contentsline {section}{\numberline {3.4}Magnetic Plasmon Resonances in Hexagonally-Packed Nanoclusters}{39}
-\contentsline {section}{\numberline {3.5}Conclusion}{42}
-\contentsline {section}{\numberline {3.6}Methods}{44}
-\contentsline {chapter}{\numberline {\@textofChapter \ 4:}Conclusion and Future Work}{46}
-\contentsline {section}{\numberline {4.1}Future Work: Photon-Assisted Electron Spectroscopies}{47}
-\contentsline {subsection}{\numberline {4.1.1}First- and Second-order Fermi's Golden Rule}{48}
-\contentsline {section}{\numberline {4.2}SEELS from Fermi's Golden Rule}{49}
-\contentsline {subsection}{\numberline {4.2.1}A Classical Description of EELS (and SEELS)}{52}
-\contentsline {subsection}{\numberline {4.2.2}PAEELS/SEELS from the Perspective of the Force on the Plasmon}{55}
-\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Supporting Information: Imaging Energy Transfer in Pt-Decorated Au Nanoprisms via Electron Energy-Loss Spectroscopy}{57}
-\contentsline {section}{\numberline {A.1}General Materials and Methods}{57}
-\contentsline {section}{\numberline {A.2}Au Nanoprism Synthesis}{57}
-\contentsline {section}{\numberline {A.3}Pt-decorated Au Nanoprism Synthesis}{58}
-\contentsline {section}{\numberline {A.4}UV-vis-NIR Spectroscopy}{58}
-\contentsline {section}{\numberline {A.5}Transmission Electron Microscopy (TEM)}{58}
-\contentsline {section}{\numberline {A.6}Scanning Electron Microscopy (SEM)}{59}
-\contentsline {chapter}{\numberline {\@textofAppendix \ B:}Appendix B: Extra Magnetic Plasmon Explorations}{60}
-\contentsline {section}{\numberline {B.1}A closer analysis of the oligomers}{60}
-\contentsline {subsection}{\numberline {B.1.1}Parameter: size}{60}
-\contentsline {subsection}{\numberline {B.1.2}Parameter: interparticle spacing}{60}
-\contentsline {section}{\numberline {B.2}Towards negative index metamaterials}{64}
-\contentsline {chapter}{\@textofBIB }{67}
+\contentsline {chapter}{\numberline {\@textofChapter \ 3:}Tunable Spectral Ordering of Magnetic Plasmon Resonances in Metal Nanoclusters}{28}
+\contentsline {section}{\numberline {3.1}Model Theory}{30}
+\contentsline {section}{\numberline {3.2}Spectral Ordering of Magnetic Plasmon Modes in Intermediate-Size $N$-mers}{33}
+\contentsline {section}{\numberline {3.3}Radiative Properties of Intermediate-Size $N$-mers}{35}
+\contentsline {section}{\numberline {3.4}Magnetic Plasmon Resonances in Hexagonally-Packed Nanoclusters}{40}
+\contentsline {section}{\numberline {3.5}Conclusion}{43}
+\contentsline {section}{\numberline {3.6}Methods}{45}
+\contentsline {chapter}{\numberline {\@textofChapter \ 4:}Conclusion and Future Work}{47}
+\contentsline {section}{\numberline {4.1}Future Work: Photon-Assisted Electron Spectroscopies}{48}
+\contentsline {subsection}{\numberline {4.1.1}First- and Second-order Fermi's Golden Rule}{49}
+\contentsline {section}{\numberline {4.2}SEELS from Fermi's Golden Rule}{50}
+\contentsline {subsection}{\numberline {4.2.1}A Classical Description of EELS (and SEELS)}{53}
+\contentsline {subsection}{\numberline {4.2.2}PAEELS/SEELS from the Perspective of the Force on the Plasmon}{56}
+\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Supporting Information: Imaging Energy Transfer in Pt-Decorated Au Nanoprisms via Electron Energy-Loss Spectroscopy}{58}
+\contentsline {section}{\numberline {A.1}General Materials and Methods}{58}
+\contentsline {section}{\numberline {A.2}Au Nanoprism Synthesis}{58}
+\contentsline {section}{\numberline {A.3}Pt-decorated Au Nanoprism Synthesis}{59}
+\contentsline {section}{\numberline {A.4}UV-vis-NIR Spectroscopy}{59}
+\contentsline {section}{\numberline {A.5}Transmission Electron Microscopy (TEM)}{59}
+\contentsline {section}{\numberline {A.6}Scanning Electron Microscopy (SEM)}{60}
+\contentsline {chapter}{\numberline {\@textofAppendix \ B:}Appendix B: Extra Magnetic Plasmon Explorations}{61}
+\contentsline {section}{\numberline {B.1}A closer analysis of the oligomers}{61}
+\contentsline {subsection}{\numberline {B.1.1}Parameter: size}{61}
+\contentsline {subsection}{\numberline {B.1.2}Parameter: interparticle spacing}{61}
+\contentsline {section}{\numberline {B.2}Towards negative index metamaterials}{65}
+\contentsline {chapter}{\@textofBIB }{68}

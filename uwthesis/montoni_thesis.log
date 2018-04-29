@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.24)  28 APR 2018 20:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.24)  29 APR 2018 16:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -272,16 +272,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6])
+ [6]
+[7])
 \tf@lof=\write5
 \openout5 = `montoni_thesis.lof'.
 
-
-[7] [8
-
-] [9
+ [8] [9
 
 ] [10
+
+] [11
 
 ]
 <<1>>
@@ -293,26 +293,26 @@ Underfull \vbox (badness 3815) has occurred while \output is active []
 
 
 ]
-[2] [3] <all_alpha.pdf, id=67, 433.62pt x 324.30011pt>
+[2] [3] <all_alpha.pdf, id=70, 433.62pt x 324.30011pt>
 File: all_alpha.pdf Graphic file (type pdf)
  <use all_alpha.pdf>
 Package pdftex.def Info: all_alpha.pdf used on input line 220.
 (pdftex.def)             Requested size: 433.61894pt x 324.29932pt.
 
-[4] [5 <./all_alpha.pdf>] [6] <dimer_stat.pdf, id=103, 289.08pt x 225.50523pt>
+[4] [5 <./all_alpha.pdf>] [6] <dimer_stat.pdf, id=106, 289.08pt x 225.50523pt>
 File: dimer_stat.pdf Graphic file (type pdf)
 
 <use dimer_stat.pdf>
 Package pdftex.def Info: dimer_stat.pdf used on input line 257.
 (pdftex.def)             Requested size: 289.07928pt x 225.50467pt.
  [7] [8 <./dimer_stat.pdf>]
-<dimer_ret.pdf, id=128, 427.1959pt x 302.00224pt>
+<dimer_ret.pdf, id=131, 427.1959pt x 302.00224pt>
 File: dimer_ret.pdf Graphic file (type pdf)
  <use dimer_ret.pdf>
 Package pdftex.def Info: dimer_ret.pdf used on input line 276.
 (pdftex.def)             Requested size: 427.19487pt x 302.0015pt.
 
-<dimer_ret_total.pdf, id=129, 288.90411pt x 223.618pt>
+<dimer_ret_total.pdf, id=132, 288.90411pt x 223.618pt>
 File: dimer_ret_total.pdf Graphic file (type pdf)
 
 <use dimer_ret_total.pdf>
@@ -334,14 +334,14 @@ Overfull \hbox (2.0418pt too wide) in paragraph at lines 316--317
 nochro-mated scan-ning trans-
  []
 
-[14] <prisms_mode_maps_tip.png, id=210, 320.8788pt x 315.579pt>
+[14] <prisms_mode_maps_tip.png, id=213, 320.8788pt x 315.579pt>
 File: prisms_mode_maps_tip.png Graphic file (type png)
 
 <use prisms_mode_maps_tip.png>
 Package pdftex.def Info: prisms_mode_maps_tip.png used on input line 324.
 (pdftex.def)             Requested size: 320.878pt x 315.57822pt.
 
-<prisms_mode_maps_center.png, id=212, 354.123pt x 296.7888pt>
+<prisms_mode_maps_center.png, id=215, 354.123pt x 296.7888pt>
 File: prisms_mode_maps_center.png Graphic file (type png)
 
 <use prisms_mode_maps_center.png>
@@ -360,7 +360,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<prisms_theory.png, id=229, 426.393pt x 181.6386pt>
+<prisms_theory.png, id=232, 426.393pt x 181.6386pt>
 File: prisms_theory.png Graphic file (type png)
  <use prisms_theory.png>
 Package pdftex.def Info: prisms_theory.png used on input line 354.
@@ -370,7 +370,7 @@ Missing character: There is no ˆ in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 
 [19] [20 <./prisms_theory.png>]
-<prisms_EELS_simulation.png, id=237, 200.4288pt x 291.0072pt>
+<prisms_EELS_simulation.png, id=240, 200.4288pt x 291.0072pt>
 File: prisms_EELS_simulation.png Graphic file (type png)
 
 <use prisms_EELS_simulation.png>
@@ -380,14 +380,14 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no ˆ in font cmr12!
 Missing character: There is no ¼ in font cmr12!
  [21] [22 <./prisms_EELS_simulation.png>]
-<prisms_field_calculations.png, id=245, 429.2838pt x 249.5724pt>
+<prisms_field_calculations.png, id=248, 429.2838pt x 249.5724pt>
 File: prisms_field_calculations.png Graphic file (type png)
 
 <use prisms_field_calculations.png>
 Package pdftex.def Info: prisms_field_calculations.png used on input line 376.
 (pdftex.def)             Requested size: 429.28275pt x 249.57178pt.
 
-<prisms_fields_2.png, id=246, 237.5274pt x 281.3712pt>
+<prisms_fields_2.png, id=249, 237.5274pt x 281.3712pt>
 File: prisms_fields_2.png Graphic file (type png)
 
 <use prisms_fields_2.png>
@@ -428,7 +428,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <<3>>
 [28
 
-] [29] <fig1.pdf, id=271, 469.75504pt x 281.46791pt>
+] [29] <fig1.pdf, id=275, 469.75504pt x 281.46791pt>
 File: fig1.pdf Graphic file (type pdf)
  <use fig1.pdf>
 Package pdftex.def Info: fig1.pdf used on input line 431.
@@ -441,7 +441,7 @@ Overfull \hbox (1.25667pt too wide) in paragraph at lines 441--443
 12 +
  []
 
-[30] [31 <./fig1.pdf>] [32] <fig2.pdf, id=536, 394.27303pt x 448.08162pt>
+[30] [31 <./fig1.pdf>] [32] <fig2.pdf, id=539, 394.27303pt x 448.08162pt>
 File: fig2.pdf Graphic file (type pdf)
 
 <use fig2.pdf>
@@ -451,14 +451,14 @@ Package pdftex.def Info: fig2.pdf used on input line 475.
 
 LaTeX Warning: Float too large for page by 12.44385pt on input line 479.
 
-[33] [34 <./fig2.pdf>] [35] <fig3.pdf, id=624, 144.54pt x 446.82137pt>
+[33] [34 <./fig2.pdf>] [35] <fig3.pdf, id=628, 144.54pt x 446.82137pt>
 File: fig3.pdf Graphic file (type pdf)
 
 <use fig3.pdf>
 Package pdftex.def Info: fig3.pdf used on input line 507.
 (pdftex.def)             Requested size: 144.53963pt x 446.82027pt.
  [36] [37 <./fig3.pdf>]
-<fig4.pdf, id=1089, 470.37279pt x 279.09221pt>
+<fig4.pdf, id=1092, 470.37279pt x 279.09221pt>
 File: fig4.pdf Graphic file (type pdf)
  <use fig4.pdf>
 Package pdftex.def Info: fig4.pdf used on input line 526.
@@ -467,7 +467,7 @@ Package pdftex.def Info: fig4.pdf used on input line 526.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [38]
-[39 <./fig4.pdf>] <fig5.pdf, id=1127, 361.35pt x 492.38612pt>
+[39 <./fig4.pdf>] <fig5.pdf, id=1130, 361.35pt x 492.38612pt>
 File: fig5.pdf Graphic file (type pdf)
  <use fig5.pdf>
 Package pdftex.def Info: fig5.pdf used on input line 552.
@@ -476,7 +476,7 @@ Package pdftex.def Info: fig5.pdf used on input line 552.
 
 LaTeX Warning: Float too large for page by 13.24825pt on input line 556.
 
-<fig6.pdf, id=1128, 460.35428pt x 364.24963pt>
+<fig6.pdf, id=1131, 460.35428pt x 364.24963pt>
 File: fig6.pdf Graphic file (type pdf)
  <use fig6.pdf>
 Package pdftex.def Info: fig6.pdf used on input line 565.
@@ -486,7 +486,7 @@ Underfull \vbox (badness 3815) has occurred while \output is active []
 
  [40]
 [41 <./fig5.pdf>] [42 <./fig6.pdf>]
-<fig7.pdf, id=3477, 371.01219pt x 490.9632pt>
+<fig7.pdf, id=3480, 371.01219pt x 490.9632pt>
 File: fig7.pdf Graphic file (type pdf)
  <use fig7.pdf>
 Package pdftex.def Info: fig7.pdf used on input line 585.
@@ -510,16 +510,16 @@ Underfull \vbox (badness 1953) has occurred while \output is active []
 
 ]
 [48] [49] [50]
-Overfull \hbox (7.14325pt too wide) in paragraph at lines 732--732
+Overfull \hbox (7.14325pt too wide) in paragraph at lines 731--731
 [] 
  []
 
 [51] [52] [53]
-Overfull \hbox (2.18861pt too wide) detected at line 844
+Overfull \hbox (2.18861pt too wide) detected at line 872
 \OT1/cmr/m/n/12 ^^@[] = [] [] \OML/cmm/m/it/12 dz[] [] :
  []
 
-[54] [55] [56] [57]
+[54] [55] [56] [57] [58]
 <<A>>
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -536,7 +536,7 @@ Missing character: There is no Â in font cmr12!
 Missing character: There is no ° in font cmr12!
 Missing character: There is no Î in font cmr12!
 Missing character: There is no » in font cmr12!
-[58
+[59
 
 ]
 Missing character: There is no Î in font cmr12!
@@ -551,96 +551,89 @@ Missing character: There is no Î in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ¼ in font cmr12!
- [59]
+ [60]
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ¼ in font cmr12!
- [60]
+ [61]
 <<B>>
-<qs_limit.pdf, id=3579, 433.62pt x 182.865pt>
+<qs_limit.pdf, id=3585, 433.62pt x 182.865pt>
 File: qs_limit.pdf Graphic file (type pdf)
  <use qs_limit.pdf>
-Package pdftex.def Info: qs_limit.pdf used on input line 980.
+Package pdftex.def Info: qs_limit.pdf used on input line 1017.
 (pdftex.def)             Requested size: 433.61894pt x 182.86455pt.
+ [62
 
-<eig_diff_scale.pdf, id=3580, 252.945pt x 187.169pt>
+]
+<eig_diff_scale.pdf, id=3589, 252.945pt x 187.169pt>
 File: eig_diff_scale.pdf Graphic file (type pdf)
  <use eig_diff_scale.pdf>
-Package pdftex.def Info: eig_diff_scale.pdf used on input line 990.
+Package pdftex.def Info: eig_diff_scale.pdf used on input line 1028.
 (pdftex.def)             Requested size: 252.94438pt x 187.16853pt.
 
-<length_comparison_scale.pdf, id=3581, 252.945pt x 193.77089pt>
+<length_comparison_scale.pdf, id=3590, 252.945pt x 193.77089pt>
 File: length_comparison_scale.pdf Graphic file (type pdf)
 
 <use length_comparison_scale.pdf>
-Package pdftex.def Info: length_comparison_scale.pdf used on input line 1000.
+Package pdftex.def Info: length_comparison_scale.pdf used on input line 1039.
 (pdftex.def)             Requested size: 252.94438pt x 193.77042pt.
 
-<bigger_particles.pdf, id=3582, 252.945pt x 211.34221pt>
+<bigger_particles.pdf, id=3591, 252.945pt x 211.34221pt>
 File: bigger_particles.pdf Graphic file (type pdf)
 
 <use bigger_particles.pdf>
-Package pdftex.def Info: bigger_particles.pdf used on input line 1010.
+Package pdftex.def Info: bigger_particles.pdf used on input line 1051.
 (pdftex.def)             Requested size: 252.94438pt x 211.34169pt.
+ [63 <./qs_limit.pdf>] [64 <./eig_diff_scale.pdf> <./length_comparison_scale.pd
+f
 
-<spacing_2mer.pdf, id=3583, 433.61993pt x 163.59021pt>
+pdfTeX warning: pdflatex (file ./length_comparison_scale.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>] [65 <./bigger_particles.pdf>]
+<spacing_2mer.pdf, id=3650, 433.61993pt x 163.59021pt>
 File: spacing_2mer.pdf Graphic file (type pdf)
  <use spacing_2mer.pdf>
-Package pdftex.def Info: spacing_2mer.pdf used on input line 1022.
+Package pdftex.def Info: spacing_2mer.pdf used on input line 1065.
 (pdftex.def)             Requested size: 433.61888pt x 163.5898pt.
 
-<diff_avg_space.pdf, id=3584, 433.62pt x 172.88347pt>
+<diff_avg_space.pdf, id=3651, 433.62pt x 172.88347pt>
 File: diff_avg_space.pdf Graphic file (type pdf)
  <use diff_avg_space.pdf>
-Package pdftex.def Info: diff_avg_space.pdf used on input line 1032.
+Package pdftex.def Info: diff_avg_space.pdf used on input line 1077.
 (pdftex.def)             Requested size: 433.61894pt x 172.88304pt.
 
-<length_comp_sapcing.pdf, id=3585, 433.62pt x 179.7875pt>
+[66 <./spacing_2mer.pdf>]
+<length_comp_sapcing.pdf, id=3661, 433.62pt x 179.7875pt>
 File: length_comp_sapcing.pdf Graphic file (type pdf)
 
 <use length_comp_sapcing.pdf>
-Package pdftex.def Info: length_comp_sapcing.pdf used on input line 1042.
+Package pdftex.def Info: length_comp_sapcing.pdf used on input line 1088.
 (pdftex.def)             Requested size: 433.61894pt x 179.78706pt.
- [61
-
-] [62 <./qs_limit.pdf> <./eig_diff_scale.pdf
-
-pdfTeX warning: pdflatex (file ./eig_diff_scale.pdf): PDF inclusion: multiple p
-dfs with page group included in a single page
->] [63 <./length_comparison_scale.pdf> <./bigger_particles.pdf
-
-pdfTeX warning: pdflatex (file ./bigger_particles.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
->] [64 <./spacing_2mer.pdf> <./diff_avg_space.pdf
-
-pdfTeX warning: pdflatex (file ./diff_avg_space.pdf): PDF inclusion: multiple p
-dfs with page group included in a single page
->] [65 <./length_comp_sapcing.pdf>] [66]
-<contour_n_plot.pdf, id=3677, 433.62003pt x 184.5317pt>
+ [67 <./diff_avg_space.pdf>] [68 <./length_comp_sapcing.pdf>] <contour_n_plot.p
+df, id=3688, 433.62003pt x 184.5317pt>
 File: contour_n_plot.pdf Graphic file (type pdf)
 
 <use contour_n_plot.pdf>
-Package pdftex.def Info: contour_n_plot.pdf used on input line 1095.
+Package pdftex.def Info: contour_n_plot.pdf used on input line 1145.
 (pdftex.def)             Requested size: 433.61897pt x 184.53122pt.
- (./montoni_thesis.bbl [67 <./contour_n_plot.pdf>]
-[68
+ [69] (./montoni_thesis.bbl [70 <./contour_n_plot.pdf>] [71
 
-] [69]
+] [72]
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ‡ in font cmr12!
 Missing character: There is no Å in font cmr12!
 Missing character: There is no ¡ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ‡ in font cmr12!
- [70]
+ [73]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¶ in font cmr12!
- [71]
+ [74]
 Underfull \hbox (badness 7451) in paragraph at lines 253--257
 []\OT1/cmr/m/n/12 D. B. In-gram and S. Linic, ``Wa-ter split-ting on com-pos-it
 e plasmonic-
  []
 
-[72]
+[75]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
@@ -651,43 +644,44 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¡ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¡ in font cmr12!
- [73] [74] [75] [76]
+ [76] [77] [78] [79]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [77]) [78] (./montoni_thesis.aux) ) 
+ [80] [81]) [82] (./montoni_thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 2970 strings out of 494953
- 39157 string characters out of 6180977
- 100033 words of memory out of 5000000
- 6177 multiletter control sequences out of 15000+600000
+ 2987 strings out of 494953
+ 39393 string characters out of 6180977
+ 99200 words of memory out of 5000000
+ 6194 multiletter control sequences out of 15000+600000
  13016 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  37i,21n,26p,2589b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbxsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on montoni_thesis.pdf (91 pages, 4355295 bytes).
+</usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbxsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+>
+Output written on montoni_thesis.pdf (96 pages, 4370705 bytes).
 PDF statistics:
- 3789 PDF objects out of 4296 (max. 8388607)
- 2520 compressed objects within 26 object streams
+ 3806 PDF objects out of 4296 (max. 8388607)
+ 2532 compressed objects within 26 object streams
  0 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -679,7 +679,7 @@ The field of plasmonics has growing to do. It is time to move away from abstract
 
 \section{Future Work: Photon-Assisted Electron Spectroscopies}
 
-The field of photon-assisted electron spectroscopies has had a recent spring. Examples of this kind of technique include Electron Energy-Gain Spectroscopy (EEGS), Photon-Induced Near-Electric Field Microscopy (PINEM), and Stimulated or Photon-Assisted Electron Energy-Loss Spectroscopy (SEELS/PAEELS). These processes involve the successive interaction of a plasmon with a photon and a relativistic electron. In the former case, the photon induces a plasmon or polarization state in the sample and the electron picks up energy from that excitation. In the latter case, the electron loses extra energy equal to the photon energy. PINEM is the bridge between these methods and describes both events. In the next section, we will investigate SEELS both quantum mechanically and classically, and attempt to bridge those approaches.
+The field of photon-assisted electron spectroscopies has had a recent spring. Examples of this kind of technique include Electron Energy-Gain Spectroscopy (EEGS), Photon-Induced Near-Electric Field Microscopy (PINEM), and Stimulated or Photon-Assisted Electron Energy-Loss Spectroscopy (SEELS/PAEELS). These processes involve the successive interaction of a plasmon with a photon and a relativistic electron. In the former case, the photon induces a plasmon or polarization state in the sample and the electron picks up energy from that excitation. In the latter case, the electron loses extra energy equal to the photon energy. PINEM is the bridge between these methods and describes both events. In the next section, we will investigate SEELS both quantum mechanically and classically, and attempt to bridge those approaches.\cite{AbajoRevMod,vanAiken} [citations: Barwick, Zewail, van Aiken, Garcia de Abajo, etc etc etc]
 
 Need a figure describing EEGS and SEELS.
 
@@ -690,7 +690,7 @@ Fermi's Golden Rule in first order takes the form
 \Gamma_{fi} = \frac{2\pi}{\hbar^2}|\langle f |H_{\textrm{int}}| i \rangle |^2 \delta(\omega_f - \omega_i).
 \label{FGR_1}
 \end{equation}
-Here, $\Gamma_{fi}$ is rate at which the system transitions from state $i$ to state $f$, $H_{\textrm{int}}$ is the interaction Hamiltonian, and the delta function enforces conservation of energy. In a system with only one perturbation or interaction, computation of the transition rate mediated by that perturbation is straightforward. However, we are interested in a system under the influence of multiple perturbations, specifically a MNP being probed both by light and by a passing electron. THe choice of Fock states matters, but for now we leave them unspecified. Allowing $H_{\textrm{int}} = H_1 + H_2$, Eq. \ref{FGR_1} becomes
+Here, $\Gamma_{fi}$ is rate at which the system transitions from state $i$ to state $f$, $H_{\textrm{int}}$ is the interaction Hamiltonian, and the delta function enforces conservation of energy. In a system with only one perturbation or interaction, computation of the transition rate mediated by that perturbation is straightforward. However, we are interested in a system under the influence of multiple perturbations, specifically a MNP being probed both by light and by a passing electron. The choice of Fock states matters in that only certain transitions from initial states to final states are allowed and mediated by specific interactions, but for now we leave them unspecified. Allowing $H_{\textrm{int}} = H_1 + H_2$, Eq. \ref{FGR_1} becomes
 \begin{equation}
 \begin{aligned}
 \Gamma_{fi} &= \frac{2\pi}{\hbar^2}|\langle f |H_1 + H_2| i \rangle |^2 \delta(\omega_f - \omega_i)\\
@@ -699,14 +699,14 @@ Here, $\Gamma_{fi}$ is rate at which the system transitions from state $i$ to st
 \label{FGR_1_expanded}
 \end{aligned}
 \end{equation}
-Of course, $H_1$ and $H_2$ correspond to two different transitions to two different final Fock states, i.e., the third and fourth terms of Eq. \ref{FGR_1_expanded} are necessarily zero. The two non-zero rates are mediated by $H_1$ and $H_2$ separately. If $H_1 = H_\textrm{el-pl}$ and $H_2 = H_{\textrm{ph-pl}}$, then the first rate is the EELS rate and the second rate is the absorption rate.
+Of course, $H_1$ and $H_2$ correspond to two different transitions, with different sets of raising and lower operators, to two different final Fock states. Because of this, the third and fourth terms of Eq. \ref{FGR_1_expanded} are necessarily zero. The two non-zero rates are mediated by $H_1$ and $H_2$ separately. If $H_1 = H_\textrm{el-pl}$ and $H_2 = H_{\textrm{ph-pl}}$, then the first rate is the EELS rate and the second rate is the absorption rate[cite Garcia de Abajo].
 
 Fermi's Golden Rule for second order transitions looks similar to that for first order transitions:
 \begin{equation}
 \Gamma_{fi} = \frac{2\pi}{\hbar^4}\left|\sum_{m}\frac{\langle f |H_{\textrm{int}}| m \rangle \langle m |H_{\textrm{int}}| i \rangle }{\omega_f-\omega_i}\right|^2 \delta(\omega_f - \omega_i).
 \label{FGR_2}
 \end{equation}
-Again the Hamiltonian has two terms, $H_{\textrm{int}} = H_1 + H_2$. Wrapping the prefactor, denominator, and delta function together into $A$ to focus on the matrix elements, the rate becomes
+Again the interaction Hamiltonian is a sum of perturbations, $H_{\textrm{int}} = H_1 + H_2$. Wrapping the prefactor, denominator, and delta function together into $A$ to focus on the matrix elements, the rate becomes
 \begin{equation}
 \begin{aligned}
 \Gamma_{fi} &= A|\langle f |H_1 + H_2| m \rangle \langle m |H_1 + H_2| i \rangle|^2\\
@@ -716,32 +716,27 @@ Again the Hamiltonian has two terms, $H_{\textrm{int}} = H_1 + H_2$. Wrapping th
 \label{FGR_2_2}
 \end{aligned}
 \end{equation}
-For the same reasons as in the discussion of the first order rates, the cross-terms not shown are equal to zero, because $H_1$ and $H_2$ correspond to different transitions with different intermediate and final states. If we now let $H_1 = H_\textrm{el-pl}$ and $H_2 = H_{\textrm{ph-pl}}$, the first term is $\Gamma_{\textrm{EELS}}^{(2)}$, the second term is $\Gamma_{\textrm{abs}}^{(2)}$, the third term is $\Gamma_{\textrm{EEGS}}$ or is related to $\Gamma_{\textrm{SEELS}}$, and the final term is $\Gamma_{\textrm{CL}}$.
+For the same reasons as in the discussion of the first order rates, the cross-terms not shown are equal to zero, because $H_1$ and $H_2$ correspond to different transitions with different intermediate and final states. If we now let $H_1 = H_\textrm{el-pl}$ and $H_2 = H_{\textrm{ph-pl}}$, the first term is $\Gamma_{\textrm{EELS}}^{(2)}$, the second term is $\Gamma_{\textrm{abs}}^{(2)}$, the third term is $\Gamma_{\textrm{EEGS}}$, and the final term is $\Gamma_{\textrm{CL}}$.
 
 \section{SEELS from Fermi's Golden Rule}
-SEELS, or Stimulated Electron Energy-Loss Spectroscopy, is a process by which a swift electron in an electron microscope loses energy to a sample that has been previously excited or polarized by light. In EELS without a light source, the electron interacts only with its own self-induced polarization in the sample. Incorporation of a light source allows the electron to interact with the superposition of fields in the sample, or equivalently, with the superposition of surface charge densities. We would like to show that this is consistent with a Fermi's Golden Rule approach used in Ref. 2.
+SEELS, or Stimulated Electron Energy-Loss Spectroscopy, is a process by which a swift electron in an electron microscope loses energy to a sample that has been previously excited or polarized by light. In EELS without a light source, the electron interacts only with its own self-induced polarization in the sample. Incorporation of a light source allows the electron to interact with the superposition of fields in the sample, or equivalently, with the superposition of surface charge and current densities. We would like to show that this approach is consistent with Fermi's golden rule\cite{vanAiken} [cite van Aiken, Garcia de Abajo].
 
-We define the overall SEELS rate as a sum of a second order rate (photon absorption followed by electron interaction) with a first order rate (the photon-less EELS rate). To evaluate the rates, we begin with an initial Fock state defined by $|k_0N_i0_l\rangle$, corresponding to an electron with wavenumber $k_0$ and frequency $\varepsilon_{k_0}$, $N$ photons of energy $\hbar\omega_i$, and zero plasmons in mode $l$ with complex frequency $\tilde{\omega}_{\textrm{pl}}=\omega_{\textrm{pl}}+\textrm{i}\gamma_{\textrm{pl}}$. 
-
+We define the overall SEELS rate as a sum of a second order rate (photon absorption followed by electron interaction) with a first order rate (the photon-less EELS rate). This is because if the photon field (or laser intensity) is reduced to zero, the SEELS rate should reduce to the EELS rate. To evaluate the rates, we begin with an initial Fock state defined by $|k_0N_i0_l\rangle$, corresponding to an electron with wavenumber $k_0$ and frequency $\varepsilon_{k_0}$, $N$ photons of energy $\hbar\omega_i$, and zero plasmons in mode $l$ with complex frequency $\tilde{\omega}_{\textrm{pl}}=\omega_{\textrm{pl}}+\textrm{i}\gamma_{\textrm{pl}}$. We also begin at the level of the probability by multiplying the rate by $L/v$, the electron quantization length divided by the electron's velocity.
 \begin{align}
 \begin{split}
   P_{\textrm{SEELS}} &= \frac{2\pi L}{\hbar^4v}\left|\frac{\langle k(N-1)_i2_l|H_{\textrm{e-pl}}|k_0(N-1)_i1_l\rangle\langle k_0(N-1)_i1_l|H_{\textrm{ph-pl}}|k_0N_i0_l\rangle}{\omega_i - \tilde{\omega}_{\textrm{pl}}}\right|^2\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i)\\
-  &+ \frac{2\pi L}{\hbar^2v}|\langle kN_i1_l|H_{\textrm{e-pl}}|k_0N_i0_l\rangle|^2\delta(\varepsilon_k - \varepsilon_{k_0} - \tilde{\omega}_{\textrm{pl}})
+  &+ \frac{2\pi L}{\hbar^2v}|\langle kN_i1_l|H_{\textrm{e-pl}}|k_0N_i0_l\rangle|^2\delta(\epsilon_k - \epsilon_{k_0} - 2\tilde{\omega}_{\textrm{pl}} + \hbar\omega_i)
   \label{overall_rate}
   \end{split}
 \end{align}
-
-Additionally, here are some important definitions to help us out.
-
+Here, we have chosen the intuitive intermediate and final state for this transition. The first term is the second-order process and the second term is the first-order process which shall eventually become the EELS rate. Additionally, our interaction Hamiltonians can be defined as
 \begin{equation}
 \begin{aligned}
 H_{\textrm{e-pl}} = -\textbf{d} \cdot \textbf{E}_{\textrm{el}}&\\
 H_{\textrm{ph-pl}} = -\textbf{d} \cdot \textbf{E}_{\textrm{ph}}&
 \end{aligned}
 \end{equation}
-
-Plugging in these definitions and remembering how boson operators work, the SEELS probability becomes:
-
+with the transition dipole moment $\textbf{d} = \textbf{d}_0(b + b\dagger)$, the photon electric field with frequency $\omega_i$ and quantization volume $V$ is $\textbf{E}_{\textrm{ph}} = \sqrt{2\pi\hbar\omega_i/V}(a - a\dagger)$, and electron electric field $\langle k'|\textbf{E}_{\textrm{el}}|k\rangle = \textbf{E}_{\textrm{el}}(k',k)$. Plugging in these definitions and performing the ladder operations, the SEELS probability becomes
 \begin{align}
 \begin{split}
   P_{\textrm{SEELS}} &= \frac{2\pi L}{\hbar^4v}\left|\frac{\sqrt{2}\textbf{E}_{\textrm{el}}\cdot\textbf{d}_0 \sqrt{N}\textbf{d}_0\cdot\textbf{E}_{0}}{\omega_i - \tilde{\omega}_{\textrm{pl}}}\right|^2\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i)\\
@@ -749,79 +744,112 @@ Plugging in these definitions and remembering how boson operators work, the SEEL
   \label{change_eels}
   \end{split}
 \end{align}
-
-Recognizing that $\delta(x_1 - x_2) = 1/\pi\textrm{Im}\{1/(x_1-x_2)\}$ and $\alpha = d_0^2/(\hbar(\varepsilon_k-\varepsilon_{k_0}-\omega_{\textrm{pl}}))$, we can rewrite the SEELS probability in terms of the polarizability of the plasmonic nanoparticle polarizability.
-
+Recognizing that $\delta(x_1 - x_2) = 1/\pi\textrm{Im}\{1/(x_1-x_2)\}$, $\alpha(\omega_i) = d_0^2/(\hbar(\omega_i-\omega_{\textrm{pl}}))$, and $\alpha(\epsilon_k-\epsilon_{k_0}) = d_0^2/(\hbar(\epsilon_k-\epsilon_{k_0}-\omega_{\textrm{pl}}))$, we can rewrite the SEELS probability in terms of the plasmonic nanoparticle polarizability.
 \begin{align}
 \begin{split}
   P_{\textrm{SEELS}} &= \frac{4\pi NL}{\hbar^2v}(\textbf{E}_{\textrm{el}}\cdot\alpha^*\cdot\textbf{E}_{\textrm{el}}^*)(\textbf{E}_0\cdot\alpha\cdot\textbf{E}_0^*)\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i)\\
   &+ \frac{2L}{\hbar v}(\textbf{E}_{\textrm{el}}\cdot\textrm{Im}\{\alpha\}\cdot\textbf{E}_{\textrm{el}}^*)
+  \label{seels_with_polar}
   \end{split}
 \end{align}
 
-In order to relate this expression to EELS and absorption probabilities, we need to show that the matrix elements are proportional to their imaginary parts. Let's first write down $\alpha$. If $\tilde{\omega}_{\textrm{pl}} = \omega_{\textrm{pl}} - \textrm{i}\gamma/2$, we can rewrite alpha as
-
+We will soon determine the SEELS rate via three different approaches. Before that, however, we will do some quick complex algebra that will help us determine what to do with the interaction energy terms in the SEELS rate.
 \begin{equation}
 \begin{aligned}
-\alpha &= \frac{\textbf{d}_0^2}{\hbar(\omega_i - \omega_{\textrm{pl}} - \textrm{i}\gamma/2)}\\
-& = \frac{\textbf{d}_0^2\hbar (\omega_i - \omega_{\textrm{pl}})}{\hbar^2[(\omega_i - \omega_{\textrm{pl}})^2 + (\gamma/2)^2]} + \textrm{i}\frac{\textbf{d}_0^2\hbar\gamma/2}{\hbar^2[(\omega_i - \omega_{\textrm{pl}})^2 + (\gamma/2)^2]}\\
-& = X + \textrm{i}Y
-\end{aligned}
-\end{equation}
-
-Of course, if $\omega_i = \omega_{\textrm{pl}}$, or more realistically, if $\omega_i$ is a packet of frequencies distributed symmetrically about $\omega_{\textrm{pl}}$, then $X=0$ and $\alpha = \textrm{i}Y = \textrm{i}\textrm{Im}\{\alpha\}$. However, let's do some quick algebra with one of the interaction energies in the first term of the SEELS probability, keeping both parts of $\alpha$.
-
-\begin{equation}
-\begin{aligned}
-\textbf{E}_{\textrm{el}}\cdot\alpha\cdot\textbf{E}_{\textrm{el}}^* &= (\textbf{E}_r+\textrm{i}\textbf{E}_i)\cdot(X+\textrm{i}Y)\cdot(\textbf{E}_r-\textrm{i}\textbf{E}_i)\\
+\textbf{E}\cdot\alpha\cdot\textbf{E}^* &= (\textbf{E}_r+\textrm{i}\textbf{E}_i)\cdot(X+\textrm{i}Y)\cdot(\textbf{E}_r-\textrm{i}\textbf{E}_i)\\
 & = (X\textbf{E}_r - Y\textbf{E}_i + \textrm{i}X\textbf{E}_i + \textrm{i}Y\textbf{E}_r)\cdot(\textbf{E}_r-\textrm{i}\textbf{E}_i)\\
 & = X(E_r^2 + E_i^2) + \textrm{i}Y(E_r^2 + E_i^2)
+\label{alpha_1}
 \end{aligned}
 \end{equation}
-
-If $X = 0$, then 
-
+and similarly 
 \begin{equation}
-\textbf{E}_{\textrm{el}}\cdot\alpha\cdot\textbf{E}_{\textrm{el}}^* = \textbf{E}_{\textrm{el}}\cdot\textrm{i}\textrm{Im}\{\alpha\}\cdot\textbf{E}_{\textrm{el}}^* = \textrm{i}\textrm{Im}\{\textbf{E}_{\textrm{el}}\cdot\alpha\cdot\textbf{E}_{\textrm{el}}^*\}
+\textbf{E}\cdot\alpha^*\cdot\textbf{E}^* = X(E_r^2 + E_i^2) -\textrm{i}Y(E_r^2 + E_i^2)
+\label{alpha_2}
 \end{equation}
-
-and similarly for the photon parts of the SEELS probability. This allows us to finally write the SEELS rate as
-
+This allows us to finally write the SEELS probability as
 \begin{align}
 \begin{split}
-  P_{\textrm{SEELS}} &= \frac{4\pi NL}{\hbar^2v}\textrm{Im}\{\textbf{E}_{\textrm{el}}\cdot\alpha^*\cdot\textbf{E}_{\textrm{el}}^*\}\textrm{Im}\{\textbf{E}_0\cdot\alpha\cdot\textbf{E}_0^*\}\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i)\\
+  P_{\textrm{SEELS}} &= \frac{4\pi NL}{\hbar^2v}|\alpha|^2|\textbf{E}_{\textrm{el}}|^2|\textbf{E}_{\textrm{ph}}|^2\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i)\\
   &+ \frac{2L}{\hbar v}\textrm{Im}\{\textbf{E}_{\textrm{el}}\cdot\alpha\cdot\textbf{E}_{\textrm{el}}^*\}
+  \label{alpha_squared}
   \end{split}
 \end{align}
 
-The second term is the EELS probability. The first term is proportional to both the EELS probability and the absorption probability $P_{\textrm{abs}} = (4\pi^2N/\hbar\omega_i)\textrm{Im}\{\textbf{E}_0^*\cdot\textbf{d}\}$. Substituting in the first-order probabilities yields
-
+The second term of Eq. \ref{alpha_squared} is the EELS probability. We now want to compute the rate from the probability. To do that, we will take the following integral and assume the no-recoil limit ($\epsilon_k - \epsilon_{k_0} = v(k-k_0) = vk'$)
 \begin{equation}
-P_{\textrm{SEELS}} = \frac{\omega_i}{2\pi}P_{\textrm{abs}}P_{\textrm{EELS}}\delta(\varepsilon_k-\varepsilon_{k_0}-\omega_i) + P_{\textrm{EELS}}
+\Gamma_{\textrm{SEELS}} = \frac{L}{2\pi}\int dk' P_{\textrm{SEELS}} \delta(v(k')-\omega)
+\label{prob_to_rate}
 \end{equation}
 
-We can also rewrite $P_{\textrm{SEELS}}$ so as to factor out the electron electric field. We know we can do this because of the complex algebra we just did. We also know that because we're doing scalar multiplication, we can rearrange the terms of the SEELS probability. Doing both of those things results in
+The delta function simply allows the replacement of all $k' = k-k_0$ with $\omega/v$. Now, writing down both $\textbf{E}_{\textrm{el}}$ and $\textbf{E}_{\textrm{ph}}$, the SEELS rate becomes
+\begin{equation}
+\begin{aligned}
+\Gamma_{\textrm{SEELS}} &= \frac{8e^2\omega^2}{\hbar^3v^4\gamma_{L}^4}\left[\gamma_{L}^2K_1^2\left(\frac{\omega R}{v\gamma_L}\right)+K_0^2\left(\frac{\omega R}{v\gamma_L}\right)\right]\left(\frac{2\pi N\hbar\omega_i}{V}\right)|\alpha|^2\delta(\omega-\omega_i) + \Gamma_{\textrm{EELS}}\\
+& = \frac{16\pi e^2\omega^2 I_0}{\hbar^3v^4\gamma_{L}^4}\left[\gamma_{L}^2K_1^2\left(\frac{\omega R}{v\gamma_L}\right)+K_0^2\left(\frac{\omega R}{v\gamma_L}\right)\right]|\alpha|^2\delta(\omega-\omega_i) + \Gamma_{\textrm{EELS}}\\
+& = 2\Gamma_{\textrm{EEGS}} + \Gamma_{\textrm{EELS}}.
+\label{seels_eegs}
+\end{aligned}
+\end{equation}
+Thus, the SEELS rate is twice the EEGS rate plus the EELS rate. We have recently implemented this definition of SEELS using the MNPBEM toolbox\cite{Hohenester2012,Hohenester2014}, as shown in figure blah.
 
-\begin{align}
+[FIGURE]
+
+We could also try to write the SEELS rate in terms of first-order rates. To do so, we must start from the probability and split the polarizability into its real and imaginary parts. Starting from Eq. \ref{seels_prob_with_alpha} and using the identities in Eq. \ref{alpha_1} and \ref{alpha_2}, we can rewrite the SEELS probability into three terms.
+\begin{equation}
 \begin{split}
-  P_{\textrm{SEELS}} &= \frac{4\pi NL}{\hbar^2v}(\textbf{E}_{\textrm{el}}\cdot\textrm{Im}\{\alpha\}\cdot\textbf{E}_0)(\textbf{E}_{\textrm{el}}^*\cdot\textrm{Im}\{\alpha^*\}\cdot\textbf{E}_0^*)\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i)\\
+  P_{\textrm{SEELS}} &= \frac{4\pi NL}{\hbar^2v}(\textbf{E}_{\textrm{el}}\cdot\textrm{Im}\{\alpha\}\cdot\textbf{E}_{\textrm{el}}^*)(\textbf{E}_0\cdot\textrm{Im}\{\alpha\}\cdot\textbf{E}_0^*)\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i)\\
   &+ \frac{2L}{\hbar v}(\textbf{E}_{\textrm{el}}\cdot\textrm{Im}\{\alpha\}\cdot\textbf{E}_{\textrm{el}}^*)\\
-  &= \textbf{E}_{\textrm{el}}\cdot\left[ \frac{4\pi NL}{\hbar^2v}\textbf{d}_{\textrm{ph}}(\textbf{E}_{\textrm{el}}^*\cdot\textrm{Im}\{\alpha^*\}\cdot\textbf{E}_0^*)\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i) + \frac{2L}{\hbar v}\textbf{d}_{\textrm{el}} \right]\\
-  &= \textbf{E}_{\textrm{el}}\cdot\left[ C_1\textbf{d}_{\textrm{ph}} + C_2\textbf{d}_{\textrm{el}} \right] 
+  &+ \frac{4\pi NL}{\hbar^2v}(\textbf{E}_{\textrm{el}}\cdot\textrm{Re}\{\alpha\}\cdot\textbf{E}_{\textrm{el}}^*)(\textbf{E}_0\cdot\textrm{Re}\{\alpha\}\cdot\textbf{E}_0^*)\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i)
+  \label{seels_prob_with_alpha}
   \end{split}
-\end{align}
+\end{equation}
+From here, we again convert $P_{\textrm{SEELS}}$ to $\Gamma_{\textrm{SEELS}}$ using Eq. \ref{prob_to_rate}.
+\begin{equation}
+\begin{split}
+  \Gamma_{\textrm{SEELS}} &= \frac{8 e^2 \omega^2}{\hbar^3v^4\gamma_L^4}\left[\gamma_{L}^2K_1^2\left(\frac{\omega R}{v\gamma_L}\right)+K_0^2\left(\frac{\omega R}{v\gamma_L}\right)\right]\textrm{Im}\{\alpha\}\left(\frac{2\pi N\hbar\omega_i}{V}\right)\textrm{Im}\{\alpha\}\delta(\omega-\omega_i)\\
+  &+ \frac{8 e^2 \omega^2}{\hbar^3v^4\gamma_L^4}\left[\gamma_{L}^2K_1^2\left(\frac{\omega R}{v\gamma_L}\right)+K_0^2\left(\frac{\omega R}{v\gamma_L}\right)\right]\textrm{Re}\{\alpha\}\left(\frac{2\pi N\hbar\omega_i}{V}\right)\textrm{Re}\{\alpha\}\delta(\omega-\omega_i)\\
+  &+ \Gamma_{\textrm{EELS}}
+  \label{seels_rate_split}
+  \end{split}
+\end{equation}
+Again, using the definitions given by Garcia de Abajo[cite Garcia de Abajo], we can rewrite the SEELS rate in terms of first order probabilites.
+\begin{equation}
+\begin{split}
+  \Gamma_{\textrm{SEELS}} &= \frac{\sigma_{\textrm{ext}}I_0}{\hbar\omega_i}\Gamma_{\textrm{EELS}}\delta(\omega-\omega_i)\\
+  &+ \frac{8 e^2 \omega^2}{\hbar^3v^4\gamma_L^4}\left[\gamma_{L}^2K_1^2\left(\frac{\omega R}{v\gamma_L}\right)+K_0^2\left(\frac{\omega R}{v\gamma_L}\right)\right]\textrm{Re}\{\alpha\}\left(\frac{2\pi N\hbar\omega_i}{V}\right)\textrm{Re}\{\alpha\}\delta(\omega-\omega_i)\\
+  &+ \Gamma_{\textrm{EELS}}
+  \label{seels_rate_first}
+  \end{split}
+\end{equation}
+Of course, the real parts come along for the ride, since they are unrelated to any particular first-order rate. We could recombine the real parts and the imaginary parts to recover Eq. \ref{seels_eegs}. 
 
-Here, $\textbf{d}_{\textrm{ph}}$ and $\textbf{d}_{\textrm{el}}$ are the photon- and electron-induced plasmon dipole moments, respectively. So, we can see that we can write the SEELS probability in terms of the interaction between the electron electric field and the dipole moments induced independently by the photon and the electron beam.
-
+At the level of Eq. \ref{seels_prob_with_alpha}, we could also rewrite each term such that it contains a complex-valued dipole moment, either $\textbf{d}_{\textrm{el}}$ or $\textbf{d}_{\textrm{ph}}$. To do this we again need to do some complex algebra.
+\begin{equation}
+\begin{aligned}
+P_{\textrm{SEELS}} &= \frac{4\pi NL}{\hbar^2v}(\textbf{E}_{\textrm{el}}\cdot\alpha^*\cdot\textbf{E}_{\textrm{el}}^*)(\textbf{E}_0\cdot\alpha\cdot\textbf{E}_0^*)\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i)\\
+  &+ (-\textrm{i})\frac{2L}{\hbar v}(\textbf{E}_{\textrm{el}}\cdot\alpha\cdot\textbf{E}_{\textrm{el}}^*-\textbf{E}_{\textrm{el}}\cdot\textrm{Re}\{\alpha\}\cdot\textbf{E}_{\textrm{el}}^*)
+  \label{real_alphas}
+\end{aligned}
+\end{equation}
+Here, we have multiple terms which contain a complex-valued polariability. Recalling that $\textbf{d}_{\textrm{el,ph}} = \alpha\textbf{E}_{\textrm{el,ph}}$, we can write the SEELS probability as a sum of induced dipole moments
+\begin{equation}
+\begin{aligned}
+P_{\textrm{SEELS}} &= \textbf{E}_{\textrm{el}}^*\cdot\left\{\frac{4\pi NL}{\hbar^2v}\textbf{d}_{\textrm{ph}}(\textbf{E}_{\textrm{el}}\cdot\textbf{d}_{\textrm{ph}}^*)\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i) - \frac{2L\textrm{i}}{\hbar v}\textbf{d}_{\textrm{el}}\right\}\\
+  &+ \frac{2L\textrm{i}}{\hbar v}\textrm{Re}\{\textbf{E}_{\textrm{el}}^*\cdot\textbf{d}_{\textrm{el}}\}.
+  \label{seels_dipoles}
+\end{aligned}
+\end{equation}
+Again, the extra real part comes along for the ride.
 
 \subsection{A Classical Description of EELS (and SEELS)}
 
-A common way to compute the EELS rate is by calculating the induced field of the plasmon and having it act on the passing electron via [citation needed]
+A common way to compute the EELS rate is by calculating the induced field of the plasmon and having it act on the passing electron via\cite{AbajoRevMod,Hohenester2014,Quillin} [cite Garcia de Abajo ]
 \begin{equation}
 \Gamma_{\textrm{EELS}}(\textbf{r},\omega) = \frac{e}{\pi\hbar\omega}\int dt \textrm{Re}\left\{ e^{-\textrm{i}\omega t} \textbf{v} \cdot \textbf{E}_{\textrm{ind}}(\textbf{r},\omega)\right\}.
 \label{eels_rate_bem_1}
 \end{equation}
-Here, $\textbf{v}$ is the velocity of the electron. It will be more convenient to write the EELS rate in terms of the electron electric field and the induced dipole moment of the plasmon. First, the induced field is written in terms of induced potentials
+Here, $\textbf{v}$ is the velocity of the electron. It will, however, be more convenient to write the EELS rate in terms of the electron electric field and the induced dipole moment of the plasmon. First, the induced field is written in terms of induced potentials
 \begin{equation}
 \begin{aligned}
 \textbf{E}_{\textrm{ind}} &= -\nabla\phi_{\textbf{ind}} - \frac{\dot{\textbf{A}}_{\textrm{ind}}}{c}\\
@@ -860,7 +888,7 @@ Rewriting $G$ in terms of its Fourier transform reveals a route to computing the
 \label{psi_k_space}
 \end{aligned}
 \end{equation}
-We will see that through this definition of $\psi$ we can construct the electron's electric field. However, we rewrite Eq. \ref{eels_with_potentials} in terms of $\psi$
+We will see that through this definition of $\psi$ we can construct the electron's electric field. For now, we rewrite Eq. \ref{eels_with_potentials} in terms of $\psi$
 \begin{equation}
 \Gamma_{\textrm{EELS}} = \frac{4e}{v\hbar\omega}\textbf{v}\cdot\textrm{Re}\int d^3x' \psi(\textbf{x}_{\perp},\textbf{x}',\omega) \left[-\textrm{i}q\rho(\textbf{x}',\omega)\hat{\textbf{z}} + \textrm{i}k\frac{\textbf{J}(\textbf{x}',\omega)}{c}\right],
 \label{eels_with_psi}
@@ -891,11 +919,18 @@ The electron has momentum only in the z-direction, so $q\hat{\textbf{z}} = \text
 &= \frac{4}{\hbar}\textrm{Im}\left\{ \textbf{E}_{\textrm{el}} \cdot \textbf{d}_{\textrm{ind}}\right\}.
 \end{aligned}
 \end{equation}
-Here, since $k'$ is an integration variable, it has been rewritten as $q$ and the definition of the electron's electric field from Ref. [whatever] has been used to replace $\psi$. So, the common implementation of the EELS rate using the induced electric fields and electron velocity is entirely consistent with the method of using the induced dipole moment and electron electric field.
+Here, since $k'$ is an integration variable, it has been rewritten as $q$ and the definition of the electron's electric field from Ref. \cite{AbajoRevMod} has been used to replace $\psi$. So, the common implementation of the EELS rate using the induced electric fields and electron velocity is entirely consistent with the method of using the induced dipole moment and electron electric field.
 
-\subsection{PAEELS/SEELS from the Perspective of the Force on the Plasmon}
+The MNPBEM software package computes EELS and other observables using induced surface charge and current densities\cite{Hohenester2012,Hohenester2014}. These quantities are ostensibly related to the induced dipole moments. We have implemented a method for computing SEELS that involves adding photon-induced surface charges and currents to electron-induced surface charges and currents, and using that superposition to compute the EELS rate\cite{vanAiken}. In terms of induced dipole moments, this takes the form
+\begin{equation}
+\Gamma_{\textrm{SEELS}} = \frac{4}{\hbar}\textrm{Im}\left\{ \textbf{E}_{\textrm{el}} \cdot (\textbf{d}_{\textrm{el}}+\textbf{d}_{\textrm{ph}})\right\}
+\label{eels_dipoles}
+\end{equation}
+It is unclear at this point in time how Eq. \ref{seels_dipoles} relates to the Fermi's golden rule approaches from a previous section.
 
-Ref. [cite quillin] computes the EELS rate through the power absorbed by the plasmon from the passing electron, using the electron's electric field to quantify the force on the plasmon. Interestingly, in the event that the plasmon is forced by both light and an electron beam simultaneously, the EELS rate becomes a more complicated loss rate. According to the definition in Ref. [cite quillin]
+\subsection{SEELS from the Perspective of the Force on the Plasmon}
+
+Ref. \cite{Quillin} computes the EELS rate through the power absorbed by the plasmon from the passing electron, using the electron's electric field to quantify the force on the plasmon. Interestingly, in the event that the plasmon is forced by both light and an electron beam simultaneously, the EELS rate becomes a more complicated loss rate. According to the definition in Ref. \cite{Quillin}
 \begin{equation}
 \Gamma_{\textrm{loss}}(\textbf{R},\omega) = \frac{|\textbf{F}(\textbf{R},\omega)|^2}{e^2\hbar\omega}\textrm{Im}\{\alpha_{\textrm{sp}}(\omega)\}.
 \label{gamma_loss}
@@ -918,7 +953,7 @@ The photon field with polarization direction $\hat{\boldsymbol{\epsilon}}$ is sc
 \label{loss_rate_fields}
 \end{aligned}
 \end{equation}
-This equation is very similar to the loss probability presented in Ref. [citation needed]. We are interested in modeling particular experimental situations, specifically experiments in which the photon and electron interact with the MNP at the same time and the light is polarized such that $\hat{\boldsymbol{\epsilon}}_0 \cdot \hat{\textbf{z}} = 0$. This reduces Eq. \ref{loss_rate_fields} to
+This equation is very similar to the loss probability presented in Ref. \cite{vanAiken}. We are interested in modeling particular experimental situations, specifically experiments in which the photon and electron interact with the MNP at the same time and the light is polarized such that $\hat{\boldsymbol{\epsilon}}_0 \cdot \hat{\textbf{z}} = 0$. This reduces Eq. \ref{loss_rate_fields} to
 \begin{equation}
 \begin{aligned}
 \Gamma_{\textrm{loss}} &= \frac{\textrm{Im}\{\alpha(\omega)\}}{\hbar\pi}\Big\{4\pi^2A^2\delta(\omega-\omega_0)\\
@@ -967,83 +1002,98 @@ Silicon wafer substrates (University Wafer, ptype, 200 nm thermal oxide (silicon
 
 
 % ========== Appendix B
-\chapter{Appendix B: Extra Magnetic Plasmon Explorations}
+\chapter{Appendix B: Magnetic Plasmon Explorations}
+
+This appendix is devoted to unpublished but interesting explorations of the properties of the 2-mer oligomer from Chapter 3 of this thesis.
 
 \section{A closer analysis of the oligomers}
 
-\subsection{Parameter: size}
+Here we shall investigate the parameter of size more closely. A second tunable parameter, the interparticle spacing, will also be introduced and analyzed.
 
-How do we know it's retardation effects? Well, the quasistatic resonance energies are wrong.
+\subsection{Parameter: size}
 
 \begin{figure}
 \begin{centering}
 \includegraphics{qs_limit.pdf}
-\caption{quasistatic resonance energies}
+\caption{Resonance energies of the aN and NS modes of the 2-mer computed using (a) static fields with size-dependent $\omega_{\textrm{sp}}$ and (b) static fields and single MNP plasmon frequencies. In (a), the aN and NS energies decrease uniformly without crossing as a function of $a$. In (b), the mode energies do not decrease at all with increasing $a$, showing that retardation effects are necessary to model mode switching.}
 \label{qs_limit}
 \end{centering}
 \end{figure}
 
-Just to be sure, let's look closer and make sure they're actually splitting and this isn't an artifact of our eyes.
+An important question to ask is why it should be obvious that retardation effects are the cause of the mode switching seen in Chapter 3. If the mathematical explanation is not satisfying, it may help to investigate the impact of taking the quasistatic limit on the spectral order. Fig. \ref{diff_scale} does just that, in the case where just the fields are static (a), and in the case where both the fields and $\omega_{\textrm{sp}}$ lack size-dependence (b). Clearly, in the quasistatic approximation, the modes do not cross.
 
+\newpage
 \begin{figure}
 \begin{centering}
 \includegraphics{eig_diff_scale.pdf}
-\caption{difference from average with scaling}
+\caption{Relative difference of the NS and aN mode energies from their average with increasing $a$. This shows much more clearly that the modes do change order and allows for the quantification of the splitting. The splitting at $a = 1$ nm is less than 0.01 eV, while at $a = 30$ nm it is nearly 0.06 eV.}
 \label{diff_scale}
 \end{centering}
 \end{figure}
 
-But wait, I thought the quasistatic approxiamtion was good for MNPs that were half the wavelength of light! Nah.
+It also may be instructive to make sure that the curves in Fig. [look this up!] are actually crossing, and to quantify their splitting. Each curve's realtive difference from their average is plotted in Fig. \ref{diff_scale} in order to show that the modes do in fact switch order. The splittings are quite small, meaning that to see this splitting in an experiment a high-resolution instrument or spatio-specific method would be necessary.
+
 
 \begin{figure}
 \begin{centering}
 \includegraphics{length_comparison_scale.pdf}
-\caption{comparing to optical wavelength}
+\caption{Computed resonant wavelength for the NS and aN modes of the 2-mer, compared with the diagonal length of the oligomer. The modes cross at $a = 7$ nm, at which size the oligomer is about one quarter of the optical wavelength. This conflicts with the common ``half-wavelength'' rule of thumb.}
 \label{scale_wavelength_comp}
 \end{centering}
 \end{figure}
 
-Is this effect even real? Shouldn't the eigenvalues cross forever? They do!
+
+Another interesting question is when the quasistatic approximation actually breaks down. The commonly reported rule of thumb is that the approximation is good for MNPs smaller than half a wavelength of the light used to interrogate them. However, this seems to break down for clusters that store large amounts of energy in their magnetic fields, as shown in Fig. \ref{scale_wavelength_comp}. Here, we compare the resonant wavelength $\lambda = 2\pi c/\omega$ to the ``longest distance'' in the oligomer, specifically its diagonal length.
+
 
 \begin{figure}
 \begin{centering}
 \includegraphics{bigger_particles.pdf}
-\caption{bigger particles}
+\caption{Resonance frequencies of the NS and aN modes of the 2-mer for values of $a$ from 30 to 100 nm in increments of 10 nm. Between $a=50$ and $a=60$ nm, the modes cross a third time. Note that the splitting between the modes remains quite small with size. This would likely prevent any but the most highly-resolved experiments from detecting these modes.}
 \label{bigp}
 \end{centering}
 \end{figure}
 
+
+The modes continue to cross at larger MNP sizes, though the experimental practicality of oligomers of these sizes is unclear. It is likely that once the MNPs get large enough, their plasmon resonances get so broad as to make any magnetic resonances unresolvable. However, with theoretical approaches we can ask what happens when the particles do get bigger, and those results are shown in Fig. \ref{bigp}. 
+
 \subsection{Parameter: interparticle spacing}
 
-Some people do this DNA origami stuff with MNPs. Let's see what happens to the magnetic plasmons when we do this! We're going to fix the particle size and increase the separation, from touching (2 radii) to nearly non-interacting (about 10 radii). Notice that even in the non-interacting regime, the interaction energies still oscillate about zero. It would be difficult experimentally to measure this oscialltion, which means while it may not be physically relevant it is still theoretically interesting, and and extension of what we learned about dimers in Chapter 1.
 
 \begin{figure}
 \begin{centering}
 \includegraphics{spacing_2mer.pdf}
-\caption{Spacing!}
+\caption{Resonance energies of the aN and NS modes of the 2-mer with respect to increasing interparticle distance for fixed $a=15$ nm (a) and $a=30$ nm (b). Note that with increasing separation, the resonance energies tend towards the single MNP plasmon frequency. In other words, the interaction energy goes to 0 as predicted by Eq. [look this up!]. Additionally, the collective energies oscillate about each other, contributing to multiple mode switches.}
 \label{spacing_eig}
 \end{centering}
 \end{figure}
 
-I can barely see those wiggles! Are they even real?
+
+Another tunable parameter of experimental interest is the interparticle spacing (at constant $a$). Recent studies have shown the utility of using DNA or organic polymers as a means to link MNPs together and change, in real time, their interparticle spacing and conformation\cite{DanLuo2009,NaLiu2017,Ginger2017}. Here, we imagine linking the MNPs of the 2-mer into a constant configuration, and varying the interparticle distance uniformly, from 0 radii to 10 radii. Fig. \ref{spacing_eig} shows the impact of increasing the interparticle spacing at fixed radius on the magnetic modes of the 2-mer. Specifically, we choose $a=15$ nm (a) and $a=30$ nm (b).
+
 
 \begin{figure}
 \begin{centering}
 \includegraphics{diff_avg_space.pdf}
-\caption{spacing exponential relevance}
+\caption{The exponential term from Eq. [look this up!] computed for the NS and aN modes of the 2-mer with increasing interparticle separation (a) and the relative difference between the exponential terms for each mode (b). This shows more clearly that the mode crossings, though exhibiting small splittings, are due to the exponential term in the dipolar electric field.}
 \label{diff_avg_space}
 \end{centering}
 \end{figure}
 
-Okay, okay, but are these things big enough to be considered fully retarded?
+
+The wiggles in the resonant frequencies are small, and thus the crossings are hard to distinguish. According to Chapter 3, the primary cause of mode-switching is the exponential term in Eq. [look this up!]. Fig. \ref{diff_avg_space} shows, for $a=30$ nm, the value of the exponential term for each mode as a function of the interparticle separation (a), and the relative difference between the exponential terms for each mode (b). This shows much more clearly that the modes do in fact cross.
 
 \begin{figure}
 \begin{centering}
 \includegraphics{length_comp_sapcing.pdf}
-\caption{wavelength comparison for spacing}
+\caption{The resonance wavelength computed for the NS and aN modes of the 2-mer with increasing interparticle spacing and compared to the longest distance in the system for a radius of 15 (a) and 30 (b) nm. Note that in both cases, the oligomer very quickly becomes much larger than an optical wavelength.}
 \label{length_space}
 \end{centering}
 \end{figure}
+
+
+Again, how does this compare to commonly referenced size constraints on the quasistatic approximation? Fig. \ref{length_space} compares the resonant wavelength of each mode to the ``longest distance'' in the oligomer.
+
 
 \section{Towards negative index metamaterials}
 
@@ -1093,7 +1143,7 @@ We can now compute the index of refraction. Consider, as an example, the case wh
 \begin{figure}
 \begin{centering}
 \includegraphics{contour_n_plot.pdf}
-\caption{index of refraction as a function of energy and size}
+\caption{Collective index of refraction as a function of increasing $a$ and incident photon energy for two unit cells: a 1-mer (a) and a 2-mer (b). The red regions correspond to positive index of refraction, the blue regions correspond to negative index of refraction, and the white regions show an index of refraction near zero [look up n near zero materials]. These plots show that using size can be used as a parameter to tune the range of optical frequencies in which a material has a negative index of refraction. This can serve to make materials that transmit specific or all colors of light.}
 \label{n_plot}
 \end{centering}
 \end{figure}

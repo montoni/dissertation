@@ -24,6 +24,11 @@ K.~E. Drexler, ``Molecular engineering: an approach to the development of
 R.~S. Quimby, {\em Photonics and Lasers: an Introduction}.
 \newblock 111 River Street, Hoboken, NJ 07030: Wiley-Interscience, 2006.
 
+\bibitem{Franken}
+P.~A. Franken and R.~H. Sands.
+\newblock Ann Arbor Conference on Optical Pumping, University of Michigan,
+  1959.
+
 \bibitem{ElSayedCancer}
 X.~Huang and M.~A. El-Sayed, ``Plasmonic photo-thermal therapy (pptt),'' {\em
   Alexandria Journal of Medicine}, vol.~47, no.~1, pp.~1--9, 2011.
@@ -140,6 +145,11 @@ C.~Cherqui, N.~Thakkar, G.~Li, J.~P. Camden, and D.~J. Masiello,
 R.~Clausius, {\em Die mechanische behandlung der electricit\"{a}t}.
 \newblock Vieweg+Teubner Verlag, Wiesbaden, 1879.
 
+\bibitem{Quillin}
+S.~C. Quillin, C.~Cherqui, N.~P. Montoni, G.~Li, J.~P. Camden, and D.~J.
+  Masiello, ``Imaging plasmon hybridization in metal nanoparticle aggregates
+  with electron energy-loss spectroscopy,'' {\em J. Phys. Chem. C}, 2016.
+
 \bibitem{JC}
 P.~B. Johnson and R.-W. Christy, ``Optical constants of the noble metals,''
   {\em Phys. Rev. B}, vol.~6, p.~4370, 1972.
@@ -161,6 +171,70 @@ H.~Ehrenreich, H.~Philipp, and B.~Segall, ``Optical properties of aluminum,''
 P.~Clippe, R.~Evrard, and A.~A. Lucas, ``Aggregation effect on the infrared
   absorption spectrum of small ionic crystals,'' {\em Phys. Rev. B}, vol.~14,
   pp.~1715--1721, Aug 1976.
+
+\bibitem{Schatz2003}
+C.~L. Haynes, A.~D. McFarland, L.~Zhao, R.~P. Van~Duyne, G.~C. Schatz,
+  L.~Gunnarsson, J.~Prikulis, B.~Kasemo, and M.~K{\"a}ll, ``Nanoparticle
+  optics: the importance of radiative dipole coupling in two-dimensional
+  nanoparticle arrays,'' {\em J. Phys. Chem. B}, vol.~107, no.~30,
+  pp.~7337--7342, 2003.
+
+\bibitem{Oubre2004}
+P.~Nordlander, C.~Oubre, E.~Prodan, K.~Li, and M.~I. Stockman, ``Plasmon
+  hybridization in nanoparticle dimers,'' {\em Nano Lett.}, vol.~4, no.~5,
+  pp.~899--903, 2004.
+
+\bibitem{NordProdan2004}
+E.~Prodan and P.~Nordlander, ``Plasmon hybridization in spherical
+  nanoparticles,'' {\em J. of Chem. Phys.}, vol.~120, no.~11, pp.~5444--5454,
+  2004.
+
+\bibitem{vonPlessen2007}
+C.~Dahmen, B.~Schmidt, and G.~von Plessen, ``Radiation damping in metal
+  nanoparticle pairs,'' {\em Nano Lett.}, vol.~7, no.~2, pp.~318--322, 2007.
+
+\bibitem{Elsayed2008}
+P.~K. Jain and M.~A. El-Sayed, ``Noble metal nanoparticle pairs: effect of
+  medium for enhanced nanosensing,'' {\em Nano Lett.}, vol.~8, no.~12,
+  pp.~4347--4352, 2008.
+
+\bibitem{Xu1995}
+Y.~Xu, ``Electromagnetic scattering by an aggregate of spheres,'' {\em Appl.
+  Opt.}, vol.~34, pp.~4573--4588, Jul 1995.
+
+\bibitem{Mischenko1995}
+M.~I. Mishchenko, D.~W. Mackowski, and L.~D. Travis, ``Scattering of light by
+  bispheres with touching and separated components,'' {\em Appl. Opt.},
+  vol.~34, pp.~4589--4599, Jul 1995.
+
+\bibitem{Ruler}
+R.~T. Hill, J.~J. Mock, A.~Hucknall, S.~D. Wolter, N.~M. Jokerst, D.~R. Smith,
+  and A.~Chilkoti, ``Plasmon ruler with angstrom length resolution,'' {\em ACS
+  Nano}, vol.~6, no.~10, pp.~9237--9246, 2012.
+\newblock PMID: 22966857.
+
+\bibitem{SERS}
+R.~Zhang, Y.~Zhang, Z.~C. Dong, S.~Jiang, C.~Zhang, L.~G. Chen, L.~Zhang,
+  Y.~Liao, J.~Aizpurua, Y.~Luo, J.~L. Yang, and J.~G. Hou, ``Chemical mapping
+  of a single molecule by plasmon-enhanced raman scattering,'' {\em Nature},
+  vol.~498, pp.~82--86, 2013.
+
+\bibitem{CubeSubstrate}
+G.~L. Li, C.~Cherqui, N.~W. Bigelow, G.~Duscher, P.~J. Straney, J.~E.
+  Millstone, D.~J. Masiello, and J.~P. Camden, ``Spatially mapping energy
+  transfer from single plasmonic particles to semiconductor substrates via
+  stem/eels,'' {\em Nano Lett.}, vol.~15, p.~3465, 2015.
+
+\bibitem{ARAVIND1981}
+P.~Aravind, A.~Nitzan, and H.~Metiu, ``The interaction between electromagnetic
+  resonances and its role in spectroscopic studies of molecules adsorbed on
+  colloidal particles or metal spheres,'' {\em Surf. Sci.}, vol.~110, no.~1,
+  pp.~189--204, 1981.
+
+\bibitem{ThakkarLandau}
+N.~Thakkar, N.~P. Montoni, C.~Cherqui, and D.~J. Masiello, ``Plasmonic landau
+  damping in active environments,'' {\em Phys. Rev. B}, vol.~97, p.~121403, Mar
+  2018.
 
 \bibitem{Nie1997}
 S.~Nie and S.~R. Emory, ``Probing single molecules and single nanoparticles by
@@ -297,12 +371,6 @@ F.~Wang, C.~Li, H.~Chen, R.~Jiang, L.-D. Sun, Q.~Li, J.~Wang, J.~C. Yu, and
   C.-H. Yan, ``Plasmonic harvesting of light energy for suzuki coupling
   reactions,'' {\em J. Am. Chem. Soc.}, vol.~135, p.~5588, 2013.
 
-\bibitem{CubeSubstrate}
-G.~L. Li, C.~Cherqui, N.~W. Bigelow, G.~Duscher, P.~J. Straney, J.~E.
-  Millstone, D.~J. Masiello, and J.~P. Camden, ``Spatially mapping energy
-  transfer from single plasmonic particles to semiconductor substrates via
-  stem/eels,'' {\em Nano Lett.}, vol.~15, p.~3465, 2015.
-
 \bibitem{Alloys}
 Y.~Y. Wu, G.~L. Li, C.~Cherqui, N.~W. Bigelow, N.~Thakkar, D.~J. Masiello,
   J.~P. Camden, and P.~D. Rack, ``Electron energy loss spectroscopy study of
@@ -365,11 +433,6 @@ J.~Rodriguez-Fernandez, C.~Novo, V.~Myroshnychenko, A.~M. Funston,
   L.~M. Liz-Marzan, and P.~Mulvaney, ``Spectroscopy, imaging, and modeling of
   individual gold decahedra,'' {\em J. Phys. Chem. C}, vol.~113, p.~18623,
   2009.
-
-\bibitem{Quillin}
-S.~C. Quillin, C.~Cherqui, N.~P. Montoni, G.~Li, J.~P. Camden, and D.~J.
-  Masiello, ``Imaging plasmon hybridization in metal nanoparticle aggregates
-  with electron energy-loss spectroscopy,'' {\em J. Phys. Chem. C}, 2016.
 
 \bibitem{Zohar}
 N.~Zohar, L.~Chuntonov, and G.~Haran, ``The simplest plasmonic molecules: Metal
@@ -476,13 +539,6 @@ M.~Darvishzadeh-Varcheie, C.~Guclu, and F.~Capolino, ``Magnetic nanoantennas
   made of plasmonic nanoclusters for photoinduced magnetic field enhancement,''
   {\em Phys. Rev. Appl.}, vol.~8, p.~024033, Aug 2017.
 
-\bibitem{Schatz2003}
-C.~L. Haynes, A.~D. McFarland, L.~Zhao, R.~P. Van~Duyne, G.~C. Schatz,
-  L.~Gunnarsson, J.~Prikulis, B.~Kasemo, and M.~K{\"a}ll, ``Nanoparticle
-  optics: the importance of radiative dipole coupling in two-dimensional
-  nanoparticle arrays,'' {\em J. Phys. Chem. B}, vol.~107, no.~30,
-  pp.~7337--7342, 2003.
-
 \bibitem{Weick2013}
 G.~Weick, C.~Woollacott, W.~L. Barnes, O.~Hess, and E.~Mariani, ``Dirac-like
   plasmons in honeycomb lattices of metallic nanoparticles,'' {\em Phys. Rev.
@@ -507,21 +563,6 @@ M.~D. Turner, M.~M. Hossain, and M.~Gu, ``The effects of retardation on plasmon
   hybridization within metallic nanostructures,'' {\em New J. Phys.}, vol.~12,
   no.~8, p.~083062, 2010.
 
-\bibitem{Oubre2004}
-P.~Nordlander, C.~Oubre, E.~Prodan, K.~Li, and M.~I. Stockman, ``Plasmon
-  hybridization in nanoparticle dimers,'' {\em Nano Lett.}, vol.~4, no.~5,
-  pp.~899--903, 2004.
-
-\bibitem{vonPlessen2007}
-C.~Dahmen, B.~Schmidt, and G.~von Plessen, ``Radiation damping in metal
-  nanoparticle pairs,'' {\em Nano Lett.}, vol.~7, no.~2, pp.~318--322, 2007.
-
-\bibitem{ARAVIND1981}
-P.~Aravind, A.~Nitzan, and H.~Metiu, ``The interaction between electromagnetic
-  resonances and its role in spectroscopic studies of molecules adsorbed on
-  colloidal particles or metal spheres,'' {\em Surf. Sci.}, vol.~110, no.~1,
-  pp.~189--204, 1981.
-
 \bibitem{Kottman2001}
 J.~P. Kottmann and O.~J.~F. Martin, ``Retardation-induced plasmon resonances in
   coupled nanoparticles,'' {\em Opt. Lett.}, pp.~1096--1098, Jul 2001.
@@ -530,11 +571,6 @@ J.~P. Kottmann and O.~J.~F. Martin, ``Retardation-induced plasmon resonances in
 E.~Prodan, C.~Radloff, N.~J. Halas, and P.~Nordlander, ``A hybridization model
   for the plasmon response of complex nanostructures,'' {\em Science},
   vol.~302, no.~5644, pp.~419--422, 2003.
-
-\bibitem{NordProdan2004}
-E.~Prodan and P.~Nordlander, ``Plasmon hybridization in spherical
-  nanoparticles,'' {\em J. of Chem. Phys.}, vol.~120, no.~11, pp.~5444--5454,
-  2004.
 
 \bibitem{Rechbacher2003}
 W.~Rechberger, A.~Hohenau, A.~Leitner, J.~Krenn, B.~Lamprecht, and
@@ -624,11 +660,6 @@ E.~M. Purcell and C.~R. Pennypacker, ``Scattering and absorption of light by
   nonspherical dielectric grains,'' {\em Astrophys. J.}, vol.~186,
   pp.~705--714, Dec 1973.
 
-\bibitem{Elsayed2008}
-P.~K. Jain and M.~A. El-Sayed, ``Noble metal nanoparticle pairs: effect of
-  medium for enhanced nanosensing,'' {\em Nano Lett.}, vol.~8, no.~12,
-  pp.~4347--4352, 2008.
-
 \bibitem{jackson_classical_1999}
 J.~D. Jackson, {\em Classical Electrodynamics}.
 \newblock New York, {NY}: Wiley, 3rd ed.~ed., 1999.
@@ -643,15 +674,24 @@ W.~Liu, A.~E. Miroshnichenko, D.~N. Neshev, and Y.~S. Kivshar, ``Broadband
   unidirectional scattering by magneto-electric core-shell nanoparticles,''
   {\em ACS Nano}, vol.~6, no.~6, pp.~5489--5497, 2012.
 
-\bibitem{AbajoRevMod}
-F.~J. Garc\'{i}a~de Abajo, ``Optical excitations in electron microscopy,'' {\em
-  Rev. Mod. Phys.}, vol.~82, pp.~209--275, Feb 2010.
+\bibitem{EEGS}
+A.~Asenjo-Garcia and F.~J.~G. de~Abajo, ``Plasmon electron energy-gain
+  spectroscopy,'' {\em New Journal of Physics}, vol.~15, no.~10, p.~103021,
+  2013.
+
+\bibitem{PINEM}
+B.~Barwick, D.~J. Flannigan, and A.~H. Zewail, ``Photon-induced near-field
+  electron microscopy,'' {\em Nature}, vol.~462, pp.~902--906, 2009.
 
 \bibitem{vanAiken}
 N.~Talebi, W.~Sigle, R.~Vogelgesang, and P.~van Aken, ``Numerical simulations
   of interference effects in photon-assisted electron energy-loss
   spectroscopy,'' {\em New Journal of Physics}, vol.~15, no.~5, p.~053013,
   2013.
+
+\bibitem{AbajoRevMod}
+F.~J. Garc\'{i}a~de Abajo, ``Optical excitations in electron microscopy,'' {\em
+  Rev. Mod. Phys.}, vol.~82, pp.~209--275, Feb 2010.
 
 \bibitem{DanLuo2009}
 W.~Cheng, M.~J. Campolongo, J.~J. Cha, S.~J. Tan, C.~C. Umbach, D.~A. Muller,

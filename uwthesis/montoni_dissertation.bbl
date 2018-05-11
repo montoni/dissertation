@@ -1,5 +1,21 @@
 \begin{thebibliography}{100}
 
+\bibitem{Engheta2017}
+N.~J. Greybush, I.~n. Liberal, L.~Malassis, J.~M. Kikkawa, N.~Engheta, C.~B.
+  Murray, and C.~R. Kagan, ``Plasmon resonances in self-assembled
+  two-dimensional au nanocrystal metamolecules,'' {\em ACS Nano}, vol.~11,
+  no.~3, pp.~2917--2927, 2017.
+
+\bibitem{EEGS}
+A.~Asenjo-Garcia and F.~J.~G. de~Abajo, ``Plasmon electron energy-gain
+  spectroscopy,'' {\em New Journal of Physics}, vol.~15, no.~10, p.~103021,
+  2013.
+
+\bibitem{enz}
+A.~Al\`u, M.~G. Silveirinha, A.~Salandrino, and N.~Engheta, ``Epsilon-near-zero
+  metamaterials and electromagnetic sources: Tailoring the radiation phase
+  pattern,'' {\em Phys. Rev. B}, vol.~75, p.~155410, Apr 2007.
+
 \bibitem{FeynmanBottom}
 R.~Feynman, ``There's plenty of room at the bottom,'' {\em Engineering and
   Science}, vol.~23, no.~5, pp.~22--36, 1960.
@@ -91,18 +107,18 @@ U.~Kreibig and L.~Genzel, ``Optical absorption of small metallic particles,''
   {\em Surf. Sci.}, vol.~156, pp.~678--700, 1985.
 
 \bibitem{BohmPines1}
-D.~Bohm and D.~Pines, ``A collective description of electron interactions: I.
+D.~Bohm and D.~Pines, ``A collective description of electron interactions: {I}.
   magnetic interactions,'' {\em Phys. Rev.}, vol.~82, no.~5, pp.~625--634,
   1951.
 
 \bibitem{BohmPines2}
-D.~Bohm and D.~Pines, ``A collective description of electron interactions: Ii.
-  collective vs individual particle aspects of the interactions,'' {\em Phys.
-  Rev.}, vol.~85, no.~2, pp.~338--353, 1952.
+D.~Bohm and D.~Pines, ``A collective description of electron interactions:
+  {II}. collective vs individual particle aspects of the interactions,'' {\em
+  Phys. Rev.}, vol.~85, no.~2, pp.~338--353, 1952.
 
 \bibitem{BohmPines3}
-D.~Bohm and D.~Pines, ``A collective description of electron interactions: Iii.
-  coulomb interactions in a degenerate electron gas,'' {\em Phys. Rev.},
+D.~Bohm and D.~Pines, ``A collective description of electron interactions:
+  {III}. coulomb interactions in a degenerate electron gas,'' {\em Phys. Rev.},
   vol.~92, no.~3, pp.~609--625, 1953.
 
 \bibitem{SternFerrel}
@@ -281,8 +297,8 @@ S.~A. Maier, P.~G. Kik, H.~A. Atwater, S.~Meltzer, E.~Harel, B.~E. Koel, and
   Mater.}, vol.~2, p.~229, 2003.
 
 \bibitem{SiSolar}
-K.~T. T. G.~M. Pillai, S.;~Catchpole, ``Surface plasmon enhanced silicon solar
-  cells,'' {\em J. Appl. Phys.}, vol.~101, p.~093105, 2007.
+S.~Pillai, K.~Catchpole, T.~Trupke, and M.~Green, ``Surface plasmon enhanced
+  silicon solar cells,'' {\em J. Appl. Phys.}, vol.~101, p.~093105, 2007.
 
 \bibitem{RiceCrew}
 S.~Lal, J.~H. Hafner, N.~J. Halas, S.~Link, and P.~Nordlander, ``Noble metal
@@ -492,12 +508,6 @@ C.~Cherqui, Y.~Wu, G.~Li, S.~C. Quillin, J.~A. Busche, N.~Thakkar, C.~A. West,
   oligomer dimers and all-magnetic fano interference,'' {\em Nano Lett.},
   vol.~16, no.~10, pp.~6668--6676, 2016.
 
-\bibitem{Engheta2017}
-N.~J. Greybush, I.~n. Liberal, L.~Malassis, J.~M. Kikkawa, N.~Engheta, C.~B.
-  Murray, and C.~R. Kagan, ``Plasmon resonances in self-assembled
-  two-dimensional au nanocrystal metamolecules,'' {\em ACS Nano}, vol.~11,
-  no.~3, pp.~2917--2927, 2017.
-
 \bibitem{Shalaev2004}
 A.~K. Sarychev and V.~M. Shalaev, ``Magnetic resonance in metal nanoantennas,''
   {\em Proc. SPIE}, vol.~5508, 2004.
@@ -678,11 +688,6 @@ W.~Liu, A.~E. Miroshnichenko, D.~N. Neshev, and Y.~S. Kivshar, ``Broadband
   unidirectional scattering by magneto-electric core-shell nanoparticles,''
   {\em ACS Nano}, vol.~6, no.~6, pp.~5489--5497, 2012.
 
-\bibitem{EEGS}
-A.~Asenjo-Garcia and F.~J.~G. de~Abajo, ``Plasmon electron energy-gain
-  spectroscopy,'' {\em New Journal of Physics}, vol.~15, no.~10, p.~103021,
-  2013.
-
 \bibitem{PINEM}
 B.~Barwick, D.~J. Flannigan, and A.~H. Zewail, ``Photon-induced near-field
   electron microscopy,'' {\em Nature}, vol.~462, pp.~902--906, 2009.
@@ -716,10 +721,5 @@ A.~Kuzyk, M.~J. Urban, A.~Idili, F.~Ricci, and N.~Liu, ``Selective control of
 Z.~Qian, K.~N. Guye, D.~J. Masiello, and D.~S. Ginger, ``Dynamic optical
   switching of polymer/plasmonic nanoparticle hybrids with sparse loading,''
   {\em J. Phys. Chem. B}, vol.~121, no.~5, pp.~1092--1099, 2017.
-
-\bibitem{enz}
-A.~Al\`u, M.~G. Silveirinha, A.~Salandrino, and N.~Engheta, ``Epsilon-near-zero
-  metamaterials and electromagnetic sources: Tailoring the radiation phase
-  pattern,'' {\em Phys. Rev. B}, vol.~75, p.~155410, Apr 2007.
 
 \end{thebibliography}

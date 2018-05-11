@@ -1,24 +1,20 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: montoni_dissertation.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
 Warning--empty title in Franken
-Too many commas in name 1 of "Pillai, S.; Catchpole, K.; Trupke, T.; Green, M." for entry SiSolar
-while executing---line 969 of file ieeetr.bst
-Too many commas in name 1 of "Pillai, S.; Catchpole, K.; Trupke, T.; Green, M." for entry SiSolar
-while executing---line 969 of file ieeetr.bst
 You've used 142 entries,
             1876 wiz_defined-function locations,
-            1355 strings with 30273 characters,
-and the built_in function-call counts, 45044 in all, are:
-= -- 4332
-> -- 2177
+            1355 strings with 30288 characters,
+and the built_in function-call counts, 45088 in all, are:
+= -- 4333
+> -- 2187
 < -- 0
-+ -- 778
-- -- 636
-* -- 3286
-:= -- 6365
++ -- 781
+- -- 639
+* -- 3293
+:= -- 6374
 add.period$ -- 148
 call.type$ -- 142
 change.case$ -- 138
@@ -26,8 +22,8 @@ chr.to.int$ -- 0
 cite$ -- 143
 duplicate$ -- 2392
 empty$ -- 3698
-format.name$ -- 636
-if$ -- 11147
+format.name$ -- 639
+if$ -- 11155
 int.to.chr$ -- 0
 int.to.str$ -- 142
 missing$ -- 147
@@ -49,4 +45,4 @@ warning$ -- 1
 while$ -- 343
 width$ -- 145
 write$ -- 1462
-(There were 2 error messages)
+(There was 1 warning)

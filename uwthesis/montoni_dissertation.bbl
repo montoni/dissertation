@@ -528,6 +528,17 @@ J.~A. Scholl, A.~Garc\'{i}a-Etxarri, G.~Aguirregabiria, R.~Esteban, T.~C.
   metamolecule modes in the quantum tunneling regime,'' {\em ACS Nano},
   vol.~10, no.~1, pp.~1346--1354, 2016.
 
+\bibitem{Yang2013}
+Q.~W. Ye, L.~Y. Guo, M.~H. Li, Y.~Liu, B.~X. Xiao, and H.~L. Yang, ``The
+  magnetic toroidal dipole in steric metamaterial for permittivity sensor
+  application,'' {\em Phys. Scripta}, vol.~88, no.~5, p.~055002, 2013.
+
+\bibitem{Chen17}
+J.~Chen, W.~Fan, T.~Zhang, C.~Tang, X.~Chen, J.~Wu, D.~Li, and Y.~Yu,
+  ``Engineering the magnetic plasmon resonances of metamaterials for
+  high-quality sensing,'' {\em Opt. Express}, vol.~25, pp.~3675--3681, Feb
+  2017.
+
 \bibitem{Dionne2011}
 S.~N. Sheikholeslami, A.~Garc\'{i}a-Etxarri, and J.~A. Dionne, ``Controlling
   the interplay of electric and magnetic modes via fano-like plasmon
@@ -538,10 +549,10 @@ M.~Hentschel, D.~Dregely, R.~Vogelgesang, H.~Giessen, and N.~Liu, ``Plasmonic
   oligomers: The role of individual particles in collective behavior,'' {\em
   ACS Nano}, vol.~5, no.~3, pp.~2042--2050, 2011.
 
-\bibitem{Prodan2003}
-E.~Prodan, C.~Radloff, N.~J. Halas, and P.~Nordlander, ``A hybridization model
-  for the plasmon response of complex nanostructures,'' {\em Science},
-  vol.~302, no.~5644, pp.~419--422, 2003.
+\bibitem{Wang17}
+J.~Wang, N.~Wang, J.~Hu, and R.~Jiang, ``Toroidal dipole-induced absorption and
+  scattering dip in (dielectric core)@(plasmonic shell) nanostructures,'' {\em
+  Opt. Express}, vol.~25, pp.~28935--28945, Nov 2017.
 
 \bibitem{Nord2006}
 D.~W. Brandl, N.~A. Mirin, and P.~Nordlander, ``Plasmon modes of nanosphere
@@ -552,6 +563,12 @@ D.~W. Brandl, N.~A. Mirin, and P.~Nordlander, ``Plasmon modes of nanosphere
 M.~Darvishzadeh-Varcheie, C.~Guclu, and F.~Capolino, ``Magnetic nanoantennas
   made of plasmonic nanoclusters for photoinduced magnetic field enhancement,''
   {\em Phys. Rev. Appl.}, vol.~8, p.~024033, Aug 2017.
+
+\bibitem{Zheludev2016}
+D.~W. Watson, S.~D. Jenkins, J.~Ruostekoski, V.~A. Fedotov, and N.~I. Zheludev,
+  ``Toroidal dipole excitations in metamolecules formed by interacting
+  plasmonic nanorods,'' {\em Phys. Rev. B}, vol.~93, pp.~125420--125432, Mar
+  2016.
 
 \bibitem{Weick2013}
 G.~Weick, C.~Woollacott, W.~L. Barnes, O.~Hess, and E.~Mariani, ``Dirac-like
@@ -669,6 +686,11 @@ S.~Chen, Y.~Zhang, T.-M. Shih, W.~Yang, S.~Hu, X.~Hu, J.~Li, B.~Ren, B.~Mao,
   Z.~Yang, and Z.~Tian, ``Plasmon-induced magnetic resonance enhanced raman
   spectroscopy,'' {\em Nano Lett.}, Article ASAP.
 
+\bibitem{Draine1993}
+B.~T. {Draine} and J.~{Goodman}, ``{Beyond Clausius-Mossotti - Wave propagation
+  on a polarizable point lattice and the discrete dipole approximation},'' {\em
+  Astrophys. J.}, vol.~405, pp.~685--697, Mar. 1993.
+
 \bibitem{Purcell1973}
 E.~M. Purcell and C.~R. Pennypacker, ``Scattering and absorption of light by
   nonspherical dielectric grains,'' {\em Astrophys. J.}, vol.~186,
@@ -687,6 +709,11 @@ J.~Schwinger, L.~Deraad, K.~Milton, W.~Tsai, and J.~Norton, {\em Classical
 W.~Liu, A.~E. Miroshnichenko, D.~N. Neshev, and Y.~S. Kivshar, ``Broadband
   unidirectional scattering by magneto-electric core-shell nanoparticles,''
   {\em ACS Nano}, vol.~6, no.~6, pp.~5489--5497, 2012.
+
+\bibitem{Noguez}
+C.~Noguez, ``Surface plasmons on metal nanoparticles: the influence of shape
+  and physical environment,'' {\em J. Phys. Chem. C}, vol.~111, no.~10,
+  pp.~3806--3819, 2007.
 
 \bibitem{PINEM}
 B.~Barwick, D.~J. Flannigan, and A.~H. Zewail, ``Photon-induced near-field

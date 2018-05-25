@@ -1,48 +1,53 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: montoni_dissertation.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
+Repeated entry---line 2090 of file references.bib
+ : @article{Draine1993
+ :                    ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Ogut2012toroidal"
 Warning--empty title in Franken
-You've used 142 entries,
+You've used 147 entries,
             1876 wiz_defined-function locations,
-            1355 strings with 30288 characters,
-and the built_in function-call counts, 45088 in all, are:
-= -- 4333
-> -- 2187
+            1391 strings with 31433 characters,
+and the built_in function-call counts, 47054 in all, are:
+= -- 4536
+> -- 2262
 < -- 0
-+ -- 781
-- -- 639
-* -- 3293
-:= -- 6374
-add.period$ -- 148
-call.type$ -- 142
-change.case$ -- 138
++ -- 808
+- -- 661
+* -- 3437
+:= -- 6631
+add.period$ -- 153
+call.type$ -- 147
+change.case$ -- 143
 chr.to.int$ -- 0
-cite$ -- 143
-duplicate$ -- 2392
-empty$ -- 3698
-format.name$ -- 639
-if$ -- 11155
+cite$ -- 148
+duplicate$ -- 2491
+empty$ -- 3855
+format.name$ -- 661
+if$ -- 11645
 int.to.chr$ -- 0
-int.to.str$ -- 142
-missing$ -- 147
-newline$ -- 435
-num.names$ -- 142
-pop$ -- 307
+int.to.str$ -- 147
+missing$ -- 152
+newline$ -- 450
+num.names$ -- 147
+pop$ -- 313
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1948
+skip$ -- 2049
 stack$ -- 0
-substring$ -- 2684
-swap$ -- 1269
+substring$ -- 2864
+swap$ -- 1332
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 343
-width$ -- 145
-write$ -- 1462
-(There was 1 warning)
+while$ -- 357
+width$ -- 150
+write$ -- 1513
+(There was 1 error message)

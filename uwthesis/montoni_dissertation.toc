@@ -16,13 +16,7 @@
 \contentsline {chapter}{\numberline {\@textofChapter \ 3:}Tunable Spectral Ordering of Magnetic Plasmon Resonances in Metal Nanoclusters}{29}
 \contentsline {section}{\numberline {3.1}Abstract}{29}
 \contentsline {section}{\numberline {3.2}Introduction}{30}
-\contentsline {section}{\numberline {3.3}Model Theory}{31}
-\contentsline {section}{\numberline {3.4}Spectral Ordering of Magnetic Plasmon Modes in Intermediate-Size $N$-mers}{34}
-\contentsline {section}{\numberline {3.5}Radiative Properties of Intermediate-Size $N$-mers}{35}
-\contentsline {section}{\numberline {3.6}Magnetic Plasmon Resonances in Hexagonally-Packed Nanoclusters}{41}
-\contentsline {section}{\numberline {3.7}Conclusion}{44}
-\contentsline {section}{\numberline {3.8}Methods}{46}
-\contentsline {section}{\numberline {3.9}Acknowledgements}{48}
+\contentsline {section}{\numberline {3.3}acknowledgement}{48}
 \contentsline {chapter}{\numberline {\@textofChapter \ 4:}Conclusion and Future Work}{49}
 \contentsline {section}{\numberline {4.1}Future Work: Photon-Assisted Electron Spectroscopies}{51}
 \contentsline {subsection}{\numberline {4.1.1}First- and Second-order Fermi's Golden Rule}{51}

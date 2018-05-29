@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 MAY 2018 08:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 MAY 2018 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -436,65 +436,62 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ] [30] <fig1.pdf, id=284, 469.75504pt x 281.46791pt>
 File: fig1.pdf Graphic file (type pdf)
  <use fig1.pdf>
-Package pdftex.def Info: fig1.pdf used on input line 472.
+Package pdftex.def Info: fig1.pdf used on input line 471.
 (pdftex.def)             Requested size: 469.75389pt x 281.46721pt.
  [31]
-[32 <./fig1.pdf>]
-Overfull \hbox (1.25667pt too wide) in paragraph at lines 482--484
-\OML/cmm/m/it/12 e[]=[]![]$ \OT1/cmr/m/n/12 is the plas-mon's ef-fec-tive mass
- de-fined in terms of the po-lar-iz-abil-ity $\OML/cmm/m/it/12 [] \OT1/cmr/m/n
-/12 = 3\OML/cmm/m/it/12 a[]=\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 "[] \OT1/cmr/m/n/
-12 +
- []
-
-[33] <fig2.pdf, id=549, 394.27303pt x 448.08162pt>
+[32 <./fig1.pdf>] [33] [34] <fig2.pdf, id=552, 394.27303pt x 448.08162pt>
 File: fig2.pdf Graphic file (type pdf)
- <use fig2.pdf>
-Package pdftex.def Info: fig2.pdf used on input line 516.
+
+<use fig2.pdf>
+Package pdftex.def Info: fig2.pdf used on input line 513.
 (pdftex.def)             Requested size: 394.27206pt x 448.08052pt.
 
 
-LaTeX Warning: Float too large for page by 12.44385pt on input line 520.
+LaTeX Warning: Float too large for page by 12.44385pt on input line 516.
 
-[34] [35] [36 <./fig2.pdf>] <fig3.pdf, id=637, 144.54pt x 446.82137pt>
+
+Underfull \vbox (badness 5133) has occurred while \output is active []
+
+ [35]
+[36 <./fig2.pdf>] [37] <fig3.pdf, id=641, 144.54pt x 446.82137pt>
 File: fig3.pdf Graphic file (type pdf)
 
 <use fig3.pdf>
-Package pdftex.def Info: fig3.pdf used on input line 548.
+Package pdftex.def Info: fig3.pdf used on input line 543.
 (pdftex.def)             Requested size: 144.53963pt x 446.82027pt.
- [37] [38 <./fig3.pdf>]
-<fig4.pdf, id=1102, 470.37279pt x 279.09221pt>
+ <fig4.pdf, id=642, 470.37279pt x 279.09221pt>
 File: fig4.pdf Graphic file (type pdf)
  <use fig4.pdf>
-Package pdftex.def Info: fig4.pdf used on input line 567.
+Package pdftex.def Info: fig4.pdf used on input line 560.
 (pdftex.def)             Requested size: 470.37163pt x 279.09152pt.
- [39] [40 <./fig4.pdf>] <fig5.pdf, id=1140, 361.35pt x 492.38612pt>
+
+[38] [39 <./fig3.pdf>] [40 <./fig4.pdf>]
+<fig5.pdf, id=1140, 361.35pt x 492.38612pt>
 File: fig5.pdf Graphic file (type pdf)
  <use fig5.pdf>
-Package pdftex.def Info: fig5.pdf used on input line 593.
+Package pdftex.def Info: fig5.pdf used on input line 584.
 (pdftex.def)             Requested size: 361.34912pt x 492.38492pt.
 
 
-LaTeX Warning: Float too large for page by 13.24825pt on input line 597.
+LaTeX Warning: Float too large for page by 13.24825pt on input line 587.
 
-<fig6.pdf, id=1141, 460.35428pt x 364.24963pt>
+[41] [42 <./fig5.pdf>] <fig6.pdf, id=1595, 460.35428pt x 364.24963pt>
 File: fig6.pdf Graphic file (type pdf)
- <use fig6.pdf>
-Package pdftex.def Info: fig6.pdf used on input line 606.
-(pdftex.def)             Requested size: 460.35315pt x 364.24873pt.
- [41] [42 <./fig5.pdf>] [43 <./fig6.pdf>] <fig7.pdf, id=3489, 371.01219pt x 490
-.9632pt>
-File: fig7.pdf Graphic file (type pdf)
 
-<use fig7.pdf>
-Package pdftex.def Info: fig7.pdf used on input line 626.
+<use fig6.pdf>
+Package pdftex.def Info: fig6.pdf used on input line 595.
+(pdftex.def)             Requested size: 460.35315pt x 364.24873pt.
+ <fig7.pdf, id=1596, 371.01219pt x 490.9632pt>
+File: fig7.pdf Graphic file (type pdf)
+ <use fig7.pdf>
+Package pdftex.def Info: fig7.pdf used on input line 613.
 (pdftex.def)             Requested size: 371.01129pt x 490.962pt.
 
 
-LaTeX Warning: Float too large for page by 11.82533pt on input line 630.
+LaTeX Warning: Float too large for page by 11.82533pt on input line 616.
 
-[44] [45 <./fig7.pdf>] [46]
-Overfull \hbox (8.59312pt too wide) in paragraph at lines 700--701
+[43] [44 <./fig6.pdf>] [45 <./fig7.pdf>] [46]
+Overfull \hbox (8.59312pt too wide) in paragraph at lines 686--687
 \OT1/cmr/m/it/12 Simulation de-tails. \OT1/cmr/m/n/12 Op-ti-cal and elec-tron b
 eam sim-u-la-tions were per-formed us-ing the MNPBEM
  []
@@ -514,22 +511,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [51]
 [52]
-Overfull \hbox (50.72647pt too wide) in paragraph at lines 770--770
-[] 
- []
-
-
-Underfull \vbox (badness 3396) has occurred while \output is active []
+Underfull \vbox (badness 2452) has occurred while \output is active []
 
  [53]
 [54] <seels_eegs_bem.pdf, id=3568, 433.62003pt x 318.24919pt>
 File: seels_eegs_bem.pdf Graphic file (type pdf)
 
 <use seels_eegs_bem.pdf>
-Package pdftex.def Info: seels_eegs_bem.pdf used on input line 837.
+Package pdftex.def Info: seels_eegs_bem.pdf used on input line 824.
 (pdftex.def)             Requested size: 433.61897pt x 318.2484pt.
  [55] [56 <./seels_eegs_bem.pdf>] [57] [58]
-Overfull \hbox (2.18861pt too wide) detected at line 950
+Overfull \hbox (2.18861pt too wide) detected at line 937
 \OT1/cmr/m/n/12 ^^@[] = [] [] \OML/cmm/m/it/12 dz[] [] :
  []
 
@@ -541,7 +533,7 @@ Underfull \vbox (badness 5050) has occurred while \output is active []
 File: seels_added.pdf Graphic file (type pdf)
 
 <use seels_added.pdf>
-Package pdftex.def Info: seels_added.pdf used on input line 1010.
+Package pdftex.def Info: seels_added.pdf used on input line 997.
 (pdftex.def)             Requested size: 433.61897pt x 318.2484pt.
  [61] [62 <./seels_added.pdf>]
 Underfull \vbox (badness 5548) has occurred while \output is active []
@@ -550,7 +542,7 @@ Underfull \vbox (badness 5548) has occurred while \output is active []
 <seels_jpcc.pdf, id=3630, 433.61996pt x 313.72404pt>
 File: seels_jpcc.pdf Graphic file (type pdf)
  <use seels_jpcc.pdf>
-Package pdftex.def Info: seels_jpcc.pdf used on input line 1055.
+Package pdftex.def Info: seels_jpcc.pdf used on input line 1042.
 (pdftex.def)             Requested size: 433.61891pt x 313.72327pt.
 
 [64 <./seels_jpcc.pdf>]
@@ -579,7 +571,7 @@ Missing character: There is no ¼ in font cmr12!
 <qs_limit.pdf, id=3658, 433.62pt x 182.865pt>
 File: qs_limit.pdf Graphic file (type pdf)
  <use qs_limit.pdf>
-Package pdftex.def Info: qs_limit.pdf used on input line 1110.
+Package pdftex.def Info: qs_limit.pdf used on input line 1097.
 (pdftex.def)             Requested size: 433.61894pt x 182.86455pt.
  [68
 
@@ -587,21 +579,21 @@ Package pdftex.def Info: qs_limit.pdf used on input line 1110.
 <eig_diff_scale.pdf, id=3662, 252.945pt x 187.169pt>
 File: eig_diff_scale.pdf Graphic file (type pdf)
  <use eig_diff_scale.pdf>
-Package pdftex.def Info: eig_diff_scale.pdf used on input line 1121.
+Package pdftex.def Info: eig_diff_scale.pdf used on input line 1108.
 (pdftex.def)             Requested size: 252.94438pt x 187.16853pt.
 
 <length_comparison_scale.pdf, id=3663, 252.945pt x 193.77089pt>
 File: length_comparison_scale.pdf Graphic file (type pdf)
 
 <use length_comparison_scale.pdf>
-Package pdftex.def Info: length_comparison_scale.pdf used on input line 1132.
+Package pdftex.def Info: length_comparison_scale.pdf used on input line 1119.
 (pdftex.def)             Requested size: 252.94438pt x 193.77042pt.
 
 <bigger_particles.pdf, id=3664, 252.945pt x 211.34221pt>
 File: bigger_particles.pdf Graphic file (type pdf)
 
 <use bigger_particles.pdf>
-Package pdftex.def Info: bigger_particles.pdf used on input line 1144.
+Package pdftex.def Info: bigger_particles.pdf used on input line 1131.
 (pdftex.def)             Requested size: 252.94438pt x 211.34169pt.
  [69 <./qs_limit.pdf>] [70 <./eig_diff_scale.pdf> <./length_comparison_scale.pd
 f
@@ -612,13 +604,13 @@ ultiple pdfs with page group included in a single page
 <spacing_2mer.pdf, id=3724, 433.61993pt x 163.59021pt>
 File: spacing_2mer.pdf Graphic file (type pdf)
  <use spacing_2mer.pdf>
-Package pdftex.def Info: spacing_2mer.pdf used on input line 1158.
+Package pdftex.def Info: spacing_2mer.pdf used on input line 1145.
 (pdftex.def)             Requested size: 433.61888pt x 163.5898pt.
 
 <diff_avg_space.pdf, id=3725, 433.62pt x 172.88347pt>
 File: diff_avg_space.pdf Graphic file (type pdf)
  <use diff_avg_space.pdf>
-Package pdftex.def Info: diff_avg_space.pdf used on input line 1170.
+Package pdftex.def Info: diff_avg_space.pdf used on input line 1157.
 (pdftex.def)             Requested size: 433.61894pt x 172.88304pt.
 
 [72 <./spacing_2mer.pdf>]
@@ -626,14 +618,14 @@ Package pdftex.def Info: diff_avg_space.pdf used on input line 1170.
 File: length_comp_sapcing.pdf Graphic file (type pdf)
 
 <use length_comp_sapcing.pdf>
-Package pdftex.def Info: length_comp_sapcing.pdf used on input line 1181.
+Package pdftex.def Info: length_comp_sapcing.pdf used on input line 1168.
 (pdftex.def)             Requested size: 433.61894pt x 179.78706pt.
  [73 <./diff_avg_space.pdf>] [74 <./length_comp_sapcing.pdf>] <contour_n_plot.p
 df, id=3761, 433.62003pt x 184.5317pt>
 File: contour_n_plot.pdf Graphic file (type pdf)
 
 <use contour_n_plot.pdf>
-Package pdftex.def Info: contour_n_plot.pdf used on input line 1238.
+Package pdftex.def Info: contour_n_plot.pdf used on input line 1225.
 (pdftex.def)             Requested size: 433.61897pt x 184.53122pt.
  [75] (./montoni_dissertation.bbl [76 <./contour_n_plot.pdf>] [77
 
@@ -648,7 +640,7 @@ Missing character: There is no ‡ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¶ in font cmr12!
  [81]
-Underfull \hbox (badness 7451) in paragraph at lines 341--345
+Underfull \hbox (badness 7451) in paragraph at lines 340--344
 []\OT1/cmr/m/n/12 D. B. In-gram and S. Linic, ``Wa-ter split-ting on com-pos-it
 e plasmonic-
  []
@@ -665,19 +657,24 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¡ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¡ in font cmr12!
- [84] [85] [86]
+ [84] [85]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¼ in font cmr12!
+ [86]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
  [87] [88]) [89] (./montoni_dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 3000 strings out of 493089
- 40163 string characters out of 6134842
- 106772 words of memory out of 5000000
- 6404 multiletter control sequences out of 15000+600000
+ 3006 strings out of 493089
+ 40228 string characters out of 6134842
+ 106802 words of memory out of 5000000
+ 6410 multiletter control sequences out of 15000+600000
  13016 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,21n,26p,2595b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,21n,26p,2786b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2015/texmf-dist
@@ -700,7 +697,7 @@ lmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on montoni_dissertation.pdf (105 pages, 4422378 bytes).
+Output written on montoni_dissertation.pdf (105 pages, 4423696 bytes).
 PDF statistics:
  3883 PDF objects out of 4296 (max. 8388607)
  2585 compressed objects within 26 object streams

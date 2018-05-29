@@ -195,7 +195,7 @@ As the field of plasmonics develops, new knobs to turn and levers to pull become
 
 Nanotechnology and photonics are both young, burgeoning fields, having only truly come of age within the last 60 years. Recently, many have attributed interest in nanotechnology to Feynman's ``there's plenty of room at the bottom'' \cite{FeynmanBottom} paper presented at the 1959 meeting of the American Physical Society, but the first scientist to actually use the word was Norio Taniguchi of the Tokyo University of Science in 1974 \cite{Taniguchi_nano}. Taniguchi's vision of nanotechnology involved techniques that process, separate, consolidate, and deform materials at the scale of single atoms and molecules \cite{Taniguchi_nano}. K. Eric Drexler, in 1981, suggested instead that nanotechnology might consist of molecular machines capable of building both copies of themselves and new machines, an approach often called ``molecular manufacturing'' \cite{Drexler}. 
 
-Interest in photonics had a similar, on-again-off-again start. In 1880 Alexander Graham Bell, inventor of the telephone, also invented a device that used guided, modulated sunlight to produce sound waves inside a gas cell. He called this device, aptly, the photophone \cite{photonics}. Much like with nanotechnology, the community lost interest in light-driven information transfer until the invention of the laser in 1960 \cite{Franken,photonics}. Photonics is often defined as the use of light to transmit information or manipulate materials, e.g., fiber optic communications, or data storage on a CD \cite{photonics}. The word photonics is a portmanteau of photon and electronics, as its aim is to do with photons what electronics does with electrons.
+Interest in photonics had a similar, on-again-off-again start. In 1880 Alexander Graham Bell, inventor of the telephone, also invented a device that used guided, modulated sunlight to produce sound waves inside a gas cell. He called this device, aptly, the photophone \cite{photonics}. Much like with nanotechnology, the community lost interest in light-driven information transfer until the invention of the laser in 1960 \cite{maiman,photonics}. Photonics is often defined as the use of light to transmit information or manipulate materials, e.g., fiber optic communications, or data storage on a CD \cite{photonics}. The word photonics is a portmanteau of photon and electronics, as its aim is to do with photons what electronics does with electrons.
 
 The union of nanotechnology and photonics, called nanophotonics or nanooptics, is the study of how to manipulate and focus light on the nanometer scale. Control of light at such small scales has resulted in advances in cancer treatment \cite{ElSayedCancer,LiuCancer}, chemical catalysis \cite{Halas2013,Camden2017}, solar energy \cite{Atwater2014,WuSolar}, biological detection and imaging \cite{vanDuyneSensing,Bezryadina2017}, electromagnetic cloaking \cite{AluCloaking,YeCloaking}, and data storage and processing \cite{MoloneyData,NaughtonData}. There are many ways to manipulate light at the nanometer scale. The references here focus on using metal nanoparticles (MNPs) as a medium for light-focusing, and this dissertation shall focus entirely on the optical properties of clusters of MNPs.
 
@@ -749,7 +749,8 @@ SEELS, or Stimulated Electron Energy-Loss Spectroscopy, is a process by which a 
 {\bf SEELS in terms of EEGS and EELS.} We define the overall SEELS rate as a sum of a second order rate (photon absorption followed by electron interaction) with a first order rate (the photon-less EELS rate). This is because if the photon field (or laser intensity) is reduced to zero, the SEELS rate should reduce to the EELS rate. To evaluate the rates, we begin with an initial Fock state defined by $|k_0N_i0_{\ell}\rangle$, corresponding to an electron with wavenumber $k_0$ and frequency $\epsilon_{k_0}$, $N$ photons of energy $\hbar\omega_i$, and zero plasmons in mode $l$ with complex frequency $\tilde{\omega}_{\textrm{pl}}=\omega_{\textrm{pl}}+\textrm{i}\gamma_{\textrm{pl}}$. We also begin at the level of the probability, rather than the rate, by multiplying the rate by $L/v$, the electron quantization length divided by the electron's velocity.
 \begin{align}
 \begin{split}
-  P_{\textrm{SEELS}} &= \frac{2\pi L}{\hbar^4v}\left|\frac{\langle k(N-1)_i2_{\ell}|H_{\textrm{e-pl}}|k_0(N-1)_i1_{\ell}\rangle\langle k_0(N-1)_i1_{\ell}|H_{\textrm{ph-pl}}|k_0N_i0_{\ell}\rangle}{\omega_i - \tilde{\omega}_{\textrm{pl}}}\right|^2\delta(\epsilon_k - \epsilon_{k_0} + 2\tilde{\omega}_{\textrm{pl}} - \omega_i)\\
+  P_{\textrm{SEELS}} &= \frac{2\pi L}{\hbar^4v}\left|\frac{\langle k(N-1)_i2_{\ell}|H_{\textrm{e-pl}}|k_0(N-1)_i1_{\ell}\rangle\langle k_0(N-1)_i1_{\ell}|H_{\textrm{ph-pl}}|k_0N_i0_{\ell}\rangle}{\omega_i - \tilde{\omega}_{\textrm{pl}}}\right|^2\\
+  & \times\delta(\epsilon_k - \epsilon_{k_0} + 2\tilde{\omega}_{\textrm{pl}} - \omega_i)\\
   &+ \frac{2\pi L}{\hbar^2v}|\langle kN_i1_{\ell}|H_{\textrm{e-pl}}|k_0N_i0_{\ell}\rangle|^2\delta(\epsilon_k - \epsilon_{k_0} - \tilde{\omega}_{\textrm{pl}})
   \label{overall_rate}
   \end{split}
@@ -795,7 +796,7 @@ and similarly
 This allows us to finally write the SEELS probability as
 \begin{align}
 \begin{split}
-  P_{\textrm{SEELS}} &= \frac{4\pi NL}{\hbar^2v}|\alpha|^2|\textbf{E}_{\textrm{el}}|^2|\textbf{E}_{\textrm{ph}}|^2\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i)\\
+  P_{\textrm{SEELS}} &= \frac{4\pi NL}{\hbar^2v}|\alpha|^2|\textbf{E}_{\textrm{el}}|^2|\textbf{E}_{\textrm{ph}}|^2\delta(\epsilon_k - \epsilon_{k_0} + 2\tilde{\omega}_{\textrm{pl}} - \hbar\omega_i)\\
   &+ \frac{2L}{\hbar v}\textrm{Im}\{\textbf{E}_{\textrm{el}}\cdot\alpha\cdot\textbf{E}_{\textrm{el}}^*\}
   \label{alpha_squared}
   \end{split}
@@ -829,9 +830,9 @@ Thus, the SEELS rate is twice the EEGS rate plus the EELS rate. We have recently
 {\bf SEELS in terms of first-order rates.} We could also try to write the SEELS rate in terms of first-order rates. To do so, we must start from the probability and split the polarizability into its real and imaginary parts. Starting from Eq. \ref{seels_prob_with_alpha} and using the identities in Eq. \ref{alpha_1} and \ref{alpha_2}, we can rewrite the SEELS probability into three terms.
 \begin{equation}
 \begin{split}
-  P_{\textrm{SEELS}} &= \frac{4\pi NL}{\hbar^2v}(\textbf{E}_{\textrm{el}}\cdot\textrm{Im}\{\alpha\}\cdot\textbf{E}_{\textrm{el}}^*)(\textbf{E}_0\cdot\textrm{Im}\{\alpha\}\cdot\textbf{E}_0^*)\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i)\\
+  P_{\textrm{SEELS}} &= \frac{4\pi NL}{\hbar^2v}(\textbf{E}_{\textrm{el}}\cdot\textrm{Im}\{\alpha\}\cdot\textbf{E}_{\textrm{el}}^*)(\textbf{E}_0\cdot\textrm{Im}\{\alpha\}\cdot\textbf{E}_0^*)\delta(\epsilon_k - \epsilon_{k_0} + 2\tilde{\omega}_{\textrm{pl}} - \hbar\omega_i)\\
   &+ \frac{2L}{\hbar v}(\textbf{E}_{\textrm{el}}\cdot\textrm{Im}\{\alpha\}\cdot\textbf{E}_{\textrm{el}}^*)\\
-  &+ \frac{4\pi NL}{\hbar^2v}(\textbf{E}_{\textrm{el}}\cdot\textrm{Re}\{\alpha\}\cdot\textbf{E}_{\textrm{el}}^*)(\textbf{E}_0\cdot\textrm{Re}\{\alpha\}\cdot\textbf{E}_0^*)\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i)
+  &+ \frac{4\pi NL}{\hbar^2v}(\textbf{E}_{\textrm{el}}\cdot\textrm{Re}\{\alpha\}\cdot\textbf{E}_{\textrm{el}}^*)(\textbf{E}_0\cdot\textrm{Re}\{\alpha\}\cdot\textbf{E}_0^*)\delta(\epsilon_k - \epsilon_{k_0} + 2\tilde{\omega}_{\textrm{pl}} - \hbar\omega_i)
   \label{seels_prob_with_alpha}
   \end{split}
 \end{equation}
@@ -866,14 +867,14 @@ P_{\textrm{SEELS}} &= \frac{4\pi NL}{\hbar^2v}(\textbf{E}_{\textrm{el}}\cdot\alp
 Here, we have multiple terms which contain a complex-valued polariability. Recalling that $\textbf{d}_{\textrm{el,ph}} = \alpha\textbf{E}_{\textrm{el,ph}}$, we can write the SEELS probability as a sum of induced dipole moments
 \begin{equation}
 \begin{aligned}
-P_{\textrm{SEELS}} &= \textbf{E}_{\textrm{el}}^*\cdot\left\{\frac{4\pi NL}{\hbar^2v}\textbf{d}_{\textrm{ph}}(\textbf{E}_{\textrm{el}}\cdot\textbf{d}_{\textrm{ph}}^*)\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i) - \frac{2L\textrm{i}}{\hbar v}\textbf{d}_{\textrm{el}}\right\}\\
+P_{\textrm{SEELS}} &= \textbf{E}_{\textrm{el}}^*\cdot\left\{\frac{4\pi NL}{\hbar^2v}\textbf{d}_{\textrm{ph}}(\textbf{E}_{\textrm{el}}\cdot\textbf{d}_{\textrm{ph}}^*)\delta(\epsilon_k - \epsilon_{k_0} + 2\tilde{\omega}_{\textrm{pl}} - \hbar\omega_i) - \frac{2L\textrm{i}}{\hbar v}\textbf{d}_{\textrm{el}}\right\}\\
   &+ \frac{2L\textrm{i}}{\hbar v}\textrm{Re}\{\textbf{E}_{\textrm{el}}^*\cdot\textbf{d}_{\textrm{el}}\}.
   \label{seels_dipoles}
 \end{aligned}
 \end{equation}
 Again, the extra real part comes along for the ride.
 
-{\bf Removing real parts.} To rewrite the SEELS rate without real parts, we consider Eq. \ref{change_eels}. If we FOIL out the denominator and multiply by $\gamma_{\textrm{pl}}/\gamma_{\textrm{pl}}$, we can rewrite the SEELS rate as
+{\bf Removing real parts.} To rewrite the SEELS rate without real parts, we consider Eq. \ref{change_eels}. If we write out the denominator and multiply the first term by $\gamma_{\textrm{pl}}/\gamma_{\textrm{pl}}$, we can rewrite the SEELS rate as
 \begin{align}
 \begin{split}
   P_{\textrm{SEELS}} &= \frac{2\pi L}{\hbar^4v\gamma_{\textrm{pl}}}\left|\sqrt{2}\textbf{E}_{\textrm{el}}\cdot\textbf{d}_0 \sqrt{N}\textbf{d}_0\cdot\textbf{E}_{0}\right|^2\left(\frac{\gamma_{\textrm{pl}}}{(\omega_i - \omega_{\textrm{pl}})^2 + \gamma_{\textrm{pl}}^2}\right)\delta(\epsilon_k - \epsilon_{k_0} + 2\tilde{\omega}_{\textrm{pl}} - \hbar\omega_i)\\

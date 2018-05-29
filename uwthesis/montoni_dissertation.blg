@@ -3,46 +3,49 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: montoni_dissertation.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
-Warning--empty title in Franken
-You've used 142 entries,
+Repeated entry---line 2090 of file references.bib
+ : @article{Draine1993
+ :                    ,
+I'm skipping whatever remains of this entry
+You've used 148 entries,
             1876 wiz_defined-function locations,
-            1355 strings with 30288 characters,
-and the built_in function-call counts, 45088 in all, are:
-= -- 4333
-> -- 2187
+            1398 strings with 31581 characters,
+and the built_in function-call counts, 47511 in all, are:
+= -- 4587
+> -- 2275
 < -- 0
-+ -- 781
-- -- 639
-* -- 3293
-:= -- 6374
-add.period$ -- 148
-call.type$ -- 142
-change.case$ -- 138
++ -- 813
+- -- 665
+* -- 3472
+:= -- 6693
+add.period$ -- 154
+call.type$ -- 148
+change.case$ -- 145
 chr.to.int$ -- 0
-cite$ -- 143
-duplicate$ -- 2392
-empty$ -- 3698
-format.name$ -- 639
-if$ -- 11155
+cite$ -- 148
+duplicate$ -- 2516
+empty$ -- 3889
+format.name$ -- 665
+if$ -- 11761
 int.to.chr$ -- 0
-int.to.str$ -- 142
-missing$ -- 147
-newline$ -- 435
-num.names$ -- 142
-pop$ -- 307
+int.to.str$ -- 148
+missing$ -- 152
+newline$ -- 453
+num.names$ -- 148
+pop$ -- 308
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1948
+skip$ -- 2074
 stack$ -- 0
-substring$ -- 2684
-swap$ -- 1269
+substring$ -- 2906
+swap$ -- 1350
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 343
-width$ -- 145
-write$ -- 1462
-(There was 1 warning)
+warning$ -- 0
+while$ -- 361
+width$ -- 151
+write$ -- 1528
+(There was 1 error message)

@@ -563,12 +563,15 @@ M.~Darvishzadeh-Varcheie, C.~Guclu, and F.~Capolino, ``Magnetic nanoantennas
   made of plasmonic nanoclusters for photoinduced magnetic field enhancement,''
   {\em Phys. Rev. Appl.}, vol.~8, p.~024033, Aug 2017.
 
+<<<<<<< HEAD
 \bibitem{Ogut2012toroidal}
 B.~Ögüt, N.~Talebi, R.~Vogelgesang, W.~Sigle, and P.~A. van Aken, ``Toroidal
   plasmonic eigenmodes in oligomer nanocavities for the visible,'' {\em Nano
   Letters}, vol.~12, no.~10, pp.~5239--5244, 2012.
 \newblock PMID: 22935079.
 
+=======
+>>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
 \bibitem{Zheludev2016}
 D.~W. Watson, S.~D. Jenkins, J.~Ruostekoski, V.~A. Fedotov, and N.~I. Zheludev,
   ``Toroidal dipole excitations in metamolecules formed by interacting

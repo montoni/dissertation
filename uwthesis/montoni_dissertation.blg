@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: montoni_dissertation.aux
 The style file: ieeetr.bst
@@ -7,6 +7,7 @@ Repeated entry---line 2090 of file references.bib
  : @article{Draine1993
  :                    ,
 I'm skipping whatever remains of this entry
+<<<<<<< HEAD
 You've used 148 entries,
             1876 wiz_defined-function locations,
             1398 strings with 31581 characters,
@@ -40,12 +41,56 @@ skip$ -- 2074
 stack$ -- 0
 substring$ -- 2906
 swap$ -- 1350
+=======
+Warning--I didn't find a database entry for "Ogut2012toroidal"
+Warning--empty title in Franken
+You've used 147 entries,
+            1876 wiz_defined-function locations,
+            1391 strings with 31433 characters,
+and the built_in function-call counts, 47054 in all, are:
+= -- 4536
+> -- 2262
+< -- 0
++ -- 808
+- -- 661
+* -- 3437
+:= -- 6631
+add.period$ -- 153
+call.type$ -- 147
+change.case$ -- 143
+chr.to.int$ -- 0
+cite$ -- 148
+duplicate$ -- 2491
+empty$ -- 3855
+format.name$ -- 661
+if$ -- 11645
+int.to.chr$ -- 0
+int.to.str$ -- 147
+missing$ -- 152
+newline$ -- 450
+num.names$ -- 147
+pop$ -- 313
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 2049
+stack$ -- 0
+substring$ -- 2864
+swap$ -- 1332
+>>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
+<<<<<<< HEAD
 warning$ -- 0
 while$ -- 361
 width$ -- 151
 write$ -- 1528
+=======
+warning$ -- 1
+while$ -- 357
+width$ -- 150
+write$ -- 1513
+>>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
 (There was 1 error message)

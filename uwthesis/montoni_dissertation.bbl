@@ -1,21 +1,5 @@
 \begin{thebibliography}{100}
 
-\bibitem{Engheta2017}
-N.~J. Greybush, I.~n. Liberal, L.~Malassis, J.~M. Kikkawa, N.~Engheta, C.~B.
-  Murray, and C.~R. Kagan, ``Plasmon resonances in self-assembled
-  two-dimensional au nanocrystal metamolecules,'' {\em ACS Nano}, vol.~11,
-  no.~3, pp.~2917--2927, 2017.
-
-\bibitem{EEGS}
-A.~Asenjo-Garcia and F.~J.~G. de~Abajo, ``Plasmon electron energy-gain
-  spectroscopy,'' {\em New Journal of Physics}, vol.~15, no.~10, p.~103021,
-  2013.
-
-\bibitem{enz}
-A.~Al\`u, M.~G. Silveirinha, A.~Salandrino, and N.~Engheta, ``Epsilon-near-zero
-  metamaterials and electromagnetic sources: Tailoring the radiation phase
-  pattern,'' {\em Phys. Rev. B}, vol.~75, p.~155410, Apr 2007.
-
 \bibitem{FeynmanBottom}
 R.~Feynman, ``There's plenty of room at the bottom,'' {\em Engineering and
   Science}, vol.~23, no.~5, pp.~22--36, 1960.
@@ -249,6 +233,13 @@ N.~Thakkar, N.~P. Montoni, C.~Cherqui, and D.~J. Masiello, ``Plasmonic landau
 J.~E. Lennard-Jones, ``The electronic structure of some diatomic molecules,''
   {\em T. Faraday Soc.}, vol.~25, pp.~668--686, 1929.
 
+\bibitem{me_prisms}
+S.~Griffin, N.~P. Montoni, G.~Li, P.~J. Straney, J.~E. Millstone, D.~J.
+  Masiello, and J.~P. Camden, ``Imaging energy transfer in pt-decorated au
+  nanoprisms via electron energy-loss spectroscopy,'' {\em The Journal of
+  Physical Chemistry Letters}, vol.~7, no.~19, pp.~3825--3832, 2016.
+\newblock PMID: 27617864.
+
 \bibitem{Nie1997}
 S.~Nie and S.~R. Emory, ``Probing single molecules and single nanoparticles by
   surface-enhanced raman scattering,'' {\em Science}, vol.~275, p.~1102, 1997.
@@ -478,6 +469,11 @@ C.~Vericat, M.~E. Vela, G.~Benitez, P.~Carro, and R.~C. Salvarezza,
   ``Self-assembled monolayers of thiols and dithiols on gold: New challenges
   for a well-known system,'' {\em Chem. Soc. Rev.}, vol.~39, p.~1805, 2010.
 
+\bibitem{me_mag}
+N.~P. Montoni, S.~C. Quillin, C.~Cherqui, and D.~J. Masiello, ``Tunable
+  spectral ordering of magnetic plasmon resonances in noble metal
+  nanoclusters,'' {\em ACS Photonics}, vol.~0, no.~0, p.~null, 0.
+
 \bibitem{Zhang2006}
 H.~Liu, D.~A. Genov, D.~M. Wu, Y.~M. Liu, J.~M. Steele, C.~Sun, S.~N. Zhu, and
   X.~Zhang, ``Magnetic plasmon propagation along a chain of connected
@@ -506,6 +502,12 @@ C.~Cherqui, Y.~Wu, G.~Li, S.~C. Quillin, J.~A. Busche, N.~Thakkar, C.~A. West,
   imaging of magnetic hybridization in symmetric and symmetry-broken plasmon
   oligomer dimers and all-magnetic fano interference,'' {\em Nano Lett.},
   vol.~16, no.~10, pp.~6668--6676, 2016.
+
+\bibitem{Engheta2017}
+N.~J. Greybush, I.~n. Liberal, L.~Malassis, J.~M. Kikkawa, N.~Engheta, C.~B.
+  Murray, and C.~R. Kagan, ``Plasmon resonances in self-assembled
+  two-dimensional au nanocrystal metamolecules,'' {\em ACS Nano}, vol.~11,
+  no.~3, pp.~2917--2927, 2017.
 
 \bibitem{Shalaev2004}
 A.~K. Sarychev and V.~M. Shalaev, ``Magnetic resonance in metal nanoantennas,''
@@ -563,15 +565,12 @@ M.~Darvishzadeh-Varcheie, C.~Guclu, and F.~Capolino, ``Magnetic nanoantennas
   made of plasmonic nanoclusters for photoinduced magnetic field enhancement,''
   {\em Phys. Rev. Appl.}, vol.~8, p.~024033, Aug 2017.
 
-<<<<<<< HEAD
 \bibitem{Ogut2012toroidal}
 B.~Ögüt, N.~Talebi, R.~Vogelgesang, W.~Sigle, and P.~A. van Aken, ``Toroidal
   plasmonic eigenmodes in oligomer nanocavities for the visible,'' {\em Nano
   Letters}, vol.~12, no.~10, pp.~5239--5244, 2012.
 \newblock PMID: 22935079.
 
-=======
->>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
 \bibitem{Zheludev2016}
 D.~W. Watson, S.~D. Jenkins, J.~Ruostekoski, V.~A. Fedotov, and N.~I. Zheludev,
   ``Toroidal dipole excitations in metamolecules formed by interacting
@@ -723,6 +722,11 @@ C.~Noguez, ``Surface plasmons on metal nanoparticles: the influence of shape
   and physical environment,'' {\em J. Phys. Chem. C}, vol.~111, no.~10,
   pp.~3806--3819, 2007.
 
+\bibitem{EEGS}
+A.~Asenjo-Garcia and F.~J.~G. de~Abajo, ``Plasmon electron energy-gain
+  spectroscopy,'' {\em New Journal of Physics}, vol.~15, no.~10, p.~103021,
+  2013.
+
 \bibitem{PINEM}
 B.~Barwick, D.~J. Flannigan, and A.~H. Zewail, ``Photon-induced near-field
   electron microscopy,'' {\em Nature}, vol.~462, pp.~902--906, 2009.
@@ -756,5 +760,10 @@ A.~Kuzyk, M.~J. Urban, A.~Idili, F.~Ricci, and N.~Liu, ``Selective control of
 Z.~Qian, K.~N. Guye, D.~J. Masiello, and D.~S. Ginger, ``Dynamic optical
   switching of polymer/plasmonic nanoparticle hybrids with sparse loading,''
   {\em J. Phys. Chem. B}, vol.~121, no.~5, pp.~1092--1099, 2017.
+
+\bibitem{enz}
+A.~Al\`u, M.~G. Silveirinha, A.~Salandrino, and N.~Engheta, ``Epsilon-near-zero
+  metamaterials and electromagnetic sources: Tailoring the radiation phase
+  pattern,'' {\em Phys. Rev. B}, vol.~75, p.~155410, Apr 2007.
 
 \end{thebibliography}

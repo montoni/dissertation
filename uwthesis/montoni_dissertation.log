@@ -1,21 +1,17 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 MAY 2018 13:45
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.24)  25 MAY 2018 14:28
->>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 JUN 2018 16:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **montoni_dissertation.tex
 (./montoni_dissertation.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (./uwthesis.cls
 Document Class: uwthesis 2015/03/03
 \tf@not=\write3
-(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -45,28 +41,28 @@ LaTeX Warning: You have requested, on input line 43, version
                `2015/03/03'
                is available.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/alltt.sty
 Package: alltt 1997/06/16 v2.0g defines alltt environment
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/03/03 v2.15a AMS math features
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks14
 \ex@=\dimen104
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen105
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count90
 LaTeX Info: Redefining \frac on input line 199.
@@ -81,8 +77,8 @@ LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box28
 \strutbox@=\box29
 \big@size=\dimen106
-LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \macc@depth=\count95
 \c@MaxMatrixCols=\count96
 \dotsspace@=\muskip10
@@ -103,45 +99,45 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks18
-LaTeX Info: Redefining \[ on input line 2735.
-LaTeX Info: Redefining \] on input line 2736.
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 96.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count102
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -164,7 +160,7 @@ LaTeX Font Info:    ... okay on input line 87.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count103
 \scratchdimen=\dimen115
@@ -177,40 +173,39 @@ LaTeX Font Info:    ... okay on input line 87.
 \MPnumerator=\count107
 \makeMPintoPDFobject=\count108
 \everyMPtoPDFconversion=\toks21
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
@@ -219,35 +214,36 @@ Package etexcmds Info: Could not find \expanded.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
+(grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 109.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 109.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [-1
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [-1
 
 ] [0
 
-] (./montoni_dissertation.toc
+]
+(./montoni_dissertation.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 1.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
@@ -271,14 +267,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-[7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8])
+ [7])
 \tf@lof=\write5
 \openout5 = `montoni_dissertation.lof'.
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
 [9] [10
 
 ]
@@ -299,38 +297,30 @@ Underfull \vbox (badness 1953) has occurred while \output is active []
 
 
 ]
-[2] [3]
-Overfull \hbox (12.06715pt too wide) detected at line 242
-\OML/cmm/m/it/12 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t \OMS/cmsy/m/n/12 ^^@ \OML
-/cmm/m/it/12 t[]\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 a[] [] ^^N\OT1/cmr/m/n/12 
-(\OML/cmm/m/it/12 t \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 t[]\OT1/cmr/m/n/12 ) 
-+ \OML/cmm/m/it/12 a[] [] []e[][] []
- []
-
-[4] <all_alpha.pdf, id=81, 433.62pt x 326.35417pt>
+[2] [3] [4] <all_alpha.pdf, id=81, 433.62pt x 326.35417pt>
 File: all_alpha.pdf Graphic file (type pdf)
  <use all_alpha.pdf>
-Package pdftex.def Info: all_alpha.pdf used on input line 255.
+Package pdftex.def Info: all_alpha.pdf used on input line 258.
 (pdftex.def)             Requested size: 433.61894pt x 326.35336pt.
- [5]
-[6 <./all_alpha.pdf>] [7] <dimer_stat.pdf, id=115, 289.08pt x 225.50523pt>
+
+[5] [6 <./all_alpha.pdf>] [7] <dimer_stat.pdf, id=115, 289.08pt x 225.50523pt>
 File: dimer_stat.pdf Graphic file (type pdf)
 
 <use dimer_stat.pdf>
-Package pdftex.def Info: dimer_stat.pdf used on input line 291.
+Package pdftex.def Info: dimer_stat.pdf used on input line 294.
 (pdftex.def)             Requested size: 289.07928pt x 225.50467pt.
  [8] [9 <./dimer_stat.pdf>]
 <dimer_ret.pdf, id=141, 441.64987pt x 310.03224pt>
 File: dimer_ret.pdf Graphic file (type pdf)
  <use dimer_ret.pdf>
-Package pdftex.def Info: dimer_ret.pdf used on input line 310.
+Package pdftex.def Info: dimer_ret.pdf used on input line 313.
 (pdftex.def)             Requested size: 441.64879pt x 310.03148pt.
 
 <dimer_ret_total.pdf, id=142, 310.83498pt x 223.618pt>
 File: dimer_ret_total.pdf Graphic file (type pdf)
 
 <use dimer_ret_total.pdf>
-Package pdftex.def Info: dimer_ret_total.pdf used on input line 320.
+Package pdftex.def Info: dimer_ret_total.pdf used on input line 323.
 (pdftex.def)             Requested size: 310.83421pt x 223.61743pt.
  [10] [11 <./dimer_ret.pdf>] [12 <./dimer_ret_total.pdf>] [13] [14]
 <<2>>
@@ -346,7 +336,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [15
 
 ]
-Overfull \hbox (2.0418pt too wide) in paragraph at lines 354--355
+Overfull \hbox (2.0418pt too wide) in paragraph at lines 357--358
 []\OT1/cmr/m/n/12 Electron energy-loss spec-troscopy (EELS), per-formed in a mo
 nochro-mated scan-ning trans-
  []
@@ -359,14 +349,14 @@ Underfull \vbox (badness 3815) has occurred while \output is active []
 File: prisms_mode_maps_tip.png Graphic file (type png)
 
 <use prisms_mode_maps_tip.png>
-Package pdftex.def Info: prisms_mode_maps_tip.png used on input line 363.
+Package pdftex.def Info: prisms_mode_maps_tip.png used on input line 366.
 (pdftex.def)             Requested size: 320.878pt x 315.57822pt.
 
 <prisms_mode_maps_center.png, id=231, 354.123pt x 296.7888pt>
 File: prisms_mode_maps_center.png Graphic file (type png)
 
 <use prisms_mode_maps_center.png>
-Package pdftex.def Info: prisms_mode_maps_center.png used on input line 371.
+Package pdftex.def Info: prisms_mode_maps_center.png used on input line 374.
 (pdftex.def)             Requested size: 354.12212pt x 296.78807pt.
  [18] [19 <./prisms_mode_maps_tip.png>]
 [20 <./prisms_mode_maps_center.png>]
@@ -380,7 +370,7 @@ Missing character: There is no ™ in font cmr12!
 <prisms_theory.png, id=248, 426.393pt x 181.6386pt>
 File: prisms_theory.png Graphic file (type png)
  <use prisms_theory.png>
-Package pdftex.def Info: prisms_theory.png used on input line 393.
+Package pdftex.def Info: prisms_theory.png used on input line 396.
 (pdftex.def)             Requested size: 426.39195pt x 181.63814pt.
 Missing character: There is no â in font cmr12!
 Missing character: There is no ˆ in font cmr12!
@@ -393,7 +383,7 @@ Underfull \vbox (badness 2689) has occurred while \output is active []
 File: prisms_EELS_simulation.png Graphic file (type png)
 
 <use prisms_EELS_simulation.png>
-Package pdftex.def Info: prisms_EELS_simulation.png used on input line 403.
+Package pdftex.def Info: prisms_EELS_simulation.png used on input line 406.
 (pdftex.def)             Requested size: 200.4283pt x 291.00648pt.
 Missing character: There is no â in font cmr12!
 Missing character: There is no ˆ in font cmr12!
@@ -403,14 +393,14 @@ Missing character: There is no ¼ in font cmr12!
 File: prisms_field_calculations.png Graphic file (type png)
 
 <use prisms_field_calculations.png>
-Package pdftex.def Info: prisms_field_calculations.png used on input line 416.
+Package pdftex.def Info: prisms_field_calculations.png used on input line 419.
 (pdftex.def)             Requested size: 429.28275pt x 249.57178pt.
 
 <prisms_fields_2.png, id=262, 237.5274pt x 281.3712pt>
 File: prisms_fields_2.png Graphic file (type png)
 
 <use prisms_fields_2.png>
-Package pdftex.def Info: prisms_fields_2.png used on input line 424.
+Package pdftex.def Info: prisms_fields_2.png used on input line 427.
 (pdftex.def)             Requested size: 237.52681pt x 281.37051pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -444,150 +434,65 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <<3>>
 [30
 
-]
-
-LaTeX Warning: Citation `Yang2013' on page 31 undefined on input line 456.
-
-
-LaTeX Warning: Citation `Chen17' on page 31 undefined on input line 456.
-
-
-LaTeX Warning: Citation `Wang17' on page 31 undefined on input line 456.
-
-
-LaTeX Warning: Citation `Ogut2012toroidal' on page 31 undefined on input line 4
-56.
-
-
-LaTeX Warning: Citation `Yang2013' on page 31 undefined on input line 456.
-
-
-LaTeX Warning: Citation `Zheludev2016' on page 31 undefined on input line 456.
-
-
-LaTeX Warning: Citation `Wang17' on page 31 undefined on input line 456.
-
-[31] <fig1.pdf, id=287, 469.75504pt x 281.46791pt>
+] [31] <fig1.pdf, id=287, 469.75504pt x 281.46791pt>
 File: fig1.pdf Graphic file (type pdf)
  <use fig1.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: fig1.pdf used on input line 471.
+Package pdftex.def Info: fig1.pdf used on input line 479.
 (pdftex.def)             Requested size: 469.75389pt x 281.46721pt.
- [31]
-[32 <./fig1.pdf>] [33] [34] <fig2.pdf, id=552, 394.27303pt x 448.08162pt>
+ [32]
+[33 <./fig1.pdf>] [34] [35] <fig2.pdf, id=555, 394.27303pt x 448.08162pt>
 File: fig2.pdf Graphic file (type pdf)
 
 <use fig2.pdf>
-Package pdftex.def Info: fig2.pdf used on input line 513.
+Package pdftex.def Info: fig2.pdf used on input line 521.
 (pdftex.def)             Requested size: 394.27206pt x 448.08052pt.
 
 
-LaTeX Warning: Float too large for page by 12.44385pt on input line 516.
-
-
-Underfull \vbox (badness 5133) has occurred while \output is active []
-
- [35]
-[36 <./fig2.pdf>] [37] <fig3.pdf, id=641, 144.54pt x 446.82137pt>
-=======
-Package pdftex.def Info: fig1.pdf used on input line 476.
-(pdftex.def)             Requested size: 469.75389pt x 281.46721pt.
- [32] [33 <./fig1.pdf>]
-
-LaTeX Warning: Citation `Draine1993' on page 34 undefined on input line 486.
-
-[34] [35] <fig2.pdf, id=555, 394.27303pt x 448.08162pt>
-File: fig2.pdf Graphic file (type pdf)
- <use fig2.pdf>
-Package pdftex.def Info: fig2.pdf used on input line 518.
-(pdftex.def)             Requested size: 394.27206pt x 448.08052pt.
-
-
-LaTeX Warning: Float too large for page by 12.44385pt on input line 521.
+LaTeX Warning: Float too large for page by 12.44385pt on input line 524.
 
 
 Underfull \vbox (badness 5133) has occurred while \output is active []
 
  [36]
 [37 <./fig2.pdf>] [38] <fig3.pdf, id=644, 144.54pt x 446.82137pt>
->>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
 File: fig3.pdf Graphic file (type pdf)
 
 <use fig3.pdf>
-Package pdftex.def Info: fig3.pdf used on input line 543.
+Package pdftex.def Info: fig3.pdf used on input line 551.
 (pdftex.def)             Requested size: 144.53963pt x 446.82027pt.
-<<<<<<< HEAD
- <fig4.pdf, id=642, 470.37279pt x 279.09221pt>
-File: fig4.pdf Graphic file (type pdf)
- <use fig4.pdf>
-Package pdftex.def Info: fig4.pdf used on input line 560.
-(pdftex.def)             Requested size: 470.37163pt x 279.09152pt.
-
-[38] [39 <./fig3.pdf>] [40 <./fig4.pdf>]
-<fig5.pdf, id=1140, 361.35pt x 492.38612pt>
-File: fig5.pdf Graphic file (type pdf)
- <use fig5.pdf>
-Package pdftex.def Info: fig5.pdf used on input line 584.
-(pdftex.def)             Requested size: 361.34912pt x 492.38492pt.
-
-
-LaTeX Warning: Float too large for page by 13.24825pt on input line 587.
-
-[41] [42 <./fig5.pdf>] <fig6.pdf, id=1595, 460.35428pt x 364.24963pt>
-File: fig6.pdf Graphic file (type pdf)
-
-<use fig6.pdf>
-Package pdftex.def Info: fig6.pdf used on input line 595.
-(pdftex.def)             Requested size: 460.35315pt x 364.24873pt.
- <fig7.pdf, id=1596, 371.01219pt x 490.9632pt>
-File: fig7.pdf Graphic file (type pdf)
- <use fig7.pdf>
-Package pdftex.def Info: fig7.pdf used on input line 613.
-(pdftex.def)             Requested size: 371.01129pt x 490.962pt.
-
-
-LaTeX Warning: Float too large for page by 11.82533pt on input line 616.
-
-[43] [44 <./fig6.pdf>] [45 <./fig7.pdf>] [46]
-Overfull \hbox (8.59312pt too wide) in paragraph at lines 686--687
-=======
  <fig4.pdf, id=645, 470.37279pt x 279.09221pt>
 File: fig4.pdf Graphic file (type pdf)
  <use fig4.pdf>
-Package pdftex.def Info: fig4.pdf used on input line 565.
+Package pdftex.def Info: fig4.pdf used on input line 568.
 (pdftex.def)             Requested size: 470.37163pt x 279.09152pt.
 
 [39] [40 <./fig3.pdf>] [41 <./fig4.pdf>]
 <fig5.pdf, id=1143, 361.35pt x 492.38612pt>
 File: fig5.pdf Graphic file (type pdf)
  <use fig5.pdf>
-Package pdftex.def Info: fig5.pdf used on input line 589.
+Package pdftex.def Info: fig5.pdf used on input line 592.
 (pdftex.def)             Requested size: 361.34912pt x 492.38492pt.
 
 
-LaTeX Warning: Float too large for page by 13.24825pt on input line 592.
+LaTeX Warning: Float too large for page by 13.24825pt on input line 595.
 
 [42] [43 <./fig5.pdf>] <fig6.pdf, id=1598, 460.35428pt x 364.24963pt>
 File: fig6.pdf Graphic file (type pdf)
 
 <use fig6.pdf>
-Package pdftex.def Info: fig6.pdf used on input line 600.
+Package pdftex.def Info: fig6.pdf used on input line 603.
 (pdftex.def)             Requested size: 460.35315pt x 364.24873pt.
  <fig7.pdf, id=1599, 371.01219pt x 490.9632pt>
 File: fig7.pdf Graphic file (type pdf)
  <use fig7.pdf>
-Package pdftex.def Info: fig7.pdf used on input line 618.
+Package pdftex.def Info: fig7.pdf used on input line 621.
 (pdftex.def)             Requested size: 371.01129pt x 490.962pt.
 
 
-LaTeX Warning: Float too large for page by 11.82533pt on input line 621.
-
-
-LaTeX Warning: Citation `Noguez' on page 44 undefined on input line 623.
+LaTeX Warning: Float too large for page by 11.82533pt on input line 624.
 
 [44] [45 <./fig6.pdf>] [46 <./fig7.pdf>] [47]
-Overfull \hbox (8.59312pt too wide) in paragraph at lines 691--692
->>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
+Overfull \hbox (8.59312pt too wide) in paragraph at lines 694--695
 \OT1/cmr/m/it/12 Simulation de-tails. \OT1/cmr/m/n/12 Op-ti-cal and elec-tron b
 eam sim-u-la-tions were per-formed us-ing the MNPBEM
  []
@@ -605,69 +510,35 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [51]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< HEAD
- [51]
-[52]
-Underfull \vbox (badness 2452) has occurred while \output is active []
-=======
  [52]
 [53]
-Overfull \hbox (44.24312pt too wide) in paragraph at lines 761--761
-[] 
- []
-
-
-Underfull \vbox (badness 3396) has occurred while \output is active []
->>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
+Underfull \vbox (badness 2452) has occurred while \output is active []
 
  [54]
 [55] <seels_eegs_bem.pdf, id=3571, 433.62003pt x 318.24919pt>
 File: seels_eegs_bem.pdf Graphic file (type pdf)
 
 <use seels_eegs_bem.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: seels_eegs_bem.pdf used on input line 824.
+Package pdftex.def Info: seels_eegs_bem.pdf used on input line 832.
 (pdftex.def)             Requested size: 433.61897pt x 318.2484pt.
- [55] [56 <./seels_eegs_bem.pdf>] [57] [58]
-Overfull \hbox (2.18861pt too wide) detected at line 937
-=======
-Package pdftex.def Info: seels_eegs_bem.pdf used on input line 828.
-(pdftex.def)             Requested size: 433.61897pt x 318.2484pt.
- [56] [57 <./seels_eegs_bem.pdf>] [58] [59]
-Overfull \hbox (2.18861pt too wide) detected at line 941
->>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
+ [56] [57 <./seels_eegs_bem.pdf>]
+<seels_for_defense.pdf, id=3594, 546.1735pt x 432.08981pt>
+File: seels_for_defense.pdf Graphic file (type pdf)
+
+<use seels_for_defense.pdf>
+Package pdftex.def Info: seels_for_defense.pdf used on input line 874.
+(pdftex.def)             Requested size: 546.17215pt x 432.08875pt.
+
+Overfull \hbox (145.72365pt too wide) in paragraph at lines 874--875
+ [][]\OT1/cmr/m/n/12 [width=5.5in] 
+ []
+
+[58] [59 <./seels_for_defense.pdf>]
+Overfull \hbox (2.18861pt too wide) detected at line 907
 \OT1/cmr/m/n/12 ^^@[] = [] [] \OML/cmm/m/it/12 dz[] [] :
  []
 
-
-Underfull \vbox (badness 5050) has occurred while \output is active []
-
- [60]
-[61] <seels_added.pdf, id=3607, 433.62003pt x 318.24919pt>
-File: seels_added.pdf Graphic file (type pdf)
-
-<use seels_added.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: seels_added.pdf used on input line 997.
-=======
-Package pdftex.def Info: seels_added.pdf used on input line 1001.
->>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
-(pdftex.def)             Requested size: 433.61897pt x 318.2484pt.
- [62] [63 <./seels_added.pdf>]
-Underfull \vbox (badness 5548) has occurred while \output is active []
-
- [64]
-<seels_jpcc.pdf, id=3633, 433.61996pt x 313.72404pt>
-File: seels_jpcc.pdf Graphic file (type pdf)
- <use seels_jpcc.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: seels_jpcc.pdf used on input line 1042.
-=======
-Package pdftex.def Info: seels_jpcc.pdf used on input line 1046.
->>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
-(pdftex.def)             Requested size: 433.61891pt x 313.72327pt.
-
-[65 <./seels_jpcc.pdf>]
+[60] [61] [62] [63]
 <<A>>
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -679,7 +550,7 @@ Missing character: There is no Â in font cmr12!
 Missing character: There is no ° in font cmr12!
 Missing character: There is no Î in font cmr12!
 Missing character: There is no » in font cmr12!
-[66
+[64
 
 ]
 Missing character: There is no Î in font cmr12!
@@ -688,217 +559,141 @@ Missing character: There is no Î in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ¼ in font cmr12!
- [67] [68]
+ [65] [66]
 <<B>>
-<qs_limit.pdf, id=3661, 433.62pt x 182.865pt>
+<qs_limit.pdf, id=3645, 433.62pt x 182.865pt>
 File: qs_limit.pdf Graphic file (type pdf)
  <use qs_limit.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: qs_limit.pdf used on input line 1097.
-=======
-Package pdftex.def Info: qs_limit.pdf used on input line 1101.
->>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
+Package pdftex.def Info: qs_limit.pdf used on input line 1048.
 (pdftex.def)             Requested size: 433.61894pt x 182.86455pt.
- [69
+ [67
 
 ]
-<eig_diff_scale.pdf, id=3666, 252.945pt x 187.169pt>
+<eig_diff_scale.pdf, id=3649, 252.945pt x 187.169pt>
 File: eig_diff_scale.pdf Graphic file (type pdf)
  <use eig_diff_scale.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: eig_diff_scale.pdf used on input line 1108.
-=======
-Package pdftex.def Info: eig_diff_scale.pdf used on input line 1112.
->>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
+Package pdftex.def Info: eig_diff_scale.pdf used on input line 1059.
 (pdftex.def)             Requested size: 252.94438pt x 187.16853pt.
 
-<length_comparison_scale.pdf, id=3667, 252.945pt x 193.77089pt>
+<length_comparison_scale.pdf, id=3650, 252.945pt x 193.77089pt>
 File: length_comparison_scale.pdf Graphic file (type pdf)
 
 <use length_comparison_scale.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: length_comparison_scale.pdf used on input line 1119.
-=======
-Package pdftex.def Info: length_comparison_scale.pdf used on input line 1123.
->>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
+Package pdftex.def Info: length_comparison_scale.pdf used on input line 1070.
 (pdftex.def)             Requested size: 252.94438pt x 193.77042pt.
 
-<bigger_particles.pdf, id=3668, 252.945pt x 211.34221pt>
+<bigger_particles.pdf, id=3651, 252.945pt x 211.34221pt>
 File: bigger_particles.pdf Graphic file (type pdf)
 
 <use bigger_particles.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: bigger_particles.pdf used on input line 1131.
-=======
-Package pdftex.def Info: bigger_particles.pdf used on input line 1135.
->>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
+Package pdftex.def Info: bigger_particles.pdf used on input line 1082.
 (pdftex.def)             Requested size: 252.94438pt x 211.34169pt.
- [70 <./qs_limit.pdf>] [71 <./eig_diff_scale.pdf> <./length_comparison_scale.pd
+ [68 <./qs_limit.pdf>] [69 <./eig_diff_scale.pdf> <./length_comparison_scale.pd
 f
 
 pdfTeX warning: pdflatex (file ./length_comparison_scale.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
->] [72 <./bigger_particles.pdf>]
-<spacing_2mer.pdf, id=3727, 433.61993pt x 163.59021pt>
+>] [70 <./bigger_particles.pdf>]
+<spacing_2mer.pdf, id=3711, 433.61993pt x 163.59021pt>
 File: spacing_2mer.pdf Graphic file (type pdf)
  <use spacing_2mer.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: spacing_2mer.pdf used on input line 1145.
-=======
-Package pdftex.def Info: spacing_2mer.pdf used on input line 1149.
->>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
+Package pdftex.def Info: spacing_2mer.pdf used on input line 1096.
 (pdftex.def)             Requested size: 433.61888pt x 163.5898pt.
 
-<diff_avg_space.pdf, id=3728, 433.62pt x 172.88347pt>
+<diff_avg_space.pdf, id=3712, 433.62pt x 172.88347pt>
 File: diff_avg_space.pdf Graphic file (type pdf)
  <use diff_avg_space.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: diff_avg_space.pdf used on input line 1157.
-=======
-Package pdftex.def Info: diff_avg_space.pdf used on input line 1161.
->>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
+Package pdftex.def Info: diff_avg_space.pdf used on input line 1108.
 (pdftex.def)             Requested size: 433.61894pt x 172.88304pt.
 
-[73 <./spacing_2mer.pdf>]
-<length_comp_sapcing.pdf, id=3738, 433.62pt x 179.7875pt>
+[71 <./spacing_2mer.pdf>]
+<length_comp_sapcing.pdf, id=3722, 433.62pt x 179.7875pt>
 File: length_comp_sapcing.pdf Graphic file (type pdf)
 
 <use length_comp_sapcing.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: length_comp_sapcing.pdf used on input line 1168.
-=======
-Package pdftex.def Info: length_comp_sapcing.pdf used on input line 1172.
->>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
+Package pdftex.def Info: length_comp_sapcing.pdf used on input line 1119.
 (pdftex.def)             Requested size: 433.61894pt x 179.78706pt.
- [74 <./diff_avg_space.pdf>] [75 <./length_comp_sapcing.pdf>] <contour_n_plot.p
-df, id=3765, 433.62003pt x 184.5317pt>
+ [72 <./diff_avg_space.pdf>] [73 <./length_comp_sapcing.pdf>] <contour_n_plot.p
+df, id=3748, 433.62003pt x 184.5317pt>
 File: contour_n_plot.pdf Graphic file (type pdf)
 
 <use contour_n_plot.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: contour_n_plot.pdf used on input line 1225.
-=======
-Package pdftex.def Info: contour_n_plot.pdf used on input line 1229.
->>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
+Package pdftex.def Info: contour_n_plot.pdf used on input line 1176.
 (pdftex.def)             Requested size: 433.61897pt x 184.53122pt.
- [76] (./montoni_dissertation.bbl [77 <./contour_n_plot.pdf>] [78
+ [74] (./montoni_dissertation.bbl [75 <./contour_n_plot.pdf>] [76
 
-] [79]
+] [77]
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ‡ in font cmr12!
 Missing character: There is no Å in font cmr12!
 Missing character: There is no ¡ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ‡ in font cmr12!
- [80] [81]
+ [78] [79]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¶ in font cmr12!
-<<<<<<< HEAD
- [81]
-Underfull \hbox (badness 7451) in paragraph at lines 340--344
-=======
- [82]
-Underfull \hbox (badness 7451) in paragraph at lines 341--345
->>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
+ [80]
+Underfull \hbox (badness 7451) in paragraph at lines 331--335
 []\OT1/cmr/m/n/12 D. B. In-gram and S. Linic, ``Wa-ter split-ting on com-pos-it
 e plasmonic-
  []
 
-[83]
+[81]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¡ in font cmr12!
- [84]
+ [82]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ­ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¡ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¡ in font cmr12!
-<<<<<<< HEAD
- [84] [85]
+ [83] [84]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no – in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
- [86]
-=======
- [85] [86] [87]
->>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
+ [85]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [88] [89]) [90] (./montoni_dissertation.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+ [86] [87]) [88] (./montoni_dissertation.aux) ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 3006 strings out of 493089
- 40228 string characters out of 6134842
- 106802 words of memory out of 5000000
- 6410 multiletter control sequences out of 15000+600000
+ 3022 strings out of 493014
+ 40372 string characters out of 6133351
+ 107128 words of memory out of 5000000
+ 6484 multiletter control sequences out of 15000+600000
  13016 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,21n,26p,2786b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2015/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2015/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/
-lmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr10.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on montoni_dissertation.pdf (105 pages, 4423696 bytes).
-=======
- 3035 strings out of 494953
- 40147 string characters out of 6180977
- 102360 words of memory out of 5000000
- 6239 multiletter control sequences out of 15000+600000
- 13016 words of font info for 47 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 37i,21n,26p,2786b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on montoni_dissertation.pdf (106 pages, 4420178 bytes).
->>>>>>> 063e4c22a1a0a2d38d66f12b505080fa4b1b0eb1
+</usr/local/texlive/2016/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
+lmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on montoni_dissertation.pdf (104 pages, 4405101 bytes).
 PDF statistics:
- 3886 PDF objects out of 4296 (max. 8388607)
- 2587 compressed objects within 26 object streams
+ 3870 PDF objects out of 4296 (max. 8388607)
+ 2576 compressed objects within 26 object streams
  0 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

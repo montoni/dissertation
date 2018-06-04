@@ -237,8 +237,11 @@ R_{\pm} = \pm\frac{1}{2\pi}\frac{\omega_{\textrm{sp}}^2\left(\frac{\varepsilon_{
 \end{equation}
 Plugging each residue from Eq. \ref{residues} into Eq. \ref{res_theorem} and using the identity $2\textrm{i}\textrm{sin}(\xi) = e^{\textrm{i}\xi} - e^{-\textrm{i}\xi}$, results in the following expression for the polarizability.
 \begin{equation}
-\alpha(t-t') = a^3\left(\frac{\varepsilon_{\infty}-1}{\varepsilon_{\infty}+2}\right)\delta(t-t') + a^3\left(\frac{3}{\varepsilon_{\infty}+2}\right)\frac{\omega_{\textrm{sp}}^2}{\sqrt{\omega_\textrm{sp}^2-\gamma^2/4}}e^{-\gamma (t-t')/2}\textrm{sin}\left[\sqrt{\omega_{\textrm{sp}}^2-\gamma^2/4}(t-t')\right]
+\begin{aligned}
+\alpha(t-t') &= a^3\left(\frac{\varepsilon_{\infty}-1}{\varepsilon_{\infty}+2}\right)\delta(t-t')\\
+ & + a^3\left(\frac{3}{\varepsilon_{\infty}+2}\right)\frac{\omega_{\textrm{sp}}^2}{\sqrt{\omega_\textrm{sp}^2-\gamma^2/4}}e^{-\gamma (t-t')/2}\textrm{sin}\left[\sqrt{\omega_{\textrm{sp}}^2-\gamma^2/4}(t-t')\right]
 \label{polar_time}
+\end{aligned}
 \end{equation}
 Equation~\ref{polar_time} has two terms with time-dependent parts. The first term is the instantaneous response of the MNP to an external potential. The second contains a sinusoidal term, oscillating at frequency $\sqrt{\omega_\textrm{sp}^2-\gamma^2/4}$, and an exponential term, decaying with width $\gamma/2$. These two terms show that a plasmon has time dynamics consistent with a damped harmonic oscillator. This is to be expected, as the polarizability is related to the harmonic oscillator Green's function through $\textrm{Im}\{g(\omega)\} = (4\pi/a^3\omega_{\textrm{sp}}^2)\textrm{Im}\{\alpha(\omega)\}$ \cite{ARPC,Quillin}. Integrating the Green's function against an arbitrary, time-dependent force results in the time-dependent amplitude of the oscillator
 \begin{equation}
@@ -332,7 +335,7 @@ The dipole relay tensor, $\boldsymbol{\Lambda}_{ij}$, informs the basis of the w
 \item Griffin, S., Montoni, N. P., Li, G., Straney, P. J., Millstone, J. E., Masiello, D. J., and Camden, J. P. ``Imaging energy transfer in Pt-decorated Au nanoprisms via electron energy-loss spectroscopy.'' {\it J. Phys. Chem. Lett.}, {\bf 2016}, {\it 7}, 3825-3832.
 \item Cherqui, C., Wu, Y., Li, G., Quillin, S. C., Busche, J. A., Thakkar, N., West, C. A., Montoni, N. P., Rack, P. D., Camden, J. P., and Masiello, D. J. ``STEM/EELS imaging of magnetic hybridization in symmetric and symmetry-broken plasmon oligomers dimers and all-magnetic Fano interference.'' {\it Nano Lett.}, {\bf 2016}, {\it 16}, 6668-6676. 
 \item Thakkar, N., Montoni, N. P., Cherqui, C., Masiello, D. J. ``Plasmonic Landau damping in active environments." {\it Phys. Rev. B}, {\bf 2018}, {\it 97}, 121403.
-\item Montoni, N. P., Quillin, S. C., Cherqui, C., Masiello, D. J. ``Tunable spectral ordering of magnetic plasmon resonances in metal nanoclusters.'' {\it ACS Photonics},{\bf ASAP} 2018.
+\item Montoni, N. P., Quillin, S. C., Cherqui, C., Masiello, D. J. ``Tunable spectral ordering of magnetic plasmon resonances in metal nanoclusters.'' {\it ACS Photonics}, {\bf ASAP} 2018.
 \item Montoni, N. P., West, C. A., Rack, P. D., Duscher, G., and Masiello, D. J. ``Stimulated electron energy-loss spectroscopy.'' {\it In preparation}, 2018.
 \end{enumerate}
 % ========== Chapter 2
@@ -340,7 +343,7 @@ The dipole relay tensor, $\boldsymbol{\Lambda}_{ij}$, informs the basis of the w
 \chapter{Imaging Energy Transfer in Pt-decorated Au Nanoprisms via Electron Energy-loss Spectroscopy}
 
 This chapter has been reproduced from:
- Griffin, S., Montoni, N. P., Li, G., Straney, P. J., Millstone, J. E., Masiello, D. J., and Camden, J. P. ``Imaging energy transfer in Pt-decorated Au nanoprisms via electron energy-loss spectroscopy.'' {\it J. Phys. Chem. Lett.}, {\bf 2016}, {\it 7}, 3825-3832.
+ Griffin, S., Montoni, N. P., Li, G., Straney, P. J., Millstone, J. E., Masiello, D. J., and Camden, J. P. ``Imaging energy transfer in Pt-decorated Au nanoprisms via electron energy-loss spectroscopy.'' {\it J. Phys. Chem. Lett.}, {\bf 2016}, {\it 7}, 3825-3832. \cite{me_prisms}
 
 \section{Abstract}
 
@@ -445,7 +448,7 @@ For simulations, we applied the Metal Nanoparticle Boundary Element Method (MNPB
 \chapter{Tunable Spectral Ordering of Magnetic Plasmon Resonances in Metal Nanoclusters}
 
 This chapter has been reproduced from:
- Montoni, N. P., Quillin, S. C., Cherqui, C., Masiello, D. J. ``Tunable spectral ordering of magnetic plasmon resonances in metal nanoclusters.'' {\it ACS Photonics}, Just Accepted.
+ Montoni, N. P., Quillin, S. C., Cherqui, C., Masiello, D. J. ``Tunable spectral ordering of magnetic plasmon resonances in metal nanoclusters.'' {\it ACS Photonics}, {\bf ASAP}, 2018. \cite{me_mag}
 
 \section{Abstract}
 
@@ -832,54 +835,7 @@ Thus, the SEELS rate is twice the EEGS rate plus the EELS rate. We have recently
 \end{centering}
 \end{figure}
 
-{\bf SEELS in terms of first-order rates.} We could also try to write the SEELS rate in terms of first-order rates. To do so, we must start from the probability and split the polarizability into its real and imaginary parts. Starting from Eq. \ref{seels_prob_with_alpha} and using the identities in Eq. \ref{alpha_1} and \ref{alpha_2}, we can rewrite the SEELS probability into three terms.
-\begin{equation}
-\begin{split}
-  P_{\textrm{SEELS}} &= \frac{4\pi NL}{\hbar^2v}(\textbf{E}_{\textrm{el}}\cdot\textrm{Im}\{\alpha\}\cdot\textbf{E}_{\textrm{el}}^*)(\textbf{E}_0\cdot\textrm{Im}\{\alpha\}\cdot\textbf{E}_0^*)\delta(\epsilon_k - \epsilon_{k_0} + 2\tilde{\omega}_{\textrm{pl}} - \hbar\omega_i)\\
-  &+ \frac{2L}{\hbar v}(\textbf{E}_{\textrm{el}}\cdot\textrm{Im}\{\alpha\}\cdot\textbf{E}_{\textrm{el}}^*)\\
-  &+ \frac{4\pi NL}{\hbar^2v}(\textbf{E}_{\textrm{el}}\cdot\textrm{Re}\{\alpha\}\cdot\textbf{E}_{\textrm{el}}^*)(\textbf{E}_0\cdot\textrm{Re}\{\alpha\}\cdot\textbf{E}_0^*)\delta(\epsilon_k - \epsilon_{k_0} + 2\tilde{\omega}_{\textrm{pl}} - \hbar\omega_i)
-  \label{seels_prob_with_alpha}
-  \end{split}
-\end{equation}
-From here, we again convert $P_{\textrm{SEELS}}$ to $\Gamma_{\textrm{SEELS}}$ using Eq. \ref{prob_to_rate}.
-\begin{equation}
-\begin{split}
-  \Gamma_{\textrm{SEELS}} &= \frac{8 e^2 \omega^2}{\hbar^3v^4\gamma_L^4}\left[\gamma_{L}^2K_1^2\left(\frac{\omega R}{v\gamma_L}\right)+K_0^2\left(\frac{\omega R}{v\gamma_L}\right)\right]\textrm{Im}\{\alpha\}\left(\frac{2\pi N\hbar\omega_i}{V}\right)\textrm{Im}\{\alpha\}\delta(\omega-\omega_i)\\
-  &+ \frac{8 e^2 \omega^2}{\hbar^3v^4\gamma_L^4}\left[\gamma_{L}^2K_1^2\left(\frac{\omega R}{v\gamma_L}\right)+K_0^2\left(\frac{\omega R}{v\gamma_L}\right)\right]\textrm{Re}\{\alpha\}\left(\frac{2\pi N\hbar\omega_i}{V}\right)\textrm{Re}\{\alpha\}\delta(\omega-\omega_i)\\
-  &+ \Gamma_{\textrm{EELS}}
-  \label{seels_rate_split}
-  \end{split}
-\end{equation}
-Again, using the definitions given by Garcia de Abajo \cite{EEGS}, we can rewrite the SEELS rate in terms of first order probabilites.
-\begin{equation}
-\begin{split}
-  \Gamma_{\textrm{SEELS}} &= \frac{\sigma_{\textrm{ext}}I_0}{\hbar\omega_i}\Gamma_{\textrm{EELS}}\delta(\omega-\omega_i)\\
-  &+ \frac{8 e^2 \omega^2}{\hbar^3v^4\gamma_L^4}\left[\gamma_{L}^2K_1^2\left(\frac{\omega R}{v\gamma_L}\right)+K_0^2\left(\frac{\omega R}{v\gamma_L}\right)\right]\textrm{Re}\{\alpha\}\left(\frac{2\pi N\hbar\omega_i}{V}\right)\textrm{Re}\{\alpha\}\delta(\omega-\omega_i)\\
-  &+ \Gamma_{\textrm{EELS}}
-  \label{seels_rate_first}
-  \end{split}
-\end{equation}
-Of course, the real parts come along for the ride, since they are unrelated to any particular first-order rate. We could recombine the real parts and the imaginary parts to recover Eq. \ref{seels_eegs}. 
-
-{\bf SEELS as a sum of induced dipole moments.} At the level of Eq. \ref{seels_prob_with_alpha}, we could also rewrite each term such that it contains a complex-valued dipole moment, either $\textbf{d}_{\textrm{el}}$ or $\textbf{d}_{\textrm{ph}}$. To do this we again need to do some complex algebra.
-\begin{equation}
-\begin{aligned}
-P_{\textrm{SEELS}} &= \frac{4\pi NL}{\hbar^2v}(\textbf{E}_{\textrm{el}}\cdot\alpha^*\cdot\textbf{E}_{\textrm{el}}^*)(\textbf{E}_0\cdot\alpha\cdot\textbf{E}_0^*)\delta(\varepsilon_k - \varepsilon_{k_0}-\omega_i)\\
-  &+ (-\textrm{i})\frac{2L}{\hbar v}(\textbf{E}_{\textrm{el}}\cdot\alpha\cdot\textbf{E}_{\textrm{el}}^*-\textbf{E}_{\textrm{el}}\cdot\textrm{Re}\{\alpha\}\cdot\textbf{E}_{\textrm{el}}^*)
-  \label{real_alphas}
-\end{aligned}
-\end{equation}
-Here, we have multiple terms which contain a complex-valued polariability. Recalling that $\textbf{d}_{\textrm{el,ph}} = \alpha\textbf{E}_{\textrm{el,ph}}$, we can write the SEELS probability as a sum of induced dipole moments
-\begin{equation}
-\begin{aligned}
-P_{\textrm{SEELS}} &= \textbf{E}_{\textrm{el}}^*\cdot\left\{\frac{4\pi NL}{\hbar^2v}\textbf{d}_{\textrm{ph}}(\textbf{E}_{\textrm{el}}\cdot\textbf{d}_{\textrm{ph}}^*)\delta(\epsilon_k - \epsilon_{k_0} + 2\tilde{\omega}_{\textrm{pl}} - \hbar\omega_i) - \frac{2L\textrm{i}}{\hbar v}\textbf{d}_{\textrm{el}}\right\}\\
-  &+ \frac{2L\textrm{i}}{\hbar v}\textrm{Re}\{\textbf{E}_{\textrm{el}}^*\cdot\textbf{d}_{\textrm{el}}\}.
-  \label{seels_dipoles}
-\end{aligned}
-\end{equation}
-Again, the extra real part comes along for the ride.
-
-{\bf Removing real parts.} To rewrite the SEELS rate without real parts, we consider Eq. \ref{change_eels}. If we write out the denominator and multiply the first term by $\gamma_{\textrm{pl}}/\gamma_{\textrm{pl}}$, we can rewrite the SEELS rate as
+{\bf SEELS in terms of first-order rates and sums of dipoles.} To rewrite the SEELS rate in terms of either first order probablities or as a sum of dipole moments, we consider Eq. \ref{change_eels}. If we write out the denominator and multiply the first term by $\gamma_{\textrm{pl}}/\gamma_{\textrm{pl}}$, we can rewrite the SEELS rate as
 \begin{align}
 \begin{split}
   P_{\textrm{SEELS}} &= \frac{2\pi L}{\hbar^4v\gamma_{\textrm{pl}}}\left|\sqrt{2}\textbf{E}_{\textrm{el}}\cdot\textbf{d}_0 \sqrt{N}\textbf{d}_0\cdot\textbf{E}_{0}\right|^2\left(\frac{\gamma_{\textrm{pl}}}{(\omega_i - \omega_{\textrm{pl}})^2 + \gamma_{\textrm{pl}}^2}\right)\delta(\epsilon_k - \epsilon_{k_0} + 2\tilde{\omega}_{\textrm{pl}} - \hbar\omega_i)\\
@@ -890,27 +846,36 @@ Again, the extra real part comes along for the ride.
 The term with the resonant denominator is simply $\textrm{Im}\{1/(\omega_i - \tilde{\omega}_{\textrm{pl}})\}$, which also enforces energy conservation as it could be rewritten as a delta function. Because of that, the SEELS rate becomes
 \begin{align}
 \begin{split}
-  P_{\textrm{SEELS}} &= \frac{2\pi L}{\hbar^4v\gamma_{\textrm{pl}}}\left|\sqrt{2}\textbf{E}_{\textrm{el}}\cdot\textbf{d}_0 \sqrt{N}\textbf{d}_0\cdot\textbf{E}_{0}\right|^2\textrm{Im}\left\{\frac{1}{\omega_i - \tilde{\omega}_{\textrm{pl}}}\right\}\textrm{Im}\left\{\frac{1}{\epsilon_k - \epsilon_{k_0} - \tilde{\omega}_{\textrm{pl}}}\right\}\\
+  P_{\textrm{SEELS}} &= \frac{2 L}{\hbar^4v\gamma_{\textrm{pl}}}\left|\sqrt{2}\textbf{E}_{\textrm{el}}\cdot\textbf{d}_0 \sqrt{N}\textbf{d}_0\cdot\textbf{E}_{0}\right|^2\textrm{Im}\left\{\frac{1}{\omega_i - \tilde{\omega}_{\textrm{pl}}}\right\}\textrm{Im}\left\{\frac{1}{\epsilon_k - \epsilon_{k_0} - \tilde{\omega}_{\textrm{pl}}}\right\}\\
   &+ \frac{2L}{\hbar v}|\textbf{E}_{\textrm{el}}\cdot\textbf{d}_0|^2\textrm{Im}\left\{\frac{1}{\epsilon_k - \epsilon_{k_0} - \tilde{\omega}_{\textrm{pl}}}\right\}
   \label{imag}
   \end{split}
 \end{align}
-Following the same procedures as previosuly, we can work our way down to the level of Eq. \ref{seels_rate_first}, only without the real parts of the rate, i.e.
+Using the definitions provided by Ref. \cite{EEGS}, and following the same procedures as previosuly, the SEELS rate can be written in terms of only the EELS rate and the absorption probability:
 \begin{equation}
 \begin{split}
-  \Gamma_{\textrm{SEELS}} &= \frac{\sigma_{\textrm{ext}}I_0}{\hbar\omega_i}\Gamma_{\textrm{EELS}} + \Gamma_{\textrm{EELS}}.
+  \Gamma_{\textrm{SEELS}} &= \frac{\sigma_{\textrm{ext}}I_0}{\hbar\omega_i}\Gamma_{\textrm{EELS}} + \Gamma_{\textrm{EELS}};
   \label{seels_rate_first_imag}
   \end{split}
 \end{equation}
-
-Similarly, doing some complex algebra, we can rewrite Eq. \ref{seels_dipoles} without the real parts as
+or as a sum of electron- and photon-induced dipole moments:
 \begin{equation}
 \begin{aligned}
-P_{\textrm{SEELS}} &= \frac{4NL}{\hbar^2 v \gamma_{\textrm{pl}}}\textrm{Im}\left\{\textbf{E}_{\textrm{el}}^*\cdot\left[Z\textbf{d}_{\textrm{ph}} + \frac{\hbar\gamma_{\textrm{pl}}}{2NZ}\textbf{d}_{\textrm{el}}\right]\right\},
+\Gamma_{\textrm{SEELS}} &= \frac{1}{\pi\hbar^2}\textrm{Im}\left\{\textbf{E}_{\textrm{el}}^*\cdot\left[\frac{2Z}{\hbar\gamma_{\textrm{pl}}}\textbf{d}_{\textrm{ph}} + \textbf{d}_{\textrm{el}}\right]\right\},
   \label{seels_dipoles_imag}
 \end{aligned}
 \end{equation}
 where $Z=\textrm{Im}\{\textbf{E}_{\textrm{el}}\cdot\alpha\cdot\textbf{E}_{\textrm{ph}}^*\}$ is the complex conjugate of the interaction between the electron and photon-induced dipole moment.
+
+Evaluating Eqs. \ref{seels_rate_first_imag} and \ref{seels_dipoles_imag} for a silver sphere of radius 10 nm within the quasistatic limit shows that these equations are consistent.
+
+\begin{figure}
+\begin{centering}
+\includegraphics{seels_for_defense.pdf}[width=5.5in]
+\caption{EELS and SEELS of a silver sphere with a 10 nm radius. The SEELS expressions from Eqs. \ref{seels_rate_first_imag} and \ref{seels_dipoles_imag} are consistent at intensities $I_0 = 10^{8} W/m^2$ and $10^9 W/m^2$.}
+\label{seels_comparison}
+\end{centering}
+\end{figure}
 
 \subsection{A Classical Description of EELS (and SEELS)}
 
@@ -997,16 +962,6 @@ The MNPBEM software package computes EELS and other observables using induced su
 \label{eels_dipoles}
 \end{equation}
 
-\begin{figure}
-\begin{centering}
-\includegraphics{seels_added.pdf}
-\caption{EEGS (orange), EELS (blue), and SEELS (green, dashed) computed on a silver sphere of radius 30 nm with the electron beam placed 5 nm from the nanoparticle surface. The light intensity is $10^8$ W/m$^2$ and bandwidth is 0.02 eV. EEGS is computed according to Ref. \cite{EEGS}, EELS is computed using MNPBEM built-in functions, and SEELS is computed using MNPBEM built-in functions and adding photon-induced and electron-induced surface charges in analogy to Eq. \ref{eels_dipoles}. Note that here, the SEELS peak is much higher than in Fig. \ref{seels_bem}. This discrepancy is an area of active investigation.}
-\label{seels_added}
-\end{centering}
-\end{figure}
-
-It is unclear at this point in time how Eq. \ref{seels_dipoles} relates to the Fermi's golden rule approaches from a previous section. Implementation of this equation can be found in Fig. \ref{seels_added}.
-
 \subsection{SEELS from the Perspective of the Force on the Plasmon}
 
 Ref. \cite{Quillin} computes the EELS rate through the power absorbed by the plasmon from the passing electron, using the electron's electric field to quantify the force on the plasmon. Interestingly, in the event that the plasmon is forced by both light and an electron beam simultaneously, the EELS rate becomes a more complicated loss rate. According to the definition in Ref. \cite{Quillin}
@@ -1041,15 +996,6 @@ This equation is very similar to the loss probability presented in Ref. \cite{va
 \label{loss_fields_realpart}
 \end{aligned}
 \end{equation}
-
-\begin{figure}
-\begin{centering}
-\includegraphics{seels_jpcc.pdf}
-\caption{The EEGS, EELS, and SEELS rates computed according to Eq. \ref{loss_fields_realpart}. The sample interrogated is a silver sphere of radius 30 nm. The electron beam is placed 5 nm from the MNP surface. The laser intensity is $10^8$ W/m$^2$ and its bandwidth is 0.02 eV. The EELS (blue) rate is the first term of Eq. \ref{loss_fields_realpart}, the EEGS (orange) rate is the second term, and the SEELS (green, dashed) rate is the sum of all three.}
-\label{seels_jpcc}
-\end{centering}
-\end{figure}
-
 
 % ==========   Appendices
 %
